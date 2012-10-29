@@ -194,7 +194,7 @@ describe HydraPbcore::Datastream::Instantiation do
       out.write(sample_node.to_s)
       out.close
 
-      #EquivalentXml.equivalent?(ref_node, sample_node, opts = { :element_order => false, :normalize_whitespace => true }).should be_true
+      EquivalentXml.equivalent?(ref_node, sample_node, opts = { :element_order => false, :normalize_whitespace => true }).should be_true
     end
 
 
