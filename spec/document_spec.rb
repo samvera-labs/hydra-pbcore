@@ -258,8 +258,6 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.update_indexed_attributes({ [:cleaning_note] => { 0 => "inserted" }} )
     end
 
-
-
     it "should match an exmplar" do
       # Load example fixture
       f = fixture "pbcore_solr_document_template.xml"
@@ -276,6 +274,7 @@ describe HydraPbcore::Datastream::Document do
 
       EquivalentXml.equivalent?(ref_node, sample_node, opts = { :element_order => false, :normalize_whitespace => true }).should be_true
     end
+
 
   end
 
