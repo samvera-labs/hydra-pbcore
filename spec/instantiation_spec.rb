@@ -131,4 +131,74 @@ describe HydraPbcore::Datastream::Instantiation do
 
   end
 
+  describe ".to_solr" do
+
+    before(:each) do
+      [
+        "name",
+        "location",
+        "date",
+        "generation",
+        "media_type",
+        "file_format",
+        "size",
+        "size_units",
+        "colors",
+        "duration",
+        "rights_summary",
+        "note",
+        "checksum_type",
+        "checksum_value",
+        "device",
+        "capture_soft",
+        "trans_soft",
+        "operator",
+        "trans_note",
+        "vendor",
+        "condition",
+        "cleaning",
+        "color_space",
+        "chroma",
+        "video_standard",
+        "video_encoding",
+        "video_bit_rate",
+        "video_bit_rate_units",
+        "frame_rate",
+        "frame_size",
+        "video_bit_depth",
+        "aspect_ratio",
+        "audio_standard",
+        "audio_encoding",
+        "audio_bit_rate",
+        "audio_bit_rate_units",
+        "audio_sample_rate",
+        "audio_sample_rate_units",
+        "audio_bit_depth",
+        "audio_channels"
+      ].each do |field|
+        @object_ds.send("#{field}=".to_sym, field)
+      end
+    end
+
+    it "should match an exmplar" do
+      # Load example fixture
+      f = fixture "pbcore_solr_instantiation_template.xml"
+      ref_node = Nokogiri::XML(f)
+      f.close
+
+      # Nokogiri-fy our sample document
+      sample_node = Nokogiri::XML(@object_ds.to_solr.to_xml)
+
+      # Save this for later...
+      out = File.new("tmp/pbcore_solr_instantation_sample.xml", "w")
+      out.write(sample_node.to_s)
+      out.close
+
+      #EquivalentXml.equivalent?(ref_node, sample_node, opts = { :element_order => false, :normalize_whitespace => true }).should be_true
+    end
+
+
+  end
+
+
 end
