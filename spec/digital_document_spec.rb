@@ -166,4 +166,84 @@ describe HydraPbcore::Datastream::DigitalDocument do
 
   end
 
+  describe ".to_solr" do
+
+    before(:each) do
+      # insert additional nodes
+      @object_ds.insert_node("publisher")
+      @object_ds.insert_node("contributor")
+      [
+        "pbc_id",
+        "main_title",
+        "alternative_title",
+        "chapter",
+        "episode",
+        "label",
+        "segment",
+        "subtitle",
+        "track",
+        "translation",
+        "summary",
+        "parts_list",
+        "lc_subject",
+        "lc_name",
+        "rh_subject",
+        "getty_genre",
+        "lc_genre",
+        "lc_subject_genre",
+        "event_series",
+        "event_place",
+        "event_date",
+        "contributor_name",
+        "contributor_role",
+        "publisher_name",
+        "publisher_role",
+        "note",
+        "archival_collection",
+        "archival_series",
+        "collection_number",
+        "accession_number",
+        "usage"
+      ].each do |field|
+        @object_ds.send("#{field}=".to_sym, field)
+      end
+      # update additional nodes that OM will insert automatically
+      @object_ds.update_indexed_attributes({ [:alternative_title] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:chapter] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:episode] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:label] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:segment] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:subtitle] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:track] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:translation] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:lc_subject] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:lc_name] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:rh_subject] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:getty_genre] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:lc_genre] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:lc_subject_genre] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:subject] => { 0 => "inserted" }} )
+      @object_ds.update_indexed_attributes({ [:genre] => { 0 => "inserted" }} )
+    end
+
+    it "should match an exmplar" do
+      # Load example fixture
+      f = fixture "pbcore_solr_digital_document_template.xml"
+      ref_node = Nokogiri::XML(f)
+      f.close
+
+      # Nokogiri-fy our sample document
+      sample_node = Nokogiri::XML(@object_ds.to_solr.to_xml)
+
+      # Save this for later...
+      out = File.new("tmp/pbcore_solr_digital_document_sample.xml", "w")
+      out.write(sample_node.to_s)
+      out.close
+
+      EquivalentXml.equivalent?(ref_node, sample_node, opts = { :element_order => false, :normalize_whitespace => true }).should be_true
+    end
+
+
+  end
+
 end
