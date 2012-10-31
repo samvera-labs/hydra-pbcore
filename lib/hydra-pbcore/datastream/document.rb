@@ -129,7 +129,7 @@ class Document < ActiveFedora::NokogiriDatastream
     t.publisher_name(:proxy=>[:publisher, :name], :index_as => [:searchable, :facetable])
     t.publisher_role(:proxy=>[:publisher, :role], :index_as => [:searchable, :displayable])
 
-    t.note(:path=>"pbcoreAnnotation", :atttributes=>{ :annotationType=>"Notes" })
+    t.note(:path=>"pbcoreAnnotation", :atttributes=>{ :annotationType=>"Notes" }, :index_as => [:searchable])
 
     #
     # pbcoreInstantiation fields for the physical item
