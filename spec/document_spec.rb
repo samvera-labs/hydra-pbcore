@@ -275,6 +275,18 @@ describe HydraPbcore::Datastream::Document do
       EquivalentXml.equivalent?(ref_node, sample_node, opts = { :element_order => false, :normalize_whitespace => true }).should be_true
     end
 
+    it "should use specific solr fields based on type" do
+      pending "Need update to solrizer"
+
+      @object_ds.to_solr.each do |field|
+        #puts field.first
+        puts field if field.first.match(/^note/)
+      end
+      #@object_ds.to_solr["creation_date_display"].should == ["creation_date"]
+      #@object_ds.to_solr["creation_date_dt"].should == ["creation_date"]
+
+    end
+
 
   end
 
