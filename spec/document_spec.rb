@@ -60,8 +60,8 @@ describe HydraPbcore::Datastream::Document do
     end
 
     it "should work for fields that require added xml nodes" do
-      @object_ds.insert_node("publisher")
-      @object_ds.insert_node("contributor")
+      @object_ds.insert_publisher
+      @object_ds.insert_contributor
       [
         [:publisher_name],
         [:publisher_role],
@@ -76,8 +76,8 @@ describe HydraPbcore::Datastream::Document do
     end
 
     it "should differentiate between multiple added nodes" do
-      @object_ds.insert_node(:contributor)
-      @object_ds.insert_node(:contributor)
+      @object_ds.insert_contributor
+      @object_ds.insert_contributor
       @object_ds.update_indexed_attributes( {[:contributor_name] => { 0 => "first contributor" }} )
       @object_ds.update_indexed_attributes( {[:contributor_name] => { 1 => "second contributor" }} )
       @object_ds.update_indexed_attributes( {[:contributor_role] => { 0 => "first contributor role" }} )
@@ -94,10 +94,10 @@ describe HydraPbcore::Datastream::Document do
   describe "#xml_template" do
     it "should return an empty xml document matching a valid exmplar" do
       # insert additional nodes
-      @object_ds.insert_node("publisher")
-      @object_ds.insert_node("contributor")
-      @object_ds.insert_node("publisher")
-      @object_ds.insert_node("contributor")
+      @object_ds.insert_publisher
+      @object_ds.insert_contributor
+      @object_ds.insert_publisher
+      @object_ds.insert_contributor
 
       # update additional nodes that OM will insert automatically
       @object_ds.update_indexed_attributes({ [:alternative_title] => { 0 => "inserted" }} )
@@ -141,6 +141,7 @@ describe HydraPbcore::Datastream::Document do
 
   describe ".insert_node" do
     it "should return a node and index for a given template type" do
+      pending "Don't need?"
       ["publisher", "contributor"].each do |type|
         node, index = @object_ds.insert_node(type.to_s)
         index.should == 0
@@ -151,6 +152,7 @@ describe HydraPbcore::Datastream::Document do
     end
 
     it "should raise an exception for non-exisitent templates" do
+      pending "DEPRECATED"
       lambda { @object_ds.insert_node("blarg") }.should raise_error
     end
   end
@@ -158,8 +160,8 @@ describe HydraPbcore::Datastream::Document do
   describe ".remove_node" do
     it "should remove a node a given type and index" do
       ["publisher", "contributor"].each do |type|
-        @object_ds.insert_node(type.to_sym)
-        @object_ds.insert_node(type.to_sym)
+        @object_ds.send("insert_"+type)
+        @object_ds.send("insert_"+type)
         @object_ds.find_by_terms(type.to_sym).count.should == 2
         @object_ds.remove_node(type.to_sym, "1")
         @object_ds.find_by_terms(type.to_sym).count.should == 1
@@ -190,8 +192,8 @@ describe HydraPbcore::Datastream::Document do
 
     before(:each) do
       # insert additional nodes
-      @object_ds.insert_node("publisher")
-      @object_ds.insert_node("contributor")
+      @object_ds.insert_publisher
+      @object_ds.insert_contributor
       [
         "main_title",
         "alternative_title",

@@ -13,6 +13,7 @@ end
 
 require "hydra-pbcore/methods"
 require "hydra-pbcore/behaviors"
+require "hydra-pbcore/templates"
 require "hydra-pbcore/datastream/document"
 require "hydra-pbcore/datastream/instantiation"
 require "hydra-pbcore/datastream/digital_document"

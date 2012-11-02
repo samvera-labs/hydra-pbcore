@@ -2,14 +2,18 @@ require "spec_helper"
 
 describe HydraPbcore::Methods do
 
+
+
   before(:all) do
     class MethodTest < ActiveFedora::NokogiriDatastream
       include HydraPbcore::Methods
+      include HydraPbcore::Templates
     end
   end
 
   describe "#contributor_template" do
     it "should insert a contributor xml template" do
+      pending "DEPRECATED: Tested elsewhere"
       xml = '
         <pbcoreContributor>
           <contributor/>
@@ -23,6 +27,7 @@ describe HydraPbcore::Methods do
 
   describe "#publisher_template" do
     it "should insert a publisher xml template" do
+      pending "DEPRECATED: Tested elsewhere"
       xml = '
         <pbcorePublisher>
           <publisher/>

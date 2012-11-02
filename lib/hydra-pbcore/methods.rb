@@ -5,26 +5,6 @@ module HydraPbcore::Methods
 
   module ClassMethods
 
-    def publisher_template(opts={})
-      builder = Nokogiri::XML::Builder.new do |xml|
-        xml.pbcorePublisher {
-          xml.publisher
-          xml.publisherRole(:source=>"PBCore publisherRole")
-        }
-      end
-      return builder.doc.root
-    end
-
-    def contributor_template(opts={})
-      builder = Nokogiri::XML::Builder.new do |xml|
-        xml.pbcoreContributor {
-          xml.contributor
-          xml.contributorRole(:source=>"MARC relator terms")
-        }
-      end
-      return builder.doc.root
-    end
-
     def previous_template(opts={})
       builder = Nokogiri::XML::Builder.new do |xml|
         xml.instantiationRelation {

@@ -2,6 +2,7 @@ module HydraPbcore::Datastream
 class Document < ActiveFedora::NokogiriDatastream
 
   include HydraPbcore::Methods
+  include HydraPbcore::Templates
 
   set_terminology do |t|
     t.root(:path=>"pbcoreDescriptionDocument")
@@ -205,7 +206,6 @@ class Document < ActiveFedora::NokogiriDatastream
     t.cleaning_note(:proxy=>[:pbcoreInstantiation, :inst_clean_note])
   end
 
-
   def self.xml_template
     builder = Nokogiri::XML::Builder.new do |xml|
 
@@ -304,7 +304,6 @@ class Document < ActiveFedora::NokogiriDatastream
     end
     return builder.doc
   end
-
 
 end
 end

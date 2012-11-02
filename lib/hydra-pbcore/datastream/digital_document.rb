@@ -2,6 +2,7 @@ module HydraPbcore::Datastream
 class DigitalDocument < ActiveFedora::NokogiriDatastream
 
   include HydraPbcore::Methods
+  include HydraPbcore::Templates
 
   @terminology = HydraPbcore::Datastream::Document.terminology
 
@@ -73,7 +74,6 @@ class DigitalDocument < ActiveFedora::NokogiriDatastream
     end
     return builder.doc
   end
-  
 
 end
 end
