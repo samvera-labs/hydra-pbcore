@@ -31,7 +31,11 @@
     <coverageType>Temporal</coverageType>
   </pbcoreCoverage>
   <pbcoreContributor>
-    <contributor/>
+    <contributor>inserted</contributor>
+    <contributorRole source="MARC relator terms">inserted</contributorRole>
+  </pbcoreContributor>
+  <pbcoreContributor>
+    <contributor>inserted</contributor>
     <contributorRole source="MARC relator terms"/>
   </pbcoreContributor>
   <pbcoreContributor>
@@ -39,11 +43,11 @@
     <contributorRole source="MARC relator terms"/>
   </pbcoreContributor>
   <pbcorePublisher>
-    <publisher/>
-    <publisherRole source="PBCore publisherRole"/>
+    <publisher>inserted</publisher>
+    <publisherRole source="PBCore publisherRole">inserted</publisherRole>
   </pbcorePublisher>
   <pbcorePublisher>
-    <publisher/>
+    <publisher>inserted</publisher>
     <publisherRole source="PBCore publisherRole"/>
   </pbcorePublisher>
   <pbcoreInstantiation>

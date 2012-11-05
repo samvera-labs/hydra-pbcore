@@ -94,9 +94,10 @@ describe HydraPbcore::Datastream::Document do
   describe "#xml_template" do
     it "should return an empty xml document matching a valid exmplar" do
       # insert additional nodes
-      @object_ds.insert_publisher
-      @object_ds.insert_contributor
-      @object_ds.insert_publisher
+      @object_ds.insert_publisher("inserted", "inserted")
+      @object_ds.insert_contributor("inserted", "inserted")
+      @object_ds.insert_publisher("inserted")
+      @object_ds.insert_contributor("inserted")
       @object_ds.insert_contributor
 
       # update additional nodes that OM will insert automatically
@@ -140,6 +141,7 @@ describe HydraPbcore::Datastream::Document do
   end
 
   describe ".insert_node" do
+    
     it "should return a node and index for a given template type" do
       pending "Don't need?"
       ["publisher", "contributor"].each do |type|
@@ -151,10 +153,6 @@ describe HydraPbcore::Datastream::Document do
       end
     end
 
-    it "should raise an exception for non-exisitent templates" do
-      pending "DEPRECATED"
-      lambda { @object_ds.insert_node("blarg") }.should raise_error
-    end
   end
 
   describe ".remove_node" do

@@ -2,6 +2,7 @@ module HydraPbcore::Datastream
 class Instantiation < ActiveFedora::NokogiriDatastream
 
   include HydraPbcore::Methods
+  include HydraPbcore::Templates
 
   # Note: this is not a complete PBCore document, just an instantiation node
   set_terminology do |t|
@@ -135,7 +136,6 @@ class Instantiation < ActiveFedora::NokogiriDatastream
     #
     # Here are the actual references to the fields
     #
-
     t.name(:proxy=>[:pbcoreInstantiation, :instantiationIdentifier])
     t.location(:proxy=>[:pbcoreInstantiation, :instantiationLocation])
     t.date(:proxy=>[:pbcoreInstantiation, :instantiationDate])
