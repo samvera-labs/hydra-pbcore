@@ -26,7 +26,7 @@ class Solrizer::FieldMapper::Default
   # month for dates that are only a year and a month.
   # NOTE: This only applies to the date as it is stored in solr.  The original value
   # as entered by the user is still maintained in the xml.
-  def pbcore_date(date, value = String.new)
+  def self.pbcore_date(date, value = String.new)
     if date.match(/^[0-9]{4,4}$/)
       value = date + "-01-01"
     elsif date.match(/^[0-9]{4,4}-[0-9]{2,2}$/)
