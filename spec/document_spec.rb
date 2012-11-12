@@ -29,13 +29,11 @@ describe HydraPbcore::Datastream::Document do
         [:lc_subject_genre],
         [:event_series],
         [:event_place],
-        [:event_date],
         [:contributor_name],
         [:contributor_role],
         [:publisher_name],
         [:publisher_role],
         [:note],
-        [:creation_date],
         [:barcode],
         [:repository],
         [:format],
@@ -256,6 +254,10 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.update_indexed_attributes({ [:genre] => { 0 => "inserted" }} )
       @object_ds.update_indexed_attributes({ [:condition_note] => { 0 => "inserted" }} )
       @object_ds.update_indexed_attributes({ [:cleaning_note] => { 0 => "inserted" }} )
+
+      # Use ISO 8601 dates
+      @object_ds.event_date    = "2012-11-11"
+      @object_ds.creation_date = "2012-11-11"
     end
 
     it "should match an exmplar" do
@@ -276,15 +278,8 @@ describe HydraPbcore::Datastream::Document do
     end
 
     it "should use specific solr fields based on type" do
-      pending "Need update to solrizer"
-
-      @object_ds.to_solr.each do |field|
-        #puts field.first
-        puts field if field.first.match(/^note/)
-      end
-      #@object_ds.to_solr["creation_date_display"].should == ["creation_date"]
-      #@object_ds.to_solr["creation_date_dt"].should == ["creation_date"]
-
+      @object_ds.to_solr["creation_date_dt"].should == ["2012-11-11T00:00:00Z"]
+      @object_ds.to_solr["event_date_dt"].should    == ["2012-11-11T00:00:00Z"]
     end
 
 

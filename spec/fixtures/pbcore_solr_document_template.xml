@@ -256,18 +256,12 @@
   <pbcoreDescriptionDocument-0-event-place-display type="array">
     <pbcoreDescriptionDocument-0-event-place-display>event_place</pbcoreDescriptionDocument-0-event-place-display>
   </pbcoreDescriptionDocument-0-event-place-display>
-  <pbcoreDescriptionDocument-event-date-t type="array">
-    <pbcoreDescriptionDocument-event-date-t>event_date</pbcoreDescriptionDocument-event-date-t>
-  </pbcoreDescriptionDocument-event-date-t>
-  <pbcoreDescriptionDocument-event-date-display type="array">
-    <pbcoreDescriptionDocument-event-date-display>event_date</pbcoreDescriptionDocument-event-date-display>
-  </pbcoreDescriptionDocument-event-date-display>
-  <pbcoreDescriptionDocument-0-event-date-t type="array">
-    <pbcoreDescriptionDocument-0-event-date-t>event_date</pbcoreDescriptionDocument-0-event-date-t>
-  </pbcoreDescriptionDocument-0-event-date-t>
-  <pbcoreDescriptionDocument-0-event-date-display type="array">
-    <pbcoreDescriptionDocument-0-event-date-display>event_date</pbcoreDescriptionDocument-0-event-date-display>
-  </pbcoreDescriptionDocument-0-event-date-display>
+  <pbcoreDescriptionDocument-event-date-dt type="array">
+    <pbcoreDescriptionDocument-event-date-dt>2012-11-11T00:00:00Z</pbcoreDescriptionDocument-event-date-dt>
+  </pbcoreDescriptionDocument-event-date-dt>
+  <pbcoreDescriptionDocument-0-event-date-dt type="array">
+    <pbcoreDescriptionDocument-0-event-date-dt>2012-11-11T00:00:00Z</pbcoreDescriptionDocument-0-event-date-dt>
+  </pbcoreDescriptionDocument-0-event-date-dt>
   <pbcoreDescriptionDocument-contributor-name-t type="array">
     <pbcoreDescriptionDocument-contributor-name-t>contributor_name</pbcoreDescriptionDocument-contributor-name-t>
     <pbcoreDescriptionDocument-contributor-name-t>contributor_name</pbcoreDescriptionDocument-contributor-name-t>
@@ -532,12 +526,9 @@
   <event-place-display type="array">
     <event-place-display>event_place</event-place-display>
   </event-place-display>
-  <event-date-t type="array">
-    <event-date-t>event_date</event-date-t>
-  </event-date-t>
-  <event-date-display type="array">
-    <event-date-display>event_date</event-date-display>
-  </event-date-display>
+  <event-date-dt type="array">
+    <event-date-dt>2012-11-11T00:00:00Z</event-date-dt>
+  </event-date-dt>
   <contributor-name-t type="array">
     <contributor-name-t>contributor_name</contributor-name-t>
     <contributor-name-t>contributor_name</contributor-name-t>
@@ -605,12 +596,9 @@
   <pbcoreInstantiation-0-inst-clean-note-display type="array">
     <pbcoreInstantiation-0-inst-clean-note-display>inserted</pbcoreInstantiation-0-inst-clean-note-display>
   </pbcoreInstantiation-0-inst-clean-note-display>
-  <creation-date-t type="array">
-    <creation-date-t>creation_date</creation-date-t>
-  </creation-date-t>
-  <creation-date-display type="array">
-    <creation-date-display>creation_date</creation-date-display>
-  </creation-date-display>
+  <creation-date-dt type="array">
+    <creation-date-dt>2012-11-11T00:00:00Z</creation-date-dt>
+  </creation-date-dt>
   <barcode-t type="array">
     <barcode-t>barcode</barcode-t>
   </barcode-t>

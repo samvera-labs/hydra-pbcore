@@ -29,7 +29,6 @@ describe HydraPbcore::Datastream::DigitalDocument do
         [:lc_subject_genre],
         [:event_series],
         [:event_place],
-        [:event_date],
         [:contributor_name],
         [:contributor_role],
         [:publisher_name],
@@ -194,7 +193,6 @@ describe HydraPbcore::Datastream::DigitalDocument do
         "lc_subject_genre",
         "event_series",
         "event_place",
-        "event_date",
         "contributor_name",
         "contributor_role",
         "publisher_name",
@@ -225,6 +223,9 @@ describe HydraPbcore::Datastream::DigitalDocument do
       @object_ds.update_indexed_attributes({ [:lc_subject_genre] => { 0 => "inserted" }} )
       @object_ds.update_indexed_attributes({ [:subject] => { 0 => "inserted" }} )
       @object_ds.update_indexed_attributes({ [:genre] => { 0 => "inserted" }} )
+
+      # Use ISO 8601 dates
+      @object_ds.event_date = "2012-11-11"
     end
 
     it "should match an exmplar" do
