@@ -1,11 +1,9 @@
 class Solrizer::FieldMapper::Default
 
   id_field 'id'
-  index_as :searchable, :default => true do |t|
+  index_as :searchable do |t|
     t.default :suffix => '_t'
-    t.date :suffix => '_dt' do |value|
-      pbcore_date(value)
-    end
+    t.date    :suffix => '_dt'
     t.string  :suffix => '_t'
     t.text    :suffix => '_t'
     t.symbol  :suffix => '_s'
@@ -19,6 +17,11 @@ class Solrizer::FieldMapper::Default
   index_as :facetable,            :suffix => '_facet'
   index_as :sortable,             :suffix => '_sort'
   index_as :unstemmed_searchable, :suffix => '_unstem_search'
+  index_as :converted_date do |t|
+    t.default :suffix => '_dt' do |value|
+      pbcore_date(value)
+    end
+  end
 
   # We assume that all dates are in ISO 8601 format, but sometimes users may only
   # specify a year or a year and month.  This method adds a -01-01 or -01 respectively

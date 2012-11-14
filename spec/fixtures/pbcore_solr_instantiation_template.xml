@@ -12,18 +12,18 @@
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationIdentifier-t type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationIdentifier-t>name</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationIdentifier-t>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationIdentifier-t>
+  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-dt type="array">
+    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-dt>2012-11-01T00:00:00Z</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-dt>
+  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-dt>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-display type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-display>date</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-display>
+    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-display>2012-11</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-t>date</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-t>
+  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDate-dt type="array">
+    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDate-dt>2012-11-01T00:00:00Z</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDate-dt>
+  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDate-dt>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDate-display type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDate-display>date</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDate-display>
+    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDate-display>2012-11</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDate-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDate-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDate-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDate-t>date</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDate-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDate-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDigital-t type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDigital-t>file_format</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDigital-t>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDigital-t>
@@ -520,18 +520,18 @@
   <pbcoreDescriptionDocument-0-location-t type="array">
     <pbcoreDescriptionDocument-0-location-t>location</pbcoreDescriptionDocument-0-location-t>
   </pbcoreDescriptionDocument-0-location-t>
+  <pbcoreDescriptionDocument-date-dt type="array">
+    <pbcoreDescriptionDocument-date-dt>2012-11-01T00:00:00Z</pbcoreDescriptionDocument-date-dt>
+  </pbcoreDescriptionDocument-date-dt>
   <pbcoreDescriptionDocument-date-display type="array">
-    <pbcoreDescriptionDocument-date-display>date</pbcoreDescriptionDocument-date-display>
+    <pbcoreDescriptionDocument-date-display>2012-11</pbcoreDescriptionDocument-date-display>
   </pbcoreDescriptionDocument-date-display>
-  <pbcoreDescriptionDocument-date-t type="array">
-    <pbcoreDescriptionDocument-date-t>date</pbcoreDescriptionDocument-date-t>
-  </pbcoreDescriptionDocument-date-t>
+  <pbcoreDescriptionDocument-0-date-dt type="array">
+    <pbcoreDescriptionDocument-0-date-dt>2012-11-01T00:00:00Z</pbcoreDescriptionDocument-0-date-dt>
+  </pbcoreDescriptionDocument-0-date-dt>
   <pbcoreDescriptionDocument-0-date-display type="array">
-    <pbcoreDescriptionDocument-0-date-display>date</pbcoreDescriptionDocument-0-date-display>
+    <pbcoreDescriptionDocument-0-date-display>2012-11</pbcoreDescriptionDocument-0-date-display>
   </pbcoreDescriptionDocument-0-date-display>
-  <pbcoreDescriptionDocument-0-date-t type="array">
-    <pbcoreDescriptionDocument-0-date-t>date</pbcoreDescriptionDocument-0-date-t>
-  </pbcoreDescriptionDocument-0-date-t>
   <pbcoreDescriptionDocument-generation-display type="array">
     <pbcoreDescriptionDocument-generation-display>generation</pbcoreDescriptionDocument-generation-display>
   </pbcoreDescriptionDocument-generation-display>
@@ -832,18 +832,18 @@
   <pbcoreInstantiation-0-instantiationIdentifier-t type="array">
     <pbcoreInstantiation-0-instantiationIdentifier-t>name</pbcoreInstantiation-0-instantiationIdentifier-t>
   </pbcoreInstantiation-0-instantiationIdentifier-t>
+  <pbcoreInstantiation-instantiationDate-dt type="array">
+    <pbcoreInstantiation-instantiationDate-dt>2012-11-01T00:00:00Z</pbcoreInstantiation-instantiationDate-dt>
+  </pbcoreInstantiation-instantiationDate-dt>
   <pbcoreInstantiation-instantiationDate-display type="array">
-    <pbcoreInstantiation-instantiationDate-display>date</pbcoreInstantiation-instantiationDate-display>
+    <pbcoreInstantiation-instantiationDate-display>2012-11</pbcoreInstantiation-instantiationDate-display>
   </pbcoreInstantiation-instantiationDate-display>
-  <pbcoreInstantiation-instantiationDate-t type="array">
-    <pbcoreInstantiation-instantiationDate-t>date</pbcoreInstantiation-instantiationDate-t>
-  </pbcoreInstantiation-instantiationDate-t>
+  <pbcoreInstantiation-0-instantiationDate-dt type="array">
+    <pbcoreInstantiation-0-instantiationDate-dt>2012-11-01T00:00:00Z</pbcoreInstantiation-0-instantiationDate-dt>
+  </pbcoreInstantiation-0-instantiationDate-dt>
   <pbcoreInstantiation-0-instantiationDate-display type="array">
-    <pbcoreInstantiation-0-instantiationDate-display>date</pbcoreInstantiation-0-instantiationDate-display>
+    <pbcoreInstantiation-0-instantiationDate-display>2012-11</pbcoreInstantiation-0-instantiationDate-display>
   </pbcoreInstantiation-0-instantiationDate-display>
-  <pbcoreInstantiation-0-instantiationDate-t type="array">
-    <pbcoreInstantiation-0-instantiationDate-t>date</pbcoreInstantiation-0-instantiationDate-t>
-  </pbcoreInstantiation-0-instantiationDate-t>
   <pbcoreInstantiation-instantiationDigital-t type="array">
     <pbcoreInstantiation-instantiationDigital-t>file_format</pbcoreInstantiation-instantiationDigital-t>
   </pbcoreInstantiation-instantiationDigital-t>
@@ -1328,12 +1328,12 @@
   <location-t type="array">
     <location-t>location</location-t>
   </location-t>
+  <date-dt type="array">
+    <date-dt>2012-11-01T00:00:00Z</date-dt>
+  </date-dt>
   <date-display type="array">
-    <date-display>date</date-display>
+    <date-display>2012-11</date-display>
   </date-display>
-  <date-t type="array">
-    <date-t>date</date-t>
-  </date-t>
   <generation-display type="array">
     <generation-display>generation</generation-display>
   </generation-display>

@@ -259,9 +259,15 @@
   <pbcoreDescriptionDocument-event-date-dt type="array">
     <pbcoreDescriptionDocument-event-date-dt>2012-11-11T00:00:00Z</pbcoreDescriptionDocument-event-date-dt>
   </pbcoreDescriptionDocument-event-date-dt>
+  <pbcoreDescriptionDocument-event-date-display type="array">
+    <pbcoreDescriptionDocument-event-date-display>2012-11-11</pbcoreDescriptionDocument-event-date-display>
+  </pbcoreDescriptionDocument-event-date-display>
   <pbcoreDescriptionDocument-0-event-date-dt type="array">
     <pbcoreDescriptionDocument-0-event-date-dt>2012-11-11T00:00:00Z</pbcoreDescriptionDocument-0-event-date-dt>
   </pbcoreDescriptionDocument-0-event-date-dt>
+  <pbcoreDescriptionDocument-0-event-date-display type="array">
+    <pbcoreDescriptionDocument-0-event-date-display>2012-11-11</pbcoreDescriptionDocument-0-event-date-display>
+  </pbcoreDescriptionDocument-0-event-date-display>
   <pbcoreDescriptionDocument-contributor-name-t type="array">
     <pbcoreDescriptionDocument-contributor-name-t>contributor_name</pbcoreDescriptionDocument-contributor-name-t>
     <pbcoreDescriptionDocument-contributor-name-t>contributor_name</pbcoreDescriptionDocument-contributor-name-t>
@@ -529,6 +535,9 @@
   <event-date-dt type="array">
     <event-date-dt>2012-11-11T00:00:00Z</event-date-dt>
   </event-date-dt>
+  <event-date-display type="array">
+    <event-date-display>2012-11-11</event-date-display>
+  </event-date-display>
   <contributor-name-t type="array">
     <contributor-name-t>contributor_name</contributor-name-t>
     <contributor-name-t>contributor_name</contributor-name-t>

@@ -108,8 +108,7 @@ class Document < ActiveFedora::NokogiriDatastream
     )
     t.event_date(:path=>"pbcoreCoverage/coverage", 
       :attributes => {:annotation=>"Event Date"},
-      :type => :date,
-      :index_as => [:searchable]
+      :index_as => [:not_searchable, :converted_date, :displayable]
     )
 
     # Contributor names and roles
@@ -174,7 +173,7 @@ class Document < ActiveFedora::NokogiriDatastream
       )
     end
     # Individual field names:
-    t.creation_date(:ref=>[:pbcoreInstantiation, :instantiationDate], :type => :date, :index_as => [:searchable])
+    t.creation_date(:ref=>[:pbcoreInstantiation, :instantiationDate], :index_as => [:not_searchable, :converted_date, :displayable])
     t.barcode(:ref=>[:pbcoreInstantiation, :instantiationIdentifier], :index_as => [:searchable, :displayable])
     t.repository(:ref=>[:pbcoreInstantiation, :instantiationLocation], :index_as => [:searchable, :displayable])
     t.format(:ref=>[:pbcoreInstantiation, :instantiationPhysical], :index_as => [:searchable, :facetable])

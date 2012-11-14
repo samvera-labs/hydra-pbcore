@@ -245,6 +245,17 @@ describe HydraPbcore::Datastream::DigitalDocument do
       EquivalentXml.equivalent?(ref_node, sample_node, opts = { :element_order => false, :normalize_whitespace => true }).should be_true
     end
 
+    it "should display dates as they were entered" do
+      @object_ds.to_solr["event_date_display"].should    == ["2012-11-11"]
+    end
+
+    it "should have dates converted to ISO 8601" do
+      @object_ds.to_solr["event_date_dt"].should         == ["2012-11-11T00:00:00Z"]
+    end
+
+    it "should not index dates as text" do
+      @object_ds.to_solr["event_date_t"].should be_nil
+    end
 
   end
 

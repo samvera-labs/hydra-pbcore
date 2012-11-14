@@ -257,7 +257,7 @@ describe HydraPbcore::Datastream::Document do
 
       # Use ISO 8601 dates
       @object_ds.event_date    = "2012-11-11"
-      @object_ds.creation_date = "2012-11-11"
+      @object_ds.creation_date = "2012"
     end
 
     it "should match an exmplar" do
@@ -277,11 +277,20 @@ describe HydraPbcore::Datastream::Document do
       EquivalentXml.equivalent?(ref_node, sample_node, opts = { :element_order => false, :normalize_whitespace => true }).should be_true
     end
 
-    it "should use specific solr fields based on type" do
-      @object_ds.to_solr["creation_date_dt"].should == ["2012-11-11T00:00:00Z"]
-      @object_ds.to_solr["event_date_dt"].should    == ["2012-11-11T00:00:00Z"]
+    it "should display dates as they were entered" do
+      @object_ds.to_solr["creation_date_display"].should == ["2012"]
+      @object_ds.to_solr["event_date_display"].should    == ["2012-11-11"]
     end
 
+    it "should have dates converted to ISO 8601" do
+      @object_ds.to_solr["creation_date_dt"].should      == ["2012-01-01T00:00:00Z"]
+      @object_ds.to_solr["event_date_dt"].should         == ["2012-11-11T00:00:00Z"]
+    end
+
+    it "should not index dates as text" do
+      @object_ds.to_solr["creation_date_t"].should be_nil
+      @object_ds.to_solr["event_date_t"].should be_nil
+    end
 
   end
 

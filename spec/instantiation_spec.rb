@@ -135,7 +135,6 @@ describe HydraPbcore::Datastream::Instantiation do
       [
         "name",
         "location",
-        "date",
         "generation",
         "media_type",
         "file_format",
@@ -176,6 +175,9 @@ describe HydraPbcore::Datastream::Instantiation do
       ].each do |field|
         @object_ds.send("#{field}=".to_sym, field)
       end
+
+      # Use a real date
+       @object_ds.date = "2012-11"
     end
 
     it "should match an exmplar" do
@@ -195,8 +197,18 @@ describe HydraPbcore::Datastream::Instantiation do
       EquivalentXml.equivalent?(ref_node, sample_node, opts = { :element_order => false, :normalize_whitespace => true }).should be_true
     end
 
+    it "should display dates as they were entered" do
+      @object_ds.to_solr["date_display"].should == ["2012-11"]
+    end
+
+    it "should have dates converted to ISO 8601" do
+      @object_ds.to_solr["date_dt"].should == ["2012-11-01T00:00:00Z"]
+    end
+
+    it "should not index dates as text" do
+      @object_ds.to_solr["date_t"].should be_nil
+    end
 
   end
-
 
 end

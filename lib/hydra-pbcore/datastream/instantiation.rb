@@ -18,7 +18,7 @@ class Instantiation < ActiveFedora::NokogiriDatastream
         :index_as => [:displayable]
       )
       t.instantiationDate(:attributes=>{ :dateType=>"created" },
-        :index_as => [:displayable, :searchable]
+        :index_as => [:not_searchable, :converted_date, :displayable]
       )
       t.instantiationDigital(:attributes=>{ :source=>"EBU file formats" },
         :index_as => [:searchable, :facetable]
