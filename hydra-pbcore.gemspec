@@ -1,5 +1,6 @@
 # -*- encoding: utf-8 -*-
-#require File.expand_path('../lib/hydra-pbcore', __FILE__)
+$:.push File.expand_path("../lib", __FILE__)
+require 'hydra-pbcore/version'
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Adam Wead"]
@@ -13,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "hydra-pbcore"
   gem.require_paths = ["lib"]
-  gem.version       = "0.0.2"
+  gem.version       = HydraPbcore::VERSION
 
   # Dependencies
   gem.add_dependency('nokogiri')

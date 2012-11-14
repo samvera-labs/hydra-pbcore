@@ -5,7 +5,6 @@ require "om"
 require "active-fedora"
 
 module HydraPbcore
-  VERSION = "0.0.2"
   def self.version
     HydraPbcore::VERSION
   end
