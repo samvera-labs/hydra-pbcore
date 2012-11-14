@@ -4,7 +4,7 @@ class Solrizer::FieldMapper::Default
   index_as :searchable, :default => true do |t|
     t.default :suffix => '_t'
     t.date :suffix => '_dt' do |value|
-      DateTime.parse(pbcore_date(value)).to_time.utc.iso8601
+      pbcore_date(value)
     end
     t.string  :suffix => '_t'
     t.text    :suffix => '_t'
@@ -27,6 +27,7 @@ class Solrizer::FieldMapper::Default
   # NOTE: This only applies to the date as it is stored in solr.  The original value
   # as entered by the user is still maintained in the xml.
   def self.pbcore_date(date, value = String.new)
+    return date if date.empty?
     if date.match(/^[0-9]{4,4}$/)
       value = date + "-01-01"
     elsif date.match(/^[0-9]{4,4}-[0-9]{2,2}$/)
@@ -34,7 +35,7 @@ class Solrizer::FieldMapper::Default
     else 
       value = date  
     end
-    return value
+    return DateTime.parse(value).to_time.utc.iso8601
   end
 
 end
