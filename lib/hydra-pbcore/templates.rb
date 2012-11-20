@@ -18,21 +18,21 @@ module HydraPbcore::Templates
         }
       end
 
-      define_template :previous do |xml, pid|
+      define_template :previous do |xml, file|
         xml.instantiationRelation {
           xml.instantiationRelationType(:annotation=>"One of a multi-part instantiation") {
             xml.text "Follows in Sequence"
           }
-          xml.instantiationRelationIdentifier(pid, :source=>"Rock and Roll Hall of Fame and Museum")
+          xml.instantiationRelationIdentifier(file, :source=>"Rock and Roll Hall of Fame and Museum")
         }
       end
 
-      define_template :next do |xml, pid|
+      define_template :next do |xml, file|
         xml.instantiationRelation {
           xml.instantiationRelationType(:annotation=>"One of a multi-part instantiation") {
             xml.text "Precedes in Sequence"
           }
-          xml.instantiationRelationIdentifier(pid, :source=>"Rock and Roll Hall of Fame and Museum")
+          xml.instantiationRelationIdentifier(file, :source=>"Rock and Roll Hall of Fame and Museum")
         }
       end
 
@@ -47,12 +47,12 @@ module HydraPbcore::Templates
     add_child_node(ng_xml.root, :publisher, publisher, role)
   end
 
-  def insert_next(pid)
-    add_child_node(find_by_terms(:pbcoreInstantiation).first, :next, pid)
+  def insert_next(file)
+    add_child_node(find_by_terms(:pbcoreInstantiation).first, :next, file)
   end
 
-  def insert_previous(pid)
-    add_child_node(find_by_terms(:pbcoreInstantiation).first, :previous, pid)
+  def insert_previous(file)
+    add_child_node(find_by_terms(:pbcoreInstantiation).first, :previous, file)
   end
 
 end
