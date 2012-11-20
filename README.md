@@ -1,7 +1,7 @@
 # HydraPbcore
 
 A Hydra gem that offers PBCore datastream definitions using OM, as well as some other convenience
-methods such as inserting xml templates into existing docments and reording your PBCore xml 
+methods such as inserting xml templates into existing documents and reordering your PBCore xml 
 elements so that you can export complete, valid PBCore documents.
 
 ## Installation
@@ -20,7 +20,31 @@ Or install it yourself as:
 
 ## Usage
 
-Use this with your hydra head.
+Use this with your hydra head to define a datastream in Fedora that will contain Pbcore xml.  Ex:
+
+    MyModel < ActiveFedora::Base
+
+      has_metadata :name => "descMetadata", :type => HydraPbcore::Datastream::Document
+
+    end
+
+Your descMetadata datastream will now have all the pbcore terms defined in HydraPbcore::Datastream::Document.
+There are also two additional datastream definitions:
+
+* HydraPbcore::Datastream::DigitalDocument
+* HydraPbcore::Datastream::Instantiation
+
+DigitalDocument datastreams have the exact same terms as Document, except that there is no default physical 
+pbcoreInstantiation.  The Document datastreams comes with a single instantiation that represents a tape
+or other physical entity.  DigitalDocument datastreams assume born-digital content and must have added
+instantiations.  These instantiations are defined in the Instantiation datastream.
+
+### Additional Methods
+
+HydraPbcore comes with a couple of additional features such as ordering your xml nodes so that your xml will 
+validate against the PBCore XML v.2 schema.  Additionally, there are several template methods that can be used
+to insert additional terms into your xml documents, such as contributors, publishers, as well as next and previous
+fields that specify which files come before and after one another in a multi-part born-digital video.
 
 ## Contributing
 
