@@ -22,6 +22,22 @@
     <pbcoreRelationType ref="http://pbcore.org/vocabularies/relationType#is-part-of" source="PBCore relationType">Is Part Of</pbcoreRelationType>
     <pbcoreRelationIdentifier annotation="Event Series"/>
   </pbcoreRelation>
+   <pbcoreRelation>
+    <pbcoreRelationType ref="http://pbcore.org/vocabularies/relationType#is-part-of" source="PBCore relationType">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Archival Collection"/>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType ref="http://pbcore.org/vocabularies/relationType#is-part-of" source="PBCore relationType">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Archival Series"/>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType ref="http://pbcore.org/vocabularies/relationType#is-part-of" source="PBCore relationType">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Collection Number"/>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType ref="http://pbcore.org/vocabularies/relationType#is-part-of" source="PBCore relationType">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Accession Number"/>
+  </pbcoreRelation>
   <pbcoreCoverage>
     <coverage annotation="Event Place"/>
     <coverageType>Spatial</coverageType>
@@ -36,10 +52,6 @@
   </pbcoreContributor>
   <pbcoreContributor>
     <contributor>inserted</contributor>
-    <contributorRole source="MARC relator terms"/>
-  </pbcoreContributor>
-  <pbcoreContributor>
-    <contributor/>
     <contributorRole source="MARC relator terms"/>
   </pbcoreContributor>
   <pbcorePublisher>
@@ -64,22 +76,6 @@ library@rockhall.org</instantiationLocation>
     <instantiationGenerations source="PBCore instantiationGenerations">Original</instantiationGenerations>
     <instantiationColors>Color</instantiationColors>
     <instantiationLanguage source="ISO 639.2" ref="http://www.loc.gov/standards/iso639-2/php/code_list.php">eng</instantiationLanguage>
-    <instantiationRelation>
-      <instantiationRelationType ref="http://pbcore.org/vocabularies/relationType#is-part-of" source="PBCore relationType">Is Part Of</instantiationRelationType>
-      <instantiationRelationIdentifier annotation="Archival Collection"/>
-    </instantiationRelation>
-    <instantiationRelation>
-      <instantiationRelationType ref="http://pbcore.org/vocabularies/relationType#is-part-of" source="PBCore relationType">Is Part Of</instantiationRelationType>
-      <instantiationRelationIdentifier annotation="Archival Series"/>
-    </instantiationRelation>
-    <instantiationRelation>
-      <instantiationRelationType ref="http://pbcore.org/vocabularies/relationType#is-part-of" source="PBCore relationType">Is Part Of</instantiationRelationType>
-      <instantiationRelationIdentifier annotation="Collection Number"/>
-    </instantiationRelation>
-    <instantiationRelation>
-      <instantiationRelationType ref="http://pbcore.org/vocabularies/relationType#is-part-of" source="PBCore relationType">Is Part Of</instantiationRelationType>
-      <instantiationRelationIdentifier annotation="Accession Number"/>
-    </instantiationRelation>
     <instantiationRights>
       <rightsSummary/>
     </instantiationRights>
