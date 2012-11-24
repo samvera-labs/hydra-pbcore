@@ -1,0 +1,18 @@
+<pbcoreInstantiation>
+  <instantiationIdentifier annotation="Barcode" source="Rock and Roll Hall of Fame and Museum"/>
+  <instantiationDate dateType="created"/>
+  <instantiationPhysical source="PBCore instantiationPhysical"/>
+  <instantiationStandard/>
+  <instantiationLocation>Rock and Roll Hall of Fame and Museum,
+2809 Woodland Ave.,
+Cleveland, OH, 44115
+216-515-1956
+library@rockhall.org</instantiationLocation>
+  <instantiationMediaType source="PBCore instantiationMediaType">Moving image</instantiationMediaType>
+  <instantiationGenerations source="PBCore instantiationGenerations">Original</instantiationGenerations>
+  <instantiationColors source="PBCore instantiationColors">Color</instantiationColors>
+  <instantiationLanguage source="ISO 639.2" ref="http://www.loc.gov/standards/iso639-2/php/code_list.php">eng</instantiationLanguage>
+  <instantiationRights>
+    <rightsSummary/>
+  </instantiationRights>
+</pbcoreInstantiation>

@@ -1,0 +1,33 @@
+<pbcoreInstantiation>
+  <instantiationIdentifier annotation="Filename" source="Rock and Roll Hall of Fame and Museum"/>
+  <instantiationDate dateType="created"/>
+  <instantiationDigital source="EBU file formats"/>
+  <instantiationLocation/>
+  <instantiationMediaType source="PBCore instantiationMediaType">Moving image</instantiationMediaType>
+  <instantiationGenerations source="PBCore instantiationGenerations"/>
+  <instantiationFileSize unitsOfMeasure=""/>
+  <instantiationDuration/>
+  <instantiationColors source="PBCore instantiationColors">Color</instantiationColors>
+  <instantiationEssenceTrack>
+    <essenceTrackType>Video</essenceTrackType>
+    <essenceTrackStandard/>
+    <essenceTrackEncoding source="PBCore essenceTrackEncoding"/>
+    <essenceTrackDataRate unitsOfMeasure=""/>
+    <essenceTrackFrameRate unitsOfMeasure="fps"/>
+    <essenceTrackBitDepth/>
+    <essenceTrackFrameSize source="PBCore essenceTrackFrameSize"/>
+    <essenceTrackAspectRatio source="PBCore essenceTrackAspectRatio"/>
+  </instantiationEssenceTrack>
+  <instantiationEssenceTrack>
+    <essenceTrackType>Audio</essenceTrackType>
+    <essenceTrackStandard/>
+    <essenceTrackEncoding source="PBCore essenceTrackEncoding"/>
+    <essenceTrackDataRate unitsOfMeasure=""/>
+    <essenceTrackSamplingRate unitsOfMeasure=""/>
+    <essenceTrackBitDepth/>
+    <essenceTrackAnnotation annotationType="Number of Audio Channels"/>
+  </instantiationEssenceTrack>
+  <instantiationRights>
+    <rightsSummary/>
+  </instantiationRights>
+</pbcoreInstantiation>

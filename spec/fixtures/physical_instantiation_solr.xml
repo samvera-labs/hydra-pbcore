@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <pbcoreInstantiation-barcode-display type="array">
+    <pbcoreInstantiation-barcode-display>barcode</pbcoreInstantiation-barcode-display>
+  </pbcoreInstantiation-barcode-display>
+  <pbcoreInstantiation-barcode-t type="array">
+    <pbcoreInstantiation-barcode-t>barcode</pbcoreInstantiation-barcode-t>
+  </pbcoreInstantiation-barcode-t>
+  <pbcoreInstantiation-0-barcode-display type="array">
+    <pbcoreInstantiation-0-barcode-display>barcode</pbcoreInstantiation-0-barcode-display>
+  </pbcoreInstantiation-0-barcode-display>
+  <pbcoreInstantiation-0-barcode-t type="array">
+    <pbcoreInstantiation-0-barcode-t>barcode</pbcoreInstantiation-0-barcode-t>
+  </pbcoreInstantiation-0-barcode-t>
+  <pbcoreInstantiation-instantiationDate-dt type="array">
+    <pbcoreInstantiation-instantiationDate-dt>2012-11-01T00:00:00Z</pbcoreInstantiation-instantiationDate-dt>
+  </pbcoreInstantiation-instantiationDate-dt>
+  <pbcoreInstantiation-instantiationDate-display type="array">
+    <pbcoreInstantiation-instantiationDate-display>2012-11</pbcoreInstantiation-instantiationDate-display>
+  </pbcoreInstantiation-instantiationDate-display>
+  <pbcoreInstantiation-0-instantiationDate-dt type="array">
+    <pbcoreInstantiation-0-instantiationDate-dt>2012-11-01T00:00:00Z</pbcoreInstantiation-0-instantiationDate-dt>
+  </pbcoreInstantiation-0-instantiationDate-dt>
+  <pbcoreInstantiation-0-instantiationDate-display type="array">
+    <pbcoreInstantiation-0-instantiationDate-display>2012-11</pbcoreInstantiation-0-instantiationDate-display>
+  </pbcoreInstantiation-0-instantiationDate-display>
+  <pbcoreInstantiation-instantiationPhysical-t type="array">
+    <pbcoreInstantiation-instantiationPhysical-t>format</pbcoreInstantiation-instantiationPhysical-t>
+  </pbcoreInstantiation-instantiationPhysical-t>
+  <pbcoreInstantiation-instantiationPhysical-facet type="array">
+    <pbcoreInstantiation-instantiationPhysical-facet>format</pbcoreInstantiation-instantiationPhysical-facet>
+  </pbcoreInstantiation-instantiationPhysical-facet>
+  <pbcoreInstantiation-0-instantiationPhysical-t type="array">
+    <pbcoreInstantiation-0-instantiationPhysical-t>format</pbcoreInstantiation-0-instantiationPhysical-t>
+  </pbcoreInstantiation-0-instantiationPhysical-t>
+  <pbcoreInstantiation-0-instantiationPhysical-facet type="array">
+    <pbcoreInstantiation-0-instantiationPhysical-facet>format</pbcoreInstantiation-0-instantiationPhysical-facet>
+  </pbcoreInstantiation-0-instantiationPhysical-facet>
+  <pbcoreInstantiation-instantiationStandard-display type="array">
+    <pbcoreInstantiation-instantiationStandard-display>standard</pbcoreInstantiation-instantiationStandard-display>
+  </pbcoreInstantiation-instantiationStandard-display>
+  <pbcoreInstantiation-instantiationStandard-t type="array">
+    <pbcoreInstantiation-instantiationStandard-t>standard</pbcoreInstantiation-instantiationStandard-t>
+  </pbcoreInstantiation-instantiationStandard-t>
+  <pbcoreInstantiation-0-instantiationStandard-display type="array">
+    <pbcoreInstantiation-0-instantiationStandard-display>standard</pbcoreInstantiation-0-instantiationStandard-display>
+  </pbcoreInstantiation-0-instantiationStandard-display>
+  <pbcoreInstantiation-0-instantiationStandard-t type="array">
+    <pbcoreInstantiation-0-instantiationStandard-t>standard</pbcoreInstantiation-0-instantiationStandard-t>
+  </pbcoreInstantiation-0-instantiationStandard-t>
+  <pbcoreInstantiation-instantiationLocation-display type="array">
+    <pbcoreInstantiation-instantiationLocation-display>location</pbcoreInstantiation-instantiationLocation-display>
+  </pbcoreInstantiation-instantiationLocation-display>
+  <pbcoreInstantiation-instantiationLocation-t type="array">
+    <pbcoreInstantiation-instantiationLocation-t>location</pbcoreInstantiation-instantiationLocation-t>
+  </pbcoreInstantiation-instantiationLocation-t>
+  <pbcoreInstantiation-0-instantiationLocation-display type="array">
+    <pbcoreInstantiation-0-instantiationLocation-display>location</pbcoreInstantiation-0-instantiationLocation-display>
+  </pbcoreInstantiation-0-instantiationLocation-display>
+  <pbcoreInstantiation-0-instantiationLocation-t type="array">
+    <pbcoreInstantiation-0-instantiationLocation-t>location</pbcoreInstantiation-0-instantiationLocation-t>
+  </pbcoreInstantiation-0-instantiationLocation-t>
+  <pbcoreInstantiation-instantiationGenerations-display type="array">
+    <pbcoreInstantiation-instantiationGenerations-display>generation</pbcoreInstantiation-instantiationGenerations-display>
+  </pbcoreInstantiation-instantiationGenerations-display>
+  <pbcoreInstantiation-instantiationGenerations-t type="array">
+    <pbcoreInstantiation-instantiationGenerations-t>generation</pbcoreInstantiation-instantiationGenerations-t>
+  </pbcoreInstantiation-instantiationGenerations-t>
+  <pbcoreInstantiation-0-instantiationGenerations-display type="array">
+    <pbcoreInstantiation-0-instantiationGenerations-display>generation</pbcoreInstantiation-0-instantiationGenerations-display>
+  </pbcoreInstantiation-0-instantiationGenerations-display>
+  <pbcoreInstantiation-0-instantiationGenerations-t type="array">
+    <pbcoreInstantiation-0-instantiationGenerations-t>generation</pbcoreInstantiation-0-instantiationGenerations-t>
+  </pbcoreInstantiation-0-instantiationGenerations-t>
+  <pbcoreInstantiation-instantiationColors-display type="array">
+    <pbcoreInstantiation-instantiationColors-display>colors</pbcoreInstantiation-instantiationColors-display>
+  </pbcoreInstantiation-instantiationColors-display>
+  <pbcoreInstantiation-instantiationColors-t type="array">
+    <pbcoreInstantiation-instantiationColors-t>colors</pbcoreInstantiation-instantiationColors-t>
+  </pbcoreInstantiation-instantiationColors-t>
+  <pbcoreInstantiation-0-instantiationColors-display type="array">
+    <pbcoreInstantiation-0-instantiationColors-display>colors</pbcoreInstantiation-0-instantiationColors-display>
+  </pbcoreInstantiation-0-instantiationColors-display>
+  <pbcoreInstantiation-0-instantiationColors-t type="array">
+    <pbcoreInstantiation-0-instantiationColors-t>colors</pbcoreInstantiation-0-instantiationColors-t>
+  </pbcoreInstantiation-0-instantiationColors-t>
+  <pbcoreInstantiation-instantiationMediaType-facet type="array">
+    <pbcoreInstantiation-instantiationMediaType-facet>media_type</pbcoreInstantiation-instantiationMediaType-facet>
+  </pbcoreInstantiation-instantiationMediaType-facet>
+  <pbcoreInstantiation-instantiationMediaType-t type="array">
+    <pbcoreInstantiation-instantiationMediaType-t>media_type</pbcoreInstantiation-instantiationMediaType-t>
+  </pbcoreInstantiation-instantiationMediaType-t>
+  <pbcoreInstantiation-0-instantiationMediaType-facet type="array">
+    <pbcoreInstantiation-0-instantiationMediaType-facet>media_type</pbcoreInstantiation-0-instantiationMediaType-facet>
+  </pbcoreInstantiation-0-instantiationMediaType-facet>
+  <pbcoreInstantiation-0-instantiationMediaType-t type="array">
+    <pbcoreInstantiation-0-instantiationMediaType-t>media_type</pbcoreInstantiation-0-instantiationMediaType-t>
+  </pbcoreInstantiation-0-instantiationMediaType-t>
+  <pbcoreInstantiation-instantiationLanguage-t type="array">
+    <pbcoreInstantiation-instantiationLanguage-t>language</pbcoreInstantiation-instantiationLanguage-t>
+  </pbcoreInstantiation-instantiationLanguage-t>
+  <pbcoreInstantiation-0-instantiationLanguage-t type="array">
+    <pbcoreInstantiation-0-instantiationLanguage-t>language</pbcoreInstantiation-0-instantiationLanguage-t>
+  </pbcoreInstantiation-0-instantiationLanguage-t>
+  <pbcoreInstantiation-instantiationRights-rightsSummary-display type="array">
+    <pbcoreInstantiation-instantiationRights-rightsSummary-display>rights_summary</pbcoreInstantiation-instantiationRights-rightsSummary-display>
+  </pbcoreInstantiation-instantiationRights-rightsSummary-display>
+  <pbcoreInstantiation-instantiationRights-rightsSummary-t type="array">
+    <pbcoreInstantiation-instantiationRights-rightsSummary-t>rights_summary</pbcoreInstantiation-instantiationRights-rightsSummary-t>
+  </pbcoreInstantiation-instantiationRights-rightsSummary-t>
+  <pbcoreInstantiation-0-instantiationRights-0-rightsSummary-display type="array">
+    <pbcoreInstantiation-0-instantiationRights-0-rightsSummary-display>rights_summary</pbcoreInstantiation-0-instantiationRights-0-rightsSummary-display>
+  </pbcoreInstantiation-0-instantiationRights-0-rightsSummary-display>
+  <pbcoreInstantiation-0-instantiationRights-0-rightsSummary-t type="array">
+    <pbcoreInstantiation-0-instantiationRights-0-rightsSummary-t>rights_summary</pbcoreInstantiation-0-instantiationRights-0-rightsSummary-t>
+  </pbcoreInstantiation-0-instantiationRights-0-rightsSummary-t>
+  <pbcoreInstantiation-inst-cond-note-display type="array">
+    <pbcoreInstantiation-inst-cond-note-display>condition_note</pbcoreInstantiation-inst-cond-note-display>
+  </pbcoreInstantiation-inst-cond-note-display>
+  <pbcoreInstantiation-inst-cond-note-t type="array">
+    <pbcoreInstantiation-inst-cond-note-t>condition_note</pbcoreInstantiation-inst-cond-note-t>
+  </pbcoreInstantiation-inst-cond-note-t>
+  <pbcoreInstantiation-0-inst-cond-note-display type="array">
+    <pbcoreInstantiation-0-inst-cond-note-display>condition_note</pbcoreInstantiation-0-inst-cond-note-display>
+  </pbcoreInstantiation-0-inst-cond-note-display>
+  <pbcoreInstantiation-0-inst-cond-note-t type="array">
+    <pbcoreInstantiation-0-inst-cond-note-t>condition_note</pbcoreInstantiation-0-inst-cond-note-t>
+  </pbcoreInstantiation-0-inst-cond-note-t>
+  <pbcoreInstantiation-inst-clean-note-display type="array">
+    <pbcoreInstantiation-inst-clean-note-display>cleaning_note</pbcoreInstantiation-inst-clean-note-display>
+  </pbcoreInstantiation-inst-clean-note-display>
+  <pbcoreInstantiation-inst-clean-note-t type="array">
+    <pbcoreInstantiation-inst-clean-note-t>cleaning_note</pbcoreInstantiation-inst-clean-note-t>
+  </pbcoreInstantiation-inst-clean-note-t>
+  <pbcoreInstantiation-0-inst-clean-note-display type="array">
+    <pbcoreInstantiation-0-inst-clean-note-display>cleaning_note</pbcoreInstantiation-0-inst-clean-note-display>
+  </pbcoreInstantiation-0-inst-clean-note-display>
+  <pbcoreInstantiation-0-inst-clean-note-t type="array">
+    <pbcoreInstantiation-0-inst-clean-note-t>cleaning_note</pbcoreInstantiation-0-inst-clean-note-t>
+  </pbcoreInstantiation-0-inst-clean-note-t>
+  <pbcoreInstantiation-condition-note-t type="array">
+    <pbcoreInstantiation-condition-note-t>condition_note</pbcoreInstantiation-condition-note-t>
+  </pbcoreInstantiation-condition-note-t>
+  <pbcoreInstantiation-condition-note-display type="array">
+    <pbcoreInstantiation-condition-note-display>condition_note</pbcoreInstantiation-condition-note-display>
+  </pbcoreInstantiation-condition-note-display>
+  <pbcoreInstantiation-0-condition-note-t type="array">
+    <pbcoreInstantiation-0-condition-note-t>condition_note</pbcoreInstantiation-0-condition-note-t>
+  </pbcoreInstantiation-0-condition-note-t>
+  <pbcoreInstantiation-0-condition-note-display type="array">
+    <pbcoreInstantiation-0-condition-note-display>condition_note</pbcoreInstantiation-0-condition-note-display>
+  </pbcoreInstantiation-0-condition-note-display>
+  <pbcoreInstantiation-cleaning-note-t type="array">
+    <pbcoreInstantiation-cleaning-note-t>cleaning_note</pbcoreInstantiation-cleaning-note-t>
+  </pbcoreInstantiation-cleaning-note-t>
+  <pbcoreInstantiation-cleaning-note-display type="array">
+    <pbcoreInstantiation-cleaning-note-display>cleaning_note</pbcoreInstantiation-cleaning-note-display>
+  </pbcoreInstantiation-cleaning-note-display>
+  <pbcoreInstantiation-0-cleaning-note-t type="array">
+    <pbcoreInstantiation-0-cleaning-note-t>cleaning_note</pbcoreInstantiation-0-cleaning-note-t>
+  </pbcoreInstantiation-0-cleaning-note-t>
+  <pbcoreInstantiation-0-cleaning-note-display type="array">
+    <pbcoreInstantiation-0-cleaning-note-display>cleaning_note</pbcoreInstantiation-0-cleaning-note-display>
+  </pbcoreInstantiation-0-cleaning-note-display>
+  <pbcoreInstantiation-location-display type="array">
+    <pbcoreInstantiation-location-display>location</pbcoreInstantiation-location-display>
+  </pbcoreInstantiation-location-display>
+  <pbcoreInstantiation-location-t type="array">
+    <pbcoreInstantiation-location-t>location</pbcoreInstantiation-location-t>
+  </pbcoreInstantiation-location-t>
+  <pbcoreInstantiation-0-location-display type="array">
+    <pbcoreInstantiation-0-location-display>location</pbcoreInstantiation-0-location-display>
+  </pbcoreInstantiation-0-location-display>
+  <pbcoreInstantiation-0-location-t type="array">
+    <pbcoreInstantiation-0-location-t>location</pbcoreInstantiation-0-location-t>
+  </pbcoreInstantiation-0-location-t>
+  <pbcoreInstantiation-date-dt type="array">
+    <pbcoreInstantiation-date-dt>2012-11-01T00:00:00Z</pbcoreInstantiation-date-dt>
+  </pbcoreInstantiation-date-dt>
+  <pbcoreInstantiation-date-display type="array">
+    <pbcoreInstantiation-date-display>2012-11</pbcoreInstantiation-date-display>
+  </pbcoreInstantiation-date-display>
+  <pbcoreInstantiation-0-date-dt type="array">
+    <pbcoreInstantiation-0-date-dt>2012-11-01T00:00:00Z</pbcoreInstantiation-0-date-dt>
+  </pbcoreInstantiation-0-date-dt>
+  <pbcoreInstantiation-0-date-display type="array">
+    <pbcoreInstantiation-0-date-display>2012-11</pbcoreInstantiation-0-date-display>
+  </pbcoreInstantiation-0-date-display>
+  <pbcoreInstantiation-generation-display type="array">
+    <pbcoreInstantiation-generation-display>generation</pbcoreInstantiation-generation-display>
+  </pbcoreInstantiation-generation-display>
+  <pbcoreInstantiation-generation-t type="array">
+    <pbcoreInstantiation-generation-t>generation</pbcoreInstantiation-generation-t>
+  </pbcoreInstantiation-generation-t>
+  <pbcoreInstantiation-0-generation-display type="array">
+    <pbcoreInstantiation-0-generation-display>generation</pbcoreInstantiation-0-generation-display>
+  </pbcoreInstantiation-0-generation-display>
+  <pbcoreInstantiation-0-generation-t type="array">
+    <pbcoreInstantiation-0-generation-t>generation</pbcoreInstantiation-0-generation-t>
+  </pbcoreInstantiation-0-generation-t>
+  <pbcoreInstantiation-media-type-facet type="array">
+    <pbcoreInstantiation-media-type-facet>media_type</pbcoreInstantiation-media-type-facet>
+  </pbcoreInstantiation-media-type-facet>
+  <pbcoreInstantiation-media-type-t type="array">
+    <pbcoreInstantiation-media-type-t>media_type</pbcoreInstantiation-media-type-t>
+  </pbcoreInstantiation-media-type-t>
+  <pbcoreInstantiation-0-media-type-facet type="array">
+    <pbcoreInstantiation-0-media-type-facet>media_type</pbcoreInstantiation-0-media-type-facet>
+  </pbcoreInstantiation-0-media-type-facet>
+  <pbcoreInstantiation-0-media-type-t type="array">
+    <pbcoreInstantiation-0-media-type-t>media_type</pbcoreInstantiation-0-media-type-t>
+  </pbcoreInstantiation-0-media-type-t>
+  <pbcoreInstantiation-format-t type="array">
+    <pbcoreInstantiation-format-t>format</pbcoreInstantiation-format-t>
+  </pbcoreInstantiation-format-t>
+  <pbcoreInstantiation-format-facet type="array">
+    <pbcoreInstantiation-format-facet>format</pbcoreInstantiation-format-facet>
+  </pbcoreInstantiation-format-facet>
+  <pbcoreInstantiation-0-format-t type="array">
+    <pbcoreInstantiation-0-format-t>format</pbcoreInstantiation-0-format-t>
+  </pbcoreInstantiation-0-format-t>
+  <pbcoreInstantiation-0-format-facet type="array">
+    <pbcoreInstantiation-0-format-facet>format</pbcoreInstantiation-0-format-facet>
+  </pbcoreInstantiation-0-format-facet>
+  <pbcoreInstantiation-colors-display type="array">
+    <pbcoreInstantiation-colors-display>colors</pbcoreInstantiation-colors-display>
+  </pbcoreInstantiation-colors-display>
+  <pbcoreInstantiation-colors-t type="array">
+    <pbcoreInstantiation-colors-t>colors</pbcoreInstantiation-colors-t>
+  </pbcoreInstantiation-colors-t>
+  <pbcoreInstantiation-0-colors-display type="array">
+    <pbcoreInstantiation-0-colors-display>colors</pbcoreInstantiation-0-colors-display>
+  </pbcoreInstantiation-0-colors-display>
+  <pbcoreInstantiation-0-colors-t type="array">
+    <pbcoreInstantiation-0-colors-t>colors</pbcoreInstantiation-0-colors-t>
+  </pbcoreInstantiation-0-colors-t>
+  <pbcoreInstantiation-rights-summary-display type="array">
+    <pbcoreInstantiation-rights-summary-display>rights_summary</pbcoreInstantiation-rights-summary-display>
+  </pbcoreInstantiation-rights-summary-display>
+  <pbcoreInstantiation-rights-summary-t type="array">
+    <pbcoreInstantiation-rights-summary-t>rights_summary</pbcoreInstantiation-rights-summary-t>
+  </pbcoreInstantiation-rights-summary-t>
+  <pbcoreInstantiation-0-rights-summary-display type="array">
+    <pbcoreInstantiation-0-rights-summary-display>rights_summary</pbcoreInstantiation-0-rights-summary-display>
+  </pbcoreInstantiation-0-rights-summary-display>
+  <pbcoreInstantiation-0-rights-summary-t type="array">
+    <pbcoreInstantiation-0-rights-summary-t>rights_summary</pbcoreInstantiation-0-rights-summary-t>
+  </pbcoreInstantiation-0-rights-summary-t>
+  <pbcoreInstantiation-condition-display type="array">
+    <pbcoreInstantiation-condition-display>condition_note</pbcoreInstantiation-condition-display>
+  </pbcoreInstantiation-condition-display>
+  <pbcoreInstantiation-condition-t type="array">
+    <pbcoreInstantiation-condition-t>condition_note</pbcoreInstantiation-condition-t>
+  </pbcoreInstantiation-condition-t>
+  <pbcoreInstantiation-0-condition-display type="array">
+    <pbcoreInstantiation-0-condition-display>condition_note</pbcoreInstantiation-0-condition-display>
+  </pbcoreInstantiation-0-condition-display>
+  <pbcoreInstantiation-0-condition-t type="array">
+    <pbcoreInstantiation-0-condition-t>condition_note</pbcoreInstantiation-0-condition-t>
+  </pbcoreInstantiation-0-condition-t>
+  <pbcoreInstantiation-cleaning-display type="array">
+    <pbcoreInstantiation-cleaning-display>cleaning_note</pbcoreInstantiation-cleaning-display>
+  </pbcoreInstantiation-cleaning-display>
+  <pbcoreInstantiation-cleaning-t type="array">
+    <pbcoreInstantiation-cleaning-t>cleaning_note</pbcoreInstantiation-cleaning-t>
+  </pbcoreInstantiation-cleaning-t>
+  <pbcoreInstantiation-0-cleaning-display type="array">
+    <pbcoreInstantiation-0-cleaning-display>cleaning_note</pbcoreInstantiation-0-cleaning-display>
+  </pbcoreInstantiation-0-cleaning-display>
+  <pbcoreInstantiation-0-cleaning-t type="array">
+    <pbcoreInstantiation-0-cleaning-t>cleaning_note</pbcoreInstantiation-0-cleaning-t>
+  </pbcoreInstantiation-0-cleaning-t>
+  <pbcoreInstantiation-standard-display type="array">
+    <pbcoreInstantiation-standard-display>standard</pbcoreInstantiation-standard-display>
+  </pbcoreInstantiation-standard-display>
+  <pbcoreInstantiation-standard-t type="array">
+    <pbcoreInstantiation-standard-t>standard</pbcoreInstantiation-standard-t>
+  </pbcoreInstantiation-standard-t>
+  <pbcoreInstantiation-0-standard-display type="array">
+    <pbcoreInstantiation-0-standard-display>standard</pbcoreInstantiation-0-standard-display>
+  </pbcoreInstantiation-0-standard-display>
+  <pbcoreInstantiation-0-standard-t type="array">
+    <pbcoreInstantiation-0-standard-t>standard</pbcoreInstantiation-0-standard-t>
+  </pbcoreInstantiation-0-standard-t>
+  <pbcoreInstantiation-language-t type="array">
+    <pbcoreInstantiation-language-t>language</pbcoreInstantiation-language-t>
+  </pbcoreInstantiation-language-t>
+  <pbcoreInstantiation-0-language-t type="array">
+    <pbcoreInstantiation-0-language-t>language</pbcoreInstantiation-0-language-t>
+  </pbcoreInstantiation-0-language-t>
+  <barcode-display type="array">
+    <barcode-display>barcode</barcode-display>
+  </barcode-display>
+  <barcode-t type="array">
+    <barcode-t>barcode</barcode-t>
+  </barcode-t>
+  <instantiationDate-dt type="array">
+    <instantiationDate-dt>2012-11-01T00:00:00Z</instantiationDate-dt>
+  </instantiationDate-dt>
+  <instantiationDate-display type="array">
+    <instantiationDate-display>2012-11</instantiationDate-display>
+  </instantiationDate-display>
+  <instantiationPhysical-t type="array">
+    <instantiationPhysical-t>format</instantiationPhysical-t>
+  </instantiationPhysical-t>
+  <instantiationPhysical-facet type="array">
+    <instantiationPhysical-facet>format</instantiationPhysical-facet>
+  </instantiationPhysical-facet>
+  <instantiationStandard-display type="array">
+    <instantiationStandard-display>standard</instantiationStandard-display>
+  </instantiationStandard-display>
+  <instantiationStandard-t type="array">
+    <instantiationStandard-t>standard</instantiationStandard-t>
+  </instantiationStandard-t>
+  <instantiationLocation-display type="array">
+    <instantiationLocation-display>location</instantiationLocation-display>
+  </instantiationLocation-display>
+  <instantiationLocation-t type="array">
+    <instantiationLocation-t>location</instantiationLocation-t>
+  </instantiationLocation-t>
+  <instantiationGenerations-display type="array">
+    <instantiationGenerations-display>generation</instantiationGenerations-display>
+  </instantiationGenerations-display>
+  <instantiationGenerations-t type="array">
+    <instantiationGenerations-t>generation</instantiationGenerations-t>
+  </instantiationGenerations-t>
+  <instantiationColors-display type="array">
+    <instantiationColors-display>colors</instantiationColors-display>
+  </instantiationColors-display>
+  <instantiationColors-t type="array">
+    <instantiationColors-t>colors</instantiationColors-t>
+  </instantiationColors-t>
+  <instantiationMediaType-facet type="array">
+    <instantiationMediaType-facet>media_type</instantiationMediaType-facet>
+  </instantiationMediaType-facet>
+  <instantiationMediaType-t type="array">
+    <instantiationMediaType-t>media_type</instantiationMediaType-t>
+  </instantiationMediaType-t>
+  <instantiationLanguage-t type="array">
+    <instantiationLanguage-t>language</instantiationLanguage-t>
+  </instantiationLanguage-t>
+  <instantiationRights-rightsSummary-display type="array">
+    <instantiationRights-rightsSummary-display>rights_summary</instantiationRights-rightsSummary-display>
+  </instantiationRights-rightsSummary-display>
+  <instantiationRights-rightsSummary-t type="array">
+    <instantiationRights-rightsSummary-t>rights_summary</instantiationRights-rightsSummary-t>
+  </instantiationRights-rightsSummary-t>
+  <instantiationRights-0-rightsSummary-display type="array">
+    <instantiationRights-0-rightsSummary-display>rights_summary</instantiationRights-0-rightsSummary-display>
+  </instantiationRights-0-rightsSummary-display>
+  <instantiationRights-0-rightsSummary-t type="array">
+    <instantiationRights-0-rightsSummary-t>rights_summary</instantiationRights-0-rightsSummary-t>
+  </instantiationRights-0-rightsSummary-t>
+  <inst-cond-note-display type="array">
+    <inst-cond-note-display>condition_note</inst-cond-note-display>
+  </inst-cond-note-display>
+  <inst-cond-note-t type="array">
+    <inst-cond-note-t>condition_note</inst-cond-note-t>
+  </inst-cond-note-t>
+  <inst-clean-note-display type="array">
+    <inst-clean-note-display>cleaning_note</inst-clean-note-display>
+  </inst-clean-note-display>
+  <inst-clean-note-t type="array">
+    <inst-clean-note-t>cleaning_note</inst-clean-note-t>
+  </inst-clean-note-t>
+  <condition-note-t type="array">
+    <condition-note-t>condition_note</condition-note-t>
+  </condition-note-t>
+  <condition-note-display type="array">
+    <condition-note-display>condition_note</condition-note-display>
+  </condition-note-display>
+  <cleaning-note-t type="array">
+    <cleaning-note-t>cleaning_note</cleaning-note-t>
+  </cleaning-note-t>
+  <cleaning-note-display type="array">
+    <cleaning-note-display>cleaning_note</cleaning-note-display>
+  </cleaning-note-display>
+  <location-display type="array">
+    <location-display>location</location-display>
+  </location-display>
+  <location-t type="array">
+    <location-t>location</location-t>
+  </location-t>
+  <date-dt type="array">
+    <date-dt>2012-11-01T00:00:00Z</date-dt>
+  </date-dt>
+  <date-display type="array">
+    <date-display>2012-11</date-display>
+  </date-display>
+  <generation-display type="array">
+    <generation-display>generation</generation-display>
+  </generation-display>
+  <generation-t type="array">
+    <generation-t>generation</generation-t>
+  </generation-t>
+  <media-type-facet type="array">
+    <media-type-facet>media_type</media-type-facet>
+  </media-type-facet>
+  <media-type-t type="array">
+    <media-type-t>media_type</media-type-t>
+  </media-type-t>
+  <format-t type="array">
+    <format-t>format</format-t>
+  </format-t>
+  <format-facet type="array">
+    <format-facet>format</format-facet>
+  </format-facet>
+  <colors-display type="array">
+    <colors-display>colors</colors-display>
+  </colors-display>
+  <colors-t type="array">
+    <colors-t>colors</colors-t>
+  </colors-t>
+  <rights-summary-display type="array">
+    <rights-summary-display>rights_summary</rights-summary-display>
+  </rights-summary-display>
+  <rights-summary-t type="array">
+    <rights-summary-t>rights_summary</rights-summary-t>
+  </rights-summary-t>
+  <condition-display type="array">
+    <condition-display>condition_note</condition-display>
+  </condition-display>
+  <condition-t type="array">
+    <condition-t>condition_note</condition-t>
+  </condition-t>
+  <cleaning-display type="array">
+    <cleaning-display>cleaning_note</cleaning-display>
+  </cleaning-display>
+  <cleaning-t type="array">
+    <cleaning-t>cleaning_note</cleaning-t>
+  </cleaning-t>
+  <standard-display type="array">
+    <standard-display>standard</standard-display>
+  </standard-display>
+  <standard-t type="array">
+    <standard-t>standard</standard-t>
+  </standard-t>
+  <language-t type="array">
+    <language-t>language</language-t>
+  </language-t>
+</hash>
