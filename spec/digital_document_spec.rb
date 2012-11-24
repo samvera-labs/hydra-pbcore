@@ -1,9 +1,9 @@
 require "spec_helper"
 
-describe HydraPbcore::Datastream::DigitalDocument do
+describe "Digital Document" do
 
   before(:each) do
-    @object_ds = HydraPbcore::Datastream::DigitalDocument.new(nil, nil)
+    @object_ds = HydraPbcore::Datastream::Document.new(nil, nil)
   end
 
   describe ".update_indexed_attributes" do
