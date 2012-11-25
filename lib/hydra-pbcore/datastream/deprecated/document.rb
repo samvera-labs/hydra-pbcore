@@ -1,4 +1,4 @@
-module HydraPbcore::Datastream
+module HydraPbcore::Datastream::Deprecated
 class Document < ActiveFedora::NokogiriDatastream
 
   include HydraPbcore::Methods
