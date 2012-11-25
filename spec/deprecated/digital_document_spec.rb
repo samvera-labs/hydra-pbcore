@@ -126,17 +126,6 @@ describe HydraPbcore::Datastream::Deprecated::DigitalDocument do
   end
 
   describe ".insert_node" do
-    it "should return a node and index for a given template type" do
-      pending "Don't need this?"
-      ["publisher", "contributor"].each do |type|
-        node, index = @object_ds.insert_node(type.to_s)
-        index.should == 0
-        @object_ds.dirty?.should be_true
-        node, index = @object_ds.insert_node(type.to_s)
-        index.should == 1
-      end
-    end
-
     it "should raise an exception for non-exisitent templates" do
       lambda { @object_ds.insert_node("blarg") }.should raise_error
     end
@@ -153,15 +142,6 @@ describe HydraPbcore::Datastream::Deprecated::DigitalDocument do
         @object_ds.remove_node(type.to_sym, "0")
         @object_ds.find_by_terms(type.to_sym).count.should == 0
       end
-    end
-
-  end
-
-  describe "default fields" do
-
-    it "such as media type should be 'Moving image'" do
-      pending "No default fields defined yet"
-      @object_ds.get_values([:media_type]).first.should == "Moving image"
     end
 
   end

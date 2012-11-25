@@ -138,21 +138,6 @@ describe HydraPbcore::Datastream::Deprecated::Document do
     end
   end
 
-  describe ".insert_node" do
-    
-    it "should return a node and index for a given template type" do
-      pending "Don't need?"
-      ["publisher", "contributor"].each do |type|
-        node, index = @object_ds.insert_node(type.to_s)
-        index.should == 0
-        @object_ds.dirty?.should be_true
-        node, index = @object_ds.insert_node(type.to_s)
-        index.should == 1
-      end
-    end
-
-  end
-
   describe ".remove_node" do
     it "should remove a node a given type and index" do
       ["publisher", "contributor"].each do |type|
