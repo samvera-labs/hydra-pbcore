@@ -11,6 +11,7 @@ module HydraPbcore
 end
 
 require "hydra-pbcore/methods"
+require "hydra-pbcore/conversions"
 require "hydra-pbcore/behaviors"
 require "hydra-pbcore/templates"
 require "custom_mapper"

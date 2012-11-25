@@ -3,6 +3,7 @@ class DigitalDocument < ActiveFedora::NokogiriDatastream
 
   include HydraPbcore::Methods
   include HydraPbcore::Templates
+  include HydraPbcore::Conversions
 
   @terminology = HydraPbcore::Datastream::Deprecated::Document.terminology
 

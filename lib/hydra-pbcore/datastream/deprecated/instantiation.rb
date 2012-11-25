@@ -3,6 +3,7 @@ class Instantiation < ActiveFedora::NokogiriDatastream
 
   include HydraPbcore::Methods
   include HydraPbcore::Templates
+  include HydraPbcore::Conversions
 
   # Note: this is not a complete PBCore document, just an instantiation node
   set_terminology do |t|
