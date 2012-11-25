@@ -11,6 +11,10 @@ def fixture(file)
   File.new(File.join(File.dirname(__FILE__), 'fixtures', file))
 end
 
+def deprecated_fixture(file)
+  File.new(File.join(File.dirname(__FILE__), 'fixtures', 'deprecated', file))
+end
+
 def sample(file)
   File.new(File.join('tmp', file))
 end
