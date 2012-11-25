@@ -1,0 +1,36 @@
+<pbcoreDescriptionDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html">
+  <pbcoreIdentifier source="Rock and Roll Hall of Fame and Museum" annotation="PID"/>
+  <pbcoreTitle titleType="Main"/>
+  <pbcoreDescription descriptionType="Description" descriptionTypeSource="pbcoreDescription/descriptionType" descriptionTypeRef="http://pbcore.org/vocabularies/pbcoreDescription/descriptionType#description" annotation="Summary"/>
+  <pbcoreDescription descriptionType="Table of Contents" descriptionTypeSource="pbcoreDescription/descriptionType" descriptionTypeRef="http://pbcore.org/vocabularies/pbcoreDescription/descriptionType#table-of-contents" annotation="Parts List"/>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Event Series"/>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Archival Collection"/>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Archival Series"/>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Collection Number"/>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Accession Number"/>
+  </pbcoreRelation>
+  <pbcoreCoverage>
+    <coverage annotation="Event Place"/>
+    <coverageType>Spatial</coverageType>
+  </pbcoreCoverage>
+  <pbcoreCoverage>
+    <coverage annotation="Event Date"/>
+    <coverageType>Temporal</coverageType>
+  </pbcoreCoverage>
+  <pbcoreRightsSummary/>
+  <pbcoreAnnotation annotationType="Notes"/>
+</pbcoreDescriptionDocument>

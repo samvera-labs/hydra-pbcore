@@ -91,12 +91,19 @@ class Document < ActiveFedora::NokogiriDatastream
       :index_as => [:displayable]    
     )
 
-
-    # Series field
+    # PBCore relation fields
     t.pbcoreRelation do
-      t.pbcoreRelationIdentifier(:attributes=>{ :annotation=>"Event Series" })
+      t.series(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Event Series" })
+      t.arch_coll(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Archival Collection" })
+      t.arch_ser(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Archival Series" })
+      t.coll_num(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Collection Number" })
+      t.acc_num(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Accession Number" })
     end
-    t.event_series(:ref=>[:pbcoreRelation, :pbcoreRelationIdentifier], :index_as => [:searchable, :displayable])
+    t.event_series(:ref=>[:pbcoreRelation, :series], :index_as => [:searchable, :displayable])
+    t.archival_collection(:ref=>[:pbcoreRelation, :arch_coll], :index_as => [:searchable, :displayable])
+    t.archival_series(:ref=>[:pbcoreRelation, :arch_ser], :index_as => [:searchable, :displayable])
+    t.collection_number(:ref=>[:pbcoreRelation, :coll_num], :index_as => [:searchable, :displayable])
+    t.accession_number(:ref=>[:pbcoreRelation, :acc_num], :index_as => [:searchable, :displayable])
 
     # Terms for time and place
     t.event_place(:path=>"pbcoreCoverage/coverage", 
@@ -128,6 +135,7 @@ class Document < ActiveFedora::NokogiriDatastream
     t.publisher_role(:proxy=>[:publisher, :role], :index_as => [:searchable, :displayable])
 
     t.note(:path=>"pbcoreAnnotation", :atttributes=>{ :annotationType=>"Notes" }, :index_as => [:searchable])
+    t.rights_summary(:path => "pbcoreRightsSummary", :index => [:searchable, :displayable])
 
   end
 

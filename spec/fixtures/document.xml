@@ -1,0 +1,70 @@
+<pbcoreDescriptionDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html">
+  <pbcoreIdentifier source="Rock and Roll Hall of Fame and Museum" annotation="PID">inserted</pbcoreIdentifier>
+  <pbcoreTitle titleType="Main">inserted</pbcoreTitle>
+  <pbcoreDescription descriptionType="Description" descriptionTypeSource="pbcoreDescription/descriptionType" descriptionTypeRef="http://pbcore.org/vocabularies/pbcoreDescription/descriptionType#description" annotation="Summary">inserted</pbcoreDescription>
+  <pbcoreDescription descriptionType="Table of Contents" descriptionTypeSource="pbcoreDescription/descriptionType" descriptionTypeRef="http://pbcore.org/vocabularies/pbcoreDescription/descriptionType#table-of-contents" annotation="Parts List">inserted</pbcoreDescription>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Event Series">inserted</pbcoreRelationIdentifier>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Archival Collection">inserted</pbcoreRelationIdentifier>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Archival Series">inserted</pbcoreRelationIdentifier>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Collection Number">inserted</pbcoreRelationIdentifier>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Accession Number">inserted</pbcoreRelationIdentifier>
+  </pbcoreRelation>
+  <pbcoreCoverage>
+    <coverage annotation="Event Place">inserted</coverage>
+    <coverageType>Spatial</coverageType>
+  </pbcoreCoverage>
+  <pbcoreCoverage>
+    <coverage annotation="Event Date">2012-11-11</coverage>
+    <coverageType>Temporal</coverageType>
+  </pbcoreCoverage>
+  <pbcoreRightsSummary>inserted</pbcoreRightsSummary>
+  <pbcoreAnnotation annotationType="Notes">inserted</pbcoreAnnotation>
+  <pbcorePublisher>
+    <publisher>inserted</publisher>
+    <publisherRole source="PBCore publisherRole">inserted</publisherRole>
+  </pbcorePublisher>
+  <pbcoreContributor>
+    <contributor>inserted</contributor>
+    <contributorRole source="MARC relator terms">inserted</contributorRole>
+  </pbcoreContributor>
+  <pbcorePublisher>
+    <publisher>inserted</publisher>
+    <publisherRole source="PBCore publisherRole"></publisherRole>
+  </pbcorePublisher>
+  <pbcoreContributor>
+    <contributor>inserted</contributor>
+    <contributorRole source="MARC relator terms"></contributorRole>
+  </pbcoreContributor>
+  <pbcoreContributor>
+    <contributor></contributor>
+    <contributorRole source="MARC relator terms"></contributorRole>
+  </pbcoreContributor>
+  <pbcoreTitle titleType="Alternative">inserted</pbcoreTitle>
+  <pbcoreTitle titleType="Chapter">inserted</pbcoreTitle>
+  <pbcoreTitle titleType="Episode">inserted</pbcoreTitle>
+  <pbcoreTitle titleType="Label">inserted</pbcoreTitle>
+  <pbcoreTitle titleType="Segment">inserted</pbcoreTitle>
+  <pbcoreTitle titleType="Subtitle">inserted</pbcoreTitle>
+  <pbcoreTitle titleType="Track">inserted</pbcoreTitle>
+  <pbcoreTitle titleType="Translation">inserted</pbcoreTitle>
+  <pbcoreSubject source="Library of Congress Subject Headings" ref="http://id.loc.gov/authorities/subjects.html">inserted</pbcoreSubject>
+  <pbcoreSubject source="Library of Congress Name Authority File" ref="http://id.loc.gov/authorities/names">inserted</pbcoreSubject>
+  <pbcoreSubject source="Rock and Roll Hall of Fame and Museum">inserted</pbcoreSubject>
+  <pbcoreGenre source="The Getty Research Institute Art and Architecture Thesaurus" ref="http://www.getty.edu/research/tools/vocabularies/aat/index.html">inserted</pbcoreGenre>
+  <pbcoreGenre source="Library of Congress Genre/Form Terms" ref="http://id.loc.gov/authorities/genreForms.html">inserted</pbcoreGenre>
+  <pbcoreGenre source="Library of Congress Subject Headings" ref="http://id.loc.gov/authorities/subjects.html">inserted</pbcoreGenre>
+</pbcoreDescriptionDocument>
