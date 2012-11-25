@@ -4,7 +4,7 @@ class DigitalDocument < ActiveFedora::NokogiriDatastream
   include HydraPbcore::Methods
   include HydraPbcore::Templates
 
-  @terminology = HydraPbcore::Datastream::Document.terminology
+  @terminology = HydraPbcore::Datastream::Deprecated::Document.terminology
 
   def self.xml_template
     builder = Nokogiri::XML::Builder.new do |xml|
