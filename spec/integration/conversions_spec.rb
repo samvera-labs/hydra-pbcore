@@ -48,7 +48,6 @@ describe "Converting" do
 
   describe "#clean_document" do
     it "should correct and invalid pbcoreDocument" do
-      pending "Additional features needed in #clean_document"
       doc = HydraPbcore::Datastream::Deprecated::DigitalDocument.from_xml(integration_fixture "digital_document_rrhof_1904.xml")
       doc.clean_document
       save_template doc.to_xml, "converted_digital_document_rrhof_1904.xml"

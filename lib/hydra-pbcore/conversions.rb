@@ -44,14 +44,29 @@ module HydraPbcore::Conversions
     self.ng_xml = self.ng_xml.xpath("//pbcoreInstantiation").to_xml
   end
 
-  # Removes unwanted pbcoreRelation nodes and orphaned pbcoreRelationIdentifier nodes
+  # Corrects errors in HydraPbcore::Datastream::Deprecated::Document and HydraPbcore::Datastream::Deprecated::DigitalDocument
+  # - removes all pbcoreRelation nodes, except those that define event_series
+  # - removes orphaned pbcoreRelationIdentifier nodes
+  # - corrects invalid usage of event_place and event_series terms
+  #
+  # Note: Since pbcoreRelation is used to indicated archival collection and series, this information should be copied to another kind
+  # of datastream using an RDF relationship in Hydra.
   def clean_document(xml = self.ng_xml)
     xml.search("//pbcoreRelation").each do |node|  
       node.remove unless is_event_series?(node)
     end
     xml.search("/pbcoreDescriptionDocument/pbcoreRelationIdentifier").collect {|n| n.remove}
+    xml.search("//pbcoreCoverage").each do |node|
+      node.children.each do |c|
+        if c.attribute("annotation").nil? and c.name == "coverage"
+          self.send(("insert_"+coverage_type(node)), c.text)
+          c.remove
+        end
+      end
+    end
   end
 
+  # Determines if the given node defines an event_series term
   def is_event_series?(node)
     unless node.at_xpath("pbcoreRelationIdentifier").nil?
       if node.at_xpath("pbcoreRelationIdentifier").attribute("annotation").to_s == "Event Series"
@@ -59,5 +74,15 @@ module HydraPbcore::Conversions
       end
     end
   end
+
+  # Determines if a coverage node that has no annotation attribute should be either an event_date term or an event_date term.
+  # Returns the first instance of an annotation attribute, processing it so that may be sent directly to 
+  # the datastream as a method.
+  def coverage_type(node)
+    node.children.each do |c|
+      return c.attribute("annotation").to_s.split.last.downcase unless c.attribute("annotation").nil?
+    end
+  end
+
 
 end
