@@ -167,6 +167,11 @@ describe HydraPbcore::Datastream::Document do
       save_template @object_ds.to_xml, "document.xml"
       equivalent_xml_files("document.xml").should be_true
     end
+
+    it "xml document should validate against the PBCore schema" do
+      save_template @object_ds.to_pbcore_xml, "document_valid.xml"
+      @object_ds.valid?.should == []
+    end
   end  
 
 end

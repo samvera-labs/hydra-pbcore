@@ -579,4 +579,10 @@
   <note-t type="array">
     <note-t>inserted</note-t>
   </note-t>
+  <rights-summary-t type="array">
+    <rights-summary-t>inserted</rights-summary-t>
+  </rights-summary-t>
+  <rights-summary-display type="array">
+    <rights-summary-display>inserted</rights-summary-display>
+  </rights-summary-display>
 </hash>

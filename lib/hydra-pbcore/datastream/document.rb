@@ -105,7 +105,7 @@ class Document < ActiveFedora::NokogiriDatastream
     t.collection_number(:ref=>[:pbcoreRelation, :coll_num], :index_as => [:searchable, :displayable])
     t.accession_number(:ref=>[:pbcoreRelation, :acc_num], :index_as => [:searchable, :displayable])
 
-    t.pbcoreCoverage(:index_as => [:not_searchable])
+    t.pbcoreCoverage
     # Terms for time and place
     t.event_place(:path=>"pbcoreCoverage/coverage", 
       :attributes => {:annotation=>"Event Place"},
@@ -136,7 +136,11 @@ class Document < ActiveFedora::NokogiriDatastream
     t.publisher_role(:proxy=>[:publisher, :role], :index_as => [:searchable, :displayable])
 
     t.note(:path=>"pbcoreAnnotation", :atttributes=>{ :annotationType=>"Notes" }, :index_as => [:searchable])
-    t.rights_summary(:path => "pbcoreRightsSummary", :index => [:searchable, :displayable])
+
+    t.pbcoreRightsSummary do
+      t.rightsSummary
+    end
+    t.rights_summary(:ref => [:pbcoreRightsSummary, :rightsSummary], :index_as => [:searchable, :displayable])
 
   end
 
@@ -200,7 +204,9 @@ class Document < ActiveFedora::NokogiriDatastream
             xml.text "Temporal"
           }
         }
-        xml.pbcoreRightsSummary
+        xml.pbcoreRightsSummary {
+          xml.rightsSummary
+        }
         xml.pbcoreAnnotation(:annotationType=>"Notes")
 
       }

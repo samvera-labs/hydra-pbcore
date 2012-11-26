@@ -31,7 +31,9 @@
     <coverage annotation="Event Date">2012-11-11</coverage>
     <coverageType>Temporal</coverageType>
   </pbcoreCoverage>
-  <pbcoreRightsSummary>inserted</pbcoreRightsSummary>
+  <pbcoreRightsSummary>
+    <rightsSummary>inserted</rightsSummary>
+  </pbcoreRightsSummary>
   <pbcoreAnnotation annotationType="Notes">inserted</pbcoreAnnotation>
   <pbcorePublisher>
     <publisher>inserted</publisher>

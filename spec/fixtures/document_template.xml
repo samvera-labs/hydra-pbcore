@@ -31,6 +31,8 @@
     <coverage annotation="Event Date"/>
     <coverageType>Temporal</coverageType>
   </pbcoreCoverage>
-  <pbcoreRightsSummary/>
+  <pbcoreRightsSummary>
+    <rightsSummary/>
+  </pbcoreRightsSummary>
   <pbcoreAnnotation annotationType="Notes"/>
 </pbcoreDescriptionDocument>
