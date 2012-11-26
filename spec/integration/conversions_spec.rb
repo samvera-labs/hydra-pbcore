@@ -47,13 +47,26 @@ describe "Converting" do
   end
 
   describe "#clean_document" do
-    it "should correct and invalid pbcoreDocument" do
-      doc = HydraPbcore::Datastream::Deprecated::DigitalDocument.from_xml(integration_fixture "digital_document_rrhof_1904.xml")
-      doc.clean_document
-      save_template doc.to_xml, "converted_digital_document_rrhof_1904.xml"
-      equivalent_xml_files("converted_digital_document_rrhof_1904.xml").should be_true
-      save_template doc.to_pbcore_xml, "valid_pbcore.xml"
-      doc.valid?.should == []
+    it "should correct invalid pbcoreDigitalDocuments" do
+      ["digital_document_rrhof_1904.xml","digital_document_rrhof_2405.xml"].each do |file|
+        doc = HydraPbcore::Datastream::Deprecated::DigitalDocument.from_xml(integration_fixture file)
+        doc.clean_document
+        save_template doc.to_xml, ("converted_"+file)
+        equivalent_xml_files(("converted_"+file)).should be_true
+        save_template doc.to_pbcore_xml, "valid_pbcore.xml"
+        doc.valid?.should == []
+      end
+    end
+    it "should correct invalid pbcoreDocuments" do
+      ["document_rrhof_524.xml","document_rrhof_2439.xml"].each do |file|
+        doc = HydraPbcore::Datastream::Deprecated::Document.from_xml(integration_fixture file)
+        doc.to_document
+        doc.clean_document
+        save_template doc.to_xml, ("converted_"+file)
+        equivalent_xml_files(("converted_"+file)).should be_true
+        save_template doc.to_pbcore_xml, "valid_pbcore.xml"
+        doc.valid?.should == []
+      end
     end
   end
 

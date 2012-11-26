@@ -1,0 +1,19 @@
+<pbcoreDescriptionDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html">
+  <pbcoreIdentifier annotation="PID" source="Rock and Roll Hall of Fame and Museum"/>
+  <pbcoreTitle titleType="Main">David Ritz. Tape 67.</pbcoreTitle>
+  <pbcoreDescription annotation="Summary" descriptionType="Description" descriptionTypeRef="http://pbcore.org/vocabularies/pbcoreDescription/descriptionType#description" descriptionTypeSource="pbcoreDescription/descriptionType">Interview with David Ritz on the subject of Jerry Wexler. Other topics discussed include Muscle Shoals, Jimmie Johnson, and Ahmet Ertegun.</pbcoreDescription>
+  <pbcoreDescription annotation="Parts List" descriptionType="Table of Contents" descriptionTypeRef="http://pbcore.org/vocabularies/pbcoreDescription/descriptionType#table-of-contents" descriptionTypeSource="pbcoreDescription/descriptionType"/>
+  <pbcoreRelation>
+    <pbcoreRelationType ref="http://pbcore.org/vocabularies/relationType#is-part-of" source="PBCore relationType">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Event Series"/>
+  </pbcoreRelation>
+  <pbcoreCoverage>
+    <coverage annotation="Event Place"/>
+    <coverageType>Spatial</coverageType>
+  </pbcoreCoverage>
+  <pbcoreCoverage>
+    <coverage annotation="Event Date">1999</coverage>
+    <coverageType>Temporal</coverageType>
+  </pbcoreCoverage>
+  <pbcoreAnnotation annotationType="Notes"/>
+</pbcoreDescriptionDocument>
