@@ -45,6 +45,15 @@ module HydraPbcore::Templates
         }
       end
 
+      define_template :event_date do |xml, date|
+        xml.pbcoreCoverage {
+          xml.coverage(date, :annotation=>"Event Date")
+          xml.coverageType {
+            xml.text "Temporal"
+          }
+        }
+      end
+
     end
   end
 
@@ -66,6 +75,10 @@ module HydraPbcore::Templates
 
   def insert_place(location)
     add_child_node(ng_xml.root, :event_place, location)
+  end
+
+  def insert_date(date)
+    add_child_node(ng_xml.root, :event_date, date)
   end
 
   def digital_instantiation

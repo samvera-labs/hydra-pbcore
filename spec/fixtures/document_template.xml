@@ -23,14 +23,6 @@
     <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
     <pbcoreRelationIdentifier annotation="Accession Number"/>
   </pbcoreRelation>
-  <pbcoreCoverage>
-    <coverage annotation="Event Place"/>
-    <coverageType>Spatial</coverageType>
-  </pbcoreCoverage>
-  <pbcoreCoverage>
-    <coverage annotation="Event Date"/>
-    <coverageType>Temporal</coverageType>
-  </pbcoreCoverage>
   <pbcoreRightsSummary>
     <rightsSummary/>
   </pbcoreRightsSummary>

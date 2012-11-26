@@ -246,18 +246,14 @@
   </pbcoreDescriptionDocument-0-lc-subject-genre-t>
   <pbcoreDescriptionDocument-event-place-t type="array">
     <pbcoreDescriptionDocument-event-place-t>inserted</pbcoreDescriptionDocument-event-place-t>
-    <pbcoreDescriptionDocument-event-place-t>inserted</pbcoreDescriptionDocument-event-place-t>
   </pbcoreDescriptionDocument-event-place-t>
   <pbcoreDescriptionDocument-event-place-display type="array">
-    <pbcoreDescriptionDocument-event-place-display>inserted</pbcoreDescriptionDocument-event-place-display>
     <pbcoreDescriptionDocument-event-place-display>inserted</pbcoreDescriptionDocument-event-place-display>
   </pbcoreDescriptionDocument-event-place-display>
   <pbcoreDescriptionDocument-0-event-place-t type="array">
     <pbcoreDescriptionDocument-0-event-place-t>inserted</pbcoreDescriptionDocument-0-event-place-t>
-    <pbcoreDescriptionDocument-0-event-place-t>inserted</pbcoreDescriptionDocument-0-event-place-t>
   </pbcoreDescriptionDocument-0-event-place-t>
   <pbcoreDescriptionDocument-0-event-place-display type="array">
-    <pbcoreDescriptionDocument-0-event-place-display>inserted</pbcoreDescriptionDocument-0-event-place-display>
     <pbcoreDescriptionDocument-0-event-place-display>inserted</pbcoreDescriptionDocument-0-event-place-display>
   </pbcoreDescriptionDocument-0-event-place-display>
   <pbcoreDescriptionDocument-event-date-dt type="array">
@@ -512,10 +508,8 @@
   </accession-number-display>
   <event-place-t type="array">
     <event-place-t>inserted</event-place-t>
-    <event-place-t>inserted</event-place-t>
   </event-place-t>
   <event-place-display type="array">
-    <event-place-display>inserted</event-place-display>
     <event-place-display>inserted</event-place-display>
   </event-place-display>
   <event-date-dt type="array">

@@ -192,18 +192,6 @@ class Document < ActiveFedora::NokogiriDatastream
           }
           xml.pbcoreRelationIdentifier(:annotation=>"Accession Number")
         }
-        xml.pbcoreCoverage {
-          xml.coverage(:annotation=>"Event Place")
-          xml.coverageType {
-            xml.text "Spatial"
-          }
-        }
-        xml.pbcoreCoverage {
-          xml.coverage(:annotation=>"Event Date")
-          xml.coverageType {
-            xml.text "Temporal"
-          }
-        }
         xml.pbcoreRightsSummary {
           xml.rightsSummary
         }

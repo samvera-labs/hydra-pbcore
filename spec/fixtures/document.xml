@@ -23,14 +23,6 @@
     <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
     <pbcoreRelationIdentifier annotation="Accession Number">inserted</pbcoreRelationIdentifier>
   </pbcoreRelation>
-  <pbcoreCoverage>
-    <coverage annotation="Event Place">inserted</coverage>
-    <coverageType>Spatial</coverageType>
-  </pbcoreCoverage>
-  <pbcoreCoverage>
-    <coverage annotation="Event Date">2012-11-11</coverage>
-    <coverageType>Temporal</coverageType>
-  </pbcoreCoverage>
   <pbcoreRightsSummary>
     <rightsSummary>inserted</rightsSummary>
   </pbcoreRightsSummary>
@@ -58,6 +50,10 @@
   <pbcoreCoverage>
     <coverage annotation="Event Place">inserted</coverage>
     <coverageType>Spatial</coverageType>
+  </pbcoreCoverage>
+  <pbcoreCoverage>
+    <coverage annotation="Event Date">2012-11-11</coverage>
+    <coverageType>Temporal</coverageType>
   </pbcoreCoverage>
   <pbcoreTitle titleType="Alternative">inserted</pbcoreTitle>
   <pbcoreTitle titleType="Chapter">inserted</pbcoreTitle>

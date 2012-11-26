@@ -35,8 +35,6 @@ describe HydraPbcore::Datastream::Document do
         [:lc_genre],
         [:lc_subject_genre],
         [:event_series],
-        [:event_place],
-        [:event_date],
         [:contributor_name],
         [:contributor_role],
         [:publisher_name],
@@ -110,6 +108,7 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.insert_contributor("inserted")
       @object_ds.insert_contributor
       @object_ds.insert_place("inserted")
+      @object_ds.insert_date("2012-11-11")
 
       @object_ds.pbc_id               = "inserted"
       @object_ds.main_title           = "inserted"
@@ -130,8 +129,6 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.lc_genre             = "inserted"
       @object_ds.lc_subject_genre     = "inserted"
       @object_ds.event_series         = "inserted"
-      @object_ds.event_place          = "inserted"
-      @object_ds.event_date           = "2012-11-11"
       @object_ds.contributor_name     = "inserted"
       @object_ds.contributor_role     = "inserted"
       @object_ds.publisher_name       = "inserted"
