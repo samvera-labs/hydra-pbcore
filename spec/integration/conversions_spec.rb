@@ -46,12 +46,12 @@ describe "Converting" do
     end
   end
 
-  describe "HydraPbcore::Datastream::Deprecated::DigitalDocument to HydraPbcore::Datastream::Document" do
+  describe "#clean_document" do
     it "should clean up invalid xml" do
-      pending "Additional methods needed"
       doc = HydraPbcore::Datastream::Deprecated::DigitalDocument.from_xml(integration_fixture "digital_document_rrhof_1904.xml")
-      doc.to_document
-      save_template doc.to_xml, "converted_digital_document_rrhof_1904"
+      doc.clean_document
+      save_template doc.to_xml, "converted_digital_document_rrhof_1904.xml"
+      equivalent_xml_files("converted_digital_document_rrhof_1904.xml").should be_true
     end
   end
 

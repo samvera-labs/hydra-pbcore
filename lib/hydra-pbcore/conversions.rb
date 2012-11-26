@@ -44,4 +44,20 @@ module HydraPbcore::Conversions
     self.ng_xml = self.ng_xml.xpath("//pbcoreInstantiation").to_xml
   end
 
+  # Removes unwanted pbcoreRelation nodes and orphaned pbcoreRelationIdentifier nodes
+  def clean_document(xml = self.ng_xml)
+    xml.search("//pbcoreRelation").each do |node|  
+      node.remove unless is_event_series?(node)
+    end
+    xml.search("/pbcoreDescriptionDocument/pbcoreRelationIdentifier").collect {|n| n.remove}
+  end
+
+  def is_event_series?(node)
+    unless node.at_xpath("pbcoreRelationIdentifier").nil?
+      if node.at_xpath("pbcoreRelationIdentifier").attribute("annotation").to_s == "Event Series"
+        return true
+      end
+    end
+  end
+
 end
