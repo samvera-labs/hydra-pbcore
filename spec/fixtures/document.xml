@@ -53,6 +53,10 @@
     <contributor></contributor>
     <contributorRole source="MARC relator terms"></contributorRole>
   </pbcoreContributor>
+  <pbcoreCoverage>
+    <coverage annotation="Event Place">inserted</coverage>
+    <coverageType>Spatial</coverageType>
+  </pbcoreCoverage>
   <pbcoreTitle titleType="Alternative">inserted</pbcoreTitle>
   <pbcoreTitle titleType="Chapter">inserted</pbcoreTitle>
   <pbcoreTitle titleType="Episode">inserted</pbcoreTitle>

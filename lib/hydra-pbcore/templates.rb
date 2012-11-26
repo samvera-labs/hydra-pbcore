@@ -36,6 +36,15 @@ module HydraPbcore::Templates
         }
       end
 
+      define_template :event_place do |xml, location|
+        xml.pbcoreCoverage {
+          xml.coverage(location, :annotation=>"Event Place")
+          xml.coverageType {
+            xml.text "Spatial"
+          }
+        }
+      end
+
     end
   end
 
@@ -53,6 +62,10 @@ module HydraPbcore::Templates
 
   def insert_previous(file)
     add_child_node(find_by_terms(:pbcoreInstantiation).first, :previous, file)
+  end
+
+  def insert_place(location)
+    add_child_node(ng_xml.root, :event_place, location)
   end
 
   def digital_instantiation

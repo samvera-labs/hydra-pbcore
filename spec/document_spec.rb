@@ -109,6 +109,7 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.insert_publisher("inserted")
       @object_ds.insert_contributor("inserted")
       @object_ds.insert_contributor
+      @object_ds.insert_place("inserted")
 
       @object_ds.pbc_id               = "inserted"
       @object_ds.main_title           = "inserted"

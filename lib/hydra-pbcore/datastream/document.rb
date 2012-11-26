@@ -105,6 +105,7 @@ class Document < ActiveFedora::NokogiriDatastream
     t.collection_number(:ref=>[:pbcoreRelation, :coll_num], :index_as => [:searchable, :displayable])
     t.accession_number(:ref=>[:pbcoreRelation, :acc_num], :index_as => [:searchable, :displayable])
 
+    t.pbcoreCoverage(:index_as => [:not_searchable])
     # Terms for time and place
     t.event_place(:path=>"pbcoreCoverage/coverage", 
       :attributes => {:annotation=>"Event Place"},
