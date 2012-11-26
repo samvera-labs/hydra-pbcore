@@ -1,10 +1,11 @@
 module HydraPbcore
 class Behaviors
 
-  # This module is a work in progress
+  # This module is deprecated and will be removed in release 2.0.0
 
   # Nokogiri's add_namespace doesn't seem to work, so we have to insert it "manually"
   def self.insert_pbcore_namespace(doc)
+    puts "WARNING: HydraPbcore::Behaviors is deprecated and will be removed in release 2.0"
     index = doc.to_s.index("xmlns:xsi")
     new_s = doc.to_s.insert(index.to_i, 'xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html" ')
     new_doc = Nokogiri::XML(new_s)
@@ -14,6 +15,7 @@ class Behaviors
   # Validates a PBCore document against an xsd
   # Returns an array of errors -- an empty array means it's valid
   def self.validate(doc)
+    puts "WARNING: HydraPbcore::Behaviors is deprecated and will be removed in release 2.0"
     xsd = Nokogiri::XML::Schema(open("http://pbcore.org/xsd/pbcore-2.0.xsd"))
     xsd.validate(doc)
   end
@@ -21,7 +23,7 @@ class Behaviors
 
   # Reorders the nodes of pbcoreDescriptionDocument to conform with the correct order
   def self.reorder_document(doc)
-
+    puts "WARNING: HydraPbcore::Behaviors is deprecated and will be removed in release 2.0"
     nodes = [
       "pbcoreAssetType",
       "pbcoreAssetDate",
