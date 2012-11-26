@@ -1,9 +1,21 @@
 # Methods for converting HydraPbcore 1.x datastreams to HydraPbcore 2.x datastreams
+#
+# Verion 1.x of the HydraPbcore gem uses two kinds of pbcoreDocuments, one which includes an instantation
+# and one which does not.  Version 2 of the gem refactors these so that there
+# is only one kind of pbcoreDocument and two kinds of instatiations.  This offers greater flexibility
+# as any number of instantiations may be attached to a document.  Instatntiations come in two types,
+# one is physical, meaning it represents a tape or other
+# tangible object on which the video content resides, while the other kind is
+# digital, representing a video file.
+#
+# These methods attempt to correct invalid or inconsistent xml created using the first version of the 
+# gem.
 
 module HydraPbcore::Conversions
 
   # Converts a HydraPbcore::Datastream::Deprecated::Document to a HydraPbcore::Datastream::Document
-  # Simply removes the pbcoreInstantiation node
+  # - the existing pbcoreInstantiation node is removed
+  # - any pbcoreRelation or pbcoreRelationIdentifier is removed except for terms identifying "Event Series"
   def to_document
     raise "only works with HydraPbcore::Datastream::Deprecated::Document" unless self.kind_of?(HydraPbcore::Datastream::Deprecated::Document)
     self.remove_node(:pbcoreInstantiation)
@@ -12,10 +24,9 @@ module HydraPbcore::Conversions
 
   # Extracts the instantation from a HydraPbcore::Datastream::Deprecated::Document and returns
   # a physical HydraPbcore::Datastream::Instantion
-  # This process includes:
-  # - remove all instantiationRelation nodes (these should be processed prior to removal)
-  # - add source="PBCore instantiationColors" to instantiationColors node
-  # - extract only the pbcoreInstantiation node
+  # - removes all instantiationRelation nodes
+  # - adds source="PBCore instantiationColors" to instantiationColors node
+  # - extracts the pbcoreInstantiation node and returns new Instantiation object
   def to_physical_instantiation(xml = self.ng_xml)
     raise "only works with HydraPbcore::Datastream::Deprecated::Document" unless self.kind_of?(HydraPbcore::Datastream::Deprecated::Document)
     xml.search("//instantiationRelation").each do |node|  
