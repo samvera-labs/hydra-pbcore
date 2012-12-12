@@ -19,7 +19,6 @@ module HydraPbcore::Conversions
   def to_document
     raise "only works with HydraPbcore::Datastream::Deprecated::Document" unless self.kind_of?(HydraPbcore::Datastream::Deprecated::Document)
     self.remove_node(:pbcoreInstantiation)
-    self.dirty = true
   end
 
   # Extracts the instantation from a HydraPbcore::Datastream::Deprecated::Document and returns
