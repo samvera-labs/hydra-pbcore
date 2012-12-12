@@ -20,7 +20,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency('nokogiri')
   gem.add_dependency('om')
   gem.add_dependency('active-fedora')
-  gem.add_dependency('solrizer', '~> 2.0.0.rc3' )
+  gem.add_dependency('solrizer')
   gem.add_development_dependency('yard')
   gem.add_development_dependency('redcarpet')
   # For Development
