@@ -15,7 +15,7 @@ class Document < ActiveFedora::NokogiriDatastream
       :attributes=>{ :source=>"Rock and Roll Hall of Fame and Museum", :annotation=>"PID" }
     )
 
-    t.main_title(:path=>"pbcoreTitle", :attributes=>{ :titleType=>"Main" }, :index_as => [:searchable, :displayable])
+    t.title(:path=>"pbcoreTitle", :attributes=>{ :titleType=>"Main" }, :index_as => [:searchable, :displayable])
     t.alternative_title(:path=>"pbcoreTitle", :attributes=>{ :titleType=>"Alternative" },
       :index_as => [:searchable, :displayable]
     )
@@ -30,7 +30,7 @@ class Document < ActiveFedora::NokogiriDatastream
     )
 
     # This is only to display all subjects
-    t.subject_topic(:path=>"pbcoreSubject", :index_as => [:searchable, :facetable])
+    t.subject(:path=>"pbcoreSubject", :index_as => [:facetable])
 
     # Individual subject types defined for entry
     t.lc_subject(:path=>"pbcoreSubject", 
@@ -59,7 +59,7 @@ class Document < ActiveFedora::NokogiriDatastream
         :index_as => [:searchable, :displayable]
     )
 
-    t.parts_list(:path=>"pbcoreDescription", 
+    t.contents(:path=>"pbcoreDescription", 
       :attributes=>{ 
         :descriptionType=>"Table of Contents",
         :descriptionTypeSource=>"pbcoreDescription/descriptionType",
@@ -70,7 +70,7 @@ class Document < ActiveFedora::NokogiriDatastream
     )
 
     # This is only to display all genres
-    t.genres(:path=>"pbcoreGenre", :index_as => [:searchable, :facetable])
+    t.genre(:path=>"pbcoreGenre", :index_as => [:facetable])
 
     # Individual genre types defined for entry
     t.getty_genre(:path=>"pbcoreGenre", 
@@ -100,7 +100,7 @@ class Document < ActiveFedora::NokogiriDatastream
     t.pbcoreRelation do
       t.pbcoreRelationIdentifier(:attributes=>{ :annotation=>"Event Series" })
     end
-    t.event_series(:ref=>[:pbcoreRelation, :pbcoreRelationIdentifier], :index_as => [:searchable, :displayable])
+    t.series(:ref=>[:pbcoreRelation, :pbcoreRelationIdentifier], :index_as => [:facetable, :displayable])
 
     # Terms for time and place
     t.event_place(:path=>"pbcoreCoverage/coverage", 
@@ -177,15 +177,15 @@ class Document < ActiveFedora::NokogiriDatastream
     t.creation_date(:ref=>[:pbcoreInstantiation, :instantiationDate], :index_as => [:not_searchable, :converted_date, :displayable])
     t.barcode(:ref=>[:pbcoreInstantiation, :instantiationIdentifier], :index_as => [:searchable, :displayable])
     t.repository(:ref=>[:pbcoreInstantiation, :instantiationLocation], :index_as => [:searchable, :displayable])
-    t.format(:ref=>[:pbcoreInstantiation, :instantiationPhysical], :index_as => [:searchable, :facetable])
+    t.media_format(:ref=>[:pbcoreInstantiation, :instantiationPhysical], :index_as => [:searchable, :facetable])
     t.standard(:ref=>[:pbcoreInstantiation, :instantiationStandard], :index_as => [:searchable, :facetable])
     t.media_type(:ref=>[:pbcoreInstantiation, :instantiationMediaType], :index_as => [:searchable, :facetable])
     t.generation(:ref=>[:pbcoreInstantiation, :instantiationGenerations], :index_as => [:searchable, :displayable])
     t.language(:ref=>[:pbcoreInstantiation, :instantiationLanguage], :index_as => [:searchable, :displayable])
     t.colors(:ref=>[:pbcoreInstantiation, :instantiationColors], :index_as => [:searchable, :displayable])
-    t.archival_collection(
+    t.collection(
       :ref=>[:pbcoreInstantiation, :instantiationRelation, :arc_collection], 
-      :index_as => [:searchable, :facetable]
+      :index_as => [:facetable]
     )
     t.archival_series(
       :ref=>[:pbcoreInstantiation, :instantiationRelation, :arc_series], 
@@ -198,7 +198,7 @@ class Document < ActiveFedora::NokogiriDatastream
     t.accession_number(:ref=>[:pbcoreInstantiation, :instantiationRelation, :acc_number],
       :index_as => [:searchable, :displayable]
     )
-    t.usage(:ref=>[:pbcoreInstantiation, :instantiationRights, :rightsSummary],
+    t.access(:ref=>[:pbcoreInstantiation, :instantiationRights, :rightsSummary],
       :index_as => [:searchable, :displayable]
     )
     

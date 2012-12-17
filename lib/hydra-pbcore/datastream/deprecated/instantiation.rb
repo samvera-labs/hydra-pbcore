@@ -189,7 +189,6 @@ class Instantiation < ActiveFedora::NokogiriDatastream
     # Proxies to the relation fields
     t.next_(:proxy=>[:pbcoreInstantiation, :next_inst, :instantiationRelationIdentifier])
     t.previous_(:proxy=>[:pbcoreInstantiation, :previous_inst, :instantiationRelationIdentifier])
-
   end
 
   def self.xml_template
