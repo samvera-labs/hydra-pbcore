@@ -614,4 +614,6 @@
   <access-display type="array">
     <access-display>access</access-display>
   </access-display>
+  <format>Video</format>
+  <language-facet>Unknown</language-facet>
 </hash>
