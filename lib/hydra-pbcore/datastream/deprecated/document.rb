@@ -114,14 +114,13 @@ class Document < ActiveFedora::NokogiriDatastream
 
     # Contributor names and roles
     t.contributor(:path=>"pbcoreContributor") do
-      t.name_(:path=>"contributor", :index_as => [:searchable, :facetable])
+      t.name_(:path=>"contributor")
       t.role_(:path=>"contributorRole", 
-        :attributes=>{ :source=>"MARC relator terms" },
-        :index_as => [:searchable, :displayable]
+        :attributes=>{ :source=>"MARC relator terms" }
       )
     end
-    t.contributor_name(:proxy=>[:contributor, :name])
-    t.contributor_role(:proxy=>[:contributor, :role])
+    t.contributor_name(:proxy=>[:contributor, :name], :index_as => [:searchable, :facetable])
+    t.contributor_role(:proxy=>[:contributor, :role], :index_as => [:searchable, :displayable])
 
     # Publisher names and roles
     t.publisher(:path=>"pbcorePublisher") do
@@ -131,7 +130,7 @@ class Document < ActiveFedora::NokogiriDatastream
     t.publisher_name(:proxy=>[:publisher, :name], :index_as => [:searchable, :facetable])
     t.publisher_role(:proxy=>[:publisher, :role], :index_as => [:searchable, :displayable])
 
-    t.note(:path=>"pbcoreAnnotation", :atttributes=>{ :annotationType=>"Notes" }, :index_as => [:searchable])
+    t.note(:path=>"pbcoreAnnotation", :atttributes=>{ :annotationType=>"Notes" }, :index_as => [:searchable, :displayable])
 
     #
     # pbcoreInstantiation fields for the physical item
@@ -178,8 +177,8 @@ class Document < ActiveFedora::NokogiriDatastream
     t.barcode(:ref=>[:pbcoreInstantiation, :instantiationIdentifier], :index_as => [:searchable, :displayable])
     t.repository(:ref=>[:pbcoreInstantiation, :instantiationLocation], :index_as => [:searchable, :displayable])
     t.media_format(:ref=>[:pbcoreInstantiation, :instantiationPhysical], :index_as => [:searchable, :facetable])
-    t.standard(:ref=>[:pbcoreInstantiation, :instantiationStandard], :index_as => [:searchable, :facetable])
-    t.media_type(:ref=>[:pbcoreInstantiation, :instantiationMediaType], :index_as => [:searchable, :facetable])
+    t.standard(:ref=>[:pbcoreInstantiation, :instantiationStandard], :index_as => [:searchable, :displayable])
+    t.media_type(:ref=>[:pbcoreInstantiation, :instantiationMediaType], :index_as => [:searchable, :displayable])
     t.generation(:ref=>[:pbcoreInstantiation, :instantiationGenerations], :index_as => [:searchable, :displayable])
     t.language(:ref=>[:pbcoreInstantiation, :instantiationLanguage], :index_as => [:searchable, :displayable])
     t.colors(:ref=>[:pbcoreInstantiation, :instantiationColors], :index_as => [:searchable, :displayable])
