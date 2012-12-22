@@ -270,38 +270,22 @@
   </pbcoreDescriptionDocument-0-event-date-display>
   <pbcoreDescriptionDocument-contributor-name-t type="array">
     <pbcoreDescriptionDocument-contributor-name-t>contributor_name</pbcoreDescriptionDocument-contributor-name-t>
-    <pbcoreDescriptionDocument-contributor-name-t>contributor_name</pbcoreDescriptionDocument-contributor-name-t>
   </pbcoreDescriptionDocument-contributor-name-t>
   <pbcoreDescriptionDocument-contributor-name-facet type="array">
     <pbcoreDescriptionDocument-contributor-name-facet>contributor_name</pbcoreDescriptionDocument-contributor-name-facet>
-    <pbcoreDescriptionDocument-contributor-name-facet>contributor_name</pbcoreDescriptionDocument-contributor-name-facet>
   </pbcoreDescriptionDocument-contributor-name-facet>
-  <pbcoreDescriptionDocument-0-contributor-0-name-t type="array">
-    <pbcoreDescriptionDocument-0-contributor-0-name-t>contributor_name</pbcoreDescriptionDocument-0-contributor-0-name-t>
-  </pbcoreDescriptionDocument-0-contributor-0-name-t>
-  <pbcoreDescriptionDocument-0-contributor-0-name-facet type="array">
-    <pbcoreDescriptionDocument-0-contributor-0-name-facet>contributor_name</pbcoreDescriptionDocument-0-contributor-0-name-facet>
-  </pbcoreDescriptionDocument-0-contributor-0-name-facet>
-  <pbcoreDescriptionDocument-contributor-role-t type="array">
-    <pbcoreDescriptionDocument-contributor-role-t>contributor_role</pbcoreDescriptionDocument-contributor-role-t>
-    <pbcoreDescriptionDocument-contributor-role-t>contributor_role</pbcoreDescriptionDocument-contributor-role-t>
-  </pbcoreDescriptionDocument-contributor-role-t>
-  <pbcoreDescriptionDocument-contributor-role-display type="array">
-    <pbcoreDescriptionDocument-contributor-role-display>contributor_role</pbcoreDescriptionDocument-contributor-role-display>
-    <pbcoreDescriptionDocument-contributor-role-display>contributor_role</pbcoreDescriptionDocument-contributor-role-display>
-  </pbcoreDescriptionDocument-contributor-role-display>
-  <pbcoreDescriptionDocument-0-contributor-0-role-t type="array">
-    <pbcoreDescriptionDocument-0-contributor-0-role-t>contributor_role</pbcoreDescriptionDocument-0-contributor-0-role-t>
-  </pbcoreDescriptionDocument-0-contributor-0-role-t>
-  <pbcoreDescriptionDocument-0-contributor-0-role-display type="array">
-    <pbcoreDescriptionDocument-0-contributor-0-role-display>contributor_role</pbcoreDescriptionDocument-0-contributor-0-role-display>
-  </pbcoreDescriptionDocument-0-contributor-0-role-display>
   <pbcoreDescriptionDocument-0-contributor-name-t type="array">
     <pbcoreDescriptionDocument-0-contributor-name-t>contributor_name</pbcoreDescriptionDocument-0-contributor-name-t>
   </pbcoreDescriptionDocument-0-contributor-name-t>
   <pbcoreDescriptionDocument-0-contributor-name-facet type="array">
     <pbcoreDescriptionDocument-0-contributor-name-facet>contributor_name</pbcoreDescriptionDocument-0-contributor-name-facet>
   </pbcoreDescriptionDocument-0-contributor-name-facet>
+  <pbcoreDescriptionDocument-contributor-role-t type="array">
+    <pbcoreDescriptionDocument-contributor-role-t>contributor_role</pbcoreDescriptionDocument-contributor-role-t>
+  </pbcoreDescriptionDocument-contributor-role-t>
+  <pbcoreDescriptionDocument-contributor-role-display type="array">
+    <pbcoreDescriptionDocument-contributor-role-display>contributor_role</pbcoreDescriptionDocument-contributor-role-display>
+  </pbcoreDescriptionDocument-contributor-role-display>
   <pbcoreDescriptionDocument-0-contributor-role-t type="array">
     <pbcoreDescriptionDocument-0-contributor-role-t>contributor_role</pbcoreDescriptionDocument-0-contributor-role-t>
   </pbcoreDescriptionDocument-0-contributor-role-t>
@@ -335,9 +319,15 @@
   <pbcoreDescriptionDocument-note-t type="array">
     <pbcoreDescriptionDocument-note-t>note</pbcoreDescriptionDocument-note-t>
   </pbcoreDescriptionDocument-note-t>
+  <pbcoreDescriptionDocument-note-display type="array">
+    <pbcoreDescriptionDocument-note-display>note</pbcoreDescriptionDocument-note-display>
+  </pbcoreDescriptionDocument-note-display>
   <pbcoreDescriptionDocument-0-note-t type="array">
     <pbcoreDescriptionDocument-0-note-t>note</pbcoreDescriptionDocument-0-note-t>
   </pbcoreDescriptionDocument-0-note-t>
+  <pbcoreDescriptionDocument-0-note-display type="array">
+    <pbcoreDescriptionDocument-0-note-display>note</pbcoreDescriptionDocument-0-note-display>
+  </pbcoreDescriptionDocument-0-note-display>
   <pbcoreDescriptionDocument-pbcoreInstantiation-inst-cond-note-t type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-inst-cond-note-t>inserted</pbcoreDescriptionDocument-pbcoreInstantiation-inst-cond-note-t>
   </pbcoreDescriptionDocument-pbcoreInstantiation-inst-cond-note-t>
@@ -543,32 +533,16 @@
   </event-date-display>
   <contributor-name-t type="array">
     <contributor-name-t>contributor_name</contributor-name-t>
-    <contributor-name-t>contributor_name</contributor-name-t>
   </contributor-name-t>
   <contributor-name-facet type="array">
     <contributor-name-facet>contributor_name</contributor-name-facet>
-    <contributor-name-facet>contributor_name</contributor-name-facet>
   </contributor-name-facet>
-  <contributor-0-name-t type="array">
-    <contributor-0-name-t>contributor_name</contributor-0-name-t>
-  </contributor-0-name-t>
-  <contributor-0-name-facet type="array">
-    <contributor-0-name-facet>contributor_name</contributor-0-name-facet>
-  </contributor-0-name-facet>
   <contributor-role-t type="array">
-    <contributor-role-t>contributor_role</contributor-role-t>
     <contributor-role-t>contributor_role</contributor-role-t>
   </contributor-role-t>
   <contributor-role-display type="array">
     <contributor-role-display>contributor_role</contributor-role-display>
-    <contributor-role-display>contributor_role</contributor-role-display>
   </contributor-role-display>
-  <contributor-0-role-t type="array">
-    <contributor-0-role-t>contributor_role</contributor-0-role-t>
-  </contributor-0-role-t>
-  <contributor-0-role-display type="array">
-    <contributor-0-role-display>contributor_role</contributor-0-role-display>
-  </contributor-0-role-display>
   <publisher-name-t type="array">
     <publisher-name-t>publisher_name</publisher-name-t>
   </publisher-name-t>
@@ -584,6 +558,9 @@
   <note-t type="array">
     <note-t>note</note-t>
   </note-t>
+  <note-display type="array">
+    <note-display>note</note-display>
+  </note-display>
   <pbcoreInstantiation-inst-cond-note-t type="array">
     <pbcoreInstantiation-inst-cond-note-t>inserted</pbcoreInstantiation-inst-cond-note-t>
   </pbcoreInstantiation-inst-cond-note-t>
@@ -635,15 +612,15 @@
   <standard-t type="array">
     <standard-t>standard</standard-t>
   </standard-t>
-  <standard-facet type="array">
-    <standard-facet>standard</standard-facet>
-  </standard-facet>
+  <standard-display type="array">
+    <standard-display>standard</standard-display>
+  </standard-display>
   <media-type-t type="array">
     <media-type-t>media_type</media-type-t>
   </media-type-t>
-  <media-type-facet type="array">
-    <media-type-facet>media_type</media-type-facet>
-  </media-type-facet>
+  <media-type-display type="array">
+    <media-type-display>media_type</media-type-display>
+  </media-type-display>
   <generation-t type="array">
     <generation-t>generation</generation-t>
   </generation-t>
