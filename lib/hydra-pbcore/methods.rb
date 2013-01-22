@@ -27,6 +27,7 @@ module HydraPbcore::Methods
     xsd.validate(self.to_pbcore_xml)
   end
 
+<<<<<<< HEAD
   # Returns the 4-digit year from a string
   def get_year(s)
     begin
@@ -42,6 +43,8 @@ module HydraPbcore::Methods
     end
   end
 
+=======
+>>>>>>> Overriding .to_solr to use our own mapper
   # Overrides Solrizer::XML::TerminologyBasedSolrizer.to_solr to use our own mapper
   def to_solr(solr_doc = Hash.new)
     Solrizer.default_field_mapper = HydraPbcore::Mapper.new
