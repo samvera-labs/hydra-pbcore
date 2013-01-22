@@ -1,4 +1,4 @@
-class Solrizer::FieldMapper::Default
+class HydraPbcore::Mapper < Solrizer::FieldMapper
 
   id_field 'id'
   index_as :searchable do |t|
