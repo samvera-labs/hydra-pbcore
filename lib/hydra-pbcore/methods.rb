@@ -27,4 +27,10 @@ module HydraPbcore::Methods
     xsd.validate(self.to_pbcore_xml)
   end
 
+  # Overrides Solrizer::XML::TerminologyBasedSolrizer.to_solr to use our own mapper
+  def to_solr(solr_doc = Hash.new)
+    Solrizer.default_field_mapper = HydraPbcore::Mapper.new
+    super(solr_doc)
+  end
+
 end
