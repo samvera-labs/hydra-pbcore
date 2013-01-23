@@ -10,7 +10,7 @@ describe HydraPbcore::Datastream::Deprecated::DigitalDocument do
     it "should update all of the fields in #xml_template and fields not requiring additional inserted nodes" do
       [
         [:pbc_id],
-        [:main_title],
+        [:title],
         [:alternative_title],
         [:chapter],
         [:episode],
@@ -20,25 +20,25 @@ describe HydraPbcore::Datastream::Deprecated::DigitalDocument do
         [:track],
         [:translation],
         [:summary],
-        [:parts_list],
+        [:contents],
         [:lc_subject],
         [:lc_name],
         [:rh_subject],
         [:getty_genre],
         [:lc_genre],
         [:lc_subject_genre],
-        [:event_series],
+        [:series],
         [:event_place],
         [:contributor_name],
         [:contributor_role],
         [:publisher_name],
         [:publisher_role],
         [:note],
-        [:archival_collection],
+        [:collection],
         [:archival_series],
         [:collection_number],
         [:accession_number],
-        [:usage],
+        [:access],
       ].each do |pointer|
         test_val = "#{pointer.last.to_s} value"
         @object_ds.update_values( {pointer=>{"0"=>test_val}} )
@@ -154,7 +154,7 @@ describe HydraPbcore::Datastream::Deprecated::DigitalDocument do
       @object_ds.insert_contributor
       [
         "pbc_id",
-        "main_title",
+        "title",
         "alternative_title",
         "chapter",
         "episode",
@@ -164,25 +164,25 @@ describe HydraPbcore::Datastream::Deprecated::DigitalDocument do
         "track",
         "translation",
         "summary",
-        "parts_list",
+        "contents",
         "lc_subject",
         "lc_name",
         "rh_subject",
         "getty_genre",
         "lc_genre",
         "lc_subject_genre",
-        "event_series",
+        "series",
         "event_place",
         "contributor_name",
         "contributor_role",
         "publisher_name",
         "publisher_role",
         "note",
-        "archival_collection",
+        "collection",
         "archival_series",
         "collection_number",
         "accession_number",
-        "usage"
+        "access"
       ].each do |field|
         @object_ds.send("#{field}=".to_sym, field)
       end

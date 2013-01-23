@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hash>
-  <pbcoreDescriptionDocument-main-title-t type="array">
-    <pbcoreDescriptionDocument-main-title-t>main_title</pbcoreDescriptionDocument-main-title-t>
-  </pbcoreDescriptionDocument-main-title-t>
-  <pbcoreDescriptionDocument-main-title-display type="array">
-    <pbcoreDescriptionDocument-main-title-display>main_title</pbcoreDescriptionDocument-main-title-display>
-  </pbcoreDescriptionDocument-main-title-display>
-  <pbcoreDescriptionDocument-0-main-title-t type="array">
-    <pbcoreDescriptionDocument-0-main-title-t>main_title</pbcoreDescriptionDocument-0-main-title-t>
-  </pbcoreDescriptionDocument-0-main-title-t>
-  <pbcoreDescriptionDocument-0-main-title-display type="array">
-    <pbcoreDescriptionDocument-0-main-title-display>main_title</pbcoreDescriptionDocument-0-main-title-display>
-  </pbcoreDescriptionDocument-0-main-title-display>
+  <pbcoreDescriptionDocument-title-t type="array">
+    <pbcoreDescriptionDocument-title-t>title</pbcoreDescriptionDocument-title-t>
+  </pbcoreDescriptionDocument-title-t>
+  <pbcoreDescriptionDocument-title-display type="array">
+    <pbcoreDescriptionDocument-title-display>title</pbcoreDescriptionDocument-title-display>
+  </pbcoreDescriptionDocument-title-display>
+  <pbcoreDescriptionDocument-0-title-t type="array">
+    <pbcoreDescriptionDocument-0-title-t>title</pbcoreDescriptionDocument-0-title-t>
+  </pbcoreDescriptionDocument-0-title-t>
+  <pbcoreDescriptionDocument-0-title-display type="array">
+    <pbcoreDescriptionDocument-0-title-display>title</pbcoreDescriptionDocument-0-title-display>
+  </pbcoreDescriptionDocument-0-title-display>
   <pbcoreDescriptionDocument-alternative-title-t type="array">
     <pbcoreDescriptionDocument-alternative-title-t>inserted</pbcoreDescriptionDocument-alternative-title-t>
   </pbcoreDescriptionDocument-alternative-title-t>
@@ -108,62 +108,34 @@
   <pbcoreDescriptionDocument-0-translation-display type="array">
     <pbcoreDescriptionDocument-0-translation-display>inserted</pbcoreDescriptionDocument-0-translation-display>
   </pbcoreDescriptionDocument-0-translation-display>
-  <pbcoreDescriptionDocument-subject-topic-t type="array">
-    <pbcoreDescriptionDocument-subject-topic-t>inserted</pbcoreDescriptionDocument-subject-topic-t>
-    <pbcoreDescriptionDocument-subject-topic-t>inserted</pbcoreDescriptionDocument-subject-topic-t>
-    <pbcoreDescriptionDocument-subject-topic-t>inserted</pbcoreDescriptionDocument-subject-topic-t>
-  </pbcoreDescriptionDocument-subject-topic-t>
-  <pbcoreDescriptionDocument-subject-topic-facet type="array">
-    <pbcoreDescriptionDocument-subject-topic-facet>inserted</pbcoreDescriptionDocument-subject-topic-facet>
-    <pbcoreDescriptionDocument-subject-topic-facet>inserted</pbcoreDescriptionDocument-subject-topic-facet>
-    <pbcoreDescriptionDocument-subject-topic-facet>inserted</pbcoreDescriptionDocument-subject-topic-facet>
-  </pbcoreDescriptionDocument-subject-topic-facet>
-  <pbcoreDescriptionDocument-0-subject-topic-t type="array">
-    <pbcoreDescriptionDocument-0-subject-topic-t>inserted</pbcoreDescriptionDocument-0-subject-topic-t>
-    <pbcoreDescriptionDocument-0-subject-topic-t>inserted</pbcoreDescriptionDocument-0-subject-topic-t>
-    <pbcoreDescriptionDocument-0-subject-topic-t>inserted</pbcoreDescriptionDocument-0-subject-topic-t>
-  </pbcoreDescriptionDocument-0-subject-topic-t>
-  <pbcoreDescriptionDocument-0-subject-topic-facet type="array">
-    <pbcoreDescriptionDocument-0-subject-topic-facet>inserted</pbcoreDescriptionDocument-0-subject-topic-facet>
-    <pbcoreDescriptionDocument-0-subject-topic-facet>inserted</pbcoreDescriptionDocument-0-subject-topic-facet>
-    <pbcoreDescriptionDocument-0-subject-topic-facet>inserted</pbcoreDescriptionDocument-0-subject-topic-facet>
-  </pbcoreDescriptionDocument-0-subject-topic-facet>
+  <pbcoreDescriptionDocument-subject-facet type="array">
+    <pbcoreDescriptionDocument-subject-facet>inserted</pbcoreDescriptionDocument-subject-facet>
+    <pbcoreDescriptionDocument-subject-facet>inserted</pbcoreDescriptionDocument-subject-facet>
+    <pbcoreDescriptionDocument-subject-facet>inserted</pbcoreDescriptionDocument-subject-facet>
+  </pbcoreDescriptionDocument-subject-facet>
+  <pbcoreDescriptionDocument-0-subject-facet type="array">
+    <pbcoreDescriptionDocument-0-subject-facet>inserted</pbcoreDescriptionDocument-0-subject-facet>
+    <pbcoreDescriptionDocument-0-subject-facet>inserted</pbcoreDescriptionDocument-0-subject-facet>
+    <pbcoreDescriptionDocument-0-subject-facet>inserted</pbcoreDescriptionDocument-0-subject-facet>
+  </pbcoreDescriptionDocument-0-subject-facet>
   <pbcoreDescriptionDocument-lc-subject-display type="array">
     <pbcoreDescriptionDocument-lc-subject-display>inserted</pbcoreDescriptionDocument-lc-subject-display>
   </pbcoreDescriptionDocument-lc-subject-display>
-  <pbcoreDescriptionDocument-lc-subject-t type="array">
-    <pbcoreDescriptionDocument-lc-subject-t>inserted</pbcoreDescriptionDocument-lc-subject-t>
-  </pbcoreDescriptionDocument-lc-subject-t>
   <pbcoreDescriptionDocument-0-lc-subject-display type="array">
     <pbcoreDescriptionDocument-0-lc-subject-display>inserted</pbcoreDescriptionDocument-0-lc-subject-display>
   </pbcoreDescriptionDocument-0-lc-subject-display>
-  <pbcoreDescriptionDocument-0-lc-subject-t type="array">
-    <pbcoreDescriptionDocument-0-lc-subject-t>inserted</pbcoreDescriptionDocument-0-lc-subject-t>
-  </pbcoreDescriptionDocument-0-lc-subject-t>
   <pbcoreDescriptionDocument-lc-name-display type="array">
     <pbcoreDescriptionDocument-lc-name-display>inserted</pbcoreDescriptionDocument-lc-name-display>
   </pbcoreDescriptionDocument-lc-name-display>
-  <pbcoreDescriptionDocument-lc-name-t type="array">
-    <pbcoreDescriptionDocument-lc-name-t>inserted</pbcoreDescriptionDocument-lc-name-t>
-  </pbcoreDescriptionDocument-lc-name-t>
   <pbcoreDescriptionDocument-0-lc-name-display type="array">
     <pbcoreDescriptionDocument-0-lc-name-display>inserted</pbcoreDescriptionDocument-0-lc-name-display>
   </pbcoreDescriptionDocument-0-lc-name-display>
-  <pbcoreDescriptionDocument-0-lc-name-t type="array">
-    <pbcoreDescriptionDocument-0-lc-name-t>inserted</pbcoreDescriptionDocument-0-lc-name-t>
-  </pbcoreDescriptionDocument-0-lc-name-t>
   <pbcoreDescriptionDocument-rh-subject-display type="array">
     <pbcoreDescriptionDocument-rh-subject-display>inserted</pbcoreDescriptionDocument-rh-subject-display>
   </pbcoreDescriptionDocument-rh-subject-display>
-  <pbcoreDescriptionDocument-rh-subject-t type="array">
-    <pbcoreDescriptionDocument-rh-subject-t>inserted</pbcoreDescriptionDocument-rh-subject-t>
-  </pbcoreDescriptionDocument-rh-subject-t>
   <pbcoreDescriptionDocument-0-rh-subject-display type="array">
     <pbcoreDescriptionDocument-0-rh-subject-display>inserted</pbcoreDescriptionDocument-0-rh-subject-display>
   </pbcoreDescriptionDocument-0-rh-subject-display>
-  <pbcoreDescriptionDocument-0-rh-subject-t type="array">
-    <pbcoreDescriptionDocument-0-rh-subject-t>inserted</pbcoreDescriptionDocument-0-rh-subject-t>
-  </pbcoreDescriptionDocument-0-rh-subject-t>
   <pbcoreDescriptionDocument-summary-t type="array">
     <pbcoreDescriptionDocument-summary-t>summary</pbcoreDescriptionDocument-summary-t>
   </pbcoreDescriptionDocument-summary-t>
@@ -176,74 +148,46 @@
   <pbcoreDescriptionDocument-0-summary-display type="array">
     <pbcoreDescriptionDocument-0-summary-display>summary</pbcoreDescriptionDocument-0-summary-display>
   </pbcoreDescriptionDocument-0-summary-display>
-  <pbcoreDescriptionDocument-parts-list-t type="array">
-    <pbcoreDescriptionDocument-parts-list-t>parts_list</pbcoreDescriptionDocument-parts-list-t>
-  </pbcoreDescriptionDocument-parts-list-t>
-  <pbcoreDescriptionDocument-parts-list-display type="array">
-    <pbcoreDescriptionDocument-parts-list-display>parts_list</pbcoreDescriptionDocument-parts-list-display>
-  </pbcoreDescriptionDocument-parts-list-display>
-  <pbcoreDescriptionDocument-0-parts-list-t type="array">
-    <pbcoreDescriptionDocument-0-parts-list-t>parts_list</pbcoreDescriptionDocument-0-parts-list-t>
-  </pbcoreDescriptionDocument-0-parts-list-t>
-  <pbcoreDescriptionDocument-0-parts-list-display type="array">
-    <pbcoreDescriptionDocument-0-parts-list-display>parts_list</pbcoreDescriptionDocument-0-parts-list-display>
-  </pbcoreDescriptionDocument-0-parts-list-display>
-  <pbcoreDescriptionDocument-genres-t type="array">
-    <pbcoreDescriptionDocument-genres-t>inserted</pbcoreDescriptionDocument-genres-t>
-    <pbcoreDescriptionDocument-genres-t>inserted</pbcoreDescriptionDocument-genres-t>
-    <pbcoreDescriptionDocument-genres-t>inserted</pbcoreDescriptionDocument-genres-t>
-  </pbcoreDescriptionDocument-genres-t>
-  <pbcoreDescriptionDocument-genres-facet type="array">
-    <pbcoreDescriptionDocument-genres-facet>inserted</pbcoreDescriptionDocument-genres-facet>
-    <pbcoreDescriptionDocument-genres-facet>inserted</pbcoreDescriptionDocument-genres-facet>
-    <pbcoreDescriptionDocument-genres-facet>inserted</pbcoreDescriptionDocument-genres-facet>
-  </pbcoreDescriptionDocument-genres-facet>
-  <pbcoreDescriptionDocument-0-genres-t type="array">
-    <pbcoreDescriptionDocument-0-genres-t>inserted</pbcoreDescriptionDocument-0-genres-t>
-    <pbcoreDescriptionDocument-0-genres-t>inserted</pbcoreDescriptionDocument-0-genres-t>
-    <pbcoreDescriptionDocument-0-genres-t>inserted</pbcoreDescriptionDocument-0-genres-t>
-  </pbcoreDescriptionDocument-0-genres-t>
-  <pbcoreDescriptionDocument-0-genres-facet type="array">
-    <pbcoreDescriptionDocument-0-genres-facet>inserted</pbcoreDescriptionDocument-0-genres-facet>
-    <pbcoreDescriptionDocument-0-genres-facet>inserted</pbcoreDescriptionDocument-0-genres-facet>
-    <pbcoreDescriptionDocument-0-genres-facet>inserted</pbcoreDescriptionDocument-0-genres-facet>
-  </pbcoreDescriptionDocument-0-genres-facet>
+  <pbcoreDescriptionDocument-contents-t type="array">
+    <pbcoreDescriptionDocument-contents-t>contents</pbcoreDescriptionDocument-contents-t>
+  </pbcoreDescriptionDocument-contents-t>
+  <pbcoreDescriptionDocument-contents-display type="array">
+    <pbcoreDescriptionDocument-contents-display>contents</pbcoreDescriptionDocument-contents-display>
+  </pbcoreDescriptionDocument-contents-display>
+  <pbcoreDescriptionDocument-0-contents-t type="array">
+    <pbcoreDescriptionDocument-0-contents-t>contents</pbcoreDescriptionDocument-0-contents-t>
+  </pbcoreDescriptionDocument-0-contents-t>
+  <pbcoreDescriptionDocument-0-contents-display type="array">
+    <pbcoreDescriptionDocument-0-contents-display>contents</pbcoreDescriptionDocument-0-contents-display>
+  </pbcoreDescriptionDocument-0-contents-display>
+  <pbcoreDescriptionDocument-genre-facet type="array">
+    <pbcoreDescriptionDocument-genre-facet>inserted</pbcoreDescriptionDocument-genre-facet>
+    <pbcoreDescriptionDocument-genre-facet>inserted</pbcoreDescriptionDocument-genre-facet>
+    <pbcoreDescriptionDocument-genre-facet>inserted</pbcoreDescriptionDocument-genre-facet>
+  </pbcoreDescriptionDocument-genre-facet>
+  <pbcoreDescriptionDocument-0-genre-facet type="array">
+    <pbcoreDescriptionDocument-0-genre-facet>inserted</pbcoreDescriptionDocument-0-genre-facet>
+    <pbcoreDescriptionDocument-0-genre-facet>inserted</pbcoreDescriptionDocument-0-genre-facet>
+    <pbcoreDescriptionDocument-0-genre-facet>inserted</pbcoreDescriptionDocument-0-genre-facet>
+  </pbcoreDescriptionDocument-0-genre-facet>
   <pbcoreDescriptionDocument-getty-genre-display type="array">
     <pbcoreDescriptionDocument-getty-genre-display>inserted</pbcoreDescriptionDocument-getty-genre-display>
   </pbcoreDescriptionDocument-getty-genre-display>
-  <pbcoreDescriptionDocument-getty-genre-t type="array">
-    <pbcoreDescriptionDocument-getty-genre-t>inserted</pbcoreDescriptionDocument-getty-genre-t>
-  </pbcoreDescriptionDocument-getty-genre-t>
   <pbcoreDescriptionDocument-0-getty-genre-display type="array">
     <pbcoreDescriptionDocument-0-getty-genre-display>inserted</pbcoreDescriptionDocument-0-getty-genre-display>
   </pbcoreDescriptionDocument-0-getty-genre-display>
-  <pbcoreDescriptionDocument-0-getty-genre-t type="array">
-    <pbcoreDescriptionDocument-0-getty-genre-t>inserted</pbcoreDescriptionDocument-0-getty-genre-t>
-  </pbcoreDescriptionDocument-0-getty-genre-t>
   <pbcoreDescriptionDocument-lc-genre-display type="array">
     <pbcoreDescriptionDocument-lc-genre-display>inserted</pbcoreDescriptionDocument-lc-genre-display>
   </pbcoreDescriptionDocument-lc-genre-display>
-  <pbcoreDescriptionDocument-lc-genre-t type="array">
-    <pbcoreDescriptionDocument-lc-genre-t>inserted</pbcoreDescriptionDocument-lc-genre-t>
-  </pbcoreDescriptionDocument-lc-genre-t>
   <pbcoreDescriptionDocument-0-lc-genre-display type="array">
     <pbcoreDescriptionDocument-0-lc-genre-display>inserted</pbcoreDescriptionDocument-0-lc-genre-display>
   </pbcoreDescriptionDocument-0-lc-genre-display>
-  <pbcoreDescriptionDocument-0-lc-genre-t type="array">
-    <pbcoreDescriptionDocument-0-lc-genre-t>inserted</pbcoreDescriptionDocument-0-lc-genre-t>
-  </pbcoreDescriptionDocument-0-lc-genre-t>
   <pbcoreDescriptionDocument-lc-subject-genre-display type="array">
     <pbcoreDescriptionDocument-lc-subject-genre-display>inserted</pbcoreDescriptionDocument-lc-subject-genre-display>
   </pbcoreDescriptionDocument-lc-subject-genre-display>
-  <pbcoreDescriptionDocument-lc-subject-genre-t type="array">
-    <pbcoreDescriptionDocument-lc-subject-genre-t>inserted</pbcoreDescriptionDocument-lc-subject-genre-t>
-  </pbcoreDescriptionDocument-lc-subject-genre-t>
   <pbcoreDescriptionDocument-0-lc-subject-genre-display type="array">
     <pbcoreDescriptionDocument-0-lc-subject-genre-display>inserted</pbcoreDescriptionDocument-0-lc-subject-genre-display>
   </pbcoreDescriptionDocument-0-lc-subject-genre-display>
-  <pbcoreDescriptionDocument-0-lc-subject-genre-t type="array">
-    <pbcoreDescriptionDocument-0-lc-subject-genre-t>inserted</pbcoreDescriptionDocument-0-lc-subject-genre-t>
-  </pbcoreDescriptionDocument-0-lc-subject-genre-t>
   <pbcoreDescriptionDocument-event-place-t type="array">
     <pbcoreDescriptionDocument-event-place-t>event_place</pbcoreDescriptionDocument-event-place-t>
   </pbcoreDescriptionDocument-event-place-t>
@@ -270,38 +214,22 @@
   </pbcoreDescriptionDocument-0-event-date-display>
   <pbcoreDescriptionDocument-contributor-name-t type="array">
     <pbcoreDescriptionDocument-contributor-name-t>contributor_name</pbcoreDescriptionDocument-contributor-name-t>
-    <pbcoreDescriptionDocument-contributor-name-t>contributor_name</pbcoreDescriptionDocument-contributor-name-t>
   </pbcoreDescriptionDocument-contributor-name-t>
   <pbcoreDescriptionDocument-contributor-name-facet type="array">
     <pbcoreDescriptionDocument-contributor-name-facet>contributor_name</pbcoreDescriptionDocument-contributor-name-facet>
-    <pbcoreDescriptionDocument-contributor-name-facet>contributor_name</pbcoreDescriptionDocument-contributor-name-facet>
   </pbcoreDescriptionDocument-contributor-name-facet>
-  <pbcoreDescriptionDocument-0-contributor-0-name-t type="array">
-    <pbcoreDescriptionDocument-0-contributor-0-name-t>contributor_name</pbcoreDescriptionDocument-0-contributor-0-name-t>
-  </pbcoreDescriptionDocument-0-contributor-0-name-t>
-  <pbcoreDescriptionDocument-0-contributor-0-name-facet type="array">
-    <pbcoreDescriptionDocument-0-contributor-0-name-facet>contributor_name</pbcoreDescriptionDocument-0-contributor-0-name-facet>
-  </pbcoreDescriptionDocument-0-contributor-0-name-facet>
-  <pbcoreDescriptionDocument-contributor-role-t type="array">
-    <pbcoreDescriptionDocument-contributor-role-t>contributor_role</pbcoreDescriptionDocument-contributor-role-t>
-    <pbcoreDescriptionDocument-contributor-role-t>contributor_role</pbcoreDescriptionDocument-contributor-role-t>
-  </pbcoreDescriptionDocument-contributor-role-t>
-  <pbcoreDescriptionDocument-contributor-role-display type="array">
-    <pbcoreDescriptionDocument-contributor-role-display>contributor_role</pbcoreDescriptionDocument-contributor-role-display>
-    <pbcoreDescriptionDocument-contributor-role-display>contributor_role</pbcoreDescriptionDocument-contributor-role-display>
-  </pbcoreDescriptionDocument-contributor-role-display>
-  <pbcoreDescriptionDocument-0-contributor-0-role-t type="array">
-    <pbcoreDescriptionDocument-0-contributor-0-role-t>contributor_role</pbcoreDescriptionDocument-0-contributor-0-role-t>
-  </pbcoreDescriptionDocument-0-contributor-0-role-t>
-  <pbcoreDescriptionDocument-0-contributor-0-role-display type="array">
-    <pbcoreDescriptionDocument-0-contributor-0-role-display>contributor_role</pbcoreDescriptionDocument-0-contributor-0-role-display>
-  </pbcoreDescriptionDocument-0-contributor-0-role-display>
   <pbcoreDescriptionDocument-0-contributor-name-t type="array">
     <pbcoreDescriptionDocument-0-contributor-name-t>contributor_name</pbcoreDescriptionDocument-0-contributor-name-t>
   </pbcoreDescriptionDocument-0-contributor-name-t>
   <pbcoreDescriptionDocument-0-contributor-name-facet type="array">
     <pbcoreDescriptionDocument-0-contributor-name-facet>contributor_name</pbcoreDescriptionDocument-0-contributor-name-facet>
   </pbcoreDescriptionDocument-0-contributor-name-facet>
+  <pbcoreDescriptionDocument-contributor-role-t type="array">
+    <pbcoreDescriptionDocument-contributor-role-t>contributor_role</pbcoreDescriptionDocument-contributor-role-t>
+  </pbcoreDescriptionDocument-contributor-role-t>
+  <pbcoreDescriptionDocument-contributor-role-display type="array">
+    <pbcoreDescriptionDocument-contributor-role-display>contributor_role</pbcoreDescriptionDocument-contributor-role-display>
+  </pbcoreDescriptionDocument-contributor-role-display>
   <pbcoreDescriptionDocument-0-contributor-role-t type="array">
     <pbcoreDescriptionDocument-0-contributor-role-t>contributor_role</pbcoreDescriptionDocument-0-contributor-role-t>
   </pbcoreDescriptionDocument-0-contributor-role-t>
@@ -335,9 +263,15 @@
   <pbcoreDescriptionDocument-note-t type="array">
     <pbcoreDescriptionDocument-note-t>note</pbcoreDescriptionDocument-note-t>
   </pbcoreDescriptionDocument-note-t>
+  <pbcoreDescriptionDocument-note-display type="array">
+    <pbcoreDescriptionDocument-note-display>note</pbcoreDescriptionDocument-note-display>
+  </pbcoreDescriptionDocument-note-display>
   <pbcoreDescriptionDocument-0-note-t type="array">
     <pbcoreDescriptionDocument-0-note-t>note</pbcoreDescriptionDocument-0-note-t>
   </pbcoreDescriptionDocument-0-note-t>
+  <pbcoreDescriptionDocument-0-note-display type="array">
+    <pbcoreDescriptionDocument-0-note-display>note</pbcoreDescriptionDocument-0-note-display>
+  </pbcoreDescriptionDocument-0-note-display>
   <pbcoreDescriptionDocument-pbcoreInstantiation-inst-cond-note-t type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-inst-cond-note-t>inserted</pbcoreDescriptionDocument-pbcoreInstantiation-inst-cond-note-t>
   </pbcoreDescriptionDocument-pbcoreInstantiation-inst-cond-note-t>
@@ -362,18 +296,12 @@
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-inst-clean-note-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-inst-clean-note-display>inserted</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-inst-clean-note-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-inst-clean-note-display>
-  <pbcoreDescriptionDocument-archival-collection-t type="array">
-    <pbcoreDescriptionDocument-archival-collection-t>archival_collection</pbcoreDescriptionDocument-archival-collection-t>
-  </pbcoreDescriptionDocument-archival-collection-t>
-  <pbcoreDescriptionDocument-archival-collection-facet type="array">
-    <pbcoreDescriptionDocument-archival-collection-facet>archival_collection</pbcoreDescriptionDocument-archival-collection-facet>
-  </pbcoreDescriptionDocument-archival-collection-facet>
-  <pbcoreDescriptionDocument-0-archival-collection-t type="array">
-    <pbcoreDescriptionDocument-0-archival-collection-t>archival_collection</pbcoreDescriptionDocument-0-archival-collection-t>
-  </pbcoreDescriptionDocument-0-archival-collection-t>
-  <pbcoreDescriptionDocument-0-archival-collection-facet type="array">
-    <pbcoreDescriptionDocument-0-archival-collection-facet>archival_collection</pbcoreDescriptionDocument-0-archival-collection-facet>
-  </pbcoreDescriptionDocument-0-archival-collection-facet>
+  <pbcoreDescriptionDocument-collection-facet type="array">
+    <pbcoreDescriptionDocument-collection-facet>collection</pbcoreDescriptionDocument-collection-facet>
+  </pbcoreDescriptionDocument-collection-facet>
+  <pbcoreDescriptionDocument-0-collection-facet type="array">
+    <pbcoreDescriptionDocument-0-collection-facet>collection</pbcoreDescriptionDocument-0-collection-facet>
+  </pbcoreDescriptionDocument-0-collection-facet>
   <pbcoreDescriptionDocument-condition-note-t type="array">
     <pbcoreDescriptionDocument-condition-note-t>inserted</pbcoreDescriptionDocument-condition-note-t>
   </pbcoreDescriptionDocument-condition-note-t>
@@ -398,12 +326,12 @@
   <pbcoreDescriptionDocument-0-cleaning-note-display type="array">
     <pbcoreDescriptionDocument-0-cleaning-note-display>inserted</pbcoreDescriptionDocument-0-cleaning-note-display>
   </pbcoreDescriptionDocument-0-cleaning-note-display>
-  <main-title-t type="array">
-    <main-title-t>main_title</main-title-t>
-  </main-title-t>
-  <main-title-display type="array">
-    <main-title-display>main_title</main-title-display>
-  </main-title-display>
+  <title-t type="array">
+    <title-t>title</title-t>
+  </title-t>
+  <title-display type="array">
+    <title-display>title</title-display>
+  </title-display>
   <alternative-title-t type="array">
     <alternative-title-t>inserted</alternative-title-t>
   </alternative-title-t>
@@ -452,80 +380,52 @@
   <translation-display type="array">
     <translation-display>inserted</translation-display>
   </translation-display>
-  <subject-topic-t type="array">
-    <subject-topic-t>inserted</subject-topic-t>
-    <subject-topic-t>inserted</subject-topic-t>
-    <subject-topic-t>inserted</subject-topic-t>
-  </subject-topic-t>
-  <subject-topic-facet type="array">
-    <subject-topic-facet>inserted</subject-topic-facet>
-    <subject-topic-facet>inserted</subject-topic-facet>
-    <subject-topic-facet>inserted</subject-topic-facet>
-  </subject-topic-facet>
+  <subject-facet type="array">
+    <subject-facet>inserted</subject-facet>
+    <subject-facet>inserted</subject-facet>
+    <subject-facet>inserted</subject-facet>
+  </subject-facet>
   <lc-subject-display type="array">
     <lc-subject-display>inserted</lc-subject-display>
   </lc-subject-display>
-  <lc-subject-t type="array">
-    <lc-subject-t>inserted</lc-subject-t>
-  </lc-subject-t>
   <lc-name-display type="array">
     <lc-name-display>inserted</lc-name-display>
   </lc-name-display>
-  <lc-name-t type="array">
-    <lc-name-t>inserted</lc-name-t>
-  </lc-name-t>
   <rh-subject-display type="array">
     <rh-subject-display>inserted</rh-subject-display>
   </rh-subject-display>
-  <rh-subject-t type="array">
-    <rh-subject-t>inserted</rh-subject-t>
-  </rh-subject-t>
   <summary-t type="array">
     <summary-t>summary</summary-t>
   </summary-t>
   <summary-display type="array">
     <summary-display>summary</summary-display>
   </summary-display>
-  <parts-list-t type="array">
-    <parts-list-t>parts_list</parts-list-t>
-  </parts-list-t>
-  <parts-list-display type="array">
-    <parts-list-display>parts_list</parts-list-display>
-  </parts-list-display>
-  <genres-t type="array">
-    <genres-t>inserted</genres-t>
-    <genres-t>inserted</genres-t>
-    <genres-t>inserted</genres-t>
-  </genres-t>
-  <genres-facet type="array">
-    <genres-facet>inserted</genres-facet>
-    <genres-facet>inserted</genres-facet>
-    <genres-facet>inserted</genres-facet>
-  </genres-facet>
+  <contents-t type="array">
+    <contents-t>contents</contents-t>
+  </contents-t>
+  <contents-display type="array">
+    <contents-display>contents</contents-display>
+  </contents-display>
+  <genre-facet type="array">
+    <genre-facet>inserted</genre-facet>
+    <genre-facet>inserted</genre-facet>
+    <genre-facet>inserted</genre-facet>
+  </genre-facet>
   <getty-genre-display type="array">
     <getty-genre-display>inserted</getty-genre-display>
   </getty-genre-display>
-  <getty-genre-t type="array">
-    <getty-genre-t>inserted</getty-genre-t>
-  </getty-genre-t>
   <lc-genre-display type="array">
     <lc-genre-display>inserted</lc-genre-display>
   </lc-genre-display>
-  <lc-genre-t type="array">
-    <lc-genre-t>inserted</lc-genre-t>
-  </lc-genre-t>
   <lc-subject-genre-display type="array">
     <lc-subject-genre-display>inserted</lc-subject-genre-display>
   </lc-subject-genre-display>
-  <lc-subject-genre-t type="array">
-    <lc-subject-genre-t>inserted</lc-subject-genre-t>
-  </lc-subject-genre-t>
-  <event-series-t type="array">
-    <event-series-t>event_series</event-series-t>
-  </event-series-t>
-  <event-series-display type="array">
-    <event-series-display>event_series</event-series-display>
-  </event-series-display>
+  <series-facet type="array">
+    <series-facet>series</series-facet>
+  </series-facet>
+  <series-display type="array">
+    <series-display>series</series-display>
+  </series-display>
   <event-place-t type="array">
     <event-place-t>event_place</event-place-t>
   </event-place-t>
@@ -540,32 +440,16 @@
   </event-date-display>
   <contributor-name-t type="array">
     <contributor-name-t>contributor_name</contributor-name-t>
-    <contributor-name-t>contributor_name</contributor-name-t>
   </contributor-name-t>
   <contributor-name-facet type="array">
     <contributor-name-facet>contributor_name</contributor-name-facet>
-    <contributor-name-facet>contributor_name</contributor-name-facet>
   </contributor-name-facet>
-  <contributor-0-name-t type="array">
-    <contributor-0-name-t>contributor_name</contributor-0-name-t>
-  </contributor-0-name-t>
-  <contributor-0-name-facet type="array">
-    <contributor-0-name-facet>contributor_name</contributor-0-name-facet>
-  </contributor-0-name-facet>
   <contributor-role-t type="array">
-    <contributor-role-t>contributor_role</contributor-role-t>
     <contributor-role-t>contributor_role</contributor-role-t>
   </contributor-role-t>
   <contributor-role-display type="array">
     <contributor-role-display>contributor_role</contributor-role-display>
-    <contributor-role-display>contributor_role</contributor-role-display>
   </contributor-role-display>
-  <contributor-0-role-t type="array">
-    <contributor-0-role-t>contributor_role</contributor-0-role-t>
-  </contributor-0-role-t>
-  <contributor-0-role-display type="array">
-    <contributor-0-role-display>contributor_role</contributor-0-role-display>
-  </contributor-0-role-display>
   <publisher-name-t type="array">
     <publisher-name-t>publisher_name</publisher-name-t>
   </publisher-name-t>
@@ -581,6 +465,9 @@
   <note-t type="array">
     <note-t>note</note-t>
   </note-t>
+  <note-display type="array">
+    <note-display>note</note-display>
+  </note-display>
   <pbcoreInstantiation-inst-cond-note-t type="array">
     <pbcoreInstantiation-inst-cond-note-t>inserted</pbcoreInstantiation-inst-cond-note-t>
   </pbcoreInstantiation-inst-cond-note-t>
@@ -623,24 +510,24 @@
   <repository-display type="array">
     <repository-display>repository</repository-display>
   </repository-display>
-  <format-t type="array">
-    <format-t>format</format-t>
-  </format-t>
-  <format-facet type="array">
-    <format-facet>format</format-facet>
-  </format-facet>
+  <media-format-t type="array">
+    <media-format-t>media_format</media-format-t>
+  </media-format-t>
+  <media-format-facet type="array">
+    <media-format-facet>media_format</media-format-facet>
+  </media-format-facet>
   <standard-t type="array">
     <standard-t>standard</standard-t>
   </standard-t>
-  <standard-facet type="array">
-    <standard-facet>standard</standard-facet>
-  </standard-facet>
+  <standard-display type="array">
+    <standard-display>standard</standard-display>
+  </standard-display>
   <media-type-t type="array">
     <media-type-t>media_type</media-type-t>
   </media-type-t>
-  <media-type-facet type="array">
-    <media-type-facet>media_type</media-type-facet>
-  </media-type-facet>
+  <media-type-display type="array">
+    <media-type-display>media_type</media-type-display>
+  </media-type-display>
   <generation-t type="array">
     <generation-t>generation</generation-t>
   </generation-t>
@@ -659,12 +546,9 @@
   <colors-display type="array">
     <colors-display>colors</colors-display>
   </colors-display>
-  <archival-collection-t type="array">
-    <archival-collection-t>archival_collection</archival-collection-t>
-  </archival-collection-t>
-  <archival-collection-facet type="array">
-    <archival-collection-facet>archival_collection</archival-collection-facet>
-  </archival-collection-facet>
+  <collection-facet type="array">
+    <collection-facet>collection</collection-facet>
+  </collection-facet>
   <archival-series-t type="array">
     <archival-series-t>archival_series</archival-series-t>
   </archival-series-t>
@@ -683,12 +567,12 @@
   <accession-number-display type="array">
     <accession-number-display>accession_number</accession-number-display>
   </accession-number-display>
-  <usage-t type="array">
-    <usage-t>usage</usage-t>
-  </usage-t>
-  <usage-display type="array">
-    <usage-display>usage</usage-display>
-  </usage-display>
+  <access-t type="array">
+    <access-t>access</access-t>
+  </access-t>
+  <access-display type="array">
+    <access-display>access</access-display>
+  </access-display>
   <condition-note-t type="array">
     <condition-note-t>inserted</condition-note-t>
   </condition-note-t>
@@ -701,4 +585,8 @@
   <cleaning-note-display type="array">
     <cleaning-note-display>inserted</cleaning-note-display>
   </cleaning-note-display>
+  <format>Video</format>
+  <language-facet>Unknown</language-facet>
+  <create-date-facet>2012</create-date-facet>
+  <pub-date>2012</pub-date>
 </hash>
