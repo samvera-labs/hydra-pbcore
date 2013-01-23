@@ -3,15 +3,9 @@
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationIdentifier-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationIdentifier-display>name</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationIdentifier-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationIdentifier-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationIdentifier-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationIdentifier-t>name</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationIdentifier-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationIdentifier-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationIdentifier-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationIdentifier-display>name</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationIdentifier-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationIdentifier-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationIdentifier-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationIdentifier-t>name</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationIdentifier-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationIdentifier-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-dt type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-dt>2012-11-01T00:00:00Z</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-dt>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDate-dt>
@@ -39,487 +33,245 @@
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationLocation-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationLocation-display>location</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationLocation-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationLocation-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationLocation-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationLocation-t>location</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationLocation-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationLocation-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationLocation-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationLocation-display>location</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationLocation-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationLocation-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationLocation-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationLocation-t>location</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationLocation-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationLocation-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationGenerations-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationGenerations-display>generation</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationGenerations-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationGenerations-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationGenerations-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationGenerations-t>generation</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationGenerations-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationGenerations-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationGenerations-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationGenerations-display>generation</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationGenerations-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationGenerations-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationGenerations-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationGenerations-t>generation</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationGenerations-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationGenerations-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-display>size</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-t>size</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-display>size</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-t>size</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-units-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-units-display>size_units</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-units-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-units-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-units-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-units-t>size_units</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-units-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationFileSize-units-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-0-units-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-0-units-display>size_units</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-0-units-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-0-units-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-0-units-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-0-units-t>size_units</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-0-units-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationFileSize-0-units-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationColors-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationColors-display>colors</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationColors-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationColors-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationColors-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationColors-t>colors</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationColors-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationColors-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationColors-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationColors-display>colors</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationColors-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationColors-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationColors-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationColors-t>colors</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationColors-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationColors-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationMediaType-facet type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationMediaType-facet>media_type</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationMediaType-facet>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationMediaType-facet>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationMediaType-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationMediaType-t>media_type</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationMediaType-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationMediaType-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationMediaType-facet type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationMediaType-facet>media_type</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationMediaType-facet>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationMediaType-facet>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationMediaType-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationMediaType-t>media_type</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationMediaType-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationMediaType-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDuration-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDuration-display>duration</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDuration-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDuration-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDuration-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDuration-t>duration</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDuration-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationDuration-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDuration-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDuration-display>duration</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDuration-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDuration-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDuration-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDuration-t>duration</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDuration-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationDuration-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationRights-rightsSummary-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationRights-rightsSummary-display>rights_summary</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationRights-rightsSummary-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationRights-rightsSummary-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationRights-rightsSummary-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationRights-rightsSummary-t>rights_summary</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationRights-rightsSummary-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationRights-rightsSummary-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationRights-0-rightsSummary-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationRights-0-rightsSummary-display>rights_summary</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationRights-0-rightsSummary-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationRights-0-rightsSummary-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationRights-0-rightsSummary-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationRights-0-rightsSummary-t>rights_summary</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationRights-0-rightsSummary-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationRights-0-rightsSummary-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-display>video_standard</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-display>
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-display>audio_standard</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-t>video_standard</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-t>
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-t>audio_standard</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-display>video_standard</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-t>video_standard</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-display>video_encoding</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-display>
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-display>audio_encoding</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-t>video_encoding</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-t>
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-t>audio_encoding</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-display>video_encoding</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-t>video_encoding</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-display>video_bit_rate</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-display>
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-display>audio_bit_rate</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-t>video_bit_rate</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-t>
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-t>audio_bit_rate</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-display>video_bit_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-t>video_bit_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-display>video_bit_rate_units</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-display>
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-display>audio_bit_rate_units</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-t>video_bit_rate_units</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-t>
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-t>audio_bit_rate_units</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-display>video_bit_rate_units</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-t>video_bit_rate_units</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-display>frame_rate</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-t>frame_rate</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-display>frame_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-t>frame_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-display>frame_size</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-t>frame_size</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-display>frame_size</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-t>frame_size</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-display>video_bit_depth</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-display>
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-display>audio_bit_depth</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-t>video_bit_depth</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-t>
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-t>audio_bit_depth</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-display>video_bit_depth</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-t>video_bit_depth</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-display>aspect_ratio</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-t>aspect_ratio</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-display>aspect_ratio</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-t>aspect_ratio</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-display>audio_standard</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-t>audio_standard</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-display>audio_encoding</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-t>audio_encoding</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-display>audio_bit_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-t>audio_bit_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-display>audio_bit_rate_units</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-t>audio_bit_rate_units</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-display>audio_bit_depth</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-t>audio_bit_depth</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-display>audio_sample_rate</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-t>audio_sample_rate</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-display>audio_sample_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-t>audio_sample_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-display>audio_sample_rate_units</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-t>audio_sample_rate_units</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-display>audio_sample_rate_units</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-t>audio_sample_rate_units</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-display>audio_channels</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-t>audio_channels</pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-display>audio_channels</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-t>audio_channels</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackStandard-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackStandard-display>video_standard</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackStandard-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackStandard-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackStandard-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackStandard-t>video_standard</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackStandard-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackStandard-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-display>video_standard</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-t>video_standard</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackEncoding-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackEncoding-display>video_encoding</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackEncoding-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackEncoding-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackEncoding-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackEncoding-t>video_encoding</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackEncoding-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackEncoding-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-display>video_encoding</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-t>video_encoding</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-display>video_bit_rate</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-t>video_bit_rate</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-display>video_bit_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-t>video_bit_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-units-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-units-display>video_bit_rate_units</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-units-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-units-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-units-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-units-t>video_bit_rate_units</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-units-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackDataRate-units-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-display>video_bit_rate_units</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-t>video_bit_rate_units</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameRate-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameRate-display>frame_rate</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameRate-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameRate-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameRate-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameRate-t>frame_rate</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameRate-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameRate-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-display>frame_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-t>frame_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameSize-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameSize-display>frame_size</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameSize-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameSize-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameSize-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameSize-t>frame_size</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameSize-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackFrameSize-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-display>frame_size</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-t>frame_size</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackBitDepth-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackBitDepth-display>video_bit_depth</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackBitDepth-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackBitDepth-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackBitDepth-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackBitDepth-t>video_bit_depth</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackBitDepth-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackBitDepth-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-display>video_bit_depth</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-t>video_bit_depth</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackAspectRatio-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackAspectRatio-display>aspect_ratio</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackAspectRatio-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackAspectRatio-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackAspectRatio-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackAspectRatio-t>aspect_ratio</pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackAspectRatio-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-video-essence-essenceTrackAspectRatio-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-display>aspect_ratio</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-t>aspect_ratio</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackStandard-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackStandard-display>audio_standard</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackStandard-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackStandard-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackStandard-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackStandard-t>audio_standard</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackStandard-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackStandard-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-display>audio_standard</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-t>audio_standard</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackEncoding-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackEncoding-display>audio_encoding</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackEncoding-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackEncoding-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackEncoding-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackEncoding-t>audio_encoding</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackEncoding-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackEncoding-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-display>audio_encoding</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-t>audio_encoding</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-display>audio_bit_rate</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-t>audio_bit_rate</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-display>audio_bit_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-t>audio_bit_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-display>audio_bit_rate_units</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-t>audio_bit_rate_units</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-display>audio_bit_rate_units</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-t>audio_bit_rate_units</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackBitDepth-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackBitDepth-display>audio_bit_depth</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackBitDepth-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackBitDepth-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackBitDepth-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackBitDepth-t>audio_bit_depth</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackBitDepth-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackBitDepth-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-display>audio_bit_depth</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-t>audio_bit_depth</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-display>audio_sample_rate</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-t>audio_sample_rate</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-display>audio_sample_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-t>audio_sample_rate</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-display>audio_sample_rate_units</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-t>audio_sample_rate_units</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-display>audio_sample_rate_units</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-t>audio_sample_rate_units</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-t>
   <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackAnnotation-display type="array">
     <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackAnnotation-display>audio_channels</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackAnnotation-display>
   </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackAnnotation-display>
-  <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackAnnotation-t type="array">
-    <pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackAnnotation-t>audio_channels</pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackAnnotation-t>
-  </pbcoreDescriptionDocument-pbcoreInstantiation-audio-essence-essenceTrackAnnotation-t>
   <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-display type="array">
     <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-display>audio_channels</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-display>
   </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-display>
-  <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-t type="array">
-    <pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-t>audio_channels</pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-t>
-  </pbcoreDescriptionDocument-0-pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-t>
   <pbcoreDescriptionDocument-name-display type="array">
     <pbcoreDescriptionDocument-name-display>name</pbcoreDescriptionDocument-name-display>
   </pbcoreDescriptionDocument-name-display>
-  <pbcoreDescriptionDocument-name-t type="array">
-    <pbcoreDescriptionDocument-name-t>name</pbcoreDescriptionDocument-name-t>
-  </pbcoreDescriptionDocument-name-t>
   <pbcoreDescriptionDocument-0-name-display type="array">
     <pbcoreDescriptionDocument-0-name-display>name</pbcoreDescriptionDocument-0-name-display>
   </pbcoreDescriptionDocument-0-name-display>
-  <pbcoreDescriptionDocument-0-name-t type="array">
-    <pbcoreDescriptionDocument-0-name-t>name</pbcoreDescriptionDocument-0-name-t>
-  </pbcoreDescriptionDocument-0-name-t>
   <pbcoreDescriptionDocument-location-display type="array">
     <pbcoreDescriptionDocument-location-display>location</pbcoreDescriptionDocument-location-display>
   </pbcoreDescriptionDocument-location-display>
-  <pbcoreDescriptionDocument-location-t type="array">
-    <pbcoreDescriptionDocument-location-t>location</pbcoreDescriptionDocument-location-t>
-  </pbcoreDescriptionDocument-location-t>
   <pbcoreDescriptionDocument-0-location-display type="array">
     <pbcoreDescriptionDocument-0-location-display>location</pbcoreDescriptionDocument-0-location-display>
   </pbcoreDescriptionDocument-0-location-display>
-  <pbcoreDescriptionDocument-0-location-t type="array">
-    <pbcoreDescriptionDocument-0-location-t>location</pbcoreDescriptionDocument-0-location-t>
-  </pbcoreDescriptionDocument-0-location-t>
   <pbcoreDescriptionDocument-date-dt type="array">
     <pbcoreDescriptionDocument-date-dt>2012-11-01T00:00:00Z</pbcoreDescriptionDocument-date-dt>
   </pbcoreDescriptionDocument-date-dt>
@@ -535,27 +287,15 @@
   <pbcoreDescriptionDocument-generation-display type="array">
     <pbcoreDescriptionDocument-generation-display>generation</pbcoreDescriptionDocument-generation-display>
   </pbcoreDescriptionDocument-generation-display>
-  <pbcoreDescriptionDocument-generation-t type="array">
-    <pbcoreDescriptionDocument-generation-t>generation</pbcoreDescriptionDocument-generation-t>
-  </pbcoreDescriptionDocument-generation-t>
   <pbcoreDescriptionDocument-0-generation-display type="array">
     <pbcoreDescriptionDocument-0-generation-display>generation</pbcoreDescriptionDocument-0-generation-display>
   </pbcoreDescriptionDocument-0-generation-display>
-  <pbcoreDescriptionDocument-0-generation-t type="array">
-    <pbcoreDescriptionDocument-0-generation-t>generation</pbcoreDescriptionDocument-0-generation-t>
-  </pbcoreDescriptionDocument-0-generation-t>
   <pbcoreDescriptionDocument-media-type-facet type="array">
     <pbcoreDescriptionDocument-media-type-facet>media_type</pbcoreDescriptionDocument-media-type-facet>
   </pbcoreDescriptionDocument-media-type-facet>
-  <pbcoreDescriptionDocument-media-type-t type="array">
-    <pbcoreDescriptionDocument-media-type-t>media_type</pbcoreDescriptionDocument-media-type-t>
-  </pbcoreDescriptionDocument-media-type-t>
   <pbcoreDescriptionDocument-0-media-type-facet type="array">
     <pbcoreDescriptionDocument-0-media-type-facet>media_type</pbcoreDescriptionDocument-0-media-type-facet>
   </pbcoreDescriptionDocument-0-media-type-facet>
-  <pbcoreDescriptionDocument-0-media-type-t type="array">
-    <pbcoreDescriptionDocument-0-media-type-t>media_type</pbcoreDescriptionDocument-0-media-type-t>
-  </pbcoreDescriptionDocument-0-media-type-t>
   <pbcoreDescriptionDocument-file-format-t type="array">
     <pbcoreDescriptionDocument-file-format-t>file_format</pbcoreDescriptionDocument-file-format-t>
   </pbcoreDescriptionDocument-file-format-t>
@@ -571,267 +311,135 @@
   <pbcoreDescriptionDocument-size-display type="array">
     <pbcoreDescriptionDocument-size-display>size</pbcoreDescriptionDocument-size-display>
   </pbcoreDescriptionDocument-size-display>
-  <pbcoreDescriptionDocument-size-t type="array">
-    <pbcoreDescriptionDocument-size-t>size</pbcoreDescriptionDocument-size-t>
-  </pbcoreDescriptionDocument-size-t>
   <pbcoreDescriptionDocument-0-size-display type="array">
     <pbcoreDescriptionDocument-0-size-display>size</pbcoreDescriptionDocument-0-size-display>
   </pbcoreDescriptionDocument-0-size-display>
-  <pbcoreDescriptionDocument-0-size-t type="array">
-    <pbcoreDescriptionDocument-0-size-t>size</pbcoreDescriptionDocument-0-size-t>
-  </pbcoreDescriptionDocument-0-size-t>
   <pbcoreDescriptionDocument-size-units-display type="array">
     <pbcoreDescriptionDocument-size-units-display>size_units</pbcoreDescriptionDocument-size-units-display>
   </pbcoreDescriptionDocument-size-units-display>
-  <pbcoreDescriptionDocument-size-units-t type="array">
-    <pbcoreDescriptionDocument-size-units-t>size_units</pbcoreDescriptionDocument-size-units-t>
-  </pbcoreDescriptionDocument-size-units-t>
   <pbcoreDescriptionDocument-0-size-units-display type="array">
     <pbcoreDescriptionDocument-0-size-units-display>size_units</pbcoreDescriptionDocument-0-size-units-display>
   </pbcoreDescriptionDocument-0-size-units-display>
-  <pbcoreDescriptionDocument-0-size-units-t type="array">
-    <pbcoreDescriptionDocument-0-size-units-t>size_units</pbcoreDescriptionDocument-0-size-units-t>
-  </pbcoreDescriptionDocument-0-size-units-t>
   <pbcoreDescriptionDocument-colors-display type="array">
     <pbcoreDescriptionDocument-colors-display>colors</pbcoreDescriptionDocument-colors-display>
   </pbcoreDescriptionDocument-colors-display>
-  <pbcoreDescriptionDocument-colors-t type="array">
-    <pbcoreDescriptionDocument-colors-t>colors</pbcoreDescriptionDocument-colors-t>
-  </pbcoreDescriptionDocument-colors-t>
   <pbcoreDescriptionDocument-0-colors-display type="array">
     <pbcoreDescriptionDocument-0-colors-display>colors</pbcoreDescriptionDocument-0-colors-display>
   </pbcoreDescriptionDocument-0-colors-display>
-  <pbcoreDescriptionDocument-0-colors-t type="array">
-    <pbcoreDescriptionDocument-0-colors-t>colors</pbcoreDescriptionDocument-0-colors-t>
-  </pbcoreDescriptionDocument-0-colors-t>
   <pbcoreDescriptionDocument-duration-display type="array">
     <pbcoreDescriptionDocument-duration-display>duration</pbcoreDescriptionDocument-duration-display>
   </pbcoreDescriptionDocument-duration-display>
-  <pbcoreDescriptionDocument-duration-t type="array">
-    <pbcoreDescriptionDocument-duration-t>duration</pbcoreDescriptionDocument-duration-t>
-  </pbcoreDescriptionDocument-duration-t>
   <pbcoreDescriptionDocument-0-duration-display type="array">
     <pbcoreDescriptionDocument-0-duration-display>duration</pbcoreDescriptionDocument-0-duration-display>
   </pbcoreDescriptionDocument-0-duration-display>
-  <pbcoreDescriptionDocument-0-duration-t type="array">
-    <pbcoreDescriptionDocument-0-duration-t>duration</pbcoreDescriptionDocument-0-duration-t>
-  </pbcoreDescriptionDocument-0-duration-t>
   <pbcoreDescriptionDocument-rights-summary-display type="array">
     <pbcoreDescriptionDocument-rights-summary-display>rights_summary</pbcoreDescriptionDocument-rights-summary-display>
   </pbcoreDescriptionDocument-rights-summary-display>
-  <pbcoreDescriptionDocument-rights-summary-t type="array">
-    <pbcoreDescriptionDocument-rights-summary-t>rights_summary</pbcoreDescriptionDocument-rights-summary-t>
-  </pbcoreDescriptionDocument-rights-summary-t>
   <pbcoreDescriptionDocument-0-rights-summary-display type="array">
     <pbcoreDescriptionDocument-0-rights-summary-display>rights_summary</pbcoreDescriptionDocument-0-rights-summary-display>
   </pbcoreDescriptionDocument-0-rights-summary-display>
-  <pbcoreDescriptionDocument-0-rights-summary-t type="array">
-    <pbcoreDescriptionDocument-0-rights-summary-t>rights_summary</pbcoreDescriptionDocument-0-rights-summary-t>
-  </pbcoreDescriptionDocument-0-rights-summary-t>
   <pbcoreDescriptionDocument-video-standard-display type="array">
     <pbcoreDescriptionDocument-video-standard-display>video_standard</pbcoreDescriptionDocument-video-standard-display>
   </pbcoreDescriptionDocument-video-standard-display>
-  <pbcoreDescriptionDocument-video-standard-t type="array">
-    <pbcoreDescriptionDocument-video-standard-t>video_standard</pbcoreDescriptionDocument-video-standard-t>
-  </pbcoreDescriptionDocument-video-standard-t>
   <pbcoreDescriptionDocument-0-video-standard-display type="array">
     <pbcoreDescriptionDocument-0-video-standard-display>video_standard</pbcoreDescriptionDocument-0-video-standard-display>
   </pbcoreDescriptionDocument-0-video-standard-display>
-  <pbcoreDescriptionDocument-0-video-standard-t type="array">
-    <pbcoreDescriptionDocument-0-video-standard-t>video_standard</pbcoreDescriptionDocument-0-video-standard-t>
-  </pbcoreDescriptionDocument-0-video-standard-t>
   <pbcoreDescriptionDocument-video-encoding-display type="array">
     <pbcoreDescriptionDocument-video-encoding-display>video_encoding</pbcoreDescriptionDocument-video-encoding-display>
   </pbcoreDescriptionDocument-video-encoding-display>
-  <pbcoreDescriptionDocument-video-encoding-t type="array">
-    <pbcoreDescriptionDocument-video-encoding-t>video_encoding</pbcoreDescriptionDocument-video-encoding-t>
-  </pbcoreDescriptionDocument-video-encoding-t>
   <pbcoreDescriptionDocument-0-video-encoding-display type="array">
     <pbcoreDescriptionDocument-0-video-encoding-display>video_encoding</pbcoreDescriptionDocument-0-video-encoding-display>
   </pbcoreDescriptionDocument-0-video-encoding-display>
-  <pbcoreDescriptionDocument-0-video-encoding-t type="array">
-    <pbcoreDescriptionDocument-0-video-encoding-t>video_encoding</pbcoreDescriptionDocument-0-video-encoding-t>
-  </pbcoreDescriptionDocument-0-video-encoding-t>
   <pbcoreDescriptionDocument-video-bit-rate-display type="array">
     <pbcoreDescriptionDocument-video-bit-rate-display>video_bit_rate</pbcoreDescriptionDocument-video-bit-rate-display>
   </pbcoreDescriptionDocument-video-bit-rate-display>
-  <pbcoreDescriptionDocument-video-bit-rate-t type="array">
-    <pbcoreDescriptionDocument-video-bit-rate-t>video_bit_rate</pbcoreDescriptionDocument-video-bit-rate-t>
-  </pbcoreDescriptionDocument-video-bit-rate-t>
   <pbcoreDescriptionDocument-0-video-bit-rate-display type="array">
     <pbcoreDescriptionDocument-0-video-bit-rate-display>video_bit_rate</pbcoreDescriptionDocument-0-video-bit-rate-display>
   </pbcoreDescriptionDocument-0-video-bit-rate-display>
-  <pbcoreDescriptionDocument-0-video-bit-rate-t type="array">
-    <pbcoreDescriptionDocument-0-video-bit-rate-t>video_bit_rate</pbcoreDescriptionDocument-0-video-bit-rate-t>
-  </pbcoreDescriptionDocument-0-video-bit-rate-t>
   <pbcoreDescriptionDocument-video-bit-rate-units-display type="array">
     <pbcoreDescriptionDocument-video-bit-rate-units-display>video_bit_rate_units</pbcoreDescriptionDocument-video-bit-rate-units-display>
   </pbcoreDescriptionDocument-video-bit-rate-units-display>
-  <pbcoreDescriptionDocument-video-bit-rate-units-t type="array">
-    <pbcoreDescriptionDocument-video-bit-rate-units-t>video_bit_rate_units</pbcoreDescriptionDocument-video-bit-rate-units-t>
-  </pbcoreDescriptionDocument-video-bit-rate-units-t>
   <pbcoreDescriptionDocument-0-video-bit-rate-units-display type="array">
     <pbcoreDescriptionDocument-0-video-bit-rate-units-display>video_bit_rate_units</pbcoreDescriptionDocument-0-video-bit-rate-units-display>
   </pbcoreDescriptionDocument-0-video-bit-rate-units-display>
-  <pbcoreDescriptionDocument-0-video-bit-rate-units-t type="array">
-    <pbcoreDescriptionDocument-0-video-bit-rate-units-t>video_bit_rate_units</pbcoreDescriptionDocument-0-video-bit-rate-units-t>
-  </pbcoreDescriptionDocument-0-video-bit-rate-units-t>
   <pbcoreDescriptionDocument-frame-rate-display type="array">
     <pbcoreDescriptionDocument-frame-rate-display>frame_rate</pbcoreDescriptionDocument-frame-rate-display>
   </pbcoreDescriptionDocument-frame-rate-display>
-  <pbcoreDescriptionDocument-frame-rate-t type="array">
-    <pbcoreDescriptionDocument-frame-rate-t>frame_rate</pbcoreDescriptionDocument-frame-rate-t>
-  </pbcoreDescriptionDocument-frame-rate-t>
   <pbcoreDescriptionDocument-0-frame-rate-display type="array">
     <pbcoreDescriptionDocument-0-frame-rate-display>frame_rate</pbcoreDescriptionDocument-0-frame-rate-display>
   </pbcoreDescriptionDocument-0-frame-rate-display>
-  <pbcoreDescriptionDocument-0-frame-rate-t type="array">
-    <pbcoreDescriptionDocument-0-frame-rate-t>frame_rate</pbcoreDescriptionDocument-0-frame-rate-t>
-  </pbcoreDescriptionDocument-0-frame-rate-t>
   <pbcoreDescriptionDocument-frame-size-display type="array">
     <pbcoreDescriptionDocument-frame-size-display>frame_size</pbcoreDescriptionDocument-frame-size-display>
   </pbcoreDescriptionDocument-frame-size-display>
-  <pbcoreDescriptionDocument-frame-size-t type="array">
-    <pbcoreDescriptionDocument-frame-size-t>frame_size</pbcoreDescriptionDocument-frame-size-t>
-  </pbcoreDescriptionDocument-frame-size-t>
   <pbcoreDescriptionDocument-0-frame-size-display type="array">
     <pbcoreDescriptionDocument-0-frame-size-display>frame_size</pbcoreDescriptionDocument-0-frame-size-display>
   </pbcoreDescriptionDocument-0-frame-size-display>
-  <pbcoreDescriptionDocument-0-frame-size-t type="array">
-    <pbcoreDescriptionDocument-0-frame-size-t>frame_size</pbcoreDescriptionDocument-0-frame-size-t>
-  </pbcoreDescriptionDocument-0-frame-size-t>
   <pbcoreDescriptionDocument-video-bit-depth-display type="array">
     <pbcoreDescriptionDocument-video-bit-depth-display>video_bit_depth</pbcoreDescriptionDocument-video-bit-depth-display>
   </pbcoreDescriptionDocument-video-bit-depth-display>
-  <pbcoreDescriptionDocument-video-bit-depth-t type="array">
-    <pbcoreDescriptionDocument-video-bit-depth-t>video_bit_depth</pbcoreDescriptionDocument-video-bit-depth-t>
-  </pbcoreDescriptionDocument-video-bit-depth-t>
   <pbcoreDescriptionDocument-0-video-bit-depth-display type="array">
     <pbcoreDescriptionDocument-0-video-bit-depth-display>video_bit_depth</pbcoreDescriptionDocument-0-video-bit-depth-display>
   </pbcoreDescriptionDocument-0-video-bit-depth-display>
-  <pbcoreDescriptionDocument-0-video-bit-depth-t type="array">
-    <pbcoreDescriptionDocument-0-video-bit-depth-t>video_bit_depth</pbcoreDescriptionDocument-0-video-bit-depth-t>
-  </pbcoreDescriptionDocument-0-video-bit-depth-t>
   <pbcoreDescriptionDocument-aspect-ratio-display type="array">
     <pbcoreDescriptionDocument-aspect-ratio-display>aspect_ratio</pbcoreDescriptionDocument-aspect-ratio-display>
   </pbcoreDescriptionDocument-aspect-ratio-display>
-  <pbcoreDescriptionDocument-aspect-ratio-t type="array">
-    <pbcoreDescriptionDocument-aspect-ratio-t>aspect_ratio</pbcoreDescriptionDocument-aspect-ratio-t>
-  </pbcoreDescriptionDocument-aspect-ratio-t>
   <pbcoreDescriptionDocument-0-aspect-ratio-display type="array">
     <pbcoreDescriptionDocument-0-aspect-ratio-display>aspect_ratio</pbcoreDescriptionDocument-0-aspect-ratio-display>
   </pbcoreDescriptionDocument-0-aspect-ratio-display>
-  <pbcoreDescriptionDocument-0-aspect-ratio-t type="array">
-    <pbcoreDescriptionDocument-0-aspect-ratio-t>aspect_ratio</pbcoreDescriptionDocument-0-aspect-ratio-t>
-  </pbcoreDescriptionDocument-0-aspect-ratio-t>
   <pbcoreDescriptionDocument-audio-standard-display type="array">
     <pbcoreDescriptionDocument-audio-standard-display>audio_standard</pbcoreDescriptionDocument-audio-standard-display>
   </pbcoreDescriptionDocument-audio-standard-display>
-  <pbcoreDescriptionDocument-audio-standard-t type="array">
-    <pbcoreDescriptionDocument-audio-standard-t>audio_standard</pbcoreDescriptionDocument-audio-standard-t>
-  </pbcoreDescriptionDocument-audio-standard-t>
   <pbcoreDescriptionDocument-0-audio-standard-display type="array">
     <pbcoreDescriptionDocument-0-audio-standard-display>audio_standard</pbcoreDescriptionDocument-0-audio-standard-display>
   </pbcoreDescriptionDocument-0-audio-standard-display>
-  <pbcoreDescriptionDocument-0-audio-standard-t type="array">
-    <pbcoreDescriptionDocument-0-audio-standard-t>audio_standard</pbcoreDescriptionDocument-0-audio-standard-t>
-  </pbcoreDescriptionDocument-0-audio-standard-t>
   <pbcoreDescriptionDocument-audio-encoding-display type="array">
     <pbcoreDescriptionDocument-audio-encoding-display>audio_encoding</pbcoreDescriptionDocument-audio-encoding-display>
   </pbcoreDescriptionDocument-audio-encoding-display>
-  <pbcoreDescriptionDocument-audio-encoding-t type="array">
-    <pbcoreDescriptionDocument-audio-encoding-t>audio_encoding</pbcoreDescriptionDocument-audio-encoding-t>
-  </pbcoreDescriptionDocument-audio-encoding-t>
   <pbcoreDescriptionDocument-0-audio-encoding-display type="array">
     <pbcoreDescriptionDocument-0-audio-encoding-display>audio_encoding</pbcoreDescriptionDocument-0-audio-encoding-display>
   </pbcoreDescriptionDocument-0-audio-encoding-display>
-  <pbcoreDescriptionDocument-0-audio-encoding-t type="array">
-    <pbcoreDescriptionDocument-0-audio-encoding-t>audio_encoding</pbcoreDescriptionDocument-0-audio-encoding-t>
-  </pbcoreDescriptionDocument-0-audio-encoding-t>
   <pbcoreDescriptionDocument-audio-bit-rate-display type="array">
     <pbcoreDescriptionDocument-audio-bit-rate-display>audio_bit_rate</pbcoreDescriptionDocument-audio-bit-rate-display>
   </pbcoreDescriptionDocument-audio-bit-rate-display>
-  <pbcoreDescriptionDocument-audio-bit-rate-t type="array">
-    <pbcoreDescriptionDocument-audio-bit-rate-t>audio_bit_rate</pbcoreDescriptionDocument-audio-bit-rate-t>
-  </pbcoreDescriptionDocument-audio-bit-rate-t>
   <pbcoreDescriptionDocument-0-audio-bit-rate-display type="array">
     <pbcoreDescriptionDocument-0-audio-bit-rate-display>audio_bit_rate</pbcoreDescriptionDocument-0-audio-bit-rate-display>
   </pbcoreDescriptionDocument-0-audio-bit-rate-display>
-  <pbcoreDescriptionDocument-0-audio-bit-rate-t type="array">
-    <pbcoreDescriptionDocument-0-audio-bit-rate-t>audio_bit_rate</pbcoreDescriptionDocument-0-audio-bit-rate-t>
-  </pbcoreDescriptionDocument-0-audio-bit-rate-t>
   <pbcoreDescriptionDocument-audio-bit-rate-units-display type="array">
     <pbcoreDescriptionDocument-audio-bit-rate-units-display>audio_bit_rate_units</pbcoreDescriptionDocument-audio-bit-rate-units-display>
   </pbcoreDescriptionDocument-audio-bit-rate-units-display>
-  <pbcoreDescriptionDocument-audio-bit-rate-units-t type="array">
-    <pbcoreDescriptionDocument-audio-bit-rate-units-t>audio_bit_rate_units</pbcoreDescriptionDocument-audio-bit-rate-units-t>
-  </pbcoreDescriptionDocument-audio-bit-rate-units-t>
   <pbcoreDescriptionDocument-0-audio-bit-rate-units-display type="array">
     <pbcoreDescriptionDocument-0-audio-bit-rate-units-display>audio_bit_rate_units</pbcoreDescriptionDocument-0-audio-bit-rate-units-display>
   </pbcoreDescriptionDocument-0-audio-bit-rate-units-display>
-  <pbcoreDescriptionDocument-0-audio-bit-rate-units-t type="array">
-    <pbcoreDescriptionDocument-0-audio-bit-rate-units-t>audio_bit_rate_units</pbcoreDescriptionDocument-0-audio-bit-rate-units-t>
-  </pbcoreDescriptionDocument-0-audio-bit-rate-units-t>
   <pbcoreDescriptionDocument-audio-sample-rate-display type="array">
     <pbcoreDescriptionDocument-audio-sample-rate-display>audio_sample_rate</pbcoreDescriptionDocument-audio-sample-rate-display>
   </pbcoreDescriptionDocument-audio-sample-rate-display>
-  <pbcoreDescriptionDocument-audio-sample-rate-t type="array">
-    <pbcoreDescriptionDocument-audio-sample-rate-t>audio_sample_rate</pbcoreDescriptionDocument-audio-sample-rate-t>
-  </pbcoreDescriptionDocument-audio-sample-rate-t>
   <pbcoreDescriptionDocument-0-audio-sample-rate-display type="array">
     <pbcoreDescriptionDocument-0-audio-sample-rate-display>audio_sample_rate</pbcoreDescriptionDocument-0-audio-sample-rate-display>
   </pbcoreDescriptionDocument-0-audio-sample-rate-display>
-  <pbcoreDescriptionDocument-0-audio-sample-rate-t type="array">
-    <pbcoreDescriptionDocument-0-audio-sample-rate-t>audio_sample_rate</pbcoreDescriptionDocument-0-audio-sample-rate-t>
-  </pbcoreDescriptionDocument-0-audio-sample-rate-t>
   <pbcoreDescriptionDocument-audio-sample-rate-units-display type="array">
     <pbcoreDescriptionDocument-audio-sample-rate-units-display>audio_sample_rate_units</pbcoreDescriptionDocument-audio-sample-rate-units-display>
   </pbcoreDescriptionDocument-audio-sample-rate-units-display>
-  <pbcoreDescriptionDocument-audio-sample-rate-units-t type="array">
-    <pbcoreDescriptionDocument-audio-sample-rate-units-t>audio_sample_rate_units</pbcoreDescriptionDocument-audio-sample-rate-units-t>
-  </pbcoreDescriptionDocument-audio-sample-rate-units-t>
   <pbcoreDescriptionDocument-0-audio-sample-rate-units-display type="array">
     <pbcoreDescriptionDocument-0-audio-sample-rate-units-display>audio_sample_rate_units</pbcoreDescriptionDocument-0-audio-sample-rate-units-display>
   </pbcoreDescriptionDocument-0-audio-sample-rate-units-display>
-  <pbcoreDescriptionDocument-0-audio-sample-rate-units-t type="array">
-    <pbcoreDescriptionDocument-0-audio-sample-rate-units-t>audio_sample_rate_units</pbcoreDescriptionDocument-0-audio-sample-rate-units-t>
-  </pbcoreDescriptionDocument-0-audio-sample-rate-units-t>
   <pbcoreDescriptionDocument-audio-bit-depth-display type="array">
     <pbcoreDescriptionDocument-audio-bit-depth-display>audio_bit_depth</pbcoreDescriptionDocument-audio-bit-depth-display>
   </pbcoreDescriptionDocument-audio-bit-depth-display>
-  <pbcoreDescriptionDocument-audio-bit-depth-t type="array">
-    <pbcoreDescriptionDocument-audio-bit-depth-t>audio_bit_depth</pbcoreDescriptionDocument-audio-bit-depth-t>
-  </pbcoreDescriptionDocument-audio-bit-depth-t>
   <pbcoreDescriptionDocument-0-audio-bit-depth-display type="array">
     <pbcoreDescriptionDocument-0-audio-bit-depth-display>audio_bit_depth</pbcoreDescriptionDocument-0-audio-bit-depth-display>
   </pbcoreDescriptionDocument-0-audio-bit-depth-display>
-  <pbcoreDescriptionDocument-0-audio-bit-depth-t type="array">
-    <pbcoreDescriptionDocument-0-audio-bit-depth-t>audio_bit_depth</pbcoreDescriptionDocument-0-audio-bit-depth-t>
-  </pbcoreDescriptionDocument-0-audio-bit-depth-t>
   <pbcoreDescriptionDocument-audio-channels-display type="array">
     <pbcoreDescriptionDocument-audio-channels-display>audio_channels</pbcoreDescriptionDocument-audio-channels-display>
   </pbcoreDescriptionDocument-audio-channels-display>
-  <pbcoreDescriptionDocument-audio-channels-t type="array">
-    <pbcoreDescriptionDocument-audio-channels-t>audio_channels</pbcoreDescriptionDocument-audio-channels-t>
-  </pbcoreDescriptionDocument-audio-channels-t>
   <pbcoreDescriptionDocument-0-audio-channels-display type="array">
     <pbcoreDescriptionDocument-0-audio-channels-display>audio_channels</pbcoreDescriptionDocument-0-audio-channels-display>
   </pbcoreDescriptionDocument-0-audio-channels-display>
-  <pbcoreDescriptionDocument-0-audio-channels-t type="array">
-    <pbcoreDescriptionDocument-0-audio-channels-t>audio_channels</pbcoreDescriptionDocument-0-audio-channels-t>
-  </pbcoreDescriptionDocument-0-audio-channels-t>
   <pbcoreInstantiation-instantiationIdentifier-display type="array">
     <pbcoreInstantiation-instantiationIdentifier-display>name</pbcoreInstantiation-instantiationIdentifier-display>
   </pbcoreInstantiation-instantiationIdentifier-display>
-  <pbcoreInstantiation-instantiationIdentifier-t type="array">
-    <pbcoreInstantiation-instantiationIdentifier-t>name</pbcoreInstantiation-instantiationIdentifier-t>
-  </pbcoreInstantiation-instantiationIdentifier-t>
   <pbcoreInstantiation-0-instantiationIdentifier-display type="array">
     <pbcoreInstantiation-0-instantiationIdentifier-display>name</pbcoreInstantiation-0-instantiationIdentifier-display>
   </pbcoreInstantiation-0-instantiationIdentifier-display>
-  <pbcoreInstantiation-0-instantiationIdentifier-t type="array">
-    <pbcoreInstantiation-0-instantiationIdentifier-t>name</pbcoreInstantiation-0-instantiationIdentifier-t>
-  </pbcoreInstantiation-0-instantiationIdentifier-t>
   <pbcoreInstantiation-instantiationDate-dt type="array">
     <pbcoreInstantiation-instantiationDate-dt>2012-11-01T00:00:00Z</pbcoreInstantiation-instantiationDate-dt>
   </pbcoreInstantiation-instantiationDate-dt>
@@ -859,475 +467,239 @@
   <pbcoreInstantiation-instantiationLocation-display type="array">
     <pbcoreInstantiation-instantiationLocation-display>location</pbcoreInstantiation-instantiationLocation-display>
   </pbcoreInstantiation-instantiationLocation-display>
-  <pbcoreInstantiation-instantiationLocation-t type="array">
-    <pbcoreInstantiation-instantiationLocation-t>location</pbcoreInstantiation-instantiationLocation-t>
-  </pbcoreInstantiation-instantiationLocation-t>
   <pbcoreInstantiation-0-instantiationLocation-display type="array">
     <pbcoreInstantiation-0-instantiationLocation-display>location</pbcoreInstantiation-0-instantiationLocation-display>
   </pbcoreInstantiation-0-instantiationLocation-display>
-  <pbcoreInstantiation-0-instantiationLocation-t type="array">
-    <pbcoreInstantiation-0-instantiationLocation-t>location</pbcoreInstantiation-0-instantiationLocation-t>
-  </pbcoreInstantiation-0-instantiationLocation-t>
   <pbcoreInstantiation-instantiationGenerations-display type="array">
     <pbcoreInstantiation-instantiationGenerations-display>generation</pbcoreInstantiation-instantiationGenerations-display>
   </pbcoreInstantiation-instantiationGenerations-display>
-  <pbcoreInstantiation-instantiationGenerations-t type="array">
-    <pbcoreInstantiation-instantiationGenerations-t>generation</pbcoreInstantiation-instantiationGenerations-t>
-  </pbcoreInstantiation-instantiationGenerations-t>
   <pbcoreInstantiation-0-instantiationGenerations-display type="array">
     <pbcoreInstantiation-0-instantiationGenerations-display>generation</pbcoreInstantiation-0-instantiationGenerations-display>
   </pbcoreInstantiation-0-instantiationGenerations-display>
-  <pbcoreInstantiation-0-instantiationGenerations-t type="array">
-    <pbcoreInstantiation-0-instantiationGenerations-t>generation</pbcoreInstantiation-0-instantiationGenerations-t>
-  </pbcoreInstantiation-0-instantiationGenerations-t>
   <pbcoreInstantiation-instantiationFileSize-display type="array">
     <pbcoreInstantiation-instantiationFileSize-display>size</pbcoreInstantiation-instantiationFileSize-display>
   </pbcoreInstantiation-instantiationFileSize-display>
-  <pbcoreInstantiation-instantiationFileSize-t type="array">
-    <pbcoreInstantiation-instantiationFileSize-t>size</pbcoreInstantiation-instantiationFileSize-t>
-  </pbcoreInstantiation-instantiationFileSize-t>
   <pbcoreInstantiation-0-instantiationFileSize-display type="array">
     <pbcoreInstantiation-0-instantiationFileSize-display>size</pbcoreInstantiation-0-instantiationFileSize-display>
   </pbcoreInstantiation-0-instantiationFileSize-display>
-  <pbcoreInstantiation-0-instantiationFileSize-t type="array">
-    <pbcoreInstantiation-0-instantiationFileSize-t>size</pbcoreInstantiation-0-instantiationFileSize-t>
-  </pbcoreInstantiation-0-instantiationFileSize-t>
   <pbcoreInstantiation-instantiationFileSize-units-display type="array">
     <pbcoreInstantiation-instantiationFileSize-units-display>size_units</pbcoreInstantiation-instantiationFileSize-units-display>
   </pbcoreInstantiation-instantiationFileSize-units-display>
-  <pbcoreInstantiation-instantiationFileSize-units-t type="array">
-    <pbcoreInstantiation-instantiationFileSize-units-t>size_units</pbcoreInstantiation-instantiationFileSize-units-t>
-  </pbcoreInstantiation-instantiationFileSize-units-t>
   <pbcoreInstantiation-0-instantiationFileSize-0-units-display type="array">
     <pbcoreInstantiation-0-instantiationFileSize-0-units-display>size_units</pbcoreInstantiation-0-instantiationFileSize-0-units-display>
   </pbcoreInstantiation-0-instantiationFileSize-0-units-display>
-  <pbcoreInstantiation-0-instantiationFileSize-0-units-t type="array">
-    <pbcoreInstantiation-0-instantiationFileSize-0-units-t>size_units</pbcoreInstantiation-0-instantiationFileSize-0-units-t>
-  </pbcoreInstantiation-0-instantiationFileSize-0-units-t>
   <pbcoreInstantiation-instantiationColors-display type="array">
     <pbcoreInstantiation-instantiationColors-display>colors</pbcoreInstantiation-instantiationColors-display>
   </pbcoreInstantiation-instantiationColors-display>
-  <pbcoreInstantiation-instantiationColors-t type="array">
-    <pbcoreInstantiation-instantiationColors-t>colors</pbcoreInstantiation-instantiationColors-t>
-  </pbcoreInstantiation-instantiationColors-t>
   <pbcoreInstantiation-0-instantiationColors-display type="array">
     <pbcoreInstantiation-0-instantiationColors-display>colors</pbcoreInstantiation-0-instantiationColors-display>
   </pbcoreInstantiation-0-instantiationColors-display>
-  <pbcoreInstantiation-0-instantiationColors-t type="array">
-    <pbcoreInstantiation-0-instantiationColors-t>colors</pbcoreInstantiation-0-instantiationColors-t>
-  </pbcoreInstantiation-0-instantiationColors-t>
   <pbcoreInstantiation-instantiationMediaType-facet type="array">
     <pbcoreInstantiation-instantiationMediaType-facet>media_type</pbcoreInstantiation-instantiationMediaType-facet>
   </pbcoreInstantiation-instantiationMediaType-facet>
-  <pbcoreInstantiation-instantiationMediaType-t type="array">
-    <pbcoreInstantiation-instantiationMediaType-t>media_type</pbcoreInstantiation-instantiationMediaType-t>
-  </pbcoreInstantiation-instantiationMediaType-t>
   <pbcoreInstantiation-0-instantiationMediaType-facet type="array">
     <pbcoreInstantiation-0-instantiationMediaType-facet>media_type</pbcoreInstantiation-0-instantiationMediaType-facet>
   </pbcoreInstantiation-0-instantiationMediaType-facet>
-  <pbcoreInstantiation-0-instantiationMediaType-t type="array">
-    <pbcoreInstantiation-0-instantiationMediaType-t>media_type</pbcoreInstantiation-0-instantiationMediaType-t>
-  </pbcoreInstantiation-0-instantiationMediaType-t>
   <pbcoreInstantiation-instantiationDuration-display type="array">
     <pbcoreInstantiation-instantiationDuration-display>duration</pbcoreInstantiation-instantiationDuration-display>
   </pbcoreInstantiation-instantiationDuration-display>
-  <pbcoreInstantiation-instantiationDuration-t type="array">
-    <pbcoreInstantiation-instantiationDuration-t>duration</pbcoreInstantiation-instantiationDuration-t>
-  </pbcoreInstantiation-instantiationDuration-t>
   <pbcoreInstantiation-0-instantiationDuration-display type="array">
     <pbcoreInstantiation-0-instantiationDuration-display>duration</pbcoreInstantiation-0-instantiationDuration-display>
   </pbcoreInstantiation-0-instantiationDuration-display>
-  <pbcoreInstantiation-0-instantiationDuration-t type="array">
-    <pbcoreInstantiation-0-instantiationDuration-t>duration</pbcoreInstantiation-0-instantiationDuration-t>
-  </pbcoreInstantiation-0-instantiationDuration-t>
   <pbcoreInstantiation-instantiationRights-rightsSummary-display type="array">
     <pbcoreInstantiation-instantiationRights-rightsSummary-display>rights_summary</pbcoreInstantiation-instantiationRights-rightsSummary-display>
   </pbcoreInstantiation-instantiationRights-rightsSummary-display>
-  <pbcoreInstantiation-instantiationRights-rightsSummary-t type="array">
-    <pbcoreInstantiation-instantiationRights-rightsSummary-t>rights_summary</pbcoreInstantiation-instantiationRights-rightsSummary-t>
-  </pbcoreInstantiation-instantiationRights-rightsSummary-t>
   <pbcoreInstantiation-0-instantiationRights-0-rightsSummary-display type="array">
     <pbcoreInstantiation-0-instantiationRights-0-rightsSummary-display>rights_summary</pbcoreInstantiation-0-instantiationRights-0-rightsSummary-display>
   </pbcoreInstantiation-0-instantiationRights-0-rightsSummary-display>
-  <pbcoreInstantiation-0-instantiationRights-0-rightsSummary-t type="array">
-    <pbcoreInstantiation-0-instantiationRights-0-rightsSummary-t>rights_summary</pbcoreInstantiation-0-instantiationRights-0-rightsSummary-t>
-  </pbcoreInstantiation-0-instantiationRights-0-rightsSummary-t>
   <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-display type="array">
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-display>video_standard</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-display>
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-display>audio_standard</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-display>
   </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-display>
-  <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-t type="array">
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-t>video_standard</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-t>
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-t>audio_standard</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-t>
-  </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackStandard-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-display>video_standard</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-t>video_standard</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackStandard-t>
   <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-display type="array">
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-display>video_encoding</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-display>
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-display>audio_encoding</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-display>
   </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-display>
-  <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-t type="array">
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-t>video_encoding</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-t>
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-t>audio_encoding</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-t>
-  </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackEncoding-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-display>video_encoding</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-t>video_encoding</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackEncoding-t>
   <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-display type="array">
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-display>video_bit_rate</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-display>
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-display>audio_bit_rate</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-display>
   </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-display>
-  <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-t type="array">
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-t>video_bit_rate</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-t>
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-t>audio_bit_rate</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-t>
-  </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-display>video_bit_rate</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-t>video_bit_rate</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-t>
   <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-display type="array">
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-display>video_bit_rate_units</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-display>
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-display>audio_bit_rate_units</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-display>
   </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-display>
-  <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-t type="array">
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-t>video_bit_rate_units</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-t>
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-t>audio_bit_rate_units</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-t>
-  </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackDataRate-units-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-display>video_bit_rate_units</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-t>video_bit_rate_units</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackDataRate-0-units-t>
   <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-display type="array">
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-display>frame_rate</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-display>
   </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-display>
-  <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-t type="array">
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-t>frame_rate</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-t>
-  </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameRate-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-display>frame_rate</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-t>frame_rate</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameRate-t>
   <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-display type="array">
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-display>frame_size</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-display>
   </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-display>
-  <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-t type="array">
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-t>frame_size</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-t>
-  </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackFrameSize-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-display>frame_size</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-t>frame_size</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackFrameSize-t>
   <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-display type="array">
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-display>video_bit_depth</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-display>
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-display>audio_bit_depth</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-display>
   </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-display>
-  <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-t type="array">
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-t>video_bit_depth</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-t>
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-t>audio_bit_depth</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-t>
-  </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackBitDepth-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-display>video_bit_depth</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-t>video_bit_depth</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackBitDepth-t>
   <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-display type="array">
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-display>aspect_ratio</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-display>
   </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-display>
-  <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-t type="array">
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-t>aspect_ratio</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-t>
-  </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAspectRatio-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-display>aspect_ratio</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-t>aspect_ratio</pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-0-essenceTrackAspectRatio-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-display>audio_standard</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-t>audio_standard</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackStandard-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-display>audio_encoding</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-t>audio_encoding</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackEncoding-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-display>audio_bit_rate</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-t>audio_bit_rate</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-display>audio_bit_rate_units</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-t>audio_bit_rate_units</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackDataRate-0-units-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-display>audio_bit_depth</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-t>audio_bit_depth</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackBitDepth-t>
   <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-display type="array">
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-display>audio_sample_rate</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-display>
   </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-display>
-  <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-t type="array">
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-t>audio_sample_rate</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-t>
-  </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-display>audio_sample_rate</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-t>audio_sample_rate</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-t>
   <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-display type="array">
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-display>audio_sample_rate_units</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-display>
   </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-display>
-  <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-t type="array">
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-t>audio_sample_rate_units</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-t>
-  </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackSamplingRate-units-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-display>audio_sample_rate_units</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-t>audio_sample_rate_units</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackSamplingRate-0-units-t>
   <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-display type="array">
     <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-display>audio_channels</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-display>
   </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-display>
-  <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-t type="array">
-    <pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-t>audio_channels</pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-t>
-  </pbcoreInstantiation-instantiationEssenceTrack-essenceTrackAnnotation-t>
   <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-display type="array">
     <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-display>audio_channels</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-display>
   </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-display>
-  <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-t type="array">
-    <pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-t>audio_channels</pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-t>
-  </pbcoreInstantiation-0-instantiationEssenceTrack-1-essenceTrackAnnotation-t>
   <pbcoreInstantiation-video-essence-essenceTrackStandard-display type="array">
     <pbcoreInstantiation-video-essence-essenceTrackStandard-display>video_standard</pbcoreInstantiation-video-essence-essenceTrackStandard-display>
   </pbcoreInstantiation-video-essence-essenceTrackStandard-display>
-  <pbcoreInstantiation-video-essence-essenceTrackStandard-t type="array">
-    <pbcoreInstantiation-video-essence-essenceTrackStandard-t>video_standard</pbcoreInstantiation-video-essence-essenceTrackStandard-t>
-  </pbcoreInstantiation-video-essence-essenceTrackStandard-t>
   <pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-display type="array">
     <pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-display>video_standard</pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-display>
   </pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-display>
-  <pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-t type="array">
-    <pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-t>video_standard</pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-t>
-  </pbcoreInstantiation-0-video-essence-0-essenceTrackStandard-t>
   <pbcoreInstantiation-video-essence-essenceTrackEncoding-display type="array">
     <pbcoreInstantiation-video-essence-essenceTrackEncoding-display>video_encoding</pbcoreInstantiation-video-essence-essenceTrackEncoding-display>
   </pbcoreInstantiation-video-essence-essenceTrackEncoding-display>
-  <pbcoreInstantiation-video-essence-essenceTrackEncoding-t type="array">
-    <pbcoreInstantiation-video-essence-essenceTrackEncoding-t>video_encoding</pbcoreInstantiation-video-essence-essenceTrackEncoding-t>
-  </pbcoreInstantiation-video-essence-essenceTrackEncoding-t>
   <pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-display type="array">
     <pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-display>video_encoding</pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-display>
   </pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-display>
-  <pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-t type="array">
-    <pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-t>video_encoding</pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-t>
-  </pbcoreInstantiation-0-video-essence-0-essenceTrackEncoding-t>
   <pbcoreInstantiation-video-essence-essenceTrackDataRate-display type="array">
     <pbcoreInstantiation-video-essence-essenceTrackDataRate-display>video_bit_rate</pbcoreInstantiation-video-essence-essenceTrackDataRate-display>
   </pbcoreInstantiation-video-essence-essenceTrackDataRate-display>
-  <pbcoreInstantiation-video-essence-essenceTrackDataRate-t type="array">
-    <pbcoreInstantiation-video-essence-essenceTrackDataRate-t>video_bit_rate</pbcoreInstantiation-video-essence-essenceTrackDataRate-t>
-  </pbcoreInstantiation-video-essence-essenceTrackDataRate-t>
   <pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-display type="array">
     <pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-display>video_bit_rate</pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-display>
   </pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-display>
-  <pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-t type="array">
-    <pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-t>video_bit_rate</pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-t>
-  </pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-t>
   <pbcoreInstantiation-video-essence-essenceTrackDataRate-units-display type="array">
     <pbcoreInstantiation-video-essence-essenceTrackDataRate-units-display>video_bit_rate_units</pbcoreInstantiation-video-essence-essenceTrackDataRate-units-display>
   </pbcoreInstantiation-video-essence-essenceTrackDataRate-units-display>
-  <pbcoreInstantiation-video-essence-essenceTrackDataRate-units-t type="array">
-    <pbcoreInstantiation-video-essence-essenceTrackDataRate-units-t>video_bit_rate_units</pbcoreInstantiation-video-essence-essenceTrackDataRate-units-t>
-  </pbcoreInstantiation-video-essence-essenceTrackDataRate-units-t>
   <pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-display type="array">
     <pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-display>video_bit_rate_units</pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-display>
   </pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-display>
-  <pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-t type="array">
-    <pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-t>video_bit_rate_units</pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-t>
-  </pbcoreInstantiation-0-video-essence-0-essenceTrackDataRate-0-units-t>
   <pbcoreInstantiation-video-essence-essenceTrackFrameRate-display type="array">
     <pbcoreInstantiation-video-essence-essenceTrackFrameRate-display>frame_rate</pbcoreInstantiation-video-essence-essenceTrackFrameRate-display>
   </pbcoreInstantiation-video-essence-essenceTrackFrameRate-display>
-  <pbcoreInstantiation-video-essence-essenceTrackFrameRate-t type="array">
-    <pbcoreInstantiation-video-essence-essenceTrackFrameRate-t>frame_rate</pbcoreInstantiation-video-essence-essenceTrackFrameRate-t>
-  </pbcoreInstantiation-video-essence-essenceTrackFrameRate-t>
   <pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-display type="array">
     <pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-display>frame_rate</pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-display>
   </pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-display>
-  <pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-t type="array">
-    <pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-t>frame_rate</pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-t>
-  </pbcoreInstantiation-0-video-essence-0-essenceTrackFrameRate-t>
   <pbcoreInstantiation-video-essence-essenceTrackFrameSize-display type="array">
     <pbcoreInstantiation-video-essence-essenceTrackFrameSize-display>frame_size</pbcoreInstantiation-video-essence-essenceTrackFrameSize-display>
   </pbcoreInstantiation-video-essence-essenceTrackFrameSize-display>
-  <pbcoreInstantiation-video-essence-essenceTrackFrameSize-t type="array">
-    <pbcoreInstantiation-video-essence-essenceTrackFrameSize-t>frame_size</pbcoreInstantiation-video-essence-essenceTrackFrameSize-t>
-  </pbcoreInstantiation-video-essence-essenceTrackFrameSize-t>
   <pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-display type="array">
     <pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-display>frame_size</pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-display>
   </pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-display>
-  <pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-t type="array">
-    <pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-t>frame_size</pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-t>
-  </pbcoreInstantiation-0-video-essence-0-essenceTrackFrameSize-t>
   <pbcoreInstantiation-video-essence-essenceTrackBitDepth-display type="array">
     <pbcoreInstantiation-video-essence-essenceTrackBitDepth-display>video_bit_depth</pbcoreInstantiation-video-essence-essenceTrackBitDepth-display>
   </pbcoreInstantiation-video-essence-essenceTrackBitDepth-display>
-  <pbcoreInstantiation-video-essence-essenceTrackBitDepth-t type="array">
-    <pbcoreInstantiation-video-essence-essenceTrackBitDepth-t>video_bit_depth</pbcoreInstantiation-video-essence-essenceTrackBitDepth-t>
-  </pbcoreInstantiation-video-essence-essenceTrackBitDepth-t>
   <pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-display type="array">
     <pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-display>video_bit_depth</pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-display>
   </pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-display>
-  <pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-t type="array">
-    <pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-t>video_bit_depth</pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-t>
-  </pbcoreInstantiation-0-video-essence-0-essenceTrackBitDepth-t>
   <pbcoreInstantiation-video-essence-essenceTrackAspectRatio-display type="array">
     <pbcoreInstantiation-video-essence-essenceTrackAspectRatio-display>aspect_ratio</pbcoreInstantiation-video-essence-essenceTrackAspectRatio-display>
   </pbcoreInstantiation-video-essence-essenceTrackAspectRatio-display>
-  <pbcoreInstantiation-video-essence-essenceTrackAspectRatio-t type="array">
-    <pbcoreInstantiation-video-essence-essenceTrackAspectRatio-t>aspect_ratio</pbcoreInstantiation-video-essence-essenceTrackAspectRatio-t>
-  </pbcoreInstantiation-video-essence-essenceTrackAspectRatio-t>
   <pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-display type="array">
     <pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-display>aspect_ratio</pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-display>
   </pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-display>
-  <pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-t type="array">
-    <pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-t>aspect_ratio</pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-t>
-  </pbcoreInstantiation-0-video-essence-0-essenceTrackAspectRatio-t>
   <pbcoreInstantiation-audio-essence-essenceTrackStandard-display type="array">
     <pbcoreInstantiation-audio-essence-essenceTrackStandard-display>audio_standard</pbcoreInstantiation-audio-essence-essenceTrackStandard-display>
   </pbcoreInstantiation-audio-essence-essenceTrackStandard-display>
-  <pbcoreInstantiation-audio-essence-essenceTrackStandard-t type="array">
-    <pbcoreInstantiation-audio-essence-essenceTrackStandard-t>audio_standard</pbcoreInstantiation-audio-essence-essenceTrackStandard-t>
-  </pbcoreInstantiation-audio-essence-essenceTrackStandard-t>
   <pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-display type="array">
     <pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-display>audio_standard</pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-display>
   </pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-display>
-  <pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-t type="array">
-    <pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-t>audio_standard</pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-t>
-  </pbcoreInstantiation-0-audio-essence-0-essenceTrackStandard-t>
   <pbcoreInstantiation-audio-essence-essenceTrackEncoding-display type="array">
     <pbcoreInstantiation-audio-essence-essenceTrackEncoding-display>audio_encoding</pbcoreInstantiation-audio-essence-essenceTrackEncoding-display>
   </pbcoreInstantiation-audio-essence-essenceTrackEncoding-display>
-  <pbcoreInstantiation-audio-essence-essenceTrackEncoding-t type="array">
-    <pbcoreInstantiation-audio-essence-essenceTrackEncoding-t>audio_encoding</pbcoreInstantiation-audio-essence-essenceTrackEncoding-t>
-  </pbcoreInstantiation-audio-essence-essenceTrackEncoding-t>
   <pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-display type="array">
     <pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-display>audio_encoding</pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-display>
   </pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-display>
-  <pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-t type="array">
-    <pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-t>audio_encoding</pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-t>
-  </pbcoreInstantiation-0-audio-essence-0-essenceTrackEncoding-t>
   <pbcoreInstantiation-audio-essence-essenceTrackDataRate-display type="array">
     <pbcoreInstantiation-audio-essence-essenceTrackDataRate-display>audio_bit_rate</pbcoreInstantiation-audio-essence-essenceTrackDataRate-display>
   </pbcoreInstantiation-audio-essence-essenceTrackDataRate-display>
-  <pbcoreInstantiation-audio-essence-essenceTrackDataRate-t type="array">
-    <pbcoreInstantiation-audio-essence-essenceTrackDataRate-t>audio_bit_rate</pbcoreInstantiation-audio-essence-essenceTrackDataRate-t>
-  </pbcoreInstantiation-audio-essence-essenceTrackDataRate-t>
   <pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-display type="array">
     <pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-display>audio_bit_rate</pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-display>
   </pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-display>
-  <pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-t type="array">
-    <pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-t>audio_bit_rate</pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-t>
-  </pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-t>
   <pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-display type="array">
     <pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-display>audio_bit_rate_units</pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-display>
   </pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-display>
-  <pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-t type="array">
-    <pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-t>audio_bit_rate_units</pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-t>
-  </pbcoreInstantiation-audio-essence-essenceTrackDataRate-units-t>
   <pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-display type="array">
     <pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-display>audio_bit_rate_units</pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-display>
   </pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-display>
-  <pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-t type="array">
-    <pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-t>audio_bit_rate_units</pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-t>
-  </pbcoreInstantiation-0-audio-essence-0-essenceTrackDataRate-0-units-t>
   <pbcoreInstantiation-audio-essence-essenceTrackBitDepth-display type="array">
     <pbcoreInstantiation-audio-essence-essenceTrackBitDepth-display>audio_bit_depth</pbcoreInstantiation-audio-essence-essenceTrackBitDepth-display>
   </pbcoreInstantiation-audio-essence-essenceTrackBitDepth-display>
-  <pbcoreInstantiation-audio-essence-essenceTrackBitDepth-t type="array">
-    <pbcoreInstantiation-audio-essence-essenceTrackBitDepth-t>audio_bit_depth</pbcoreInstantiation-audio-essence-essenceTrackBitDepth-t>
-  </pbcoreInstantiation-audio-essence-essenceTrackBitDepth-t>
   <pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-display type="array">
     <pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-display>audio_bit_depth</pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-display>
   </pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-display>
-  <pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-t type="array">
-    <pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-t>audio_bit_depth</pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-t>
-  </pbcoreInstantiation-0-audio-essence-0-essenceTrackBitDepth-t>
   <pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-display type="array">
     <pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-display>audio_sample_rate</pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-display>
   </pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-display>
-  <pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-t type="array">
-    <pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-t>audio_sample_rate</pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-t>
-  </pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-t>
   <pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-display type="array">
     <pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-display>audio_sample_rate</pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-display>
   </pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-display>
-  <pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-t type="array">
-    <pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-t>audio_sample_rate</pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-t>
-  </pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-t>
   <pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-display type="array">
     <pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-display>audio_sample_rate_units</pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-display>
   </pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-display>
-  <pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-t type="array">
-    <pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-t>audio_sample_rate_units</pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-t>
-  </pbcoreInstantiation-audio-essence-essenceTrackSamplingRate-units-t>
   <pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-display type="array">
     <pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-display>audio_sample_rate_units</pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-display>
   </pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-display>
-  <pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-t type="array">
-    <pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-t>audio_sample_rate_units</pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-t>
-  </pbcoreInstantiation-0-audio-essence-0-essenceTrackSamplingRate-0-units-t>
   <pbcoreInstantiation-audio-essence-essenceTrackAnnotation-display type="array">
     <pbcoreInstantiation-audio-essence-essenceTrackAnnotation-display>audio_channels</pbcoreInstantiation-audio-essence-essenceTrackAnnotation-display>
   </pbcoreInstantiation-audio-essence-essenceTrackAnnotation-display>
-  <pbcoreInstantiation-audio-essence-essenceTrackAnnotation-t type="array">
-    <pbcoreInstantiation-audio-essence-essenceTrackAnnotation-t>audio_channels</pbcoreInstantiation-audio-essence-essenceTrackAnnotation-t>
-  </pbcoreInstantiation-audio-essence-essenceTrackAnnotation-t>
   <pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-display type="array">
     <pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-display>audio_channels</pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-display>
   </pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-display>
-  <pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-t type="array">
-    <pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-t>audio_channels</pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-t>
-  </pbcoreInstantiation-0-audio-essence-0-essenceTrackAnnotation-t>
   <name-display type="array">
     <name-display>name</name-display>
   </name-display>
-  <name-t type="array">
-    <name-t>name</name-t>
-  </name-t>
   <location-display type="array">
     <location-display>location</location-display>
   </location-display>
-  <location-t type="array">
-    <location-t>location</location-t>
-  </location-t>
   <date-dt type="array">
     <date-dt>2012-11-01T00:00:00Z</date-dt>
   </date-dt>
@@ -1337,15 +709,9 @@
   <generation-display type="array">
     <generation-display>generation</generation-display>
   </generation-display>
-  <generation-t type="array">
-    <generation-t>generation</generation-t>
-  </generation-t>
   <media-type-facet type="array">
     <media-type-facet>media_type</media-type-facet>
   </media-type-facet>
-  <media-type-t type="array">
-    <media-type-t>media_type</media-type-t>
-  </media-type-t>
   <file-format-t type="array">
     <file-format-t>file_format</file-format-t>
   </file-format-t>
@@ -1355,127 +721,64 @@
   <size-display type="array">
     <size-display>size</size-display>
   </size-display>
-  <size-t type="array">
-    <size-t>size</size-t>
-  </size-t>
   <size-units-display type="array">
     <size-units-display>size_units</size-units-display>
   </size-units-display>
-  <size-units-t type="array">
-    <size-units-t>size_units</size-units-t>
-  </size-units-t>
   <colors-display type="array">
     <colors-display>colors</colors-display>
   </colors-display>
-  <colors-t type="array">
-    <colors-t>colors</colors-t>
-  </colors-t>
   <duration-display type="array">
     <duration-display>duration</duration-display>
   </duration-display>
-  <duration-t type="array">
-    <duration-t>duration</duration-t>
-  </duration-t>
   <rights-summary-display type="array">
     <rights-summary-display>rights_summary</rights-summary-display>
   </rights-summary-display>
-  <rights-summary-t type="array">
-    <rights-summary-t>rights_summary</rights-summary-t>
-  </rights-summary-t>
   <video-standard-display type="array">
     <video-standard-display>video_standard</video-standard-display>
   </video-standard-display>
-  <video-standard-t type="array">
-    <video-standard-t>video_standard</video-standard-t>
-  </video-standard-t>
   <video-encoding-display type="array">
     <video-encoding-display>video_encoding</video-encoding-display>
   </video-encoding-display>
-  <video-encoding-t type="array">
-    <video-encoding-t>video_encoding</video-encoding-t>
-  </video-encoding-t>
   <video-bit-rate-display type="array">
     <video-bit-rate-display>video_bit_rate</video-bit-rate-display>
   </video-bit-rate-display>
-  <video-bit-rate-t type="array">
-    <video-bit-rate-t>video_bit_rate</video-bit-rate-t>
-  </video-bit-rate-t>
   <video-bit-rate-units-display type="array">
     <video-bit-rate-units-display>video_bit_rate_units</video-bit-rate-units-display>
   </video-bit-rate-units-display>
-  <video-bit-rate-units-t type="array">
-    <video-bit-rate-units-t>video_bit_rate_units</video-bit-rate-units-t>
-  </video-bit-rate-units-t>
   <frame-rate-display type="array">
     <frame-rate-display>frame_rate</frame-rate-display>
   </frame-rate-display>
-  <frame-rate-t type="array">
-    <frame-rate-t>frame_rate</frame-rate-t>
-  </frame-rate-t>
   <frame-size-display type="array">
     <frame-size-display>frame_size</frame-size-display>
   </frame-size-display>
-  <frame-size-t type="array">
-    <frame-size-t>frame_size</frame-size-t>
-  </frame-size-t>
   <video-bit-depth-display type="array">
     <video-bit-depth-display>video_bit_depth</video-bit-depth-display>
   </video-bit-depth-display>
-  <video-bit-depth-t type="array">
-    <video-bit-depth-t>video_bit_depth</video-bit-depth-t>
-  </video-bit-depth-t>
   <aspect-ratio-display type="array">
     <aspect-ratio-display>aspect_ratio</aspect-ratio-display>
   </aspect-ratio-display>
-  <aspect-ratio-t type="array">
-    <aspect-ratio-t>aspect_ratio</aspect-ratio-t>
-  </aspect-ratio-t>
   <audio-standard-display type="array">
     <audio-standard-display>audio_standard</audio-standard-display>
   </audio-standard-display>
-  <audio-standard-t type="array">
-    <audio-standard-t>audio_standard</audio-standard-t>
-  </audio-standard-t>
   <audio-encoding-display type="array">
     <audio-encoding-display>audio_encoding</audio-encoding-display>
   </audio-encoding-display>
-  <audio-encoding-t type="array">
-    <audio-encoding-t>audio_encoding</audio-encoding-t>
-  </audio-encoding-t>
   <audio-bit-rate-display type="array">
     <audio-bit-rate-display>audio_bit_rate</audio-bit-rate-display>
   </audio-bit-rate-display>
-  <audio-bit-rate-t type="array">
-    <audio-bit-rate-t>audio_bit_rate</audio-bit-rate-t>
-  </audio-bit-rate-t>
   <audio-bit-rate-units-display type="array">
     <audio-bit-rate-units-display>audio_bit_rate_units</audio-bit-rate-units-display>
   </audio-bit-rate-units-display>
-  <audio-bit-rate-units-t type="array">
-    <audio-bit-rate-units-t>audio_bit_rate_units</audio-bit-rate-units-t>
-  </audio-bit-rate-units-t>
   <audio-sample-rate-display type="array">
     <audio-sample-rate-display>audio_sample_rate</audio-sample-rate-display>
   </audio-sample-rate-display>
-  <audio-sample-rate-t type="array">
-    <audio-sample-rate-t>audio_sample_rate</audio-sample-rate-t>
-  </audio-sample-rate-t>
   <audio-sample-rate-units-display type="array">
     <audio-sample-rate-units-display>audio_sample_rate_units</audio-sample-rate-units-display>
   </audio-sample-rate-units-display>
-  <audio-sample-rate-units-t type="array">
-    <audio-sample-rate-units-t>audio_sample_rate_units</audio-sample-rate-units-t>
-  </audio-sample-rate-units-t>
   <audio-bit-depth-display type="array">
     <audio-bit-depth-display>audio_bit_depth</audio-bit-depth-display>
   </audio-bit-depth-display>
-  <audio-bit-depth-t type="array">
-    <audio-bit-depth-t>audio_bit_depth</audio-bit-depth-t>
-  </audio-bit-depth-t>
   <audio-channels-display type="array">
     <audio-channels-display>audio_channels</audio-channels-display>
   </audio-channels-display>
-  <audio-channels-t type="array">
-    <audio-channels-t>audio_channels</audio-channels-t>
-  </audio-channels-t>
 </hash>
