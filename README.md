@@ -46,6 +46,15 @@ validate against the PBCore XML v.2 schema.  Additionally, there are several tem
 to insert additional terms into your xml documents, such as contributors, publishers, as well as next and previous
 fields that specify which files come before and after one another in a multi-part born-digital video.
 
+## Testing
+
+To run all the rspec tests, use:
+
+    rspec spec
+
+Sample xml documents are copied to tmp so you can see what the xml looks like that hydra-pbcore is generating.
+These xml samples are compared to examples in spec/fixtures.
+
 ## Contributing
 
 1. Fork it
