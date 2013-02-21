@@ -35,13 +35,10 @@ def save_template input, filename
 end
 
 # Tests if a file in spec/fixtures is the same as the file in tmp
-def equivalent_xml_files(file)
-  f = Nokogiri::XML(fixture file)
-  s = Nokogiri::XML(sample file)
-  EquivalentXml.equivalent?(
-    f, s, 
-    opts = { :element_order => false, :normalize_whitespace => true }
-  )
+def tmp_file_should_match_exemplar(file)
+  f = Nokogiri::XML(fixture(file))
+  s = Nokogiri::XML(sample(file))
+  f.should be_equivalent_to s
 end
 
 def random_string
