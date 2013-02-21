@@ -3,26 +3,6 @@
   <pbcoreTitle titleType="Main">inserted</pbcoreTitle>
   <pbcoreDescription descriptionType="Description" descriptionTypeSource="pbcoreDescription/descriptionType" descriptionTypeRef="http://pbcore.org/vocabularies/pbcoreDescription/descriptionType#description" annotation="Summary">inserted</pbcoreDescription>
   <pbcoreDescription descriptionType="Table of Contents" descriptionTypeSource="pbcoreDescription/descriptionType" descriptionTypeRef="http://pbcore.org/vocabularies/pbcoreDescription/descriptionType#table-of-contents" annotation="Parts List">inserted</pbcoreDescription>
-  <pbcoreRelation>
-    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
-    <pbcoreRelationIdentifier annotation="Event Series">inserted</pbcoreRelationIdentifier>
-  </pbcoreRelation>
-  <pbcoreRelation>
-    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
-    <pbcoreRelationIdentifier annotation="Archival Collection">inserted</pbcoreRelationIdentifier>
-  </pbcoreRelation>
-  <pbcoreRelation>
-    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
-    <pbcoreRelationIdentifier annotation="Archival Series">inserted</pbcoreRelationIdentifier>
-  </pbcoreRelation>
-  <pbcoreRelation>
-    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
-    <pbcoreRelationIdentifier annotation="Collection Number">inserted</pbcoreRelationIdentifier>
-  </pbcoreRelation>
-  <pbcoreRelation>
-    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
-    <pbcoreRelationIdentifier annotation="Accession Number">inserted</pbcoreRelationIdentifier>
-  </pbcoreRelation>
   <pbcoreRightsSummary>
     <rightsSummary>inserted</rightsSummary>
   </pbcoreRightsSummary>
@@ -55,6 +35,26 @@
     <coverage annotation="Event Date">2012-11-11</coverage>
     <coverageType>Temporal</coverageType>
   </pbcoreCoverage>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Archival Collection">inserted</pbcoreRelationIdentifier>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Event Series">inserted</pbcoreRelationIdentifier>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Archival Series">inserted</pbcoreRelationIdentifier>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Accession Number">inserted</pbcoreRelationIdentifier>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Collection Number">inserted</pbcoreRelationIdentifier>
+  </pbcoreRelation>
   <pbcoreTitle titleType="Alternative">inserted</pbcoreTitle>
   <pbcoreTitle titleType="Chapter">inserted</pbcoreTitle>
   <pbcoreTitle titleType="Episode">inserted</pbcoreTitle>
@@ -69,4 +69,5 @@
   <pbcoreGenre source="The Getty Research Institute Art and Architecture Thesaurus" ref="http://www.getty.edu/research/tools/vocabularies/aat/index.html">inserted</pbcoreGenre>
   <pbcoreGenre source="Library of Congress Genre/Form Terms" ref="http://id.loc.gov/authorities/genreForms.html">inserted</pbcoreGenre>
   <pbcoreGenre source="Library of Congress Subject Headings" ref="http://id.loc.gov/authorities/subjects.html">inserted</pbcoreGenre>
+  <pbcoreAssetType>Scene</pbcoreAssetType>
 </pbcoreDescriptionDocument>
