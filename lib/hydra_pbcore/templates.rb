@@ -61,6 +61,13 @@ module HydraPbcore::Templates
         }
       end
 
+      define_template :relation do |xml, value, annotation|
+        xml.pbcoreRelation {
+          xml.pbcoreRelationType("Is Part Of", :source=>"PBCore relationType", :ref=>"http://pbcore.org/vocabularies/relationType#is-part-of")
+          xml.pbcoreRelationIdentifier(value, :annotation=>annotation)
+        }
+      end
+
     end
   end
 
@@ -90,6 +97,10 @@ module HydraPbcore::Templates
 
   def insert_date(date)
     add_child_node(ng_xml.root, :event_date, date)
+  end
+
+  def insert_relation(value, annotation)
+    add_child_node(ng_xml.root, :relation, value, annotation)
   end
 
   def digital_instantiation
