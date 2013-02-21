@@ -5,6 +5,7 @@ require "om"
 require "active-fedora"
 
 module HydraPbcore
+  extend ActiveSupport::Autoload
 
   DocumentNodes = [
     "pbcoreAssetType",
@@ -64,15 +65,11 @@ module HydraPbcore
     xml = '<?xml version="1.0"?><pbcoreDescriptionDocument xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html"></pbcoreDescriptionDocument>'
     Nokogiri::XML(xml)
   end
-end
 
-require "hydra-pbcore/methods"
-require "hydra-pbcore/conversions"
-require "hydra-pbcore/behaviors"
-require "hydra-pbcore/templates"
-require "hydra-pbcore/mapper"
-require "hydra-pbcore/datastream/document"
-require "hydra-pbcore/datastream/instantiation"
-require "hydra-pbcore/datastream/deprecated/document"
-require "hydra-pbcore/datastream/deprecated/digital_document"
-require "hydra-pbcore/datastream/deprecated/instantiation"
+  autoload :Mapper
+  autoload :Methods
+  autoload :Conversions
+  autoload :Behaviors
+  autoload :Templates
+  autoload :Datastream
+end
