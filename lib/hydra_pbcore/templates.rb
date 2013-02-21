@@ -4,6 +4,13 @@ module HydraPbcore::Templates
   included do
     class_eval do
 
+      define_template :creator do |xml, author, role|
+        xml.pbcoreCreator {
+          xml.creator(author)
+          xml.creatorRole(role, :source=>"PBCore creatorRole") 
+        }
+      end
+
       define_template :publisher do |xml, publisher, role|
         xml.pbcorePublisher {
           xml.publisher(publisher)
@@ -55,6 +62,10 @@ module HydraPbcore::Templates
       end
 
     end
+  end
+
+  def insert_creator(author=nil, role=nil)
+    add_child_node(ng_xml.root, :creator, author, role)
   end
 
   def insert_contributor(author=nil, role=nil)

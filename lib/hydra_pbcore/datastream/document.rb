@@ -116,6 +116,17 @@ class Document < ActiveFedora::OmDatastream
       :index_as => [:not_searchable, :converted_date, :displayable]
     )
 
+    # Creator names and roles
+    t.creator(:path=>"pbcoreCreator") do
+      t.name_(:path=>"creator", :index_as => [:searchable, :facetable])
+      t.role_(:path=>"creatorRole", 
+        :attributes=>{ :source=>"PBCore creatorRole" },
+        :index_as => [:searchable, :displayable]
+      )
+    end
+    t.creator_name(:proxy=>[:creator, :name])
+    t.creator_role(:proxy=>[:creator, :role])
+
     # Contributor names and roles
     t.contributor(:path=>"pbcoreContributor") do
       t.name_(:path=>"contributor", :index_as => [:searchable, :facetable])

@@ -35,6 +35,8 @@ describe HydraPbcore::Datastream::Document do
         [:lc_genre],
         [:lc_subject_genre],
         [:event_series],
+        [:creator_name],
+        [:creator_role],
         [:contributor_name],
         [:contributor_role],
         [:publisher_name],
@@ -54,9 +56,12 @@ describe HydraPbcore::Datastream::Document do
     end
 
     it "should update fields requiring inserted nodes" do
+      @object_ds.insert_creator
       @object_ds.insert_publisher
       @object_ds.insert_contributor
       [
+        [:creator_name],
+        [:creator_role],
         [:publisher_name],
         [:publisher_role],
         [:contributor_name],
