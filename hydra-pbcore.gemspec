@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require 'hydra-pbcore/version'
+require 'hydra_pbcore/version'
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Adam Wead"]
