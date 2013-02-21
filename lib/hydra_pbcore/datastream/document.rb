@@ -1,5 +1,5 @@
 module HydraPbcore::Datastream
-class Document < ActiveFedora::NokogiriDatastream
+class Document < ActiveFedora::OmDatastream
 
   include HydraPbcore::Methods
   include HydraPbcore::Templates
