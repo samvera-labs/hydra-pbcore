@@ -190,6 +190,18 @@
     <pbcoreDescriptionDocument-0-genres-facet>inserted</pbcoreDescriptionDocument-0-genres-facet>
     <pbcoreDescriptionDocument-0-genres-facet>inserted</pbcoreDescriptionDocument-0-genres-facet>
   </pbcoreDescriptionDocument-0-genres-facet>
+  <pbcoreDescriptionDocument-asset-type-t type="array">
+    <pbcoreDescriptionDocument-asset-type-t>Scene</pbcoreDescriptionDocument-asset-type-t>
+  </pbcoreDescriptionDocument-asset-type-t>
+  <pbcoreDescriptionDocument-asset-type-facet type="array">
+    <pbcoreDescriptionDocument-asset-type-facet>Scene</pbcoreDescriptionDocument-asset-type-facet>
+  </pbcoreDescriptionDocument-asset-type-facet>
+  <pbcoreDescriptionDocument-0-asset-type-t type="array">
+    <pbcoreDescriptionDocument-0-asset-type-t>Scene</pbcoreDescriptionDocument-0-asset-type-t>
+  </pbcoreDescriptionDocument-0-asset-type-t>
+  <pbcoreDescriptionDocument-0-asset-type-facet type="array">
+    <pbcoreDescriptionDocument-0-asset-type-facet>Scene</pbcoreDescriptionDocument-0-asset-type-facet>
+  </pbcoreDescriptionDocument-0-asset-type-facet>
   <pbcoreDescriptionDocument-getty-genre-display type="array">
     <pbcoreDescriptionDocument-getty-genre-display>inserted</pbcoreDescriptionDocument-getty-genre-display>
   </pbcoreDescriptionDocument-getty-genre-display>
@@ -413,6 +425,12 @@
     <genres-facet>inserted</genres-facet>
     <genres-facet>inserted</genres-facet>
   </genres-facet>
+  <asset-type-t type="array">
+    <asset-type-t>Scene</asset-type-t>
+  </asset-type-t>
+  <asset-type-facet type="array">
+    <asset-type-facet>Scene</asset-type-facet>
+  </asset-type-facet>
   <getty-genre-display type="array">
     <getty-genre-display>inserted</getty-genre-display>
   </getty-genre-display>
