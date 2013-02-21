@@ -1,6 +1,5 @@
 # :nodoc
 require "hydra-pbcore"
-require "debugger"
 require "equivalent-xml"
 
 RSpec.configure do |config|

@@ -17,16 +17,12 @@ Gem::Specification.new do |gem|
   gem.version       = HydraPbcore::VERSION
 
   # Dependencies
-  gem.add_dependency('nokogiri')
-  gem.add_dependency('om')
   gem.add_dependency('active-fedora')
-  gem.add_dependency('solrizer')
   gem.add_development_dependency('yard')
   gem.add_development_dependency('redcarpet')
   # For Development
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rspec'
-  gem.add_development_dependency 'debugger'
   gem.add_development_dependency 'rdoc'
   gem.add_development_dependency 'equivalent-xml'
 end
