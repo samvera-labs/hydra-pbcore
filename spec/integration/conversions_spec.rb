@@ -14,7 +14,7 @@ describe "Converting" do
       doc = HydraPbcore::Datastream::Deprecated::Document.from_xml(integration_fixture "document_rrhof_524.xml")
       doc.to_document
       save_template doc.to_xml, "converted_rrhof_524.xml"
-      equivalent_xml_files("converted_rrhof_524.xml").should be_true
+      tmp_file_should_match_exemplar("converted_rrhof_524.xml")
     end
     it "should raise an error with the wrong class" do
       lambda { @fake.to_document }.should raise_error
@@ -27,7 +27,7 @@ describe "Converting" do
       inst = doc.to_physical_instantiation
       inst.should be_kind_of HydraPbcore::Datastream::Instantiation
       save_template inst.to_xml, "converted_rrhof_524_instantiation.xml"
-      equivalent_xml_files("converted_rrhof_524_instantiation.xml").should be_true
+      tmp_file_should_match_exemplar("converted_rrhof_524_instantiation.xml")
     end
     it "should raise an error with the wrong class" do
       lambda { @fake.to_document }.should raise_error
@@ -39,7 +39,7 @@ describe "Converting" do
       inst = HydraPbcore::Datastream::Deprecated::Instantiation.from_xml(integration_fixture "instantiation_rrhof_1184.xml")
       inst.to_instantiation
       save_template inst.to_xml, "converted_instantiation_rrhof_1184.xml"
-      equivalent_xml_files("converted_instantiation_rrhof_1184.xml").should be_true
+      tmp_file_should_match_exemplar("converted_instantiation_rrhof_1184.xml")
     end
     it "should raise an error with the wrong class" do
       lambda { @fake.to_document }.should raise_error
@@ -52,7 +52,7 @@ describe "Converting" do
         doc = HydraPbcore::Datastream::Deprecated::DigitalDocument.from_xml(integration_fixture file)
         doc.clean_document
         save_template doc.to_xml, ("converted_"+file)
-        equivalent_xml_files(("converted_"+file)).should be_true
+        tmp_file_should_match_exemplar(("converted_"+file))
         save_template doc.to_pbcore_xml, "valid_pbcore.xml"
         doc.valid?.should == []
       end
@@ -63,7 +63,7 @@ describe "Converting" do
         doc.to_document
         doc.clean_document
         save_template doc.to_xml, ("converted_"+file)
-        equivalent_xml_files(("converted_"+file)).should be_true
+        tmp_file_should_match_exemplar(("converted_"+file))
         save_template doc.to_pbcore_xml, "valid_pbcore.xml"
         doc.valid?.should == []
       end

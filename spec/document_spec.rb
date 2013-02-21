@@ -9,7 +9,7 @@ describe HydraPbcore::Datastream::Document do
   describe "::xml_template" do
     it "should match an exmplar" do
       save_template @object_ds.to_xml, "document_template.xml"
-      equivalent_xml_files("document_template.xml").should be_true
+      tmp_file_should_match_exemplar("document_template.xml")
     end
   end
 
@@ -143,7 +143,7 @@ describe HydraPbcore::Datastream::Document do
 
     it "solr document should match an exmplar" do
       save_template @object_ds.to_solr.to_xml, "document_solr.xml"
-      equivalent_xml_files("document_solr.xml").should be_true
+      tmp_file_should_match_exemplar("document_solr.xml")
     end
 
     describe "solr dates" do
@@ -162,7 +162,7 @@ describe HydraPbcore::Datastream::Document do
 
     it "xml document should match an exmplar" do
       save_template @object_ds.to_xml, "document.xml"
-      equivalent_xml_files("document.xml").should be_true
+      tmp_file_should_match_exemplar("document.xml")
     end
 
     it "xml document should validate against the PBCore schema" do

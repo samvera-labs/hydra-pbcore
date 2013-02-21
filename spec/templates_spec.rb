@@ -16,14 +16,14 @@ describe HydraPbcore::Templates do
   describe "#digital_instantiation" do
     it "should return a template for a digital instantiaion" do
       save_template @test.digital_instantiation, "digital_instantiation_template.xml"
-      equivalent_xml_files("digital_instantiation_template.xml").should be_true
+      tmp_file_should_match_exemplar("digital_instantiation_template.xml")
     end
   end
 
   describe "#physical_instantiation" do
     it "should create a template for physical instantiaions such as tapes" do
       save_template @test.physical_instantiation, "physical_instantiation_template.xml"
-      equivalent_xml_files("physical_instantiation_template.xml").should be_true
+      tmp_file_should_match_exemplar("physical_instantiation_template.xml")
     end
   end
 
