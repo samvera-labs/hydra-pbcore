@@ -98,7 +98,7 @@ describe HydraPbcore::Datastream::Instantiation do
       @digital.insert_previous("inserted")
 
       save_template @digital.to_xml, "digital_instantiation.xml"
-      equivalent_xml_files("digital_instantiation.xml").should be_true
+      tmp_file_should_match_exemplar("digital_instantiation.xml")
     end
  
     it "should have different essenceTrackStandard nodes" do
@@ -159,7 +159,7 @@ describe HydraPbcore::Datastream::Instantiation do
 
       it "should match an exmplar" do
         save_template @digital.to_solr.to_xml, "digital_instantiation_solr.xml"
-        equivalent_xml_files("digital_instantiation_solr.xml").should be_true
+        tmp_file_should_match_exemplar("digital_instantiation_solr.xml")
       end
 
       it "should display dates as they were entered" do
@@ -214,7 +214,7 @@ describe HydraPbcore::Datastream::Instantiation do
       @physical.cleaning_note  = "inserted"
       @physical.condition_note = "inserted"
       save_template @physical.to_xml, "physical_instantiation.xml"
-      equivalent_xml_files("physical_instantiation.xml").should be_true
+      tmp_file_should_match_exemplar("physical_instantiation.xml")
     end
 
     describe "solr documents" do
@@ -241,7 +241,7 @@ describe HydraPbcore::Datastream::Instantiation do
 
       it "should match an exmplar" do
         save_template @physical.to_solr.to_xml, "physical_instantiation_solr.xml"
-        equivalent_xml_files("physical_instantiation_solr.xml").should be_true
+        tmp_file_should_match_exemplar("physical_instantiation_solr.xml")
       end
 
       it "should display dates as they were entered" do
