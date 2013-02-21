@@ -68,6 +68,8 @@ class Document < ActiveFedora::OmDatastream
     # This is only to display all genres
     t.genres(:path=>"pbcoreGenre", :index_as => [:searchable, :facetable])
 
+    t.asset_type(:path=>"pbcoreAssetType", :index_as => [:searchable, :facetable])
+
     # Individual genre types defined for entry
     t.getty_genre(:path=>"pbcoreGenre", 
       :attributes=>{ 

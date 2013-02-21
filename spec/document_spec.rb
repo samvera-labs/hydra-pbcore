@@ -42,6 +42,7 @@ describe HydraPbcore::Datastream::Document do
         [:publisher_name],
         [:publisher_role],
         [:note],
+        [:asset_type],
         [:rights_summary],
         [:archival_collection],
         [:archival_series],
