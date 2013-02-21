@@ -74,6 +74,22 @@ describe HydraPbcore::Datastream::Document do
       end
     end
 
+    it "should have insert_relation" do
+      @object_ds = HydraPbcore::Datastream::Document.new(nil, nil)
+      @object_ds.insert_relation("My Collection", 'Archival Collection')
+      @object_ds.archival_collection.should == ['My Collection']
+
+      @object_ds.insert_relation("My event", 'Event Series')
+      @object_ds.event_series.should == ['My event']
+
+      @object_ds.insert_relation("My series", 'Archival Series')
+      @object_ds.archival_series.should == ['My series']
+
+      @object_ds.insert_relation("My Acces Num", 'Accession Number')
+      @object_ds.accession_number.should == ['My Acces Num']
+    end
+
+
     it "should differentiate between multiple added nodes" do
       @object_ds.insert_contributor
       @object_ds.insert_contributor
@@ -115,6 +131,12 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.insert_place("inserted")
       @object_ds.insert_date("2012-11-11")
 
+      @object_ds.insert_relation("inserted", 'Archival Collection')
+      @object_ds.insert_relation("inserted", 'Event Series')
+      @object_ds.insert_relation("inserted", 'Archival Series')
+      @object_ds.insert_relation("inserted", 'Accession Number')
+      @object_ds.insert_relation("inserted", 'Collection Number')
+
       @object_ds.pbc_id               = "inserted"
       @object_ds.main_title           = "inserted"
       @object_ds.alternative_title    = "inserted"
@@ -140,13 +162,9 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.publisher_role       = "inserted"
       @object_ds.note                 = "inserted"
       @object_ds.rights_summary       = "inserted"
-      @object_ds.archival_collection  = "inserted"
-      @object_ds.archival_series      = "inserted"
-      @object_ds.collection_number    = "inserted"
-      @object_ds.accession_number     = "inserted"
     end
 
-    it "solr document should match an exmplar" do
+    it "solr document should match an exemplar" do
       save_template @object_ds.to_solr.to_xml, "document_solr.xml"
       tmp_file_should_match_exemplar("document_solr.xml")
     end
