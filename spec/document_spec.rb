@@ -42,6 +42,7 @@ describe HydraPbcore::Datastream::Document do
         [:publisher_name],
         [:publisher_role],
         [:note],
+        [:asset_type],
         [:rights_summary],
         [:archival_collection],
         [:archival_series],
@@ -162,6 +163,7 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.publisher_role       = "inserted"
       @object_ds.note                 = "inserted"
       @object_ds.rights_summary       = "inserted"
+      @object_ds.asset_type           = "Scene"
     end
 
     it "solr document should match an exemplar" do
