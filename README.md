@@ -1,5 +1,7 @@
 # HydraPbcore
 
+[![Build Status](https://travis-ci.org/curationexperts/hydra-pbcore.png)](https://travis-ci.org/curationexperts/hydra-pbcore)
+
 A Hydra gem that offers PBCore datastream definitions using OM, as well as some other convenience
 methods such as inserting xml templates into existing documents and reordering your PBCore xml 
 elements so that you can export complete, valid PBCore documents.
