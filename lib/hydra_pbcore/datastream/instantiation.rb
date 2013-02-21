@@ -1,5 +1,5 @@
 module HydraPbcore::Datastream
-class Instantiation < ActiveFedora::NokogiriDatastream
+class Instantiation < ActiveFedora::OmDatastream
 
   include HydraPbcore::Methods
   include HydraPbcore::Templates
