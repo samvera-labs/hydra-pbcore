@@ -3,6 +3,7 @@ class Document < ActiveFedora::OmDatastream
 
   include HydraPbcore::Methods
   include HydraPbcore::Templates
+  include HydraPbcore::Conversions
 
   set_terminology do |t|
     t.root(:path=>"pbcoreDescriptionDocument")

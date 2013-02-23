@@ -14,11 +14,9 @@
 module HydraPbcore::Conversions
 
   # Converts a HydraPbcore::Datastream::Deprecated::Document to a HydraPbcore::Datastream::Document
-  # - the existing pbcoreInstantiation node is removed
-  # - any pbcoreRelation or pbcoreRelationIdentifier is removed except for terms identifying "Event Series"
-  def to_document
-    raise "only works with HydraPbcore::Datastream::Deprecated::Document" unless self.kind_of?(HydraPbcore::Datastream::Deprecated::Document)
-    self.remove_node(:pbcoreInstantiation)
+  # - the existing pbcoreInstantiation node is removed and returned
+  def to_document xml = self.ng_xml
+    xml.search("//pbcoreInstantiation").remove
   end
 
   # Extracts the instantation from a HydraPbcore::Datastream::Deprecated::Document and returns
@@ -26,8 +24,7 @@ module HydraPbcore::Conversions
   # - removes all instantiationRelation nodes
   # - adds source="PBCore instantiationColors" to instantiationColors node
   # - extracts the pbcoreInstantiation node and returns new Instantiation object
-  def to_physical_instantiation(xml = self.ng_xml)
-    raise "only works with HydraPbcore::Datastream::Deprecated::Document" unless self.kind_of?(HydraPbcore::Datastream::Deprecated::Document)
+  def to_physical_instantiation xml = self.ng_xml 
     xml.search("//instantiationRelation").each do |node|  
       node.remove
     end
@@ -39,7 +36,6 @@ module HydraPbcore::Conversions
   # Converts a HydraPbcore::Datastream::Deprecated::Instantiation to a HydraPbcore::Datastream::Instantiation
   # Modifies the exiting xml to exclude any parent nodes of the pbcoreInstantiation node
   def to_instantiation
-    raise "only works with HydraPbcore::Datastream::Deprecated::Instantiation" unless self.kind_of?(HydraPbcore::Datastream::Deprecated::Instantiation)
     self.ng_xml = self.ng_xml.xpath("//pbcoreInstantiation").to_xml
   end
 
@@ -50,7 +46,7 @@ module HydraPbcore::Conversions
   #
   # Note: Since pbcoreRelation is used to indicated archival collection and series, this information should be copied to another kind
   # of datastream using an RDF relationship in Hydra.
-  def clean_document(xml = self.ng_xml)
+  def clean_document xml = self.ng_xml
     xml.search("//pbcoreRelation").each do |node|  
       node.remove unless is_event_series?(node)
     end
@@ -66,7 +62,7 @@ module HydraPbcore::Conversions
   end
 
   # Determines if the given node defines an event_series term
-  def is_event_series?(node)
+  def is_event_series? node
     unless node.at_xpath("pbcoreRelationIdentifier").nil?
       if node.at_xpath("pbcoreRelationIdentifier").attribute("annotation").to_s == "Event Series"
         return true
@@ -77,7 +73,7 @@ module HydraPbcore::Conversions
   # Determines if a coverage node that has no annotation attribute should be either an event_date term or an event_date term.
   # Returns the first instance of an annotation attribute, processing it so that may be sent directly to 
   # the datastream as a method.
-  def coverage_type(node)
+  def coverage_type node
     node.children.each do |c|
       return c.attribute("annotation").to_s.split.last.downcase unless c.attribute("annotation").nil?
     end
