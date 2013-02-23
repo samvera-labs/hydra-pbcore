@@ -8,9 +8,6 @@ class Document < ActiveFedora::NokogiriDatastream
   set_terminology do |t|
     t.root(:path=>"pbcoreDescriptionDocument")
 
-    #
-    #  pbcoreDescription fields
-    #
     t.pbc_id(:path=>"pbcoreIdentifier", 
       :attributes=>{ :source=>"Rock and Roll Hall of Fame and Museum", :annotation=>"PID" }
     )
