@@ -17,7 +17,7 @@ describe HydraPbcore::Datastream::Document do
     it "should update the intitial fields" do
       [
         [:pbc_id],
-        [:main_title],
+        [:title],
         [:alternative_title],
         [:chapter],
         [:episode],
@@ -27,14 +27,14 @@ describe HydraPbcore::Datastream::Document do
         [:track],
         [:translation],
         [:summary],
-        [:parts_list],
+        [:contents],
         [:lc_subject],
         [:lc_name],
         [:rh_subject],
         [:getty_genre],
         [:lc_genre],
         [:lc_subject_genre],
-        [:event_series],
+        [:series],
         [:creator_name],
         [:creator_role],
         [:contributor_name],
@@ -44,7 +44,7 @@ describe HydraPbcore::Datastream::Document do
         [:note],
         [:asset_type],
         [:rights_summary],
-        [:archival_collection],
+        [:collection],
         [:archival_series],
         [:collection_number],
         [:accession_number],
@@ -78,10 +78,10 @@ describe HydraPbcore::Datastream::Document do
     it "should have insert_relation" do
       @object_ds = HydraPbcore::Datastream::Document.new(nil, nil)
       @object_ds.insert_relation("My Collection", 'Archival Collection')
-      @object_ds.archival_collection.should == ['My Collection']
+      @object_ds.collection.should == ['My Collection']
 
       @object_ds.insert_relation("My event", 'Event Series')
-      @object_ds.event_series.should == ['My event']
+      @object_ds.series.should == ['My event']
 
       @object_ds.insert_relation("My series", 'Archival Series')
       @object_ds.archival_series.should == ['My series']
@@ -139,7 +139,7 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.insert_relation("inserted", 'Collection Number')
 
       @object_ds.pbc_id               = "inserted"
-      @object_ds.main_title           = "inserted"
+      @object_ds.title                = "inserted"
       @object_ds.alternative_title    = "inserted"
       @object_ds.chapter              = "inserted"
       @object_ds.episode              = "inserted"
@@ -149,14 +149,14 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.track                = "inserted"
       @object_ds.translation          = "inserted"
       @object_ds.summary              = "inserted"
-      @object_ds.parts_list           = "inserted"
+      @object_ds.contents             = "inserted"
       @object_ds.lc_subject           = "inserted"
       @object_ds.lc_name              = "inserted"
       @object_ds.rh_subject           = "inserted"
       @object_ds.getty_genre          = "inserted"
       @object_ds.lc_genre             = "inserted"
       @object_ds.lc_subject_genre     = "inserted"
-      @object_ds.event_series         = "inserted"
+      @object_ds.series               = "inserted"
       @object_ds.contributor_name     = "inserted"
       @object_ds.contributor_role     = "inserted"
       @object_ds.publisher_name       = "inserted"

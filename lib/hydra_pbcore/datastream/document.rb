@@ -12,7 +12,7 @@ class Document < ActiveFedora::OmDatastream
       :attributes=>{ :source=>"Rock and Roll Hall of Fame and Museum", :annotation=>"PID" }
     )
 
-    t.main_title(:path=>"pbcoreTitle", :attributes=>{ :titleType=>"Main" }, :index_as => [:searchable, :displayable])
+    t.title(:path=>"pbcoreTitle", :attributes=>{ :titleType=>"Main" }, :index_as => [:searchable, :displayable])
     t.alternative_title(:path=>"pbcoreTitle", :attributes=>{ :titleType=>"Alternative" },
       :index_as => [:searchable, :displayable]
     )
@@ -27,7 +27,7 @@ class Document < ActiveFedora::OmDatastream
     )
 
     # This is only to display all subjects
-    t.subject_topic(:path=>"pbcoreSubject", :index_as => [:searchable, :facetable])
+    t.subject(:path=>"pbcoreSubject", :index_as => [:facetable])
 
     # Individual subject types defined for entry
     t.lc_subject(:path=>"pbcoreSubject", 
@@ -56,7 +56,7 @@ class Document < ActiveFedora::OmDatastream
         :index_as => [:searchable, :displayable]
     )
 
-    t.parts_list(:path=>"pbcoreDescription", 
+    t.contents(:path=>"pbcoreDescription", 
       :attributes=>{ 
         :descriptionType=>"Table of Contents",
         :descriptionTypeSource=>"pbcoreDescription/descriptionType",
@@ -67,7 +67,7 @@ class Document < ActiveFedora::OmDatastream
     )
 
     # This is only to display all genres
-    t.genres(:path=>"pbcoreGenre", :index_as => [:searchable, :facetable])
+    t.genre(:path=>"pbcoreGenre", :index_as => [:facetable])
 
     t.asset_type(:path=>"pbcoreAssetType", :index_as => [:searchable, :facetable])
 
@@ -96,14 +96,14 @@ class Document < ActiveFedora::OmDatastream
 
     # PBCore relation fields
     t.pbcoreRelation do
-      t.series(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Event Series" })
+      t.event_series(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Event Series" })
       t.arch_coll(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Archival Collection" })
       t.arch_ser(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Archival Series" })
       t.coll_num(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Collection Number" })
       t.acc_num(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Accession Number" })
     end
-    t.event_series(:ref=>[:pbcoreRelation, :series], :index_as => [:searchable, :displayable])
-    t.archival_collection(:ref=>[:pbcoreRelation, :arch_coll], :index_as => [:searchable, :displayable])
+    t.series(:ref=>[:pbcoreRelation, :event_series], :index_as => [:searchable, :displayable])
+    t.collection(:ref=>[:pbcoreRelation, :arch_coll], :index_as => [:searchable, :displayable])
     t.archival_series(:ref=>[:pbcoreRelation, :arch_ser], :index_as => [:searchable, :displayable])
     t.collection_number(:ref=>[:pbcoreRelation, :coll_num], :index_as => [:searchable, :displayable])
     t.accession_number(:ref=>[:pbcoreRelation, :acc_num], :index_as => [:searchable, :displayable])
