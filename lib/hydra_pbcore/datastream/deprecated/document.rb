@@ -1,6 +1,10 @@
 module HydraPbcore::Datastream::Deprecated
 class Document < ActiveFedora::NokogiriDatastream
 
+  class_attribute :institution, :relator
+  self.institution = "Rock and Roll Hall of Fame and Museum"
+  self.relator     = "MARC relator terms"
+
   include HydraPbcore::Methods
   include HydraPbcore::Templates
   include HydraPbcore::Conversions
@@ -9,7 +13,7 @@ class Document < ActiveFedora::NokogiriDatastream
     t.root(:path=>"pbcoreDescriptionDocument")
 
     t.pbc_id(:path=>"pbcoreIdentifier", 
-      :attributes=>{ :source=>"Rock and Roll Hall of Fame and Museum", :annotation=>"PID" }
+      :attributes=>{ :source=>self.institution, :annotation=>"PID" }
     )
 
     t.title(:path=>"pbcoreTitle", :attributes=>{ :titleType=>"Main" }, :index_as => [:searchable, :displayable])
@@ -42,7 +46,7 @@ class Document < ActiveFedora::NokogiriDatastream
       :index_as => [:displayable]
     )
     t.rh_subject(:path=>"pbcoreSubject", 
-      :attributes=>{ :source=>"Rock and Roll Hall of Fame and Museum" },
+      :attributes=>{ :source=>self.institution },
       :index_as => [:displayable]
     )
 
@@ -113,7 +117,7 @@ class Document < ActiveFedora::NokogiriDatastream
     t.contributor(:path=>"pbcoreContributor") do
       t.name_(:path=>"contributor")
       t.role_(:path=>"contributorRole", 
-        :attributes=>{ :source=>"MARC relator terms" }
+        :attributes=>{ :source=>self.relator }
       )
     end
     t.contributor_name(:proxy=>[:contributor, :name], :index_as => [:searchable, :facetable])
@@ -135,7 +139,7 @@ class Document < ActiveFedora::NokogiriDatastream
     t.pbcoreInstantiation do
       t.instantiationIdentifier(:attributes=>{ 
         :annotation=>"Barcode", 
-        :source=>"Rock and Roll Hall of Fame and Museum"
+        :source=>self.institution
       })
       t.instantiationDate(:attributes=>{ :dateType=>"created" })
       t.instantiationPhysical(:attributes=>{ :source=>"PBCore instantiationPhysical" })
@@ -209,7 +213,7 @@ class Document < ActiveFedora::NokogiriDatastream
       xml.pbcoreDescriptionDocument("xmlns:xsi"=>"http://www.w3.org/2001/XMLSchema-instance",
         "xsi:schemaLocation"=>"http://www.pbcore.org/PBCore/PBCoreNamespace.html") {
 
-        xml.pbcoreIdentifier(:source=>"Rock and Roll Hall of Fame and Museum", :annotation=>"PID")
+        xml.pbcoreIdentifier(:source=>self.institution, :annotation=>"PID")
         xml.pbcoreTitle(:titleType=>"Main")
         xml.pbcoreDescription(:descriptionType=>"Description",
           :descriptionTypeSource=>"pbcoreDescription/descriptionType",
@@ -247,7 +251,7 @@ class Document < ActiveFedora::NokogiriDatastream
         xml.pbcoreInstantiation {
 
           # Item details
-          xml.instantiationIdentifier(:annotation=>"Barcode", :source=>"Rock and Roll Hall of Fame and Museum")
+          xml.instantiationIdentifier(:annotation=>"Barcode", :source=>self.institution)
           xml.instantiationDate(:dateType=>"created")
           xml.instantiationPhysical(:source=>"PBCore instantiationPhysical")
           xml.instantiationStandard

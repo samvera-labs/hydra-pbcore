@@ -1,6 +1,9 @@
 module HydraPbcore::Datastream::Deprecated
 class Instantiation < ActiveFedora::NokogiriDatastream
 
+  class_attribute :institution
+  self.institution = "Rock and Roll Hall of Fame and Museum"
+
   include HydraPbcore::Methods
   include HydraPbcore::Templates
   include HydraPbcore::Conversions
@@ -14,7 +17,7 @@ class Instantiation < ActiveFedora::NokogiriDatastream
       t.instantiationIdentifier(
         :attributes=>{
           :annotation=>"Filename",
-          :source=>"Rock and Roll Hall of Fame and Museum"
+          :source=>self.institution
         },
         :index_as => [:displayable]
       )
@@ -80,7 +83,7 @@ class Instantiation < ActiveFedora::NokogiriDatastream
       )
 
       t.instantiationRelation do
-        t.instantiationRelationIdentifier(:attributes=>{ :source=>"Rock and Roll Hall of Fame and Museum" })
+        t.instantiationRelationIdentifier(:attributes=>{ :source=>self.institution })
       end
       # The file we're describing at the root of this document preceeds the file marked "next"
       t.next_inst(:ref => [:pbcoreInstantiation, :instantiationRelation],
@@ -199,13 +202,13 @@ class Instantiation < ActiveFedora::NokogiriDatastream
 
         # These fields are only added so that this document will be validated.  However, they
         # shouldn't be used for anything else here because they're in the parent Fedora object
-        xml.pbcoreIdentifier(:annotation=>"PID", :source=>"Rock and Roll Hall of Fame and Museum")
+        xml.pbcoreIdentifier(:annotation=>"PID", :source=>self.institution)
         xml.pbcoreTitle
         xml.pbcoreDescription
 
         xml.pbcoreInstantiation {
 
-          xml.instantiationIdentifier(:annotation=>"Filename", :source=>"Rock and Roll Hall of Fame and Museum")
+          xml.instantiationIdentifier(:annotation=>"Filename", :source=>self.institution)
           xml.instantiationDate(:dateType=>"created")
           xml.instantiationDigital(:source=>"EBU file formats")
           xml.instantiationLocation

@@ -1,6 +1,10 @@
 module HydraPbcore::Datastream
 class Document < ActiveFedora::OmDatastream
 
+  class_attribute :institution, :relator
+  self.institution = "Rock and Roll Hall of Fame and Museum"
+  self.relator     = "MARC relator terms"
+
   include HydraPbcore::Methods
   include HydraPbcore::Templates
   include HydraPbcore::Conversions
@@ -9,7 +13,7 @@ class Document < ActiveFedora::OmDatastream
     t.root(:path=>"pbcoreDescriptionDocument")
 
     t.pbc_id(:path=>"pbcoreIdentifier", 
-      :attributes=>{ :source=>"Rock and Roll Hall of Fame and Museum", :annotation=>"PID" }
+      :attributes=>{ :source=>self.institution, :annotation=>"PID" }
     )
 
     t.title(:path=>"pbcoreTitle", :attributes=>{ :titleType=>"Main" }, :index_as => [:searchable, :displayable])
@@ -42,7 +46,7 @@ class Document < ActiveFedora::OmDatastream
       :index_as => [:displayable]
     )
     t.rh_subject(:path=>"pbcoreSubject", 
-      :attributes=>{ :source=>"Rock and Roll Hall of Fame and Museum" },
+      :attributes=>{ :source=>self.institution },
       :index_as => [:displayable]
     )
 
@@ -134,7 +138,7 @@ class Document < ActiveFedora::OmDatastream
     t.contributor(:path=>"pbcoreContributor") do
       t.name_(:path=>"contributor", :index_as => [:searchable, :facetable])
       t.role_(:path=>"contributorRole", 
-        :attributes=>{ :source=>"MARC relator terms" },
+        :attributes=>{ :source=>self.relator },
         :index_as => [:searchable, :displayable]
       )
     end
@@ -164,7 +168,7 @@ class Document < ActiveFedora::OmDatastream
       xml.pbcoreDescriptionDocument("xmlns:xsi"=>"http://www.w3.org/2001/XMLSchema-instance",
         "xsi:schemaLocation"=>"http://www.pbcore.org/PBCore/PBCoreNamespace.html") {
 
-        xml.pbcoreIdentifier(:source=>"Rock and Roll Hall of Fame and Museum", :annotation=>"PID")
+        xml.pbcoreIdentifier(:source=>self.institution, :annotation=>"PID")
         xml.pbcoreTitle(:titleType=>"Main")
         xml.pbcoreDescription(:descriptionType=>"Description",
           :descriptionTypeSource=>"pbcoreDescription/descriptionType",

@@ -1,6 +1,10 @@
 module HydraPbcore::Datastream::Deprecated
 class DigitalDocument < ActiveFedora::NokogiriDatastream
 
+  class_attribute :institution, :relator
+  self.institution = "Rock and Roll Hall of Fame and Museum"
+  self.relator     = "MARC relator terms"
+
   include HydraPbcore::Methods
   include HydraPbcore::Templates
   include HydraPbcore::Conversions
@@ -13,7 +17,7 @@ class DigitalDocument < ActiveFedora::NokogiriDatastream
       xml.pbcoreDescriptionDocument("xmlns:xsi"=>"http://www.w3.org/2001/XMLSchema-instance",
         "xsi:schemaLocation"=>"http://www.pbcore.org/PBCore/PBCoreNamespace.html") {
 
-        xml.pbcoreIdentifier(:source=>"Rock and Roll Hall of Fame and Museum", :annotation=>"PID")
+        xml.pbcoreIdentifier(:source=>self.institution, :annotation=>"PID")
         xml.pbcoreTitle(:titleType=>"Main")
         xml.pbcoreDescription(:descriptionType=>"Description",
           :descriptionTypeSource=>"pbcoreDescription/descriptionType",

@@ -4,6 +4,11 @@ describe HydraPbcore::Templates do
   
   before :each do 
     class TestClass
+
+      class_attribute :institution, :relator, :address
+      self.institution = "Rock and Roll Hall of Fame and Museum"
+      self.relator     = "MARC relator terms"
+      self.address     = "Rock and Roll Hall of Fame and Museum,\n2809 Woodland Ave.,\nCleveland, OH, 44115\n216-515-1956\nlibrary@rockhall.org"
       
       def self.define_template arg
       end
