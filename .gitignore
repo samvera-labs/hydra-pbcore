@@ -5,9 +5,11 @@
 .config
 .yardoc
 .rvmrc
+.ruby-version
 Gemfile.lock
 InstalledFiles
 _yardoc
+bin
 coverage
 doc/
 lib/bundler/man
