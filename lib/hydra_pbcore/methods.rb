@@ -4,17 +4,36 @@ module HydraPbcore::Methods
     self.find_by_terms(type.to_sym).slice(index.to_i).remove
   end
 
-  # Returns a new Nokogiri::XML object with the contents of self reordered and repackaged as a 
-  # valid pbcore xml document.
+  # Returns a new Nokogiri::XML object with the contents of self, plus any additional instanstations,
+  # reordered and repackaged as a  valid pbcore xml document.
   #
   # The original xml from the datastream is copied to a new Nokogiri object, then each node
-  # is added--in correct order--to a new blank, valid pbcore xml document.
-  def to_pbcore_xml
+  # is added--in correct order--to a new blank, valid pbcore xml document.  If additional
+  # instantiations are passed in as an array, those are correctly reordered as well, and
+  # included in the document
+  def to_pbcore_xml included_instantiations = Array.new, instantiations = Array.new
+
+    # Reorder any included instantations
+    included_instantiations.each do |i|
+      original_inst = Nokogiri::XML(i.to_xml)
+      new_inst = Nokogiri::XML("<pbcoreInstantiation/>")
+      HydraPbcore::InstantiationNodes.each do |node|
+        original_inst.search(node).each do |n|
+          new_inst.root.add_child(n)
+        end
+      end
+      instantiations << new_inst
+    end
+
+    # Reorder the document
     original = Nokogiri::XML(self.to_xml)
     new_doc = HydraPbcore.blank
     HydraPbcore::DocumentNodes.each do |node|
       original.search(node).each do |n|
         new_doc.root.add_child(n)
+      end
+      if node.match("pbcoreInstantiation") && !instantiations.empty?
+        instantiations.collect { |i| new_doc.root.add_child(i.root.to_xml) }
       end
     end
     return new_doc

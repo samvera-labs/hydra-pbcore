@@ -66,6 +66,14 @@ module HydraPbcore
     Nokogiri::XML(xml)
   end
 
+  # Validates a supplied xml document against the PBCore schema.  This differs from 
+  # HydraPbcore::Methods.valid? which validates self, instead of the supplied argument.
+  # Argument must be a Nokogiri::XML::Document.
+  def self.is_valid? xml
+    xsd = Nokogiri::XML::Schema(open("http://pbcore.org/xsd/pbcore-2.0.xsd"))
+    xsd.validate(xml)
+  end
+
   autoload :Mapper
   autoload :Methods
   autoload :Conversions

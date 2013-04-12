@@ -194,6 +194,23 @@ describe HydraPbcore::Datastream::Document do
       save_template @object_ds.to_pbcore_xml, "document_valid.xml"
       @object_ds.valid?.should == []
     end
+
+    describe "xml document with instantiations" do
+
+      before(:each) do
+        @digital  = HydraPbcore::Datastream::Instantiation.new(nil, nil)
+        @digital.define :digital
+        @physical = HydraPbcore::Datastream::Instantiation.new(nil, nil)
+        @physical.define :physical
+      end
+
+      it "should validate against the PBCore schema" do
+        save_template @object_ds.to_pbcore_xml([@digital, @physical]), "document_with_instantiations_valid.xml"
+        HydraPbcore.is_valid?(Nokogiri::XML(sample("document_with_instantiations_valid.xml"))).should be_true
+      end
+
+    end
+
   end  
 
 end
