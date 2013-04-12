@@ -1,3 +1,3 @@
 module HydraPbcore
-  VERSION = "2.2.0rc1"
+  VERSION = "2.2.0"
 end
