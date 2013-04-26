@@ -16,11 +16,6 @@ module HydraPbcore::Methods
     opts[:include_parent?] ? self.find_by_terms(type.to_sym).slice(index.to_i).parent.remove : self.find_by_terms(type.to_sym).slice(index.to_i).remove
   end
 
-
-  def remove_node_with_parent type, index = 0
-
-  end
-
   # Returns a new Nokogiri::XML object with the contents of self, plus any additional instanstations,
   # reordered and repackaged as a  valid pbcore xml document.
   #
