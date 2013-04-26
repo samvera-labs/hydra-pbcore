@@ -200,6 +200,66 @@
   <pbcoreDescriptionDocument-0-lc-subject-genre-display type="array">
     <pbcoreDescriptionDocument-0-lc-subject-genre-display>inserted</pbcoreDescriptionDocument-0-lc-subject-genre-display>
   </pbcoreDescriptionDocument-0-lc-subject-genre-display>
+  <pbcoreDescriptionDocument-series-t type="array">
+    <pbcoreDescriptionDocument-series-t>inserted</pbcoreDescriptionDocument-series-t>
+  </pbcoreDescriptionDocument-series-t>
+  <pbcoreDescriptionDocument-series-display type="array">
+    <pbcoreDescriptionDocument-series-display>inserted</pbcoreDescriptionDocument-series-display>
+  </pbcoreDescriptionDocument-series-display>
+  <pbcoreDescriptionDocument-0-series-t type="array">
+    <pbcoreDescriptionDocument-0-series-t>inserted</pbcoreDescriptionDocument-0-series-t>
+  </pbcoreDescriptionDocument-0-series-t>
+  <pbcoreDescriptionDocument-0-series-display type="array">
+    <pbcoreDescriptionDocument-0-series-display>inserted</pbcoreDescriptionDocument-0-series-display>
+  </pbcoreDescriptionDocument-0-series-display>
+  <pbcoreDescriptionDocument-collection-t type="array">
+    <pbcoreDescriptionDocument-collection-t>inserted</pbcoreDescriptionDocument-collection-t>
+  </pbcoreDescriptionDocument-collection-t>
+  <pbcoreDescriptionDocument-collection-display type="array">
+    <pbcoreDescriptionDocument-collection-display>inserted</pbcoreDescriptionDocument-collection-display>
+  </pbcoreDescriptionDocument-collection-display>
+  <pbcoreDescriptionDocument-0-collection-t type="array">
+    <pbcoreDescriptionDocument-0-collection-t>inserted</pbcoreDescriptionDocument-0-collection-t>
+  </pbcoreDescriptionDocument-0-collection-t>
+  <pbcoreDescriptionDocument-0-collection-display type="array">
+    <pbcoreDescriptionDocument-0-collection-display>inserted</pbcoreDescriptionDocument-0-collection-display>
+  </pbcoreDescriptionDocument-0-collection-display>
+  <pbcoreDescriptionDocument-archival-series-t type="array">
+    <pbcoreDescriptionDocument-archival-series-t>inserted</pbcoreDescriptionDocument-archival-series-t>
+  </pbcoreDescriptionDocument-archival-series-t>
+  <pbcoreDescriptionDocument-archival-series-display type="array">
+    <pbcoreDescriptionDocument-archival-series-display>inserted</pbcoreDescriptionDocument-archival-series-display>
+  </pbcoreDescriptionDocument-archival-series-display>
+  <pbcoreDescriptionDocument-0-archival-series-t type="array">
+    <pbcoreDescriptionDocument-0-archival-series-t>inserted</pbcoreDescriptionDocument-0-archival-series-t>
+  </pbcoreDescriptionDocument-0-archival-series-t>
+  <pbcoreDescriptionDocument-0-archival-series-display type="array">
+    <pbcoreDescriptionDocument-0-archival-series-display>inserted</pbcoreDescriptionDocument-0-archival-series-display>
+  </pbcoreDescriptionDocument-0-archival-series-display>
+  <pbcoreDescriptionDocument-collection-number-t type="array">
+    <pbcoreDescriptionDocument-collection-number-t>inserted</pbcoreDescriptionDocument-collection-number-t>
+  </pbcoreDescriptionDocument-collection-number-t>
+  <pbcoreDescriptionDocument-collection-number-display type="array">
+    <pbcoreDescriptionDocument-collection-number-display>inserted</pbcoreDescriptionDocument-collection-number-display>
+  </pbcoreDescriptionDocument-collection-number-display>
+  <pbcoreDescriptionDocument-0-collection-number-t type="array">
+    <pbcoreDescriptionDocument-0-collection-number-t>inserted</pbcoreDescriptionDocument-0-collection-number-t>
+  </pbcoreDescriptionDocument-0-collection-number-t>
+  <pbcoreDescriptionDocument-0-collection-number-display type="array">
+    <pbcoreDescriptionDocument-0-collection-number-display>inserted</pbcoreDescriptionDocument-0-collection-number-display>
+  </pbcoreDescriptionDocument-0-collection-number-display>
+  <pbcoreDescriptionDocument-accession-number-t type="array">
+    <pbcoreDescriptionDocument-accession-number-t>inserted</pbcoreDescriptionDocument-accession-number-t>
+  </pbcoreDescriptionDocument-accession-number-t>
+  <pbcoreDescriptionDocument-accession-number-display type="array">
+    <pbcoreDescriptionDocument-accession-number-display>inserted</pbcoreDescriptionDocument-accession-number-display>
+  </pbcoreDescriptionDocument-accession-number-display>
+  <pbcoreDescriptionDocument-0-accession-number-t type="array">
+    <pbcoreDescriptionDocument-0-accession-number-t>inserted</pbcoreDescriptionDocument-0-accession-number-t>
+  </pbcoreDescriptionDocument-0-accession-number-t>
+  <pbcoreDescriptionDocument-0-accession-number-display type="array">
+    <pbcoreDescriptionDocument-0-accession-number-display>inserted</pbcoreDescriptionDocument-0-accession-number-display>
+  </pbcoreDescriptionDocument-0-accession-number-display>
   <pbcoreDescriptionDocument-event-place-t type="array">
     <pbcoreDescriptionDocument-event-place-t>inserted</pbcoreDescriptionDocument-event-place-t>
   </pbcoreDescriptionDocument-event-place-t>

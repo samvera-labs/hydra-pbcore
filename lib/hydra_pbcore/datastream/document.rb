@@ -106,11 +106,11 @@ class Document < ActiveFedora::OmDatastream
       t.coll_num(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Collection Number" })
       t.acc_num(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Accession Number" })
     end
-    t.series(:ref=>[:pbcoreRelation, :event_series], :index_as => [:searchable, :displayable])
-    t.collection(:ref=>[:pbcoreRelation, :arch_coll], :index_as => [:searchable, :displayable])
-    t.archival_series(:ref=>[:pbcoreRelation, :arch_ser], :index_as => [:searchable, :displayable])
-    t.collection_number(:ref=>[:pbcoreRelation, :coll_num], :index_as => [:searchable, :displayable])
-    t.accession_number(:ref=>[:pbcoreRelation, :acc_num], :index_as => [:searchable, :displayable])
+    t.series(:proxy=>[:pbcoreRelation, :event_series], :index_as => [:searchable, :displayable])
+    t.collection(:proxy=>[:pbcoreRelation, :arch_coll], :index_as => [:searchable, :displayable])
+    t.archival_series(:proxy=>[:pbcoreRelation, :arch_ser], :index_as => [:searchable, :displayable])
+    t.collection_number(:proxy=>[:pbcoreRelation, :coll_num], :index_as => [:searchable, :displayable])
+    t.accession_number(:proxy=>[:pbcoreRelation, :acc_num], :index_as => [:searchable, :displayable])
 
     t.pbcoreCoverage
     # Terms for time and place
