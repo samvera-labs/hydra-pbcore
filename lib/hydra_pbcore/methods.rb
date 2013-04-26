@@ -1,7 +1,24 @@
 module HydraPbcore::Methods
 
-  def remove_node(type, index = 0)
-    self.find_by_terms(type.to_sym).slice(index.to_i).remove
+  # Used to delete nodes based on their OM term defintion.
+  #
+  # Default behavior is to delete on the xml defining the term. In
+  # some cases, terms can have dependent xml that is part of the term's
+  # parent. For example, pbcoreReation templates use the 
+  # pbcoreRelation xml node to define a term, however the term's 
+  # definition is dependent on the xml inside pbcoreRelation. When
+  # we delete the term, the pbcoreRelation has to go along with it.
+  #
+  # In that case, we can pass the option:
+  #   :include_parent? => true
+  # Which will delete the term as well as its closest parent
+  def remove_node(type, index = 0, opts = {})
+    opts[:include_parent?] ? self.find_by_terms(type.to_sym).slice(index.to_i).parent.remove : self.find_by_terms(type.to_sym).slice(index.to_i).remove
+  end
+
+
+  def remove_node_with_parent type, index = 0
+
   end
 
   # Returns a new Nokogiri::XML object with the contents of self, plus any additional instanstations,
