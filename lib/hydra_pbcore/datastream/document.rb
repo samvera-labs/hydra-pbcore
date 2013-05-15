@@ -106,8 +106,8 @@ class Document < ActiveFedora::OmDatastream
       t.coll_num(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Collection Number" })
       t.acc_num(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Accession Number" })
     end
-    t.series(:proxy=>[:pbcoreRelation, :event_series], :index_as => [:searchable, :displayable])
-    t.collection(:proxy=>[:pbcoreRelation, :arch_coll], :index_as => [:searchable, :displayable])
+    t.series(:proxy=>[:pbcoreRelation, :event_series], :index_as => [:searchable, :displayable, :facetable])
+    t.collection(:proxy=>[:pbcoreRelation, :arch_coll], :index_as => [:searchable, :displayable, :facetable])
     t.archival_series(:proxy=>[:pbcoreRelation, :arch_ser], :index_as => [:searchable, :displayable])
     t.collection_number(:proxy=>[:pbcoreRelation, :coll_num], :index_as => [:searchable, :displayable])
     t.accession_number(:proxy=>[:pbcoreRelation, :acc_num], :index_as => [:searchable, :displayable])
@@ -153,7 +153,7 @@ class Document < ActiveFedora::OmDatastream
     t.publisher_name(:proxy=>[:publisher, :name], :index_as => [:searchable, :facetable])
     t.publisher_role(:proxy=>[:publisher, :role], :index_as => [:searchable, :displayable])
 
-    t.note(:path=>"pbcoreAnnotation", :atttributes=>{ :annotationType=>"Notes" }, :index_as => [:searchable])
+    t.note(:path=>"pbcoreAnnotation", :atttributes=>{ :annotationType=>"Notes" }, :index_as => [:searchable, :displayable])
 
     t.pbcoreRightsSummary do
       t.rightsSummary

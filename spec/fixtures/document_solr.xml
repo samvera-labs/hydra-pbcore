@@ -206,24 +206,36 @@
   <pbcoreDescriptionDocument-series-display type="array">
     <pbcoreDescriptionDocument-series-display>inserted</pbcoreDescriptionDocument-series-display>
   </pbcoreDescriptionDocument-series-display>
+  <pbcoreDescriptionDocument-series-facet type="array">
+    <pbcoreDescriptionDocument-series-facet>inserted</pbcoreDescriptionDocument-series-facet>
+  </pbcoreDescriptionDocument-series-facet>
   <pbcoreDescriptionDocument-0-series-t type="array">
     <pbcoreDescriptionDocument-0-series-t>inserted</pbcoreDescriptionDocument-0-series-t>
   </pbcoreDescriptionDocument-0-series-t>
   <pbcoreDescriptionDocument-0-series-display type="array">
     <pbcoreDescriptionDocument-0-series-display>inserted</pbcoreDescriptionDocument-0-series-display>
   </pbcoreDescriptionDocument-0-series-display>
+  <pbcoreDescriptionDocument-0-series-facet type="array">
+    <pbcoreDescriptionDocument-0-series-facet>inserted</pbcoreDescriptionDocument-0-series-facet>
+  </pbcoreDescriptionDocument-0-series-facet>
   <pbcoreDescriptionDocument-collection-t type="array">
     <pbcoreDescriptionDocument-collection-t>inserted</pbcoreDescriptionDocument-collection-t>
   </pbcoreDescriptionDocument-collection-t>
   <pbcoreDescriptionDocument-collection-display type="array">
     <pbcoreDescriptionDocument-collection-display>inserted</pbcoreDescriptionDocument-collection-display>
   </pbcoreDescriptionDocument-collection-display>
+  <pbcoreDescriptionDocument-collection-facet type="array">
+    <pbcoreDescriptionDocument-collection-facet>inserted</pbcoreDescriptionDocument-collection-facet>
+  </pbcoreDescriptionDocument-collection-facet>
   <pbcoreDescriptionDocument-0-collection-t type="array">
     <pbcoreDescriptionDocument-0-collection-t>inserted</pbcoreDescriptionDocument-0-collection-t>
   </pbcoreDescriptionDocument-0-collection-t>
   <pbcoreDescriptionDocument-0-collection-display type="array">
     <pbcoreDescriptionDocument-0-collection-display>inserted</pbcoreDescriptionDocument-0-collection-display>
   </pbcoreDescriptionDocument-0-collection-display>
+  <pbcoreDescriptionDocument-0-collection-facet type="array">
+    <pbcoreDescriptionDocument-0-collection-facet>inserted</pbcoreDescriptionDocument-0-collection-facet>
+  </pbcoreDescriptionDocument-0-collection-facet>
   <pbcoreDescriptionDocument-archival-series-t type="array">
     <pbcoreDescriptionDocument-archival-series-t>inserted</pbcoreDescriptionDocument-archival-series-t>
   </pbcoreDescriptionDocument-archival-series-t>
@@ -367,9 +379,15 @@
   <pbcoreDescriptionDocument-note-t type="array">
     <pbcoreDescriptionDocument-note-t>inserted</pbcoreDescriptionDocument-note-t>
   </pbcoreDescriptionDocument-note-t>
+  <pbcoreDescriptionDocument-note-display type="array">
+    <pbcoreDescriptionDocument-note-display>inserted</pbcoreDescriptionDocument-note-display>
+  </pbcoreDescriptionDocument-note-display>
   <pbcoreDescriptionDocument-0-note-t type="array">
     <pbcoreDescriptionDocument-0-note-t>inserted</pbcoreDescriptionDocument-0-note-t>
   </pbcoreDescriptionDocument-0-note-t>
+  <pbcoreDescriptionDocument-0-note-display type="array">
+    <pbcoreDescriptionDocument-0-note-display>inserted</pbcoreDescriptionDocument-0-note-display>
+  </pbcoreDescriptionDocument-0-note-display>
   <title-t type="array">
     <title-t>inserted</title-t>
   </title-t>
@@ -476,12 +494,18 @@
   <series-display type="array">
     <series-display>inserted</series-display>
   </series-display>
+  <series-facet type="array">
+    <series-facet>inserted</series-facet>
+  </series-facet>
   <collection-t type="array">
     <collection-t>inserted</collection-t>
   </collection-t>
   <collection-display type="array">
     <collection-display>inserted</collection-display>
   </collection-display>
+  <collection-facet type="array">
+    <collection-facet>inserted</collection-facet>
+  </collection-facet>
   <archival-series-t type="array">
     <archival-series-t>inserted</archival-series-t>
   </archival-series-t>
@@ -567,6 +591,9 @@
   <note-t type="array">
     <note-t>inserted</note-t>
   </note-t>
+  <note-display type="array">
+    <note-display>inserted</note-display>
+  </note-display>
   <rights-summary-t type="array">
     <rights-summary-t>inserted</rights-summary-t>
   </rights-summary-t>
