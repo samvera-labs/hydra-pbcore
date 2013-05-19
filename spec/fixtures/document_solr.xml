@@ -200,78 +200,6 @@
   <pbcoreDescriptionDocument-0-lc-subject-genre-display type="array">
     <pbcoreDescriptionDocument-0-lc-subject-genre-display>inserted</pbcoreDescriptionDocument-0-lc-subject-genre-display>
   </pbcoreDescriptionDocument-0-lc-subject-genre-display>
-  <pbcoreDescriptionDocument-series-t type="array">
-    <pbcoreDescriptionDocument-series-t>inserted</pbcoreDescriptionDocument-series-t>
-  </pbcoreDescriptionDocument-series-t>
-  <pbcoreDescriptionDocument-series-display type="array">
-    <pbcoreDescriptionDocument-series-display>inserted</pbcoreDescriptionDocument-series-display>
-  </pbcoreDescriptionDocument-series-display>
-  <pbcoreDescriptionDocument-series-facet type="array">
-    <pbcoreDescriptionDocument-series-facet>inserted</pbcoreDescriptionDocument-series-facet>
-  </pbcoreDescriptionDocument-series-facet>
-  <pbcoreDescriptionDocument-0-series-t type="array">
-    <pbcoreDescriptionDocument-0-series-t>inserted</pbcoreDescriptionDocument-0-series-t>
-  </pbcoreDescriptionDocument-0-series-t>
-  <pbcoreDescriptionDocument-0-series-display type="array">
-    <pbcoreDescriptionDocument-0-series-display>inserted</pbcoreDescriptionDocument-0-series-display>
-  </pbcoreDescriptionDocument-0-series-display>
-  <pbcoreDescriptionDocument-0-series-facet type="array">
-    <pbcoreDescriptionDocument-0-series-facet>inserted</pbcoreDescriptionDocument-0-series-facet>
-  </pbcoreDescriptionDocument-0-series-facet>
-  <pbcoreDescriptionDocument-collection-t type="array">
-    <pbcoreDescriptionDocument-collection-t>inserted</pbcoreDescriptionDocument-collection-t>
-  </pbcoreDescriptionDocument-collection-t>
-  <pbcoreDescriptionDocument-collection-display type="array">
-    <pbcoreDescriptionDocument-collection-display>inserted</pbcoreDescriptionDocument-collection-display>
-  </pbcoreDescriptionDocument-collection-display>
-  <pbcoreDescriptionDocument-collection-facet type="array">
-    <pbcoreDescriptionDocument-collection-facet>inserted</pbcoreDescriptionDocument-collection-facet>
-  </pbcoreDescriptionDocument-collection-facet>
-  <pbcoreDescriptionDocument-0-collection-t type="array">
-    <pbcoreDescriptionDocument-0-collection-t>inserted</pbcoreDescriptionDocument-0-collection-t>
-  </pbcoreDescriptionDocument-0-collection-t>
-  <pbcoreDescriptionDocument-0-collection-display type="array">
-    <pbcoreDescriptionDocument-0-collection-display>inserted</pbcoreDescriptionDocument-0-collection-display>
-  </pbcoreDescriptionDocument-0-collection-display>
-  <pbcoreDescriptionDocument-0-collection-facet type="array">
-    <pbcoreDescriptionDocument-0-collection-facet>inserted</pbcoreDescriptionDocument-0-collection-facet>
-  </pbcoreDescriptionDocument-0-collection-facet>
-  <pbcoreDescriptionDocument-archival-series-t type="array">
-    <pbcoreDescriptionDocument-archival-series-t>inserted</pbcoreDescriptionDocument-archival-series-t>
-  </pbcoreDescriptionDocument-archival-series-t>
-  <pbcoreDescriptionDocument-archival-series-display type="array">
-    <pbcoreDescriptionDocument-archival-series-display>inserted</pbcoreDescriptionDocument-archival-series-display>
-  </pbcoreDescriptionDocument-archival-series-display>
-  <pbcoreDescriptionDocument-0-archival-series-t type="array">
-    <pbcoreDescriptionDocument-0-archival-series-t>inserted</pbcoreDescriptionDocument-0-archival-series-t>
-  </pbcoreDescriptionDocument-0-archival-series-t>
-  <pbcoreDescriptionDocument-0-archival-series-display type="array">
-    <pbcoreDescriptionDocument-0-archival-series-display>inserted</pbcoreDescriptionDocument-0-archival-series-display>
-  </pbcoreDescriptionDocument-0-archival-series-display>
-  <pbcoreDescriptionDocument-collection-number-t type="array">
-    <pbcoreDescriptionDocument-collection-number-t>inserted</pbcoreDescriptionDocument-collection-number-t>
-  </pbcoreDescriptionDocument-collection-number-t>
-  <pbcoreDescriptionDocument-collection-number-display type="array">
-    <pbcoreDescriptionDocument-collection-number-display>inserted</pbcoreDescriptionDocument-collection-number-display>
-  </pbcoreDescriptionDocument-collection-number-display>
-  <pbcoreDescriptionDocument-0-collection-number-t type="array">
-    <pbcoreDescriptionDocument-0-collection-number-t>inserted</pbcoreDescriptionDocument-0-collection-number-t>
-  </pbcoreDescriptionDocument-0-collection-number-t>
-  <pbcoreDescriptionDocument-0-collection-number-display type="array">
-    <pbcoreDescriptionDocument-0-collection-number-display>inserted</pbcoreDescriptionDocument-0-collection-number-display>
-  </pbcoreDescriptionDocument-0-collection-number-display>
-  <pbcoreDescriptionDocument-accession-number-t type="array">
-    <pbcoreDescriptionDocument-accession-number-t>inserted</pbcoreDescriptionDocument-accession-number-t>
-  </pbcoreDescriptionDocument-accession-number-t>
-  <pbcoreDescriptionDocument-accession-number-display type="array">
-    <pbcoreDescriptionDocument-accession-number-display>inserted</pbcoreDescriptionDocument-accession-number-display>
-  </pbcoreDescriptionDocument-accession-number-display>
-  <pbcoreDescriptionDocument-0-accession-number-t type="array">
-    <pbcoreDescriptionDocument-0-accession-number-t>inserted</pbcoreDescriptionDocument-0-accession-number-t>
-  </pbcoreDescriptionDocument-0-accession-number-t>
-  <pbcoreDescriptionDocument-0-accession-number-display type="array">
-    <pbcoreDescriptionDocument-0-accession-number-display>inserted</pbcoreDescriptionDocument-0-accession-number-display>
-  </pbcoreDescriptionDocument-0-accession-number-display>
   <pbcoreDescriptionDocument-event-place-t type="array">
     <pbcoreDescriptionDocument-event-place-t>inserted</pbcoreDescriptionDocument-event-place-t>
   </pbcoreDescriptionDocument-event-place-t>
@@ -296,86 +224,6 @@
   <pbcoreDescriptionDocument-0-event-date-display type="array">
     <pbcoreDescriptionDocument-0-event-date-display>2012-11-11</pbcoreDescriptionDocument-0-event-date-display>
   </pbcoreDescriptionDocument-0-event-date-display>
-  <pbcoreDescriptionDocument-contributor-name-t type="array">
-    <pbcoreDescriptionDocument-contributor-name-t>inserted</pbcoreDescriptionDocument-contributor-name-t>
-    <pbcoreDescriptionDocument-contributor-name-t>inserted</pbcoreDescriptionDocument-contributor-name-t>
-    <pbcoreDescriptionDocument-contributor-name-t>inserted</pbcoreDescriptionDocument-contributor-name-t>
-    <pbcoreDescriptionDocument-contributor-name-t>inserted</pbcoreDescriptionDocument-contributor-name-t>
-  </pbcoreDescriptionDocument-contributor-name-t>
-  <pbcoreDescriptionDocument-contributor-name-facet type="array">
-    <pbcoreDescriptionDocument-contributor-name-facet>inserted</pbcoreDescriptionDocument-contributor-name-facet>
-    <pbcoreDescriptionDocument-contributor-name-facet>inserted</pbcoreDescriptionDocument-contributor-name-facet>
-    <pbcoreDescriptionDocument-contributor-name-facet>inserted</pbcoreDescriptionDocument-contributor-name-facet>
-    <pbcoreDescriptionDocument-contributor-name-facet>inserted</pbcoreDescriptionDocument-contributor-name-facet>
-  </pbcoreDescriptionDocument-contributor-name-facet>
-  <pbcoreDescriptionDocument-0-contributor-0-name-t type="array">
-    <pbcoreDescriptionDocument-0-contributor-0-name-t>inserted</pbcoreDescriptionDocument-0-contributor-0-name-t>
-  </pbcoreDescriptionDocument-0-contributor-0-name-t>
-  <pbcoreDescriptionDocument-0-contributor-0-name-facet type="array">
-    <pbcoreDescriptionDocument-0-contributor-0-name-facet>inserted</pbcoreDescriptionDocument-0-contributor-0-name-facet>
-  </pbcoreDescriptionDocument-0-contributor-0-name-facet>
-  <pbcoreDescriptionDocument-contributor-role-t type="array">
-    <pbcoreDescriptionDocument-contributor-role-t>inserted</pbcoreDescriptionDocument-contributor-role-t>
-    <pbcoreDescriptionDocument-contributor-role-t>inserted</pbcoreDescriptionDocument-contributor-role-t>
-  </pbcoreDescriptionDocument-contributor-role-t>
-  <pbcoreDescriptionDocument-contributor-role-display type="array">
-    <pbcoreDescriptionDocument-contributor-role-display>inserted</pbcoreDescriptionDocument-contributor-role-display>
-    <pbcoreDescriptionDocument-contributor-role-display>inserted</pbcoreDescriptionDocument-contributor-role-display>
-  </pbcoreDescriptionDocument-contributor-role-display>
-  <pbcoreDescriptionDocument-0-contributor-0-role-t type="array">
-    <pbcoreDescriptionDocument-0-contributor-0-role-t>inserted</pbcoreDescriptionDocument-0-contributor-0-role-t>
-  </pbcoreDescriptionDocument-0-contributor-0-role-t>
-  <pbcoreDescriptionDocument-0-contributor-0-role-display type="array">
-    <pbcoreDescriptionDocument-0-contributor-0-role-display>inserted</pbcoreDescriptionDocument-0-contributor-0-role-display>
-  </pbcoreDescriptionDocument-0-contributor-0-role-display>
-  <pbcoreDescriptionDocument-0-contributor-1-name-t type="array">
-    <pbcoreDescriptionDocument-0-contributor-1-name-t>inserted</pbcoreDescriptionDocument-0-contributor-1-name-t>
-  </pbcoreDescriptionDocument-0-contributor-1-name-t>
-  <pbcoreDescriptionDocument-0-contributor-1-name-facet type="array">
-    <pbcoreDescriptionDocument-0-contributor-1-name-facet>inserted</pbcoreDescriptionDocument-0-contributor-1-name-facet>
-  </pbcoreDescriptionDocument-0-contributor-1-name-facet>
-  <pbcoreDescriptionDocument-0-contributor-name-t type="array">
-    <pbcoreDescriptionDocument-0-contributor-name-t>inserted</pbcoreDescriptionDocument-0-contributor-name-t>
-    <pbcoreDescriptionDocument-0-contributor-name-t>inserted</pbcoreDescriptionDocument-0-contributor-name-t>
-  </pbcoreDescriptionDocument-0-contributor-name-t>
-  <pbcoreDescriptionDocument-0-contributor-name-facet type="array">
-    <pbcoreDescriptionDocument-0-contributor-name-facet>inserted</pbcoreDescriptionDocument-0-contributor-name-facet>
-    <pbcoreDescriptionDocument-0-contributor-name-facet>inserted</pbcoreDescriptionDocument-0-contributor-name-facet>
-  </pbcoreDescriptionDocument-0-contributor-name-facet>
-  <pbcoreDescriptionDocument-0-contributor-role-t type="array">
-    <pbcoreDescriptionDocument-0-contributor-role-t>inserted</pbcoreDescriptionDocument-0-contributor-role-t>
-  </pbcoreDescriptionDocument-0-contributor-role-t>
-  <pbcoreDescriptionDocument-0-contributor-role-display type="array">
-    <pbcoreDescriptionDocument-0-contributor-role-display>inserted</pbcoreDescriptionDocument-0-contributor-role-display>
-  </pbcoreDescriptionDocument-0-contributor-role-display>
-  <pbcoreDescriptionDocument-publisher-name-t type="array">
-    <pbcoreDescriptionDocument-publisher-name-t>inserted</pbcoreDescriptionDocument-publisher-name-t>
-    <pbcoreDescriptionDocument-publisher-name-t>inserted</pbcoreDescriptionDocument-publisher-name-t>
-  </pbcoreDescriptionDocument-publisher-name-t>
-  <pbcoreDescriptionDocument-publisher-name-facet type="array">
-    <pbcoreDescriptionDocument-publisher-name-facet>inserted</pbcoreDescriptionDocument-publisher-name-facet>
-    <pbcoreDescriptionDocument-publisher-name-facet>inserted</pbcoreDescriptionDocument-publisher-name-facet>
-  </pbcoreDescriptionDocument-publisher-name-facet>
-  <pbcoreDescriptionDocument-0-publisher-name-t type="array">
-    <pbcoreDescriptionDocument-0-publisher-name-t>inserted</pbcoreDescriptionDocument-0-publisher-name-t>
-    <pbcoreDescriptionDocument-0-publisher-name-t>inserted</pbcoreDescriptionDocument-0-publisher-name-t>
-  </pbcoreDescriptionDocument-0-publisher-name-t>
-  <pbcoreDescriptionDocument-0-publisher-name-facet type="array">
-    <pbcoreDescriptionDocument-0-publisher-name-facet>inserted</pbcoreDescriptionDocument-0-publisher-name-facet>
-    <pbcoreDescriptionDocument-0-publisher-name-facet>inserted</pbcoreDescriptionDocument-0-publisher-name-facet>
-  </pbcoreDescriptionDocument-0-publisher-name-facet>
-  <pbcoreDescriptionDocument-publisher-role-t type="array">
-    <pbcoreDescriptionDocument-publisher-role-t>inserted</pbcoreDescriptionDocument-publisher-role-t>
-  </pbcoreDescriptionDocument-publisher-role-t>
-  <pbcoreDescriptionDocument-publisher-role-display type="array">
-    <pbcoreDescriptionDocument-publisher-role-display>inserted</pbcoreDescriptionDocument-publisher-role-display>
-  </pbcoreDescriptionDocument-publisher-role-display>
-  <pbcoreDescriptionDocument-0-publisher-role-t type="array">
-    <pbcoreDescriptionDocument-0-publisher-role-t>inserted</pbcoreDescriptionDocument-0-publisher-role-t>
-  </pbcoreDescriptionDocument-0-publisher-role-t>
-  <pbcoreDescriptionDocument-0-publisher-role-display type="array">
-    <pbcoreDescriptionDocument-0-publisher-role-display>inserted</pbcoreDescriptionDocument-0-publisher-role-display>
-  </pbcoreDescriptionDocument-0-publisher-role-display>
   <pbcoreDescriptionDocument-note-t type="array">
     <pbcoreDescriptionDocument-note-t>inserted</pbcoreDescriptionDocument-note-t>
   </pbcoreDescriptionDocument-note-t>
@@ -539,41 +387,17 @@
   <contributor-name-t type="array">
     <contributor-name-t>inserted</contributor-name-t>
     <contributor-name-t>inserted</contributor-name-t>
-    <contributor-name-t>inserted</contributor-name-t>
-    <contributor-name-t>inserted</contributor-name-t>
   </contributor-name-t>
   <contributor-name-facet type="array">
     <contributor-name-facet>inserted</contributor-name-facet>
     <contributor-name-facet>inserted</contributor-name-facet>
-    <contributor-name-facet>inserted</contributor-name-facet>
-    <contributor-name-facet>inserted</contributor-name-facet>
   </contributor-name-facet>
-  <contributor-0-name-t type="array">
-    <contributor-0-name-t>inserted</contributor-0-name-t>
-  </contributor-0-name-t>
-  <contributor-0-name-facet type="array">
-    <contributor-0-name-facet>inserted</contributor-0-name-facet>
-  </contributor-0-name-facet>
   <contributor-role-t type="array">
-    <contributor-role-t>inserted</contributor-role-t>
     <contributor-role-t>inserted</contributor-role-t>
   </contributor-role-t>
   <contributor-role-display type="array">
     <contributor-role-display>inserted</contributor-role-display>
-    <contributor-role-display>inserted</contributor-role-display>
   </contributor-role-display>
-  <contributor-0-role-t type="array">
-    <contributor-0-role-t>inserted</contributor-0-role-t>
-  </contributor-0-role-t>
-  <contributor-0-role-display type="array">
-    <contributor-0-role-display>inserted</contributor-0-role-display>
-  </contributor-0-role-display>
-  <contributor-1-name-t type="array">
-    <contributor-1-name-t>inserted</contributor-1-name-t>
-  </contributor-1-name-t>
-  <contributor-1-name-facet type="array">
-    <contributor-1-name-facet>inserted</contributor-1-name-facet>
-  </contributor-1-name-facet>
   <publisher-name-t type="array">
     <publisher-name-t>inserted</publisher-name-t>
     <publisher-name-t>inserted</publisher-name-t>

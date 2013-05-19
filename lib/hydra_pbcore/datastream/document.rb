@@ -106,11 +106,11 @@ class Document < ActiveFedora::OmDatastream
       t.coll_num(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Collection Number" })
       t.acc_num(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Accession Number" })
     end
-    t.series(:proxy=>[:pbcoreRelation, :event_series], :index_as => [:searchable, :displayable, :facetable])
-    t.collection(:proxy=>[:pbcoreRelation, :arch_coll], :index_as => [:searchable, :displayable, :facetable])
-    t.archival_series(:proxy=>[:pbcoreRelation, :arch_ser], :index_as => [:searchable, :displayable])
-    t.collection_number(:proxy=>[:pbcoreRelation, :coll_num], :index_as => [:searchable, :displayable])
-    t.accession_number(:proxy=>[:pbcoreRelation, :acc_num], :index_as => [:searchable, :displayable])
+    t.series(:ref=>[:pbcoreRelation, :event_series], :index_as => [:searchable, :displayable, :facetable])
+    t.collection(:ref=>[:pbcoreRelation, :arch_coll], :index_as => [:searchable, :displayable, :facetable])
+    t.archival_series(:ref=>[:pbcoreRelation, :arch_ser], :index_as => [:searchable, :displayable])
+    t.collection_number(:ref=>[:pbcoreRelation, :coll_num], :index_as => [:searchable, :displayable])
+    t.accession_number(:ref=>[:pbcoreRelation, :acc_num], :index_as => [:searchable, :displayable])
 
     t.pbcoreCoverage
     # Terms for time and place
@@ -128,24 +128,24 @@ class Document < ActiveFedora::OmDatastream
       t.name_(:path=>"creator")
       t.role_(:path=>"creatorRole", :attributes=>{ :source=>"PBCore creatorRole" })
     end
-    t.creator_name(:proxy=>[:creator, :name], :index_as => [:searchable, :facetable])
-    t.creator_role(:proxy=>[:creator, :role], :index_as => [:searchable, :displayable])
+    t.creator_name(:ref=>[:creator, :name], :index_as => [:searchable, :facetable])
+    t.creator_role(:ref=>[:creator, :role], :index_as => [:searchable, :displayable])
 
     # Contributor names and roles
     t.contributor(:path=>"pbcoreContributor") do
       t.name_(:path=>"contributor")
       t.role_(:path=>"contributorRole", :attributes=>{ :source=>self.relator })
     end
-    t.contributor_name(:proxy=>[:contributor, :name], :index_as => [:searchable, :facetable])
-    t.contributor_role(:proxy=>[:contributor, :role], :index_as => [:searchable, :displayable])
+    t.contributor_name(:ref=>[:contributor, :name], :index_as => [:searchable, :facetable])
+    t.contributor_role(:ref=>[:contributor, :role], :index_as => [:searchable, :displayable])
 
     # Publisher names and roles
     t.publisher(:path=>"pbcorePublisher") do
       t.name_(:path=>"publisher")
       t.role_(:path=>"publisherRole", :attributes=>{ :source=>"PBCore publisherRole" })
     end
-    t.publisher_name(:proxy=>[:publisher, :name], :index_as => [:searchable, :facetable])
-    t.publisher_role(:proxy=>[:publisher, :role], :index_as => [:searchable, :displayable])
+    t.publisher_name(:ref=>[:publisher, :name], :index_as => [:searchable, :facetable])
+    t.publisher_role(:ref=>[:publisher, :role], :index_as => [:searchable, :displayable])
 
     t.note(:path=>"pbcoreAnnotation", :atttributes=>{ :annotationType=>"Notes" }, :index_as => [:searchable, :displayable])
 
