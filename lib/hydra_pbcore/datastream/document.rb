@@ -125,25 +125,19 @@ class Document < ActiveFedora::OmDatastream
 
     # Creator names and roles
     t.creator(:path=>"pbcoreCreator") do
-      t.name_(:path=>"creator", :index_as => [:searchable, :facetable])
-      t.role_(:path=>"creatorRole", 
-        :attributes=>{ :source=>"PBCore creatorRole" },
-        :index_as => [:searchable, :displayable]
-      )
+      t.name_(:path=>"creator")
+      t.role_(:path=>"creatorRole", :attributes=>{ :source=>"PBCore creatorRole" })
     end
-    t.creator_name(:proxy=>[:creator, :name])
-    t.creator_role(:proxy=>[:creator, :role])
+    t.creator_name(:proxy=>[:creator, :name], :index_as => [:searchable, :facetable])
+    t.creator_role(:proxy=>[:creator, :role], :index_as => [:searchable, :displayable])
 
     # Contributor names and roles
     t.contributor(:path=>"pbcoreContributor") do
-      t.name_(:path=>"contributor", :index_as => [:searchable, :facetable])
-      t.role_(:path=>"contributorRole", 
-        :attributes=>{ :source=>self.relator },
-        :index_as => [:searchable, :displayable]
-      )
+      t.name_(:path=>"contributor")
+      t.role_(:path=>"contributorRole", :attributes=>{ :source=>self.relator })
     end
-    t.contributor_name(:proxy=>[:contributor, :name])
-    t.contributor_role(:proxy=>[:contributor, :role])
+    t.contributor_name(:proxy=>[:contributor, :name], :index_as => [:searchable, :facetable])
+    t.contributor_role(:proxy=>[:contributor, :role], :index_as => [:searchable, :displayable])
 
     # Publisher names and roles
     t.publisher(:path=>"pbcorePublisher") do

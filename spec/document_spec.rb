@@ -92,12 +92,8 @@ describe HydraPbcore::Datastream::Document do
 
 
     it "should differentiate between multiple added nodes" do
-      @object_ds.insert_contributor
-      @object_ds.insert_contributor
-      @object_ds.update_indexed_attributes( {[:contributor_name] => { 0 => "first contributor" }} )
-      @object_ds.update_indexed_attributes( {[:contributor_name] => { 1 => "second contributor" }} )
-      @object_ds.update_indexed_attributes( {[:contributor_role] => { 0 => "first contributor role" }} )
-      @object_ds.update_indexed_attributes( {[:contributor_role] => { 1 => "second contributor role" }} )
+      @object_ds.insert_contributor("first contributor", "first contributor role")
+      @object_ds.insert_contributor("second contributor", "second contributor role")
       @object_ds.get_values(:contributor).length.should == 2
       @object_ds.get_values(:contributor_name)[0].should == "first contributor"
       @object_ds.get_values(:contributor_name)[1].should == "second contributor"
@@ -209,6 +205,22 @@ describe HydraPbcore::Datastream::Document do
         HydraPbcore.is_valid?(Nokogiri::XML(sample("document_with_instantiations_valid.xml"))).should be_true
       end
 
+    end
+
+  end
+
+  describe "solrization" do
+
+    it "should not create duplicate terms for contributor fields" do
+      ds = HydraPbcore::Datastream::Document.new(nil, nil)
+      ds.insert_contributor("foo", "bar")
+      ds.to_solr["contributor_name_facet"].should == ["foo"]
+    end
+
+    it "should not create duplicate terms for creator fields" do
+      ds = HydraPbcore::Datastream::Document.new(nil, nil)
+      ds.insert_creator("foo", "bar")
+      ds.to_solr["creator_name_facet"].should == ["foo"]
     end
 
   end  
