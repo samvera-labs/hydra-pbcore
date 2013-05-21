@@ -48,6 +48,23 @@ validate against the PBCore XML v.2 schema.  Additionally, there are several tem
 to insert additional terms into your xml documents, such as contributors, publishers, as well as next and previous
 fields that specify which files come before and after one another in a multi-part born-digital video.
 
+### Dates
+
+Date fields in solr have to be in ISO8601 format, as opposed to text fields which may contain dates, but are treated differently.
+The difference is with the former, solr is treating the value of the field as an actual date, and as such, it can do time-based
+querying.  The latter, is just a string and solr would search it accordingly.  Currently, two types of date fields are provided:
+"_dt" for single-valued date fields, and "_dts" for multi-valued date fields.  Solr cannot sort on multi-valued date fields;
+otherwise, the two functionally identical.  By indexing your date fields as:
+
+    :index_as => [:displayable, :converted_date]
+    :index_as => [:displayable, :converted_multi_date]
+
+the content of your date fields will be converted to ISO8601 dates, and the original content will be preserved for display.
+So you could enter a date such as "2001" or "2004-10", and each will be stored for display as such, but will also be 
+indexed as a date in Solr with the value "2001-01-01T00:00:00Z" and "2004-10-01T00:00:00Z"
+
+Note: these functions will likely change with the upgrade to Solrizer 3.0.
+
 ## Testing
 
 To run all the rspec tests, use:

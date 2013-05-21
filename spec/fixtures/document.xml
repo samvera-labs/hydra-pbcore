@@ -35,6 +35,10 @@
     <coverage annotation="Event Date">2012-11-11</coverage>
     <coverageType>Temporal</coverageType>
   </pbcoreCoverage>
+  <pbcoreCoverage>
+    <coverage annotation="Event Date">2012-11-12</coverage>
+    <coverageType>Temporal</coverageType>
+  </pbcoreCoverage>
   <pbcoreRelation>
     <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
     <pbcoreRelationIdentifier annotation="Archival Collection">inserted</pbcoreRelationIdentifier>

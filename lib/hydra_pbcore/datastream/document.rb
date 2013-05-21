@@ -120,7 +120,7 @@ class Document < ActiveFedora::OmDatastream
     )
     t.event_date(:path=>"pbcoreCoverage/coverage", 
       :attributes => {:annotation=>"Event Date"},
-      :index_as => [:not_searchable, :converted_date, :displayable]
+      :index_as => [:not_searchable, :converted_multi_date, :displayable]
     )
 
     # Creator names and roles

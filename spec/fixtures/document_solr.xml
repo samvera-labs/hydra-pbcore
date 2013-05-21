@@ -212,17 +212,21 @@
   <pbcoreDescriptionDocument-0-event-place-display type="array">
     <pbcoreDescriptionDocument-0-event-place-display>inserted</pbcoreDescriptionDocument-0-event-place-display>
   </pbcoreDescriptionDocument-0-event-place-display>
-  <pbcoreDescriptionDocument-event-date-dt type="array">
+  <pbcoreDescriptionDocument-event-date-dts type="array">
     <pbcoreDescriptionDocument-event-date-dt>2012-11-11T00:00:00Z</pbcoreDescriptionDocument-event-date-dt>
-  </pbcoreDescriptionDocument-event-date-dt>
+    <pbcoreDescriptionDocument-event-date-dt>2012-11-12T00:00:00Z</pbcoreDescriptionDocument-event-date-dt>
+  </pbcoreDescriptionDocument-event-date-dts>
   <pbcoreDescriptionDocument-event-date-display type="array">
     <pbcoreDescriptionDocument-event-date-display>2012-11-11</pbcoreDescriptionDocument-event-date-display>
+    <pbcoreDescriptionDocument-event-date-display>2012-11-12</pbcoreDescriptionDocument-event-date-display>
   </pbcoreDescriptionDocument-event-date-display>
-  <pbcoreDescriptionDocument-0-event-date-dt type="array">
+  <pbcoreDescriptionDocument-0-event-date-dts type="array">
     <pbcoreDescriptionDocument-0-event-date-dt>2012-11-11T00:00:00Z</pbcoreDescriptionDocument-0-event-date-dt>
-  </pbcoreDescriptionDocument-0-event-date-dt>
+    <pbcoreDescriptionDocument-0-event-date-dt>2012-11-12T00:00:00Z</pbcoreDescriptionDocument-0-event-date-dt>
+  </pbcoreDescriptionDocument-0-event-date-dts>
   <pbcoreDescriptionDocument-0-event-date-display type="array">
     <pbcoreDescriptionDocument-0-event-date-display>2012-11-11</pbcoreDescriptionDocument-0-event-date-display>
+    <pbcoreDescriptionDocument-0-event-date-display>2012-11-12</pbcoreDescriptionDocument-0-event-date-display>
   </pbcoreDescriptionDocument-0-event-date-display>
   <pbcoreDescriptionDocument-note-t type="array">
     <pbcoreDescriptionDocument-note-t>inserted</pbcoreDescriptionDocument-note-t>
@@ -378,11 +382,13 @@
   <event-place-display type="array">
     <event-place-display>inserted</event-place-display>
   </event-place-display>
-  <event-date-dt type="array">
+  <event-date-dts type="array">
     <event-date-dt>2012-11-11T00:00:00Z</event-date-dt>
-  </event-date-dt>
+    <event-date-dt>2012-11-12T00:00:00Z</event-date-dt>
+  </event-date-dts>
   <event-date-display type="array">
     <event-date-display>2012-11-11</event-date-display>
+    <event-date-display>2012-11-12</event-date-display>
   </event-date-display>
   <contributor-name-t type="array">
     <contributor-name-t>inserted</contributor-name-t>

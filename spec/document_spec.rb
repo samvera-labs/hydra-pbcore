@@ -127,6 +127,7 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.insert_contributor
       @object_ds.insert_place("inserted")
       @object_ds.insert_date("2012-11-11")
+      @object_ds.insert_date("2012-11-12")
 
       @object_ds.insert_relation("inserted", 'Archival Collection')
       @object_ds.insert_relation("inserted", 'Event Series')
@@ -169,11 +170,11 @@ describe HydraPbcore::Datastream::Document do
 
     describe "solr dates" do
       it "should be indexed for display" do
-        @object_ds.to_solr["event_date_display"].should == ["2012-11-11"]
+        @object_ds.to_solr["event_date_display"].should == ["2012-11-11", "2012-11-12"]
       end
 
       it "should be converted to ISO 8601" do
-        @object_ds.to_solr["event_date_dt"].should == ["2012-11-11T00:00:00Z"]
+        @object_ds.to_solr["event_date_dts"].should == ["2012-11-11T00:00:00Z", "2012-11-12T00:00:00Z"]
       end
 
       it "should not be searchable as strings" do
@@ -221,6 +222,13 @@ describe HydraPbcore::Datastream::Document do
       ds = HydraPbcore::Datastream::Document.new(nil, nil)
       ds.insert_creator("foo", "bar")
       ds.to_solr["creator_name_facet"].should == ["foo"]
+    end
+
+    it "should accept partial dates" do
+      ds = HydraPbcore::Datastream::Document.new(nil, nil)
+      ds.insert_date("2001")
+      ds.insert_date("2004-10")
+      ds.to_solr["event_date_dts"].should == ["2001-01-01T00:00:00Z", "2004-10-01T00:00:00Z"]
     end
 
   end  

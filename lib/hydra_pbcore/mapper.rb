@@ -3,7 +3,8 @@ class HydraPbcore::Mapper < Solrizer::FieldMapper
   id_field 'id'
   index_as :searchable do |t|
     t.default :suffix => '_t'
-    t.date    :suffix => '_dt'
+    t.date    :suffix => '_dt'  # single-valued solr date fields
+    t.dates   :suffix => '_dts' # multi-valued solr date fields
     t.string  :suffix => '_t'
     t.text    :suffix => '_t'
     t.symbol  :suffix => '_s'
@@ -19,6 +20,11 @@ class HydraPbcore::Mapper < Solrizer::FieldMapper
   index_as :unstemmed_searchable, :suffix => '_unstem_search'
   index_as :converted_date do |t|
     t.default :suffix => '_dt' do |value|
+      pbcore_date(value)
+    end
+  end
+  index_as :converted_multi_date do |t|
+    t.default :suffix => '_dts' do |value|
       pbcore_date(value)
     end
   end
