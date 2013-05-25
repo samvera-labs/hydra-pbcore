@@ -39,18 +39,16 @@ module HydraPbcore::Conversions
     self.ng_xml = self.ng_xml.xpath("//pbcoreInstantiation").to_xml
   end
 
-  # Corrects errors in HydraPbcore::Datastream::Deprecated::Document and HydraPbcore::Datastream::Deprecated::DigitalDocument
+  # Corrects errors in HydraPbcore::Datastream::Deprecated::Document
   # - removes all pbcoreRelation nodes, except those that define event_series
   # - removes orphaned pbcoreRelationIdentifier nodes
   # - corrects invalid usage of event_place and event_series terms
-  #
-  # Note: Since pbcoreRelation is used to indicated archival collection and series, this information should be copied to another kind
-  # of datastream using an RDF relationship in Hydra.
   def clean_document xml = self.ng_xml
     xml.search("//pbcoreRelation").each do |node|  
-      node.remove unless is_event_series?(node)
+      node.remove unless is_relation?("Event Series", node)
     end
     xml.search("/pbcoreDescriptionDocument/pbcoreRelationIdentifier").collect {|n| n.remove}
+    xml.search("/pbcoreDescriptionDocument/instantiationRelationIdentifier").collect {|n| n.remove}
     xml.search("//pbcoreCoverage").each do |node|
       node.children.each do |c|
         if c.attribute("annotation").nil? and c.name == "coverage"
@@ -61,10 +59,36 @@ module HydraPbcore::Conversions
     end
   end
 
-  # Determines if the given node defines an event_series term
-  def is_event_series? node
+  # Corrects errors in HydraPbcore::Datastream::Deprecated::DigitalDocument
+  # - finds the current archival collection
+  # - removes all pbcoreRelation nodes, except those that define event_series
+  # - re-inserts the collection
+  # - removes orphaned pbcoreRelationIdentifier nodes
+  # - corrects invalid usage of event_place and event_series terms
+  def clean_digital_document xml = self.ng_xml
+    collection = xml.search("//pbcoreRelationIdentifier[@annotation='Archival Collection']").text
+    xml.search("//pbcoreRelation").each do |node|  
+      unless is_relation?("Accession Number", node) or is_relation?("Event Series", node)
+        node.remove
+      end
+    end
+    xml.search("/pbcoreDescriptionDocument/pbcoreRelationIdentifier").collect {|n| n.remove}
+    xml.search("/pbcoreDescriptionDocument/instantiationRelationIdentifier").collect {|n| n.remove}
+    self.insert_relation(collection, "Archival Collection") unless collection.nil?
+    xml.search("//pbcoreCoverage").each do |node|
+      node.children.each do |c|
+        if c.attribute("annotation").nil? and c.name == "coverage"
+          self.send(("insert_"+coverage_type(node)), c.text)
+          c.remove
+        end
+      end
+    end
+  end
+
+  # Determines if the given node defines a relation of a give type
+  def is_relation? type, node
     unless node.at_xpath("pbcoreRelationIdentifier").nil?
-      if node.at_xpath("pbcoreRelationIdentifier").attribute("annotation").to_s == "Event Series"
+      if node.at_xpath("pbcoreRelationIdentifier").attribute("annotation").to_s == type
         return true
       end
     end

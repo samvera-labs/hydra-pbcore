@@ -7,6 +7,14 @@
     <pbcoreRelationType ref="http://pbcore.org/vocabularies/relationType#is-part-of" source="PBCore relationType">Is Part Of</pbcoreRelationType>
     <pbcoreRelationIdentifier annotation="Event Series">Oral history project (Rock and Roll Hall of Fame and Museum)</pbcoreRelationIdentifier>
   </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Archival Collection">Rock and Roll Hall of Fame and Museum records. Education and Public Programs Division. </pbcoreRelationIdentifier>
+  </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType ref="http://pbcore.org/vocabularies/relationType#is-part-of" source="PBCore relationType">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Accession Number"/>
+  </pbcoreRelation>
   <pbcoreCoverage>
     <coverage annotation="Event Place">Oklahoma City, OK</coverage>
     <coverageType>Spatial</coverageType>
