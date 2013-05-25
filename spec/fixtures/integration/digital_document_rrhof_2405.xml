@@ -1,3 +1,4 @@
+
 <pbcoreDescriptionDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html">
   <pbcoreIdentifier annotation="PID" source="Rock and Roll Hall of Fame and Museum"></pbcoreIdentifier>
   <pbcoreTitle titleType="Main">Oral History project. Clive Davis.</pbcoreTitle>
@@ -59,4 +60,7 @@
     <contributorRole source="MARC relator terms">producer</contributorRole>
   </pbcoreContributor>
   <pbcoreSubject ref="http://id.loc.gov/authorities/subjects.html" source="Library of Congress Subject Headings">Inductee</pbcoreSubject>
+  <instantiationRelationIdentifier annotation="Archival collection">Rock and Roll Hall of Fame and Museum records. Education and Public Programs Division</instantiationRelationIdentifier>
+  <instantiationRelationIdentifier annotation="Archival Series">Oral history project</instantiationRelationIdentifier>
+  <instantiationRelationIdentifier annotation="Collection Number">RG.0004</instantiationRelationIdentifier>
 </pbcoreDescriptionDocument>
