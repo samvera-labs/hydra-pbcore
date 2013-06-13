@@ -1,0 +1,111 @@
+PATH
+  remote: .
+  specs:
+    hydra-pbcore (3.0.0pre1)
+      active-fedora
+      solrizer
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    active-fedora (6.2.0)
+      activesupport (>= 3.0.0)
+      deprecation
+      mediashelf-loggable
+      nom-xml (>= 0.5.1)
+      om (~> 2.1.0)
+      rdf
+      rdf-rdfxml (~> 1.0.0)
+      rsolr
+      rubydora (~> 1.6)
+    activemodel (3.2.12)
+      activesupport (= 3.2.12)
+      builder (~> 3.0.0)
+    activesupport (3.2.12)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    addressable (2.3.4)
+    builder (3.0.4)
+    daemons (1.1.9)
+    deprecation (0.0.5)
+      activesupport
+    diff-lcs (1.2.4)
+    equivalent-xml (0.3.0)
+      nokogiri (>= 1.4.3)
+    fastercsv (1.5.5)
+    hooks (0.3.1)
+    i18n (0.6.4)
+    json (1.8.0)
+    mediashelf-loggable (0.4.9)
+    mime-types (1.23)
+    mini_portile (0.5.0)
+    multi_json (1.7.6)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
+    nom-xml (0.5.1)
+      activesupport
+      i18n
+      nokogiri
+    om (2.1.2)
+      activemodel
+      activesupport
+      deprecation
+      mediashelf-loggable
+      nokogiri (>= 1.4.2)
+      solrizer (~> 3.1.0)
+    rake (10.0.4)
+    rdf (1.0.6)
+      addressable (>= 2.2)
+    rdf-rdfxml (1.0.1)
+      rdf (>= 1.0)
+      rdf-xsd (>= 1.0)
+    rdf-xsd (1.0.2.1)
+      nokogiri (>= 1.5.0)
+      rdf (>= 0.3.4)
+    rdoc (4.0.1)
+      json (~> 1.4)
+    redcarpet (2.3.0)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rsolr (1.0.9)
+      builder (>= 2.1.2)
+    rspec (2.13.0)
+      rspec-core (~> 2.13.0)
+      rspec-expectations (~> 2.13.0)
+      rspec-mocks (~> 2.13.0)
+    rspec-core (2.13.1)
+    rspec-expectations (2.13.0)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.13.1)
+    rubydora (1.6.5)
+      activemodel
+      activesupport
+      deprecation
+      equivalent-xml
+      fastercsv
+      hooks (~> 0.3.0)
+      mime-types
+      nokogiri
+      rest-client
+    solrizer (3.1.0)
+      activesupport
+      daemons
+      mediashelf-loggable (~> 0.4.7)
+      nokogiri
+      stomp
+      xml-simple
+    stomp (1.2.9)
+    xml-simple (1.1.2)
+    yard (0.8.6.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  equivalent-xml
+  hydra-pbcore!
+  rake
+  rdoc
+  redcarpet
+  rspec
+  yard

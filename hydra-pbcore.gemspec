@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
 
   # Dependencies
   gem.add_dependency('active-fedora')
-  gem.add_dependency('solrizer', '< 3.0.0')
+  gem.add_dependency('solrizer')
   gem.add_development_dependency('yard')
   gem.add_development_dependency('redcarpet')
   # For Development

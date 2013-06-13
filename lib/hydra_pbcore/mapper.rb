@@ -1,33 +1,33 @@
 class HydraPbcore::Mapper < Solrizer::FieldMapper
 
-  id_field 'id'
-  index_as :searchable do |t|
-    t.default :suffix => '_t'
-    t.date    :suffix => '_dt'  # single-valued solr date fields
-    t.dates   :suffix => '_dts' # multi-valued solr date fields
-    t.string  :suffix => '_t'
-    t.text    :suffix => '_t'
-    t.symbol  :suffix => '_s'
-    t.integer :suffix => '_i'
-    t.long    :suffix => '_l'
-    t.boolean :suffix => '_b'
-    t.float   :suffix => '_f'
-    t.double  :suffix => '_d'
-  end
-  index_as :displayable,          :suffix => '_display'
-  index_as :facetable,            :suffix => '_facet'
-  index_as :sortable,             :suffix => '_sort'
-  index_as :unstemmed_searchable, :suffix => '_unstem_search'
-  index_as :converted_date do |t|
-    t.default :suffix => '_dt' do |value|
-      pbcore_date(value)
-    end
-  end
-  index_as :converted_multi_date do |t|
-    t.default :suffix => '_dts' do |value|
-      pbcore_date(value)
-    end
-  end
+  #id_field 'id'
+  #index_as :searchable do |t|
+  #  t.default :suffix => '_t'
+  #  t.date    :suffix => '_dt'  # single-valued solr date fields
+  #  t.dates   :suffix => '_dts' # multi-valued solr date fields
+  #  t.string  :suffix => '_t'
+  #  t.text    :suffix => '_t'
+  #  t.symbol  :suffix => '_s'
+  #  t.integer :suffix => '_i'
+  #  t.long    :suffix => '_l'
+  #  t.boolean :suffix => '_b'
+  #  t.float   :suffix => '_f'
+  #  t.double  :suffix => '_d'
+  #end
+  #index_as :displayable,          :suffix => '_display'
+  #index_as :facetable,            :suffix => '_facet'
+  #index_as :sortable,             :suffix => '_sort'
+  #index_as :unstemmed_searchable, :suffix => '_unstem_search'
+  #index_as :converted_date do |t|
+  #  t.default :suffix => '_dt' do |value|
+  #    pbcore_date(value)
+  #  end
+  #end
+  #index_as :converted_multi_date do |t|
+  #  t.default :suffix => '_dts' do |value|
+  #    pbcore_date(value)
+  #  end
+  #end
 
   # We assume that all dates are in ISO 8601 format, but sometimes users may only
   # specify a year or a year and month.  This method adds a -01-01 or -01 respectively

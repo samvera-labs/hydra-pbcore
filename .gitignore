@@ -6,7 +6,6 @@
 .yardoc
 .rvmrc
 .ruby-version
-Gemfile.lock
 InstalledFiles
 _yardoc
 bin
