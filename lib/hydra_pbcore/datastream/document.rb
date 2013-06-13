@@ -7,7 +7,6 @@ class Document < ActiveFedora::OmDatastream
 
   include HydraPbcore::Methods
   include HydraPbcore::Templates
-  include HydraPbcore::Conversions
 
   set_terminology do |t|
     t.root(:path=>"pbcoreDescriptionDocument")
@@ -120,7 +119,7 @@ class Document < ActiveFedora::OmDatastream
     )
     t.event_date(:path=>"pbcoreCoverage/coverage", 
       :attributes => {:annotation=>"Event Date"},
-      :index_as => [:not_searchable, :converted_multi_date, :displayable]
+      :index_as => [:dateable, :displayable]
     )
 
     # Creator names and roles

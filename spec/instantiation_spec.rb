@@ -163,11 +163,11 @@ describe HydraPbcore::Datastream::Instantiation do
       end
 
       it "should display dates as they were entered" do
-        @digital.to_solr["date_display"].should == ["2012-11"]
+        @digital.to_solr["date_ssm"].should == ["2012-11"]
       end
 
       it "should have dates converted to ISO 8601" do
-        @digital.to_solr["date_dt"].should == ["2012-11-01T00:00:00Z"]
+        @digital.to_solr["date_dtsim"].should == ["2012-11-01T00:00:00Z"]
       end
 
       it "should not index dates as text" do
@@ -245,11 +245,11 @@ describe HydraPbcore::Datastream::Instantiation do
       end
 
       it "should display dates as they were entered" do
-        @physical.to_solr["date_display"].should == ["2012-11"]
+        @physical.to_solr["date_ssm"].should == ["2012-11"]
       end
 
       it "should have dates converted to ISO 8601" do
-        @physical.to_solr["date_dt"].should == ["2012-11-01T00:00:00Z"]
+        @physical.to_solr["date_dtsim"].should == ["2012-11-01T00:00:00Z"]
       end
 
       it "should not index dates as text" do

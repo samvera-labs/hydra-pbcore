@@ -1,433 +1,441 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hash>
-  <pbcoreDescriptionDocument-title-t type="array">
-    <pbcoreDescriptionDocument-title-t>inserted</pbcoreDescriptionDocument-title-t>
-  </pbcoreDescriptionDocument-title-t>
-  <pbcoreDescriptionDocument-title-display type="array">
-    <pbcoreDescriptionDocument-title-display>inserted</pbcoreDescriptionDocument-title-display>
-  </pbcoreDescriptionDocument-title-display>
-  <pbcoreDescriptionDocument-0-title-t type="array">
-    <pbcoreDescriptionDocument-0-title-t>inserted</pbcoreDescriptionDocument-0-title-t>
-  </pbcoreDescriptionDocument-0-title-t>
-  <pbcoreDescriptionDocument-0-title-display type="array">
-    <pbcoreDescriptionDocument-0-title-display>inserted</pbcoreDescriptionDocument-0-title-display>
-  </pbcoreDescriptionDocument-0-title-display>
-  <pbcoreDescriptionDocument-alternative-title-t type="array">
-    <pbcoreDescriptionDocument-alternative-title-t>inserted</pbcoreDescriptionDocument-alternative-title-t>
-  </pbcoreDescriptionDocument-alternative-title-t>
-  <pbcoreDescriptionDocument-alternative-title-display type="array">
-    <pbcoreDescriptionDocument-alternative-title-display>inserted</pbcoreDescriptionDocument-alternative-title-display>
-  </pbcoreDescriptionDocument-alternative-title-display>
-  <pbcoreDescriptionDocument-0-alternative-title-t type="array">
-    <pbcoreDescriptionDocument-0-alternative-title-t>inserted</pbcoreDescriptionDocument-0-alternative-title-t>
-  </pbcoreDescriptionDocument-0-alternative-title-t>
-  <pbcoreDescriptionDocument-0-alternative-title-display type="array">
-    <pbcoreDescriptionDocument-0-alternative-title-display>inserted</pbcoreDescriptionDocument-0-alternative-title-display>
-  </pbcoreDescriptionDocument-0-alternative-title-display>
-  <pbcoreDescriptionDocument-chapter-t type="array">
-    <pbcoreDescriptionDocument-chapter-t>inserted</pbcoreDescriptionDocument-chapter-t>
-  </pbcoreDescriptionDocument-chapter-t>
-  <pbcoreDescriptionDocument-chapter-display type="array">
-    <pbcoreDescriptionDocument-chapter-display>inserted</pbcoreDescriptionDocument-chapter-display>
-  </pbcoreDescriptionDocument-chapter-display>
-  <pbcoreDescriptionDocument-0-chapter-t type="array">
-    <pbcoreDescriptionDocument-0-chapter-t>inserted</pbcoreDescriptionDocument-0-chapter-t>
-  </pbcoreDescriptionDocument-0-chapter-t>
-  <pbcoreDescriptionDocument-0-chapter-display type="array">
-    <pbcoreDescriptionDocument-0-chapter-display>inserted</pbcoreDescriptionDocument-0-chapter-display>
-  </pbcoreDescriptionDocument-0-chapter-display>
-  <pbcoreDescriptionDocument-episode-t type="array">
-    <pbcoreDescriptionDocument-episode-t>inserted</pbcoreDescriptionDocument-episode-t>
-  </pbcoreDescriptionDocument-episode-t>
-  <pbcoreDescriptionDocument-episode-display type="array">
-    <pbcoreDescriptionDocument-episode-display>inserted</pbcoreDescriptionDocument-episode-display>
-  </pbcoreDescriptionDocument-episode-display>
-  <pbcoreDescriptionDocument-0-episode-t type="array">
-    <pbcoreDescriptionDocument-0-episode-t>inserted</pbcoreDescriptionDocument-0-episode-t>
-  </pbcoreDescriptionDocument-0-episode-t>
-  <pbcoreDescriptionDocument-0-episode-display type="array">
-    <pbcoreDescriptionDocument-0-episode-display>inserted</pbcoreDescriptionDocument-0-episode-display>
-  </pbcoreDescriptionDocument-0-episode-display>
-  <pbcoreDescriptionDocument-label-t type="array">
-    <pbcoreDescriptionDocument-label-t>inserted</pbcoreDescriptionDocument-label-t>
-  </pbcoreDescriptionDocument-label-t>
-  <pbcoreDescriptionDocument-label-display type="array">
-    <pbcoreDescriptionDocument-label-display>inserted</pbcoreDescriptionDocument-label-display>
-  </pbcoreDescriptionDocument-label-display>
-  <pbcoreDescriptionDocument-0-label-t type="array">
-    <pbcoreDescriptionDocument-0-label-t>inserted</pbcoreDescriptionDocument-0-label-t>
-  </pbcoreDescriptionDocument-0-label-t>
-  <pbcoreDescriptionDocument-0-label-display type="array">
-    <pbcoreDescriptionDocument-0-label-display>inserted</pbcoreDescriptionDocument-0-label-display>
-  </pbcoreDescriptionDocument-0-label-display>
-  <pbcoreDescriptionDocument-segment-t type="array">
-    <pbcoreDescriptionDocument-segment-t>inserted</pbcoreDescriptionDocument-segment-t>
-  </pbcoreDescriptionDocument-segment-t>
-  <pbcoreDescriptionDocument-segment-display type="array">
-    <pbcoreDescriptionDocument-segment-display>inserted</pbcoreDescriptionDocument-segment-display>
-  </pbcoreDescriptionDocument-segment-display>
-  <pbcoreDescriptionDocument-0-segment-t type="array">
-    <pbcoreDescriptionDocument-0-segment-t>inserted</pbcoreDescriptionDocument-0-segment-t>
-  </pbcoreDescriptionDocument-0-segment-t>
-  <pbcoreDescriptionDocument-0-segment-display type="array">
-    <pbcoreDescriptionDocument-0-segment-display>inserted</pbcoreDescriptionDocument-0-segment-display>
-  </pbcoreDescriptionDocument-0-segment-display>
-  <pbcoreDescriptionDocument-subtitle-t type="array">
-    <pbcoreDescriptionDocument-subtitle-t>inserted</pbcoreDescriptionDocument-subtitle-t>
-  </pbcoreDescriptionDocument-subtitle-t>
-  <pbcoreDescriptionDocument-subtitle-display type="array">
-    <pbcoreDescriptionDocument-subtitle-display>inserted</pbcoreDescriptionDocument-subtitle-display>
-  </pbcoreDescriptionDocument-subtitle-display>
-  <pbcoreDescriptionDocument-0-subtitle-t type="array">
-    <pbcoreDescriptionDocument-0-subtitle-t>inserted</pbcoreDescriptionDocument-0-subtitle-t>
-  </pbcoreDescriptionDocument-0-subtitle-t>
-  <pbcoreDescriptionDocument-0-subtitle-display type="array">
-    <pbcoreDescriptionDocument-0-subtitle-display>inserted</pbcoreDescriptionDocument-0-subtitle-display>
-  </pbcoreDescriptionDocument-0-subtitle-display>
-  <pbcoreDescriptionDocument-track-t type="array">
-    <pbcoreDescriptionDocument-track-t>inserted</pbcoreDescriptionDocument-track-t>
-  </pbcoreDescriptionDocument-track-t>
-  <pbcoreDescriptionDocument-track-display type="array">
-    <pbcoreDescriptionDocument-track-display>inserted</pbcoreDescriptionDocument-track-display>
-  </pbcoreDescriptionDocument-track-display>
-  <pbcoreDescriptionDocument-0-track-t type="array">
-    <pbcoreDescriptionDocument-0-track-t>inserted</pbcoreDescriptionDocument-0-track-t>
-  </pbcoreDescriptionDocument-0-track-t>
-  <pbcoreDescriptionDocument-0-track-display type="array">
-    <pbcoreDescriptionDocument-0-track-display>inserted</pbcoreDescriptionDocument-0-track-display>
-  </pbcoreDescriptionDocument-0-track-display>
-  <pbcoreDescriptionDocument-translation-t type="array">
-    <pbcoreDescriptionDocument-translation-t>inserted</pbcoreDescriptionDocument-translation-t>
-  </pbcoreDescriptionDocument-translation-t>
-  <pbcoreDescriptionDocument-translation-display type="array">
-    <pbcoreDescriptionDocument-translation-display>inserted</pbcoreDescriptionDocument-translation-display>
-  </pbcoreDescriptionDocument-translation-display>
-  <pbcoreDescriptionDocument-0-translation-t type="array">
-    <pbcoreDescriptionDocument-0-translation-t>inserted</pbcoreDescriptionDocument-0-translation-t>
-  </pbcoreDescriptionDocument-0-translation-t>
-  <pbcoreDescriptionDocument-0-translation-display type="array">
-    <pbcoreDescriptionDocument-0-translation-display>inserted</pbcoreDescriptionDocument-0-translation-display>
-  </pbcoreDescriptionDocument-0-translation-display>
-  <pbcoreDescriptionDocument-subject-facet type="array">
-    <pbcoreDescriptionDocument-subject-facet>inserted</pbcoreDescriptionDocument-subject-facet>
-    <pbcoreDescriptionDocument-subject-facet>inserted</pbcoreDescriptionDocument-subject-facet>
-    <pbcoreDescriptionDocument-subject-facet>inserted</pbcoreDescriptionDocument-subject-facet>
-  </pbcoreDescriptionDocument-subject-facet>
-  <pbcoreDescriptionDocument-0-subject-facet type="array">
-    <pbcoreDescriptionDocument-0-subject-facet>inserted</pbcoreDescriptionDocument-0-subject-facet>
-    <pbcoreDescriptionDocument-0-subject-facet>inserted</pbcoreDescriptionDocument-0-subject-facet>
-    <pbcoreDescriptionDocument-0-subject-facet>inserted</pbcoreDescriptionDocument-0-subject-facet>
-  </pbcoreDescriptionDocument-0-subject-facet>
-  <pbcoreDescriptionDocument-lc-subject-display type="array">
-    <pbcoreDescriptionDocument-lc-subject-display>inserted</pbcoreDescriptionDocument-lc-subject-display>
-  </pbcoreDescriptionDocument-lc-subject-display>
-  <pbcoreDescriptionDocument-0-lc-subject-display type="array">
-    <pbcoreDescriptionDocument-0-lc-subject-display>inserted</pbcoreDescriptionDocument-0-lc-subject-display>
-  </pbcoreDescriptionDocument-0-lc-subject-display>
-  <pbcoreDescriptionDocument-lc-name-display type="array">
-    <pbcoreDescriptionDocument-lc-name-display>inserted</pbcoreDescriptionDocument-lc-name-display>
-  </pbcoreDescriptionDocument-lc-name-display>
-  <pbcoreDescriptionDocument-0-lc-name-display type="array">
-    <pbcoreDescriptionDocument-0-lc-name-display>inserted</pbcoreDescriptionDocument-0-lc-name-display>
-  </pbcoreDescriptionDocument-0-lc-name-display>
-  <pbcoreDescriptionDocument-rh-subject-display type="array">
-    <pbcoreDescriptionDocument-rh-subject-display>inserted</pbcoreDescriptionDocument-rh-subject-display>
-  </pbcoreDescriptionDocument-rh-subject-display>
-  <pbcoreDescriptionDocument-0-rh-subject-display type="array">
-    <pbcoreDescriptionDocument-0-rh-subject-display>inserted</pbcoreDescriptionDocument-0-rh-subject-display>
-  </pbcoreDescriptionDocument-0-rh-subject-display>
-  <pbcoreDescriptionDocument-summary-t type="array">
-    <pbcoreDescriptionDocument-summary-t>inserted</pbcoreDescriptionDocument-summary-t>
-  </pbcoreDescriptionDocument-summary-t>
-  <pbcoreDescriptionDocument-summary-display type="array">
-    <pbcoreDescriptionDocument-summary-display>inserted</pbcoreDescriptionDocument-summary-display>
-  </pbcoreDescriptionDocument-summary-display>
-  <pbcoreDescriptionDocument-0-summary-t type="array">
-    <pbcoreDescriptionDocument-0-summary-t>inserted</pbcoreDescriptionDocument-0-summary-t>
-  </pbcoreDescriptionDocument-0-summary-t>
-  <pbcoreDescriptionDocument-0-summary-display type="array">
-    <pbcoreDescriptionDocument-0-summary-display>inserted</pbcoreDescriptionDocument-0-summary-display>
-  </pbcoreDescriptionDocument-0-summary-display>
-  <pbcoreDescriptionDocument-contents-t type="array">
-    <pbcoreDescriptionDocument-contents-t>inserted</pbcoreDescriptionDocument-contents-t>
-  </pbcoreDescriptionDocument-contents-t>
-  <pbcoreDescriptionDocument-contents-display type="array">
-    <pbcoreDescriptionDocument-contents-display>inserted</pbcoreDescriptionDocument-contents-display>
-  </pbcoreDescriptionDocument-contents-display>
-  <pbcoreDescriptionDocument-0-contents-t type="array">
-    <pbcoreDescriptionDocument-0-contents-t>inserted</pbcoreDescriptionDocument-0-contents-t>
-  </pbcoreDescriptionDocument-0-contents-t>
-  <pbcoreDescriptionDocument-0-contents-display type="array">
-    <pbcoreDescriptionDocument-0-contents-display>inserted</pbcoreDescriptionDocument-0-contents-display>
-  </pbcoreDescriptionDocument-0-contents-display>
-  <pbcoreDescriptionDocument-genre-facet type="array">
-    <pbcoreDescriptionDocument-genre-facet>inserted</pbcoreDescriptionDocument-genre-facet>
-    <pbcoreDescriptionDocument-genre-facet>inserted</pbcoreDescriptionDocument-genre-facet>
-    <pbcoreDescriptionDocument-genre-facet>inserted</pbcoreDescriptionDocument-genre-facet>
-  </pbcoreDescriptionDocument-genre-facet>
-  <pbcoreDescriptionDocument-0-genre-facet type="array">
-    <pbcoreDescriptionDocument-0-genre-facet>inserted</pbcoreDescriptionDocument-0-genre-facet>
-    <pbcoreDescriptionDocument-0-genre-facet>inserted</pbcoreDescriptionDocument-0-genre-facet>
-    <pbcoreDescriptionDocument-0-genre-facet>inserted</pbcoreDescriptionDocument-0-genre-facet>
-  </pbcoreDescriptionDocument-0-genre-facet>
-  <pbcoreDescriptionDocument-asset-type-t type="array">
-    <pbcoreDescriptionDocument-asset-type-t>Scene</pbcoreDescriptionDocument-asset-type-t>
-  </pbcoreDescriptionDocument-asset-type-t>
-  <pbcoreDescriptionDocument-asset-type-facet type="array">
-    <pbcoreDescriptionDocument-asset-type-facet>Scene</pbcoreDescriptionDocument-asset-type-facet>
-  </pbcoreDescriptionDocument-asset-type-facet>
-  <pbcoreDescriptionDocument-0-asset-type-t type="array">
-    <pbcoreDescriptionDocument-0-asset-type-t>Scene</pbcoreDescriptionDocument-0-asset-type-t>
-  </pbcoreDescriptionDocument-0-asset-type-t>
-  <pbcoreDescriptionDocument-0-asset-type-facet type="array">
-    <pbcoreDescriptionDocument-0-asset-type-facet>Scene</pbcoreDescriptionDocument-0-asset-type-facet>
-  </pbcoreDescriptionDocument-0-asset-type-facet>
-  <pbcoreDescriptionDocument-getty-genre-display type="array">
-    <pbcoreDescriptionDocument-getty-genre-display>inserted</pbcoreDescriptionDocument-getty-genre-display>
-  </pbcoreDescriptionDocument-getty-genre-display>
-  <pbcoreDescriptionDocument-0-getty-genre-display type="array">
-    <pbcoreDescriptionDocument-0-getty-genre-display>inserted</pbcoreDescriptionDocument-0-getty-genre-display>
-  </pbcoreDescriptionDocument-0-getty-genre-display>
-  <pbcoreDescriptionDocument-lc-genre-display type="array">
-    <pbcoreDescriptionDocument-lc-genre-display>inserted</pbcoreDescriptionDocument-lc-genre-display>
-  </pbcoreDescriptionDocument-lc-genre-display>
-  <pbcoreDescriptionDocument-0-lc-genre-display type="array">
-    <pbcoreDescriptionDocument-0-lc-genre-display>inserted</pbcoreDescriptionDocument-0-lc-genre-display>
-  </pbcoreDescriptionDocument-0-lc-genre-display>
-  <pbcoreDescriptionDocument-lc-subject-genre-display type="array">
-    <pbcoreDescriptionDocument-lc-subject-genre-display>inserted</pbcoreDescriptionDocument-lc-subject-genre-display>
-  </pbcoreDescriptionDocument-lc-subject-genre-display>
-  <pbcoreDescriptionDocument-0-lc-subject-genre-display type="array">
-    <pbcoreDescriptionDocument-0-lc-subject-genre-display>inserted</pbcoreDescriptionDocument-0-lc-subject-genre-display>
-  </pbcoreDescriptionDocument-0-lc-subject-genre-display>
-  <pbcoreDescriptionDocument-event-place-t type="array">
-    <pbcoreDescriptionDocument-event-place-t>inserted</pbcoreDescriptionDocument-event-place-t>
-  </pbcoreDescriptionDocument-event-place-t>
-  <pbcoreDescriptionDocument-event-place-display type="array">
-    <pbcoreDescriptionDocument-event-place-display>inserted</pbcoreDescriptionDocument-event-place-display>
-  </pbcoreDescriptionDocument-event-place-display>
-  <pbcoreDescriptionDocument-0-event-place-t type="array">
-    <pbcoreDescriptionDocument-0-event-place-t>inserted</pbcoreDescriptionDocument-0-event-place-t>
-  </pbcoreDescriptionDocument-0-event-place-t>
-  <pbcoreDescriptionDocument-0-event-place-display type="array">
-    <pbcoreDescriptionDocument-0-event-place-display>inserted</pbcoreDescriptionDocument-0-event-place-display>
-  </pbcoreDescriptionDocument-0-event-place-display>
-  <pbcoreDescriptionDocument-event-date-dts type="array">
-    <pbcoreDescriptionDocument-event-date-dt>2012-11-11T00:00:00Z</pbcoreDescriptionDocument-event-date-dt>
-    <pbcoreDescriptionDocument-event-date-dt>2012-11-12T00:00:00Z</pbcoreDescriptionDocument-event-date-dt>
-  </pbcoreDescriptionDocument-event-date-dts>
-  <pbcoreDescriptionDocument-event-date-display type="array">
-    <pbcoreDescriptionDocument-event-date-display>2012-11-11</pbcoreDescriptionDocument-event-date-display>
-    <pbcoreDescriptionDocument-event-date-display>2012-11-12</pbcoreDescriptionDocument-event-date-display>
-  </pbcoreDescriptionDocument-event-date-display>
-  <pbcoreDescriptionDocument-0-event-date-dts type="array">
-    <pbcoreDescriptionDocument-0-event-date-dt>2012-11-11T00:00:00Z</pbcoreDescriptionDocument-0-event-date-dt>
-    <pbcoreDescriptionDocument-0-event-date-dt>2012-11-12T00:00:00Z</pbcoreDescriptionDocument-0-event-date-dt>
-  </pbcoreDescriptionDocument-0-event-date-dts>
-  <pbcoreDescriptionDocument-0-event-date-display type="array">
-    <pbcoreDescriptionDocument-0-event-date-display>2012-11-11</pbcoreDescriptionDocument-0-event-date-display>
-    <pbcoreDescriptionDocument-0-event-date-display>2012-11-12</pbcoreDescriptionDocument-0-event-date-display>
-  </pbcoreDescriptionDocument-0-event-date-display>
-  <pbcoreDescriptionDocument-note-t type="array">
-    <pbcoreDescriptionDocument-note-t>inserted</pbcoreDescriptionDocument-note-t>
-  </pbcoreDescriptionDocument-note-t>
-  <pbcoreDescriptionDocument-note-display type="array">
-    <pbcoreDescriptionDocument-note-display>inserted</pbcoreDescriptionDocument-note-display>
-  </pbcoreDescriptionDocument-note-display>
-  <pbcoreDescriptionDocument-0-note-t type="array">
-    <pbcoreDescriptionDocument-0-note-t>inserted</pbcoreDescriptionDocument-0-note-t>
-  </pbcoreDescriptionDocument-0-note-t>
-  <pbcoreDescriptionDocument-0-note-display type="array">
-    <pbcoreDescriptionDocument-0-note-display>inserted</pbcoreDescriptionDocument-0-note-display>
-  </pbcoreDescriptionDocument-0-note-display>
-  <title-t type="array">
-    <title-t>inserted</title-t>
-  </title-t>
-  <title-display type="array">
-    <title-display>inserted</title-display>
-  </title-display>
-  <alternative-title-t type="array">
-    <alternative-title-t>inserted</alternative-title-t>
-  </alternative-title-t>
-  <alternative-title-display type="array">
-    <alternative-title-display>inserted</alternative-title-display>
-  </alternative-title-display>
-  <chapter-t type="array">
-    <chapter-t>inserted</chapter-t>
-  </chapter-t>
-  <chapter-display type="array">
-    <chapter-display>inserted</chapter-display>
-  </chapter-display>
-  <episode-t type="array">
-    <episode-t>inserted</episode-t>
-  </episode-t>
-  <episode-display type="array">
-    <episode-display>inserted</episode-display>
-  </episode-display>
-  <label-t type="array">
-    <label-t>inserted</label-t>
-  </label-t>
-  <label-display type="array">
-    <label-display>inserted</label-display>
-  </label-display>
-  <segment-t type="array">
-    <segment-t>inserted</segment-t>
-  </segment-t>
-  <segment-display type="array">
-    <segment-display>inserted</segment-display>
-  </segment-display>
-  <subtitle-t type="array">
-    <subtitle-t>inserted</subtitle-t>
-  </subtitle-t>
-  <subtitle-display type="array">
-    <subtitle-display>inserted</subtitle-display>
-  </subtitle-display>
-  <track-t type="array">
-    <track-t>inserted</track-t>
-  </track-t>
-  <track-display type="array">
-    <track-display>inserted</track-display>
-  </track-display>
-  <translation-t type="array">
-    <translation-t>inserted</translation-t>
-  </translation-t>
-  <translation-display type="array">
-    <translation-display>inserted</translation-display>
-  </translation-display>
-  <subject-facet type="array">
-    <subject-facet>inserted</subject-facet>
-    <subject-facet>inserted</subject-facet>
-    <subject-facet>inserted</subject-facet>
-  </subject-facet>
-  <lc-subject-display type="array">
-    <lc-subject-display>inserted</lc-subject-display>
-  </lc-subject-display>
-  <lc-name-display type="array">
-    <lc-name-display>inserted</lc-name-display>
-  </lc-name-display>
-  <rh-subject-display type="array">
-    <rh-subject-display>inserted</rh-subject-display>
-  </rh-subject-display>
-  <summary-t type="array">
-    <summary-t>inserted</summary-t>
-  </summary-t>
-  <summary-display type="array">
-    <summary-display>inserted</summary-display>
-  </summary-display>
-  <contents-t type="array">
-    <contents-t>inserted</contents-t>
-  </contents-t>
-  <contents-display type="array">
-    <contents-display>inserted</contents-display>
-  </contents-display>
-  <genre-facet type="array">
-    <genre-facet>inserted</genre-facet>
-    <genre-facet>inserted</genre-facet>
-    <genre-facet>inserted</genre-facet>
-  </genre-facet>
-  <asset-type-t type="array">
-    <asset-type-t>Scene</asset-type-t>
-  </asset-type-t>
-  <asset-type-facet type="array">
-    <asset-type-facet>Scene</asset-type-facet>
-  </asset-type-facet>
-  <getty-genre-display type="array">
-    <getty-genre-display>inserted</getty-genre-display>
-  </getty-genre-display>
-  <lc-genre-display type="array">
-    <lc-genre-display>inserted</lc-genre-display>
-  </lc-genre-display>
-  <lc-subject-genre-display type="array">
-    <lc-subject-genre-display>inserted</lc-subject-genre-display>
-  </lc-subject-genre-display>
-  <series-t type="array">
-    <series-t>inserted</series-t>
-  </series-t>
-  <series-display type="array">
-    <series-display>inserted</series-display>
-  </series-display>
-  <series-facet type="array">
-    <series-facet>inserted</series-facet>
-  </series-facet>
-  <collection-t type="array">
-    <collection-t>inserted</collection-t>
-  </collection-t>
-  <collection-display type="array">
-    <collection-display>inserted</collection-display>
-  </collection-display>
-  <collection-facet type="array">
-    <collection-facet>inserted</collection-facet>
-  </collection-facet>
-  <archival-series-t type="array">
-    <archival-series-t>inserted</archival-series-t>
-  </archival-series-t>
-  <archival-series-display type="array">
-    <archival-series-display>inserted</archival-series-display>
-  </archival-series-display>
-  <collection-number-t type="array">
-    <collection-number-t>inserted</collection-number-t>
-  </collection-number-t>
-  <collection-number-display type="array">
-    <collection-number-display>inserted</collection-number-display>
-  </collection-number-display>
-  <accession-number-t type="array">
-    <accession-number-t>inserted</accession-number-t>
-  </accession-number-t>
-  <accession-number-display type="array">
-    <accession-number-display>inserted</accession-number-display>
-  </accession-number-display>
-  <event-place-t type="array">
-    <event-place-t>inserted</event-place-t>
-  </event-place-t>
-  <event-place-display type="array">
-    <event-place-display>inserted</event-place-display>
-  </event-place-display>
-  <event-date-dts type="array">
-    <event-date-dt>2012-11-11T00:00:00Z</event-date-dt>
-    <event-date-dt>2012-11-12T00:00:00Z</event-date-dt>
-  </event-date-dts>
-  <event-date-display type="array">
-    <event-date-display>2012-11-11</event-date-display>
-    <event-date-display>2012-11-12</event-date-display>
-  </event-date-display>
-  <contributor-name-t type="array">
-    <contributor-name-t>inserted</contributor-name-t>
-    <contributor-name-t>inserted</contributor-name-t>
-  </contributor-name-t>
-  <contributor-name-facet type="array">
-    <contributor-name-facet>inserted</contributor-name-facet>
-    <contributor-name-facet>inserted</contributor-name-facet>
-  </contributor-name-facet>
-  <contributor-role-t type="array">
-    <contributor-role-t>inserted</contributor-role-t>
-  </contributor-role-t>
-  <contributor-role-display type="array">
-    <contributor-role-display>inserted</contributor-role-display>
-  </contributor-role-display>
-  <publisher-name-t type="array">
-    <publisher-name-t>inserted</publisher-name-t>
-    <publisher-name-t>inserted</publisher-name-t>
-  </publisher-name-t>
-  <publisher-name-facet type="array">
-    <publisher-name-facet>inserted</publisher-name-facet>
-    <publisher-name-facet>inserted</publisher-name-facet>
-  </publisher-name-facet>
-  <publisher-role-t type="array">
-    <publisher-role-t>inserted</publisher-role-t>
-  </publisher-role-t>
-  <publisher-role-display type="array">
-    <publisher-role-display>inserted</publisher-role-display>
-  </publisher-role-display>
-  <note-t type="array">
-    <note-t>inserted</note-t>
-  </note-t>
-  <note-display type="array">
-    <note-display>inserted</note-display>
-  </note-display>
-  <rights-summary-t type="array">
-    <rights-summary-t>inserted</rights-summary-t>
-  </rights-summary-t>
-  <rights-summary-display type="array">
-    <rights-summary-display>inserted</rights-summary-display>
-  </rights-summary-display>
+  <pbcoreDescriptionDocument-title-teim type="array">
+    <pbcoreDescriptionDocument-title-teim>inserted</pbcoreDescriptionDocument-title-teim>
+  </pbcoreDescriptionDocument-title-teim>
+  <pbcoreDescriptionDocument-title-ssm type="array">
+    <pbcoreDescriptionDocument-title-ssm>inserted</pbcoreDescriptionDocument-title-ssm>
+  </pbcoreDescriptionDocument-title-ssm>
+  <pbcoreDescriptionDocument-0-title-teim type="array">
+    <pbcoreDescriptionDocument-0-title-teim>inserted</pbcoreDescriptionDocument-0-title-teim>
+  </pbcoreDescriptionDocument-0-title-teim>
+  <pbcoreDescriptionDocument-0-title-ssm type="array">
+    <pbcoreDescriptionDocument-0-title-ssm>inserted</pbcoreDescriptionDocument-0-title-ssm>
+  </pbcoreDescriptionDocument-0-title-ssm>
+  <pbcoreDescriptionDocument-alternative-title-teim type="array">
+    <pbcoreDescriptionDocument-alternative-title-teim>inserted</pbcoreDescriptionDocument-alternative-title-teim>
+  </pbcoreDescriptionDocument-alternative-title-teim>
+  <pbcoreDescriptionDocument-alternative-title-ssm type="array">
+    <pbcoreDescriptionDocument-alternative-title-ssm>inserted</pbcoreDescriptionDocument-alternative-title-ssm>
+  </pbcoreDescriptionDocument-alternative-title-ssm>
+  <pbcoreDescriptionDocument-0-alternative-title-teim type="array">
+    <pbcoreDescriptionDocument-0-alternative-title-teim>inserted</pbcoreDescriptionDocument-0-alternative-title-teim>
+  </pbcoreDescriptionDocument-0-alternative-title-teim>
+  <pbcoreDescriptionDocument-0-alternative-title-ssm type="array">
+    <pbcoreDescriptionDocument-0-alternative-title-ssm>inserted</pbcoreDescriptionDocument-0-alternative-title-ssm>
+  </pbcoreDescriptionDocument-0-alternative-title-ssm>
+  <pbcoreDescriptionDocument-chapter-teim type="array">
+    <pbcoreDescriptionDocument-chapter-teim>inserted</pbcoreDescriptionDocument-chapter-teim>
+  </pbcoreDescriptionDocument-chapter-teim>
+  <pbcoreDescriptionDocument-chapter-ssm type="array">
+    <pbcoreDescriptionDocument-chapter-ssm>inserted</pbcoreDescriptionDocument-chapter-ssm>
+  </pbcoreDescriptionDocument-chapter-ssm>
+  <pbcoreDescriptionDocument-0-chapter-teim type="array">
+    <pbcoreDescriptionDocument-0-chapter-teim>inserted</pbcoreDescriptionDocument-0-chapter-teim>
+  </pbcoreDescriptionDocument-0-chapter-teim>
+  <pbcoreDescriptionDocument-0-chapter-ssm type="array">
+    <pbcoreDescriptionDocument-0-chapter-ssm>inserted</pbcoreDescriptionDocument-0-chapter-ssm>
+  </pbcoreDescriptionDocument-0-chapter-ssm>
+  <pbcoreDescriptionDocument-episode-teim type="array">
+    <pbcoreDescriptionDocument-episode-teim>inserted</pbcoreDescriptionDocument-episode-teim>
+  </pbcoreDescriptionDocument-episode-teim>
+  <pbcoreDescriptionDocument-episode-ssm type="array">
+    <pbcoreDescriptionDocument-episode-ssm>inserted</pbcoreDescriptionDocument-episode-ssm>
+  </pbcoreDescriptionDocument-episode-ssm>
+  <pbcoreDescriptionDocument-0-episode-teim type="array">
+    <pbcoreDescriptionDocument-0-episode-teim>inserted</pbcoreDescriptionDocument-0-episode-teim>
+  </pbcoreDescriptionDocument-0-episode-teim>
+  <pbcoreDescriptionDocument-0-episode-ssm type="array">
+    <pbcoreDescriptionDocument-0-episode-ssm>inserted</pbcoreDescriptionDocument-0-episode-ssm>
+  </pbcoreDescriptionDocument-0-episode-ssm>
+  <pbcoreDescriptionDocument-label-teim type="array">
+    <pbcoreDescriptionDocument-label-teim>inserted</pbcoreDescriptionDocument-label-teim>
+  </pbcoreDescriptionDocument-label-teim>
+  <pbcoreDescriptionDocument-label-ssm type="array">
+    <pbcoreDescriptionDocument-label-ssm>inserted</pbcoreDescriptionDocument-label-ssm>
+  </pbcoreDescriptionDocument-label-ssm>
+  <pbcoreDescriptionDocument-0-label-teim type="array">
+    <pbcoreDescriptionDocument-0-label-teim>inserted</pbcoreDescriptionDocument-0-label-teim>
+  </pbcoreDescriptionDocument-0-label-teim>
+  <pbcoreDescriptionDocument-0-label-ssm type="array">
+    <pbcoreDescriptionDocument-0-label-ssm>inserted</pbcoreDescriptionDocument-0-label-ssm>
+  </pbcoreDescriptionDocument-0-label-ssm>
+  <pbcoreDescriptionDocument-segment-teim type="array">
+    <pbcoreDescriptionDocument-segment-teim>inserted</pbcoreDescriptionDocument-segment-teim>
+  </pbcoreDescriptionDocument-segment-teim>
+  <pbcoreDescriptionDocument-segment-ssm type="array">
+    <pbcoreDescriptionDocument-segment-ssm>inserted</pbcoreDescriptionDocument-segment-ssm>
+  </pbcoreDescriptionDocument-segment-ssm>
+  <pbcoreDescriptionDocument-0-segment-teim type="array">
+    <pbcoreDescriptionDocument-0-segment-teim>inserted</pbcoreDescriptionDocument-0-segment-teim>
+  </pbcoreDescriptionDocument-0-segment-teim>
+  <pbcoreDescriptionDocument-0-segment-ssm type="array">
+    <pbcoreDescriptionDocument-0-segment-ssm>inserted</pbcoreDescriptionDocument-0-segment-ssm>
+  </pbcoreDescriptionDocument-0-segment-ssm>
+  <pbcoreDescriptionDocument-subtitle-teim type="array">
+    <pbcoreDescriptionDocument-subtitle-teim>inserted</pbcoreDescriptionDocument-subtitle-teim>
+  </pbcoreDescriptionDocument-subtitle-teim>
+  <pbcoreDescriptionDocument-subtitle-ssm type="array">
+    <pbcoreDescriptionDocument-subtitle-ssm>inserted</pbcoreDescriptionDocument-subtitle-ssm>
+  </pbcoreDescriptionDocument-subtitle-ssm>
+  <pbcoreDescriptionDocument-0-subtitle-teim type="array">
+    <pbcoreDescriptionDocument-0-subtitle-teim>inserted</pbcoreDescriptionDocument-0-subtitle-teim>
+  </pbcoreDescriptionDocument-0-subtitle-teim>
+  <pbcoreDescriptionDocument-0-subtitle-ssm type="array">
+    <pbcoreDescriptionDocument-0-subtitle-ssm>inserted</pbcoreDescriptionDocument-0-subtitle-ssm>
+  </pbcoreDescriptionDocument-0-subtitle-ssm>
+  <pbcoreDescriptionDocument-track-teim type="array">
+    <pbcoreDescriptionDocument-track-teim>inserted</pbcoreDescriptionDocument-track-teim>
+  </pbcoreDescriptionDocument-track-teim>
+  <pbcoreDescriptionDocument-track-ssm type="array">
+    <pbcoreDescriptionDocument-track-ssm>inserted</pbcoreDescriptionDocument-track-ssm>
+  </pbcoreDescriptionDocument-track-ssm>
+  <pbcoreDescriptionDocument-0-track-teim type="array">
+    <pbcoreDescriptionDocument-0-track-teim>inserted</pbcoreDescriptionDocument-0-track-teim>
+  </pbcoreDescriptionDocument-0-track-teim>
+  <pbcoreDescriptionDocument-0-track-ssm type="array">
+    <pbcoreDescriptionDocument-0-track-ssm>inserted</pbcoreDescriptionDocument-0-track-ssm>
+  </pbcoreDescriptionDocument-0-track-ssm>
+  <pbcoreDescriptionDocument-translation-teim type="array">
+    <pbcoreDescriptionDocument-translation-teim>inserted</pbcoreDescriptionDocument-translation-teim>
+  </pbcoreDescriptionDocument-translation-teim>
+  <pbcoreDescriptionDocument-translation-ssm type="array">
+    <pbcoreDescriptionDocument-translation-ssm>inserted</pbcoreDescriptionDocument-translation-ssm>
+  </pbcoreDescriptionDocument-translation-ssm>
+  <pbcoreDescriptionDocument-0-translation-teim type="array">
+    <pbcoreDescriptionDocument-0-translation-teim>inserted</pbcoreDescriptionDocument-0-translation-teim>
+  </pbcoreDescriptionDocument-0-translation-teim>
+  <pbcoreDescriptionDocument-0-translation-ssm type="array">
+    <pbcoreDescriptionDocument-0-translation-ssm>inserted</pbcoreDescriptionDocument-0-translation-ssm>
+  </pbcoreDescriptionDocument-0-translation-ssm>
+  <pbcoreDescriptionDocument-subject-sim type="array">
+    <pbcoreDescriptionDocument-subject-sim>inserted</pbcoreDescriptionDocument-subject-sim>
+    <pbcoreDescriptionDocument-subject-sim>inserted</pbcoreDescriptionDocument-subject-sim>
+    <pbcoreDescriptionDocument-subject-sim>inserted</pbcoreDescriptionDocument-subject-sim>
+  </pbcoreDescriptionDocument-subject-sim>
+  <pbcoreDescriptionDocument-0-subject-sim type="array">
+    <pbcoreDescriptionDocument-0-subject-sim>inserted</pbcoreDescriptionDocument-0-subject-sim>
+    <pbcoreDescriptionDocument-0-subject-sim>inserted</pbcoreDescriptionDocument-0-subject-sim>
+    <pbcoreDescriptionDocument-0-subject-sim>inserted</pbcoreDescriptionDocument-0-subject-sim>
+  </pbcoreDescriptionDocument-0-subject-sim>
+  <pbcoreDescriptionDocument-lc-subject-ssm type="array">
+    <pbcoreDescriptionDocument-lc-subject-ssm>inserted</pbcoreDescriptionDocument-lc-subject-ssm>
+  </pbcoreDescriptionDocument-lc-subject-ssm>
+  <pbcoreDescriptionDocument-0-lc-subject-ssm type="array">
+    <pbcoreDescriptionDocument-0-lc-subject-ssm>inserted</pbcoreDescriptionDocument-0-lc-subject-ssm>
+  </pbcoreDescriptionDocument-0-lc-subject-ssm>
+  <pbcoreDescriptionDocument-lc-name-ssm type="array">
+    <pbcoreDescriptionDocument-lc-name-ssm>inserted</pbcoreDescriptionDocument-lc-name-ssm>
+  </pbcoreDescriptionDocument-lc-name-ssm>
+  <pbcoreDescriptionDocument-0-lc-name-ssm type="array">
+    <pbcoreDescriptionDocument-0-lc-name-ssm>inserted</pbcoreDescriptionDocument-0-lc-name-ssm>
+  </pbcoreDescriptionDocument-0-lc-name-ssm>
+  <pbcoreDescriptionDocument-rh-subject-ssm type="array">
+    <pbcoreDescriptionDocument-rh-subject-ssm>inserted</pbcoreDescriptionDocument-rh-subject-ssm>
+  </pbcoreDescriptionDocument-rh-subject-ssm>
+  <pbcoreDescriptionDocument-0-rh-subject-ssm type="array">
+    <pbcoreDescriptionDocument-0-rh-subject-ssm>inserted</pbcoreDescriptionDocument-0-rh-subject-ssm>
+  </pbcoreDescriptionDocument-0-rh-subject-ssm>
+  <pbcoreDescriptionDocument-summary-teim type="array">
+    <pbcoreDescriptionDocument-summary-teim>inserted</pbcoreDescriptionDocument-summary-teim>
+  </pbcoreDescriptionDocument-summary-teim>
+  <pbcoreDescriptionDocument-summary-ssm type="array">
+    <pbcoreDescriptionDocument-summary-ssm>inserted</pbcoreDescriptionDocument-summary-ssm>
+  </pbcoreDescriptionDocument-summary-ssm>
+  <pbcoreDescriptionDocument-0-summary-teim type="array">
+    <pbcoreDescriptionDocument-0-summary-teim>inserted</pbcoreDescriptionDocument-0-summary-teim>
+  </pbcoreDescriptionDocument-0-summary-teim>
+  <pbcoreDescriptionDocument-0-summary-ssm type="array">
+    <pbcoreDescriptionDocument-0-summary-ssm>inserted</pbcoreDescriptionDocument-0-summary-ssm>
+  </pbcoreDescriptionDocument-0-summary-ssm>
+  <pbcoreDescriptionDocument-contents-teim type="array">
+    <pbcoreDescriptionDocument-contents-teim>inserted</pbcoreDescriptionDocument-contents-teim>
+  </pbcoreDescriptionDocument-contents-teim>
+  <pbcoreDescriptionDocument-contents-ssm type="array">
+    <pbcoreDescriptionDocument-contents-ssm>inserted</pbcoreDescriptionDocument-contents-ssm>
+  </pbcoreDescriptionDocument-contents-ssm>
+  <pbcoreDescriptionDocument-0-contents-teim type="array">
+    <pbcoreDescriptionDocument-0-contents-teim>inserted</pbcoreDescriptionDocument-0-contents-teim>
+  </pbcoreDescriptionDocument-0-contents-teim>
+  <pbcoreDescriptionDocument-0-contents-ssm type="array">
+    <pbcoreDescriptionDocument-0-contents-ssm>inserted</pbcoreDescriptionDocument-0-contents-ssm>
+  </pbcoreDescriptionDocument-0-contents-ssm>
+  <pbcoreDescriptionDocument-genre-sim type="array">
+    <pbcoreDescriptionDocument-genre-sim>inserted</pbcoreDescriptionDocument-genre-sim>
+    <pbcoreDescriptionDocument-genre-sim>inserted</pbcoreDescriptionDocument-genre-sim>
+    <pbcoreDescriptionDocument-genre-sim>inserted</pbcoreDescriptionDocument-genre-sim>
+  </pbcoreDescriptionDocument-genre-sim>
+  <pbcoreDescriptionDocument-0-genre-sim type="array">
+    <pbcoreDescriptionDocument-0-genre-sim>inserted</pbcoreDescriptionDocument-0-genre-sim>
+    <pbcoreDescriptionDocument-0-genre-sim>inserted</pbcoreDescriptionDocument-0-genre-sim>
+    <pbcoreDescriptionDocument-0-genre-sim>inserted</pbcoreDescriptionDocument-0-genre-sim>
+  </pbcoreDescriptionDocument-0-genre-sim>
+  <pbcoreDescriptionDocument-asset-type-teim type="array">
+    <pbcoreDescriptionDocument-asset-type-teim>Scene</pbcoreDescriptionDocument-asset-type-teim>
+  </pbcoreDescriptionDocument-asset-type-teim>
+  <pbcoreDescriptionDocument-asset-type-sim type="array">
+    <pbcoreDescriptionDocument-asset-type-sim>Scene</pbcoreDescriptionDocument-asset-type-sim>
+  </pbcoreDescriptionDocument-asset-type-sim>
+  <pbcoreDescriptionDocument-0-asset-type-teim type="array">
+    <pbcoreDescriptionDocument-0-asset-type-teim>Scene</pbcoreDescriptionDocument-0-asset-type-teim>
+  </pbcoreDescriptionDocument-0-asset-type-teim>
+  <pbcoreDescriptionDocument-0-asset-type-sim type="array">
+    <pbcoreDescriptionDocument-0-asset-type-sim>Scene</pbcoreDescriptionDocument-0-asset-type-sim>
+  </pbcoreDescriptionDocument-0-asset-type-sim>
+  <pbcoreDescriptionDocument-getty-genre-ssm type="array">
+    <pbcoreDescriptionDocument-getty-genre-ssm>inserted</pbcoreDescriptionDocument-getty-genre-ssm>
+  </pbcoreDescriptionDocument-getty-genre-ssm>
+  <pbcoreDescriptionDocument-0-getty-genre-ssm type="array">
+    <pbcoreDescriptionDocument-0-getty-genre-ssm>inserted</pbcoreDescriptionDocument-0-getty-genre-ssm>
+  </pbcoreDescriptionDocument-0-getty-genre-ssm>
+  <pbcoreDescriptionDocument-lc-genre-ssm type="array">
+    <pbcoreDescriptionDocument-lc-genre-ssm>inserted</pbcoreDescriptionDocument-lc-genre-ssm>
+  </pbcoreDescriptionDocument-lc-genre-ssm>
+  <pbcoreDescriptionDocument-0-lc-genre-ssm type="array">
+    <pbcoreDescriptionDocument-0-lc-genre-ssm>inserted</pbcoreDescriptionDocument-0-lc-genre-ssm>
+  </pbcoreDescriptionDocument-0-lc-genre-ssm>
+  <pbcoreDescriptionDocument-lc-subject-genre-ssm type="array">
+    <pbcoreDescriptionDocument-lc-subject-genre-ssm>inserted</pbcoreDescriptionDocument-lc-subject-genre-ssm>
+  </pbcoreDescriptionDocument-lc-subject-genre-ssm>
+  <pbcoreDescriptionDocument-0-lc-subject-genre-ssm type="array">
+    <pbcoreDescriptionDocument-0-lc-subject-genre-ssm>inserted</pbcoreDescriptionDocument-0-lc-subject-genre-ssm>
+  </pbcoreDescriptionDocument-0-lc-subject-genre-ssm>
+  <pbcoreDescriptionDocument-event-place-teim type="array">
+    <pbcoreDescriptionDocument-event-place-teim>inserted</pbcoreDescriptionDocument-event-place-teim>
+  </pbcoreDescriptionDocument-event-place-teim>
+  <pbcoreDescriptionDocument-event-place-ssm type="array">
+    <pbcoreDescriptionDocument-event-place-ssm>inserted</pbcoreDescriptionDocument-event-place-ssm>
+  </pbcoreDescriptionDocument-event-place-ssm>
+  <pbcoreDescriptionDocument-0-event-place-teim type="array">
+    <pbcoreDescriptionDocument-0-event-place-teim>inserted</pbcoreDescriptionDocument-0-event-place-teim>
+  </pbcoreDescriptionDocument-0-event-place-teim>
+  <pbcoreDescriptionDocument-0-event-place-ssm type="array">
+    <pbcoreDescriptionDocument-0-event-place-ssm>inserted</pbcoreDescriptionDocument-0-event-place-ssm>
+  </pbcoreDescriptionDocument-0-event-place-ssm>
+  <pbcoreDescriptionDocument-event-date-dtsim type="array">
+    <pbcoreDescriptionDocument-event-date-dtsim>2012-11-11T00:00:00Z</pbcoreDescriptionDocument-event-date-dtsim>
+    <pbcoreDescriptionDocument-event-date-dtsim>2012-11-12T00:00:00Z</pbcoreDescriptionDocument-event-date-dtsim>
+  </pbcoreDescriptionDocument-event-date-dtsim>
+  <pbcoreDescriptionDocument-event-date-ssm type="array">
+    <pbcoreDescriptionDocument-event-date-ssm>2012-11-11</pbcoreDescriptionDocument-event-date-ssm>
+    <pbcoreDescriptionDocument-event-date-ssm>2012-11-12</pbcoreDescriptionDocument-event-date-ssm>
+  </pbcoreDescriptionDocument-event-date-ssm>
+  <pbcoreDescriptionDocument-0-event-date-dtsim type="array">
+    <pbcoreDescriptionDocument-0-event-date-dtsim>2012-11-11T00:00:00Z</pbcoreDescriptionDocument-0-event-date-dtsim>
+    <pbcoreDescriptionDocument-0-event-date-dtsim>2012-11-12T00:00:00Z</pbcoreDescriptionDocument-0-event-date-dtsim>
+  </pbcoreDescriptionDocument-0-event-date-dtsim>
+  <pbcoreDescriptionDocument-0-event-date-ssm type="array">
+    <pbcoreDescriptionDocument-0-event-date-ssm>2012-11-11</pbcoreDescriptionDocument-0-event-date-ssm>
+    <pbcoreDescriptionDocument-0-event-date-ssm>2012-11-12</pbcoreDescriptionDocument-0-event-date-ssm>
+  </pbcoreDescriptionDocument-0-event-date-ssm>
+  <pbcoreDescriptionDocument-note-teim type="array">
+    <pbcoreDescriptionDocument-note-teim>inserted</pbcoreDescriptionDocument-note-teim>
+  </pbcoreDescriptionDocument-note-teim>
+  <pbcoreDescriptionDocument-note-ssm type="array">
+    <pbcoreDescriptionDocument-note-ssm>inserted</pbcoreDescriptionDocument-note-ssm>
+  </pbcoreDescriptionDocument-note-ssm>
+  <pbcoreDescriptionDocument-0-note-teim type="array">
+    <pbcoreDescriptionDocument-0-note-teim>inserted</pbcoreDescriptionDocument-0-note-teim>
+  </pbcoreDescriptionDocument-0-note-teim>
+  <pbcoreDescriptionDocument-0-note-ssm type="array">
+    <pbcoreDescriptionDocument-0-note-ssm>inserted</pbcoreDescriptionDocument-0-note-ssm>
+  </pbcoreDescriptionDocument-0-note-ssm>
+  <title-teim type="array">
+    <title-teim>inserted</title-teim>
+  </title-teim>
+  <title-ssm type="array">
+    <title-ssm>inserted</title-ssm>
+  </title-ssm>
+  <alternative-title-teim type="array">
+    <alternative-title-teim>inserted</alternative-title-teim>
+  </alternative-title-teim>
+  <alternative-title-ssm type="array">
+    <alternative-title-ssm>inserted</alternative-title-ssm>
+  </alternative-title-ssm>
+  <chapter-teim type="array">
+    <chapter-teim>inserted</chapter-teim>
+  </chapter-teim>
+  <chapter-ssm type="array">
+    <chapter-ssm>inserted</chapter-ssm>
+  </chapter-ssm>
+  <episode-teim type="array">
+    <episode-teim>inserted</episode-teim>
+  </episode-teim>
+  <episode-ssm type="array">
+    <episode-ssm>inserted</episode-ssm>
+  </episode-ssm>
+  <label-teim type="array">
+    <label-teim>inserted</label-teim>
+  </label-teim>
+  <label-ssm type="array">
+    <label-ssm>inserted</label-ssm>
+  </label-ssm>
+  <segment-teim type="array">
+    <segment-teim>inserted</segment-teim>
+  </segment-teim>
+  <segment-ssm type="array">
+    <segment-ssm>inserted</segment-ssm>
+  </segment-ssm>
+  <subtitle-teim type="array">
+    <subtitle-teim>inserted</subtitle-teim>
+  </subtitle-teim>
+  <subtitle-ssm type="array">
+    <subtitle-ssm>inserted</subtitle-ssm>
+  </subtitle-ssm>
+  <track-teim type="array">
+    <track-teim>inserted</track-teim>
+  </track-teim>
+  <track-ssm type="array">
+    <track-ssm>inserted</track-ssm>
+  </track-ssm>
+  <translation-teim type="array">
+    <translation-teim>inserted</translation-teim>
+  </translation-teim>
+  <translation-ssm type="array">
+    <translation-ssm>inserted</translation-ssm>
+  </translation-ssm>
+  <subject-sim type="array">
+    <subject-sim>inserted</subject-sim>
+    <subject-sim>inserted</subject-sim>
+    <subject-sim>inserted</subject-sim>
+  </subject-sim>
+  <lc-subject-ssm type="array">
+    <lc-subject-ssm>inserted</lc-subject-ssm>
+  </lc-subject-ssm>
+  <lc-name-ssm type="array">
+    <lc-name-ssm>inserted</lc-name-ssm>
+  </lc-name-ssm>
+  <rh-subject-ssm type="array">
+    <rh-subject-ssm>inserted</rh-subject-ssm>
+  </rh-subject-ssm>
+  <summary-teim type="array">
+    <summary-teim>inserted</summary-teim>
+  </summary-teim>
+  <summary-ssm type="array">
+    <summary-ssm>inserted</summary-ssm>
+  </summary-ssm>
+  <contents-teim type="array">
+    <contents-teim>inserted</contents-teim>
+  </contents-teim>
+  <contents-ssm type="array">
+    <contents-ssm>inserted</contents-ssm>
+  </contents-ssm>
+  <genre-sim type="array">
+    <genre-sim>inserted</genre-sim>
+    <genre-sim>inserted</genre-sim>
+    <genre-sim>inserted</genre-sim>
+  </genre-sim>
+  <asset-type-teim type="array">
+    <asset-type-teim>Scene</asset-type-teim>
+  </asset-type-teim>
+  <asset-type-sim type="array">
+    <asset-type-sim>Scene</asset-type-sim>
+  </asset-type-sim>
+  <getty-genre-ssm type="array">
+    <getty-genre-ssm>inserted</getty-genre-ssm>
+  </getty-genre-ssm>
+  <lc-genre-ssm type="array">
+    <lc-genre-ssm>inserted</lc-genre-ssm>
+  </lc-genre-ssm>
+  <lc-subject-genre-ssm type="array">
+    <lc-subject-genre-ssm>inserted</lc-subject-genre-ssm>
+  </lc-subject-genre-ssm>
+  <series-teim type="array">
+    <series-teim>inserted</series-teim>
+  </series-teim>
+  <series-ssm type="array">
+    <series-ssm>inserted</series-ssm>
+  </series-ssm>
+  <series-sim type="array">
+    <series-sim>inserted</series-sim>
+  </series-sim>
+  <collection-teim type="array">
+    <collection-teim>inserted</collection-teim>
+  </collection-teim>
+  <collection-ssm type="array">
+    <collection-ssm>inserted</collection-ssm>
+  </collection-ssm>
+  <collection-sim type="array">
+    <collection-sim>inserted</collection-sim>
+  </collection-sim>
+  <archival-series-teim type="array">
+    <archival-series-teim>inserted</archival-series-teim>
+  </archival-series-teim>
+  <archival-series-ssm type="array">
+    <archival-series-ssm>inserted</archival-series-ssm>
+  </archival-series-ssm>
+  <collection-number-teim type="array">
+    <collection-number-teim>inserted</collection-number-teim>
+  </collection-number-teim>
+  <collection-number-ssm type="array">
+    <collection-number-ssm>inserted</collection-number-ssm>
+  </collection-number-ssm>
+  <accession-number-teim type="array">
+    <accession-number-teim>inserted</accession-number-teim>
+  </accession-number-teim>
+  <accession-number-ssm type="array">
+    <accession-number-ssm>inserted</accession-number-ssm>
+  </accession-number-ssm>
+  <event-place-teim type="array">
+    <event-place-teim>inserted</event-place-teim>
+  </event-place-teim>
+  <event-place-ssm type="array">
+    <event-place-ssm>inserted</event-place-ssm>
+  </event-place-ssm>
+  <event-date-dtsim type="array">
+    <event-date-dtsim>2012-11-11T00:00:00Z</event-date-dtsim>
+    <event-date-dtsim>2012-11-12T00:00:00Z</event-date-dtsim>
+  </event-date-dtsim>
+  <event-date-ssm type="array">
+    <event-date-ssm>2012-11-11</event-date-ssm>
+    <event-date-ssm>2012-11-12</event-date-ssm>
+  </event-date-ssm>
+  <contributor-name-teim type="array">
+    <contributor-name-teim>inserted</contributor-name-teim>
+    <contributor-name-teim>inserted</contributor-name-teim>
+    <contributor-name-teim></contributor-name-teim>
+  </contributor-name-teim>
+  <contributor-name-sim type="array">
+    <contributor-name-sim>inserted</contributor-name-sim>
+    <contributor-name-sim>inserted</contributor-name-sim>
+    <contributor-name-sim></contributor-name-sim>
+  </contributor-name-sim>
+  <contributor-role-teim type="array">
+    <contributor-role-teim>inserted</contributor-role-teim>
+    <contributor-role-teim></contributor-role-teim>
+    <contributor-role-teim></contributor-role-teim>
+  </contributor-role-teim>
+  <contributor-role-ssm type="array">
+    <contributor-role-ssm>inserted</contributor-role-ssm>
+    <contributor-role-ssm></contributor-role-ssm>
+    <contributor-role-ssm></contributor-role-ssm>
+  </contributor-role-ssm>
+  <publisher-name-teim type="array">
+    <publisher-name-teim>inserted</publisher-name-teim>
+    <publisher-name-teim>inserted</publisher-name-teim>
+  </publisher-name-teim>
+  <publisher-name-sim type="array">
+    <publisher-name-sim>inserted</publisher-name-sim>
+    <publisher-name-sim>inserted</publisher-name-sim>
+  </publisher-name-sim>
+  <publisher-role-teim type="array">
+    <publisher-role-teim>inserted</publisher-role-teim>
+    <publisher-role-teim></publisher-role-teim>
+  </publisher-role-teim>
+  <publisher-role-ssm type="array">
+    <publisher-role-ssm>inserted</publisher-role-ssm>
+    <publisher-role-ssm></publisher-role-ssm>
+  </publisher-role-ssm>
+  <note-teim type="array">
+    <note-teim>inserted</note-teim>
+  </note-teim>
+  <note-ssm type="array">
+    <note-ssm>inserted</note-ssm>
+  </note-ssm>
+  <rights-summary-teim type="array">
+    <rights-summary-teim>inserted</rights-summary-teim>
+  </rights-summary-teim>
+  <rights-summary-ssm type="array">
+    <rights-summary-ssm>inserted</rights-summary-ssm>
+  </rights-summary-ssm>
 </hash>

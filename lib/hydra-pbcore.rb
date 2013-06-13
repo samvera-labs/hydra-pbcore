@@ -76,7 +76,6 @@ module HydraPbcore
 
   autoload :Mapper
   autoload :Methods
-  autoload :Conversions
   autoload :Behaviors
   autoload :Templates
   autoload :Datastream

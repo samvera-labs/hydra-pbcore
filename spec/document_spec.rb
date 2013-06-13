@@ -170,11 +170,11 @@ describe HydraPbcore::Datastream::Document do
 
     describe "solr dates" do
       it "should be indexed for display" do
-        @object_ds.to_solr["event_date_display"].should == ["2012-11-11", "2012-11-12"]
+        @object_ds.to_solr["event_date_ssm"].should == ["2012-11-11", "2012-11-12"]
       end
 
       it "should be converted to ISO 8601" do
-        @object_ds.to_solr["event_date_dts"].should == ["2012-11-11T00:00:00Z", "2012-11-12T00:00:00Z"]
+        @object_ds.to_solr["event_date_dtsim"].should == ["2012-11-11T00:00:00Z", "2012-11-12T00:00:00Z"]
       end
 
       it "should not be searchable as strings" do
@@ -215,20 +215,20 @@ describe HydraPbcore::Datastream::Document do
     it "should not create duplicate terms for contributor fields" do
       ds = HydraPbcore::Datastream::Document.new(nil, nil)
       ds.insert_contributor("foo", "bar")
-      ds.to_solr["contributor_name_facet"].should == ["foo"]
+      ds.to_solr["contributor_name_sim"].should == ["foo"]
     end
 
     it "should not create duplicate terms for creator fields" do
       ds = HydraPbcore::Datastream::Document.new(nil, nil)
       ds.insert_creator("foo", "bar")
-      ds.to_solr["creator_name_facet"].should == ["foo"]
+      ds.to_solr["creator_name_sim"].should == ["foo"]
     end
 
     it "should accept partial dates" do
       ds = HydraPbcore::Datastream::Document.new(nil, nil)
       ds.insert_date("2001")
       ds.insert_date("2004-10")
-      ds.to_solr["event_date_dts"].should == ["2001-01-01T00:00:00Z", "2004-10-01T00:00:00Z"]
+      ds.to_solr["event_date_dtsim"].should == ["2001-01-01T00:00:00Z", "2004-10-01T00:00:00Z"]
     end
 
   end  

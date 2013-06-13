@@ -7,7 +7,6 @@ class Instantiation < ActiveFedora::OmDatastream
 
   include HydraPbcore::Methods
   include HydraPbcore::Templates
-  include HydraPbcore::Conversions
 
   # Note: this is not a complete PBCore document, just an instantiation node
   set_terminology do |t|
@@ -30,7 +29,7 @@ class Instantiation < ActiveFedora::OmDatastream
       :index_as => [:displayable]
     )
     t.instantiationDate(:attributes=>{ :dateType=>"created" },
-      :index_as => [:not_searchable, :converted_date, :displayable]
+      :index_as => [:dateable, :displayable]
     )
     t.instantiationDigital(:attributes=>{ :source=>"EBU file formats" },
       :index_as => [:searchable, :facetable]
