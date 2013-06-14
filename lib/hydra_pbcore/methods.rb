@@ -73,10 +73,4 @@ module HydraPbcore::Methods
     end
   end
 
-  # Overrides Solrizer::XML::TerminologyBasedSolrizer.to_solr to use our own mapper
-  def to_solr(solr_doc = Hash.new)
-    Solrizer.default_field_mapper = HydraPbcore::Mapper.new
-    super(solr_doc)
-  end
-
 end

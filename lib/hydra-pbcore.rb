@@ -74,7 +74,6 @@ module HydraPbcore
     xsd.validate(xml)
   end
 
-  autoload :Mapper
   autoload :Methods
   autoload :Behaviors
   autoload :Templates
