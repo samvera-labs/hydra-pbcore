@@ -154,7 +154,7 @@ describe HydraPbcore::Datastream::Instantiation do
           @digital.send("#{field}=".to_sym, field)
         end
         # Use a real date
-        @digital.date = "2012-11"
+        @digital.date = "2012-11-01"
       end
 
       it "should match an exmplar" do
@@ -163,7 +163,7 @@ describe HydraPbcore::Datastream::Instantiation do
       end
 
       it "should display dates as they were entered" do
-        @digital.to_solr["date_ssm"].should == ["2012-11"]
+        @digital.to_solr["date_ssm"].should == ["2012-11-01"]
       end
 
       it "should have dates converted to ISO 8601" do
@@ -236,7 +236,7 @@ describe HydraPbcore::Datastream::Instantiation do
           @physical.send("#{field}=".to_sym, field)
         end
         # Use a real date
-        @physical.date = "2012-11"
+        @physical.date = "2012-11-01"
       end
 
       it "should match an exmplar" do
@@ -245,7 +245,7 @@ describe HydraPbcore::Datastream::Instantiation do
       end
 
       it "should display dates as they were entered" do
-        @physical.to_solr["date_ssm"].should == ["2012-11"]
+        @physical.to_solr["date_ssm"].should == ["2012-11-01"]
       end
 
       it "should have dates converted to ISO 8601" do

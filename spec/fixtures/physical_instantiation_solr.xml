@@ -6,13 +6,17 @@
   <pbcoreInstantiation-0-barcode-ssm type="array">
     <pbcoreInstantiation-0-barcode-ssm>barcode</pbcoreInstantiation-0-barcode-ssm>
   </pbcoreInstantiation-0-barcode-ssm>
-  <pbcoreInstantiation-instantiationDate-dtsim type="array"/>
+  <pbcoreInstantiation-instantiationDate-dtsim type="array">
+    <pbcoreInstantiation-instantiationDate-dtsim>2012-11-01T00:00:00Z</pbcoreInstantiation-instantiationDate-dtsim>
+  </pbcoreInstantiation-instantiationDate-dtsim>
   <pbcoreInstantiation-instantiationDate-ssm type="array">
-    <pbcoreInstantiation-instantiationDate-ssm>2012-11</pbcoreInstantiation-instantiationDate-ssm>
+    <pbcoreInstantiation-instantiationDate-ssm>2012-11-01</pbcoreInstantiation-instantiationDate-ssm>
   </pbcoreInstantiation-instantiationDate-ssm>
-  <pbcoreInstantiation-0-instantiationDate-dtsim type="array"/>
+  <pbcoreInstantiation-0-instantiationDate-dtsim type="array">
+    <pbcoreInstantiation-0-instantiationDate-dtsim>2012-11-01T00:00:00Z</pbcoreInstantiation-0-instantiationDate-dtsim>
+  </pbcoreInstantiation-0-instantiationDate-dtsim>
   <pbcoreInstantiation-0-instantiationDate-ssm type="array">
-    <pbcoreInstantiation-0-instantiationDate-ssm>2012-11</pbcoreInstantiation-0-instantiationDate-ssm>
+    <pbcoreInstantiation-0-instantiationDate-ssm>2012-11-01</pbcoreInstantiation-0-instantiationDate-ssm>
   </pbcoreInstantiation-0-instantiationDate-ssm>
   <pbcoreInstantiation-instantiationPhysical-teim type="array">
     <pbcoreInstantiation-instantiationPhysical-teim>format</pbcoreInstantiation-instantiationPhysical-teim>
@@ -110,13 +114,17 @@
   <pbcoreInstantiation-0-location-ssm type="array">
     <pbcoreInstantiation-0-location-ssm>location</pbcoreInstantiation-0-location-ssm>
   </pbcoreInstantiation-0-location-ssm>
-  <pbcoreInstantiation-date-dtsim type="array"/>
+  <pbcoreInstantiation-date-dtsim type="array">
+    <pbcoreInstantiation-date-dtsim>2012-11-01T00:00:00Z</pbcoreInstantiation-date-dtsim>
+  </pbcoreInstantiation-date-dtsim>
   <pbcoreInstantiation-date-ssm type="array">
-    <pbcoreInstantiation-date-ssm>2012-11</pbcoreInstantiation-date-ssm>
+    <pbcoreInstantiation-date-ssm>2012-11-01</pbcoreInstantiation-date-ssm>
   </pbcoreInstantiation-date-ssm>
-  <pbcoreInstantiation-0-date-dtsim type="array"/>
+  <pbcoreInstantiation-0-date-dtsim type="array">
+    <pbcoreInstantiation-0-date-dtsim>2012-11-01T00:00:00Z</pbcoreInstantiation-0-date-dtsim>
+  </pbcoreInstantiation-0-date-dtsim>
   <pbcoreInstantiation-0-date-ssm type="array">
-    <pbcoreInstantiation-0-date-ssm>2012-11</pbcoreInstantiation-0-date-ssm>
+    <pbcoreInstantiation-0-date-ssm>2012-11-01</pbcoreInstantiation-0-date-ssm>
   </pbcoreInstantiation-0-date-ssm>
   <pbcoreInstantiation-generation-ssm type="array">
     <pbcoreInstantiation-generation-ssm>generation</pbcoreInstantiation-generation-ssm>
@@ -181,9 +189,11 @@
   <barcode-ssm type="array">
     <barcode-ssm>barcode</barcode-ssm>
   </barcode-ssm>
-  <instantiationDate-dtsim type="array"/>
+  <instantiationDate-dtsim type="array">
+    <instantiationDate-dtsim>2012-11-01T00:00:00Z</instantiationDate-dtsim>
+  </instantiationDate-dtsim>
   <instantiationDate-ssm type="array">
-    <instantiationDate-ssm>2012-11</instantiationDate-ssm>
+    <instantiationDate-ssm>2012-11-01</instantiationDate-ssm>
   </instantiationDate-ssm>
   <instantiationPhysical-teim type="array">
     <instantiationPhysical-teim>format</instantiationPhysical-teim>
@@ -236,9 +246,11 @@
   <location-ssm type="array">
     <location-ssm>location</location-ssm>
   </location-ssm>
-  <date-dtsim type="array"/>
+  <date-dtsim type="array">
+    <date-dtsim>2012-11-01T00:00:00Z</date-dtsim>
+  </date-dtsim>
   <date-ssm type="array">
-    <date-ssm>2012-11</date-ssm>
+    <date-ssm>2012-11-01</date-ssm>
   </date-ssm>
   <generation-ssm type="array">
     <generation-ssm>generation</generation-ssm>

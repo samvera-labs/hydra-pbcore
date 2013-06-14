@@ -224,13 +224,6 @@ describe HydraPbcore::Datastream::Document do
       ds.to_solr["creator_name_sim"].should == ["foo"]
     end
 
-    it "should accept partial dates" do
-      ds = HydraPbcore::Datastream::Document.new(nil, nil)
-      ds.insert_date("2001")
-      ds.insert_date("2004-10")
-      ds.to_solr["event_date_dtsim"].should == ["2001-01-01T00:00:00Z", "2004-10-01T00:00:00Z"]
-    end
-
   end  
 
 end
