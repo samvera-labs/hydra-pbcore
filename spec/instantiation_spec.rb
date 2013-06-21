@@ -259,4 +259,36 @@ describe HydraPbcore::Datastream::Instantiation do
 
   end
 
+    describe "solrization of dates" do
+
+    before :each do
+      @ds = HydraPbcore::Datastream::Instantiation.new(nil, nil)
+    end
+
+    it "creates dateable and displayable fields for complete dates" do
+      @ds.date = "1898-11-12"
+      @ds.to_solr["date_dtsim"].should == ["1898-11-12T00:00:00Z"]
+      @ds.to_solr["date_ssm"].should == ["1898-11-12"]
+    end
+
+    it "creates only displayable fields for dates without day" do
+      @ds.date = "1911-07"
+      @ds.to_solr["date_dtsim"].should be_empty
+      @ds.to_solr["date_ssm"].should == ["1911-07"]
+    end
+
+    it "creates only displayable fields for dates without day and month" do
+      @ds.date = "1945"
+      @ds.to_solr["date_dtsim"].should be_empty
+      @ds.to_solr["date_ssm"].should == ["1945"]
+    end
+
+    it "creates only displayable for non-parseable dates" do
+      @ds.date = "crap"
+      @ds.to_solr["date_dtsim"].should be_empty
+      @ds.to_solr["date_ssm"].should == ["crap"]
+    end
+
+  end 
+
 end

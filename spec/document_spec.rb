@@ -212,16 +212,46 @@ describe HydraPbcore::Datastream::Document do
 
   describe "solrization" do
 
+    before :each do
+      @ds = HydraPbcore::Datastream::Document.new(nil, nil)
+    end
+
     it "should not create duplicate terms for contributor fields" do
-      ds = HydraPbcore::Datastream::Document.new(nil, nil)
-      ds.insert_contributor("foo", "bar")
-      ds.to_solr["contributor_name_sim"].should == ["foo"]
+      @ds.insert_contributor("foo", "bar")
+      @ds.to_solr["contributor_name_sim"].should == ["foo"]
     end
 
     it "should not create duplicate terms for creator fields" do
-      ds = HydraPbcore::Datastream::Document.new(nil, nil)
-      ds.insert_creator("foo", "bar")
-      ds.to_solr["creator_name_sim"].should == ["foo"]
+      @ds.insert_creator("foo", "bar")
+      @ds.to_solr["creator_name_sim"].should == ["foo"]
+    end
+
+    describe "of dates" do
+
+      it "creates dateable and displayable fields for complete dates" do
+        @ds.insert_date("1898-11-12")
+        @ds.to_solr["event_date_dtsim"].should == ["1898-11-12T00:00:00Z"]
+        @ds.to_solr["event_date_ssm"].should == ["1898-11-12"]
+      end
+
+      it "creates only displayable fields for dates without day" do
+        @ds.insert_date("1911-07")
+        @ds.to_solr["event_date_dtsim"].should be_empty
+        @ds.to_solr["event_date_ssm"].should == ["1911-07"]
+      end
+
+      it "creates only displayable fields for dates without day and month" do
+        @ds.insert_date("1945")
+        @ds.to_solr["event_date_dtsim"].should be_empty
+        @ds.to_solr["event_date_ssm"].should == ["1945"]
+      end
+
+      it "creates only displayable for non-parseable dates" do
+        @ds.insert_date("crap")
+        @ds.to_solr["event_date_dtsim"].should be_empty
+        @ds.to_solr["event_date_ssm"].should == ["crap"]
+      end
+
     end
 
   end  
