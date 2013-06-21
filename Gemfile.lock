@@ -26,7 +26,14 @@ GEM
       multi_json (~> 1.0)
     addressable (2.3.4)
     builder (3.0.4)
+    columnize (0.3.6)
     daemons (1.1.9)
+    debugger (1.6.0)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.1)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.2)
     deprecation (0.0.5)
       activesupport
     diff-lcs (1.2.4)
@@ -102,6 +109,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  debugger
   equivalent-xml
   hydra-pbcore!
   rake
