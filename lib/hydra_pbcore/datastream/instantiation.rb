@@ -26,7 +26,7 @@ class Instantiation < ActiveFedora::OmDatastream
         :annotation=>"Barcode",
         :source=>self.institution
       },
-      :index_as => [:displayable]
+      :index_as => [:searchable, :displayable]
     )
     t.instantiationDate(:attributes=>{ :dateType=>"created" },
       :index_as => [:dateable, :displayable]
