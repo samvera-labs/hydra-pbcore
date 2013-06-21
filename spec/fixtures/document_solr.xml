@@ -6,12 +6,14 @@
   <pbcoreDescriptionDocument-title-ssm type="array">
     <pbcoreDescriptionDocument-title-ssm>inserted</pbcoreDescriptionDocument-title-ssm>
   </pbcoreDescriptionDocument-title-ssm>
+  <pbcoreDescriptionDocument-title-si>inserted</pbcoreDescriptionDocument-title-si>
   <pbcoreDescriptionDocument-0-title-teim type="array">
     <pbcoreDescriptionDocument-0-title-teim>inserted</pbcoreDescriptionDocument-0-title-teim>
   </pbcoreDescriptionDocument-0-title-teim>
   <pbcoreDescriptionDocument-0-title-ssm type="array">
     <pbcoreDescriptionDocument-0-title-ssm>inserted</pbcoreDescriptionDocument-0-title-ssm>
   </pbcoreDescriptionDocument-0-title-ssm>
+  <pbcoreDescriptionDocument-0-title-si>inserted</pbcoreDescriptionDocument-0-title-si>
   <pbcoreDescriptionDocument-alternative-title-teim type="array">
     <pbcoreDescriptionDocument-alternative-title-teim>inserted</pbcoreDescriptionDocument-alternative-title-teim>
   </pbcoreDescriptionDocument-alternative-title-teim>
@@ -246,6 +248,7 @@
   <title-ssm type="array">
     <title-ssm>inserted</title-ssm>
   </title-ssm>
+  <title-si>inserted</title-si>
   <alternative-title-teim type="array">
     <alternative-title-teim>inserted</alternative-title-teim>
   </alternative-title-teim>

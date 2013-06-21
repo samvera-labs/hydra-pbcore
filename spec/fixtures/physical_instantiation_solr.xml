@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hash>
+  <pbcoreInstantiation-barcode-teim type="array">
+    <pbcoreInstantiation-barcode-teim>barcode</pbcoreInstantiation-barcode-teim>
+  </pbcoreInstantiation-barcode-teim>
   <pbcoreInstantiation-barcode-ssm type="array">
     <pbcoreInstantiation-barcode-ssm>barcode</pbcoreInstantiation-barcode-ssm>
   </pbcoreInstantiation-barcode-ssm>
+  <pbcoreInstantiation-0-barcode-teim type="array">
+    <pbcoreInstantiation-0-barcode-teim>barcode</pbcoreInstantiation-0-barcode-teim>
+  </pbcoreInstantiation-0-barcode-teim>
   <pbcoreInstantiation-0-barcode-ssm type="array">
     <pbcoreInstantiation-0-barcode-ssm>barcode</pbcoreInstantiation-0-barcode-ssm>
   </pbcoreInstantiation-0-barcode-ssm>
@@ -186,6 +192,9 @@
   <pbcoreInstantiation-0-language-teim type="array">
     <pbcoreInstantiation-0-language-teim>language</pbcoreInstantiation-0-language-teim>
   </pbcoreInstantiation-0-language-teim>
+  <barcode-teim type="array">
+    <barcode-teim>barcode</barcode-teim>
+  </barcode-teim>
   <barcode-ssm type="array">
     <barcode-ssm>barcode</barcode-ssm>
   </barcode-ssm>
