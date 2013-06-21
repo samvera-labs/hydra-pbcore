@@ -15,7 +15,7 @@ class Document < ActiveFedora::OmDatastream
       :attributes=>{ :source=>self.institution, :annotation=>"PID" }
     )
 
-    t.title(:path=>"pbcoreTitle", :attributes=>{ :titleType=>"Main" }, :index_as => [:searchable, :displayable])
+    t.title(:path=>"pbcoreTitle", :attributes=>{ :titleType=>"Main" }, :index_as => [:searchable, :displayable, :sortable])
     t.alternative_title(:path=>"pbcoreTitle", :attributes=>{ :titleType=>"Alternative" },
       :index_as => [:searchable, :displayable]
     )
