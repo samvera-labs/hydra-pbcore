@@ -1,6 +1,6 @@
 # HydraPbcore
 
-[![Build Status](https://travis-ci.org/curationexperts/hydra-pbcore.png)](https://travis-ci.org/curationexperts/hydra-pbcore)
+[![Build Status](https://travis-ci.org/awead/hydra-pbcore.png)](https://travis-ci.org/awead/hydra-pbcore)
 
 A Hydra gem that offers PBCore datastream definitions using OM, as well as some other convenience
 methods such as inserting xml templates into existing documents and reordering your PBCore xml 
@@ -31,39 +31,46 @@ Use this with your hydra head to define a datastream in Fedora that will contain
     end
 
 Your descMetadata datastream will now have all the pbcore terms defined in HydraPbcore::Datastream::Document.
-There are also two additional datastream definitions:
 
-* HydraPbcore::Datastream::DigitalDocument
-* HydraPbcore::Datastream::Instantiation
+The HydraPbcore::Datastream::Instantiation datastream contains additional PBcore terms pertaining to 
+pbcoreInstantiation nodes.  HydraPbcore supports an atomistic Fedora model where there are multiple
+Fedora objects representing a single Pbcore document.  This supports a use case where multiple video
+files are represented as individual Fedora objects with the Instantiation datastream.
 
-DigitalDocument datastreams have the exact same terms as Document, except that there is no default physical 
-pbcoreInstantiation.  The Document datastreams comes with a single instantiation that represents a tape
-or other physical entity.  DigitalDocument datastreams assume born-digital content and must have added
-instantiations.  These instantiations are defined in the Instantiation datastream.
+### Atomistic Fedora Model
+
+A parent pbcoreDocument object, with multiple instantiations, can be defined:
+
+    MyPbcoreDocument < ActiveFedora::Base
+      has_many :instantiations, :property => :is_part_of
+      has_metadata :name => "descMetadata", :type => HydraPbcore::Datastream::Document
+    end
+
+Then, a child pbcoreInstantiation object with one parent pbcoreDocument is:
+
+    MyPbcoreInstantiation < ActiveFedora::Base
+      belongs_to :parent, :property => :is_part_of, :class_name => "MyPbcoreDocument"
+      has_metadata :name => "descMetadata", :type => HydraPbcore::Datastream::Instantiation
+    end
+
+The objects can then be linked together using Fedora's RDF datastream via ActiveFedora's methods:
+
+    > doc = MyPbcoreDocument.new
+    > instantiation = MyPbcoreInstantiation.new
+    > doc.instantiations << instantiation
 
 ### Additional Methods
 
-HydraPbcore comes with a couple of additional features such as ordering your xml nodes so that your xml will 
-validate against the PBCore XML v.2 schema.  Additionally, there are several template methods that can be used
-to insert additional terms into your xml documents, such as contributors, publishers, as well as next and previous
-fields that specify which files come before and after one another in a multi-part born-digital video.
+Complete PBcore documents can be assembled with their related instantiations using some of HydraPbcore's 
+convenience methods, which will reorder all nodes so the resulting document can be validated
+according to the PBCore XML v.2 schema:
 
-### Dates
-
-Date fields in solr have to be in ISO8601 format, as opposed to text fields which may contain dates, but are treated differently.
-The difference is with the former, solr is treating the value of the field as an actual date, and as such, it can do time-based
-querying.  The latter, is just a string and solr would search it accordingly.  Currently, two types of date fields are provided:
-"_dt" for single-valued date fields, and "_dts" for multi-valued date fields.  Solr cannot sort on multi-valued date fields;
-otherwise, the two functionally identical.  By indexing your date fields as:
-
-    :index_as => [:displayable, :converted_date]
-    :index_as => [:displayable, :converted_multi_date]
-
-the content of your date fields will be converted to ISO8601 dates, and the original content will be preserved for display.
-So you could enter a date such as "2001" or "2004-10", and each will be stored for display as such, but will also be 
-indexed as a date in Solr with the value "2001-01-01T00:00:00Z" and "2004-10-01T00:00:00Z"
-
-Note: these functions will likely change with the upgrade to Solrizer 3.0.
+    > doc = HydraPbcore::Datastream::Document.new
+    > instantiation1 = HydraPbcore::Datastream::Instantiation.new
+    > instantiation2 = HydraPbcore::Datastream::Instantiation.new
+    > pbcore = doc.to_pbcore_xml(instantiation1, instantiation2)
+    > pbcore.valid_pbcore?
+    => true
 
 ## Testing
 
