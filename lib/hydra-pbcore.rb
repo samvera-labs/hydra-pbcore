@@ -3,6 +3,7 @@ require "nokogiri"
 require "solrizer"
 require "om"
 require "active-fedora"
+require "yaml"
 
 module HydraPbcore
   extend ActiveSupport::Autoload
@@ -55,6 +56,24 @@ module HydraPbcore
     "instantiationPart",
     "instantiationExtension",
   ]
+
+  Config = {
+    "institution" => "Rock and Roll Hall of Fame and Museum",
+    "relator"     => "MARC relator terms",
+    "address"     => "Rock and Roll Hall of Fame and Museum,\n2809 Woodland Ave.,\nCleveland, OH, 44115\n216-515-1956\nlibrary@rockhall.org"
+  }
+
+  # load our config file
+  def self.config opts = {}
+    if File.exists? "config/pbcore.yml"
+      config = ::YAML::load(IO.read("config/pbcore.yml"))
+      Config.keys.collect { |k| config[k] = Config[k] if config[k].nil? }
+    else
+      logger.info "pbcore.yml file not found, using default values"
+      config = Config
+    end
+    return config
+  end
 
   def self.version
     HydraPbcore::VERSION

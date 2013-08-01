@@ -1,10 +1,6 @@
 module HydraPbcore::Datastream
 class Document < ActiveFedora::OmDatastream
 
-  class_attribute :institution, :relator
-  self.institution = "Rock and Roll Hall of Fame and Museum"
-  self.relator     = "MARC relator terms"
-
   include HydraPbcore::Methods
   include HydraPbcore::Templates
 
@@ -12,7 +8,7 @@ class Document < ActiveFedora::OmDatastream
     t.root(:path=>"pbcoreDescriptionDocument")
 
     t.pbc_id(:path=>"pbcoreIdentifier", 
-      :attributes=>{ :source=>self.institution, :annotation=>"PID" }
+      :attributes=>{ :source=>HydraPbcore.config["institution"], :annotation=>"PID" }
     )
 
     t.title(:path=>"pbcoreTitle", :attributes=>{ :titleType=>"Main" }, :index_as => [:searchable, :displayable, :sortable])
@@ -45,7 +41,7 @@ class Document < ActiveFedora::OmDatastream
       :index_as => [:displayable]
     )
     t.rh_subject(:path=>"pbcoreSubject", 
-      :attributes=>{ :source=>self.institution },
+      :attributes=>{ :source=>HydraPbcore.config["institution"] },
       :index_as => [:displayable]
     )
 
@@ -133,7 +129,7 @@ class Document < ActiveFedora::OmDatastream
     # Contributor names and roles
     t.contributor(:path=>"pbcoreContributor") do
       t.name_(:path=>"contributor")
-      t.role_(:path=>"contributorRole", :attributes=>{ :source=>self.relator })
+      t.role_(:path=>"contributorRole", :attributes=>{ :source=>HydraPbcore.config["relator"] })
     end
     t.contributor_name(:ref=>[:contributor, :name], :index_as => [:searchable, :facetable])
     t.contributor_role(:ref=>[:contributor, :role], :index_as => [:searchable, :displayable])
@@ -161,7 +157,7 @@ class Document < ActiveFedora::OmDatastream
       xml.pbcoreDescriptionDocument("xmlns:xsi"=>"http://www.w3.org/2001/XMLSchema-instance",
         "xsi:schemaLocation"=>"http://www.pbcore.org/PBCore/PBCoreNamespace.html") {
 
-        xml.pbcoreIdentifier(:source=>self.institution, :annotation=>"PID")
+        xml.pbcoreIdentifier(:source=>HydraPbcore.config["institution"], :annotation=>"PID")
         xml.pbcoreTitle(:titleType=>"Main")
         xml.pbcoreDescription(:descriptionType=>"Description",
           :descriptionTypeSource=>"pbcoreDescription/descriptionType",

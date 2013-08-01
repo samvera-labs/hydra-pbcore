@@ -1,10 +1,6 @@
 module HydraPbcore::Datastream
 class Instantiation < ActiveFedora::OmDatastream
 
-  class_attribute :institution, :address
-  self.institution = "Rock and Roll Hall of Fame and Museum"
-  self.address     = "Rock and Roll Hall of Fame and Museum,\n2809 Woodland Ave.,\nCleveland, OH, 44115\n216-515-1956\nlibrary@rockhall.org"
-
   include HydraPbcore::Methods
   include HydraPbcore::Templates
 
@@ -16,7 +12,7 @@ class Instantiation < ActiveFedora::OmDatastream
       :path => "instantiationIdentifier",
       :attributes=>{
         :annotation=>"Filename",
-        :source=>self.institution
+        :source=>HydraPbcore.config["institution"]
       },
       :index_as => [:displayable]
     )
@@ -24,7 +20,7 @@ class Instantiation < ActiveFedora::OmDatastream
       :path => "instantiationIdentifier",
       :attributes=>{
         :annotation=>"Barcode",
-        :source=>self.institution
+        :source=>HydraPbcore.config["institution"]
       },
       :index_as => [:searchable, :displayable]
     )
@@ -93,7 +89,7 @@ class Instantiation < ActiveFedora::OmDatastream
     )
 
     t.instantiationRelation do
-      t.instantiationRelationIdentifier(:attributes=>{ :source=>self.institution })
+      t.instantiationRelationIdentifier(:attributes=>{ :source=>HydraPbcore.config["institution"] })
     end
     # The file we're describing at the root of this document preceeds the file marked "next"
     t.next_inst(:ref => [:pbcoreInstantiation, :instantiationRelation],

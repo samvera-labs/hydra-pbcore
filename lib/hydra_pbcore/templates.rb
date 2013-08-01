@@ -21,7 +21,7 @@ module HydraPbcore::Templates
       define_template :contributor do |xml, author, role|
         xml.pbcoreContributor {
           xml.contributor(author)
-          xml.contributorRole(role, :source=>self.relator) 
+          xml.contributorRole(role, :source=>HydraPbcore.config["relator"]) 
         }
       end
 
@@ -30,7 +30,7 @@ module HydraPbcore::Templates
           xml.instantiationRelationType(:annotation=>"One of a multi-part instantiation") {
             xml.text "Follows in Sequence"
           }
-          xml.instantiationRelationIdentifier(file, :source=>self.institution)
+          xml.instantiationRelationIdentifier(file, :source=>HydraPbcore.config["institution"])
         }
       end
 
@@ -39,7 +39,7 @@ module HydraPbcore::Templates
           xml.instantiationRelationType(:annotation=>"One of a multi-part instantiation") {
             xml.text "Precedes in Sequence"
           }
-          xml.instantiationRelationIdentifier(file, :source=>self.institution)
+          xml.instantiationRelationIdentifier(file, :source=>HydraPbcore.config["institution"])
         }
       end
 
@@ -108,7 +108,7 @@ module HydraPbcore::Templates
 
       xml.pbcoreInstantiation {
 
-        xml.instantiationIdentifier(:annotation=>"Filename", :source=>self.institution)
+        xml.instantiationIdentifier(:annotation=>"Filename", :source=>HydraPbcore.config["institution"])
         xml.instantiationDate(:dateType=>"created")
         xml.instantiationDigital(:source=>"EBU file formats")
         xml.instantiationLocation
@@ -163,12 +163,12 @@ module HydraPbcore::Templates
       xml.pbcoreInstantiation {
 
         # Item details
-        xml.instantiationIdentifier(:annotation=>"Barcode", :source=>self.institution)
+        xml.instantiationIdentifier(:annotation=>"Barcode", :source=>HydraPbcore.config["institution"])
         xml.instantiationDate(:dateType=>"created")
         xml.instantiationPhysical(:source=>"PBCore instantiationPhysical")
         xml.instantiationStandard
         xml.instantiationLocation {
-          xml.text self.address
+          xml.text HydraPbcore.config["address"]
         }
         xml.instantiationMediaType(:source=>"PBCore instantiationMediaType") {
           xml.text "Moving image"

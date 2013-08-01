@@ -1,4 +1,5 @@
 require "spec_helper"
+require "pry"
 
 describe HydraPbcore::Datastream::Document do
 
@@ -154,10 +155,6 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.lc_genre             = "inserted"
       @object_ds.lc_subject_genre     = "inserted"
       @object_ds.series               = "inserted"
-      @object_ds.contributor_name     = "inserted"
-      @object_ds.contributor_role     = "inserted"
-      @object_ds.publisher_name       = "inserted"
-      @object_ds.publisher_role       = "inserted"
       @object_ds.note                 = "inserted"
       @object_ds.rights_summary       = "inserted"
       @object_ds.asset_type           = "Scene"

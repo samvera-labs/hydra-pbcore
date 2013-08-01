@@ -1,6 +1,7 @@
 # :nodoc
 require "hydra-pbcore"
 require "equivalent-xml"
+require "pry"
 
 RSpec.configure do |config|
   config.color = true
