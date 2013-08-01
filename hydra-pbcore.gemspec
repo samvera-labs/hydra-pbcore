@@ -27,4 +27,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rdoc'
   gem.add_development_dependency 'equivalent-xml'
   gem.add_development_dependency 'debugger'
+  gem.add_development_dependency 'pry'
 end
