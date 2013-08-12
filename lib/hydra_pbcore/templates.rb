@@ -43,9 +43,9 @@ module HydraPbcore::Templates
         }
       end
 
-      define_template :event_place do |xml, location|
+      define_template :event_place do |xml, location, type="Event Place"|
         xml.pbcoreCoverage {
-          xml.coverage(location, :annotation=>"Event Place")
+          xml.coverage(location, :annotation=>type)
           xml.coverageType {
             xml.text "Spatial"
           }
@@ -61,9 +61,9 @@ module HydraPbcore::Templates
         }
       end
 
-      define_template :relation do |xml, value, annotation|
+      define_template :relation do |xml, value, annotation, type="Is Part Of"|
         xml.pbcoreRelation {
-          xml.pbcoreRelationType("Is Part Of", :source=>"PBCore relationType", :ref=>"http://pbcore.org/vocabularies/relationType#is-part-of")
+          xml.pbcoreRelationType(type, :source=>"PBCore relationType", :ref=>"http://pbcore.org/vocabularies/relationType#is-part-of")
           xml.pbcoreRelationIdentifier(value, :annotation=>annotation)
         }
       end
