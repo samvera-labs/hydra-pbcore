@@ -76,7 +76,7 @@ describe HydraPbcore::Datastream::Instantiation do
       @digital.format.should      == []
     end
 
-    it "should match an exmplar with all fields shown" do
+    it "should match an exemplar with all fields shown" do
       @digital.checksum_type  = "inserted"
       @digital.note           = "inserted"
       @digital.checksum_value = "inserted"
