@@ -43,9 +43,9 @@ module HydraPbcore::Templates
         }
       end
 
-      define_template :event_place do |xml, location|
+      define_template :event_place do |xml, location, type="Event Place"|
         xml.pbcoreCoverage {
-          xml.coverage(location, :annotation=>"Event Place")
+          xml.coverage(location, :annotation=>type)
           xml.coverageType {
             xml.text "Spatial"
           }
