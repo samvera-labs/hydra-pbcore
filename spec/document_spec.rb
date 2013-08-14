@@ -28,6 +28,7 @@ describe HydraPbcore::Datastream::Document do
         [:track],
         [:translation],
         [:summary],
+        [:asset_date],
         [:contents],
         [:lc_subject],
         [:lc_name],

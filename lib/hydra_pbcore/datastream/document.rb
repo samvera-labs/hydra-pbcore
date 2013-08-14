@@ -55,6 +55,8 @@ class Document < ActiveFedora::OmDatastream
         :index_as => [:searchable, :displayable]
     )
 
+    t.asset_date(path: 'pbcoreAssetDate', index_as: :displayable)
+
     t.contents(:path=>"pbcoreDescription", 
       :attributes=>{ 
         :descriptionType=>"Table of Contents",
@@ -117,6 +119,7 @@ class Document < ActiveFedora::OmDatastream
       :attributes => {:annotation=>"Event Date"},
       :index_as => [:dateable, :displayable]
     )
+
 
     # Creator names and roles
     t.creator(:path=>"pbcoreCreator") do
