@@ -56,4 +56,44 @@ describe HydraPbcore::Templates do
     end
   end
 
+  describe "#event_date" do
+    it "should take a one arg constructor" do
+      subject.add_child_node(subject.ng_xml.root, :event_date, 'foo')
+      xml.xpath('//pbcoreCoverage/coverage[@annotation="Event Date"]').text.should == "foo"
+      xml.xpath('//pbcoreCoverage/coverageType').text.should == "Temporal"
+    end
+    it "should take a two arg constructor" do
+      subject.add_child_node(subject.ng_xml.root, :event_date, 'foo', 'bar')
+      xml.xpath('//pbcoreCoverage/coverage[@annotation="bar"]').text.should == "foo"
+      xml.xpath('//pbcoreCoverage/coverageType').text.should == "Temporal"
+    end
+  end
+
+
+  describe "#insert_place" do
+    it "should take a one arg constructor" do
+      subject.insert_place('foo')
+      xml.xpath('//pbcoreCoverage/coverage[@annotation="Event Place"]').text.should == "foo"
+      xml.xpath('//pbcoreCoverage/coverageType').text.should == "Spatial"
+    end
+    it "should take a two arg constructor" do
+      subject.insert_place('foo', 'bar')
+      xml.xpath('//pbcoreCoverage/coverage[@annotation="bar"]').text.should == "foo"
+      xml.xpath('//pbcoreCoverage/coverageType').text.should == "Spatial"
+    end
+  end
+
+  describe "#insert_date" do
+    it "should take a one arg constructor" do
+      subject.insert_date('foo')
+      xml.xpath('//pbcoreCoverage/coverage[@annotation="Event Date"]').text.should == "foo"
+      xml.xpath('//pbcoreCoverage/coverageType').text.should == "Temporal"
+    end
+    it "should take a two arg constructor" do
+      subject.insert_date('foo', 'bar')
+      xml.xpath('//pbcoreCoverage/coverage[@annotation="bar"]').text.should == "foo"
+      xml.xpath('//pbcoreCoverage/coverageType').text.should == "Temporal"
+    end
+  end
+
 end
