@@ -96,4 +96,19 @@ describe HydraPbcore::Templates do
     end
   end
 
+  describe "#insert_identifier" do
+    it "should take a one arg constructor" do
+      subject.insert_identifier('foo')
+      xml.xpath('//pbcoreIdentifier[@source="Rock and Roll Hall of Fame and Museum"]').text.should == "foo"
+    end
+    it "should take a two arg constructor" do
+      subject.insert_identifier('foo', 'bar')
+      xml.xpath('//pbcoreIdentifier[@source="bar"]').text.should == "foo"
+    end
+    it "should take a three arg constructor" do
+      subject.insert_identifier('foo', 'bar', 'baz')
+      xml.xpath('//pbcoreIdentifier[@source="bar"][@annotation="baz"]').text.should == "foo"
+    end
+  end
+
 end
