@@ -28,10 +28,10 @@ class Instantiation < ActiveFedora::OmDatastream
       :index_as => [:dateable, :displayable]
     )
     t.instantiationDigital(:attributes=>{ :source=>"EBU file formats" },
-      :index_as => [:searchable, :facetable]
+      :index_as => [:searchable, :displayable, :facetable]
     )
     t.instantiationPhysical(:attributes=>{ :source=>"PBCore instantiationPhysical" },
-      :index_as => [:searchable, :facetable]
+      :index_as => [:searchable, :displayable, :facetable]
     )
     t.instantiationStandard(:index_as => [:displayable])
     t.instantiationLocation(:index_as => [:displayable])
@@ -45,7 +45,7 @@ class Instantiation < ActiveFedora::OmDatastream
       :index_as => [:displayable]
     )
     t.instantiationMediaType(:attributes=>{ :source=>"PBCore instantiationMediaType" },
-      :index_as => [:facetable]
+      :index_as => [:displayable, :facetable]
     )
     t.instantiationLanguage(
       :attributes=>{

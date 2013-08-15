@@ -26,7 +26,7 @@ class Document < ActiveFedora::OmDatastream
     )
 
     # This is only to display all subjects
-    t.subject(:path=>"pbcoreSubject", :index_as => [:facetable])
+    t.subject(:path=>"pbcoreSubject", :index_as => [:displayable, :facetable])
 
     # Individual subject types defined for entry
     t.lc_subject(:path=>"pbcoreSubject", 
@@ -68,9 +68,9 @@ class Document < ActiveFedora::OmDatastream
     )
 
     # This is only to display all genres
-    t.genre(:path=>"pbcoreGenre", :index_as => [:facetable])
+    t.genre(:path=>"pbcoreGenre", :index_as => [:displayable, :facetable])
 
-    t.asset_type(:path=>"pbcoreAssetType", :index_as => [:searchable, :facetable])
+    t.asset_type(:path=>"pbcoreAssetType", :index_as => [:searchable, :displayable, :facetable])
 
     # Individual genre types defined for entry
     t.getty_genre(:path=>"pbcoreGenre", 
@@ -126,7 +126,7 @@ class Document < ActiveFedora::OmDatastream
       t.name_(:path=>"creator")
       t.role_(:path=>"creatorRole", :attributes=>{ :source=>"PBCore creatorRole" })
     end
-    t.creator_name(:ref=>[:creator, :name], :index_as => [:searchable, :facetable])
+    t.creator_name(:ref=>[:creator, :name], :index_as => [:searchable, :displayable, :facetable])
     t.creator_role(:ref=>[:creator, :role], :index_as => [:searchable, :displayable])
 
     # Contributor names and roles
@@ -134,7 +134,7 @@ class Document < ActiveFedora::OmDatastream
       t.name_(:path=>"contributor")
       t.role_(:path=>"contributorRole", :attributes=>{ :source=>HydraPbcore.config["relator"] })
     end
-    t.contributor_name(:ref=>[:contributor, :name], :index_as => [:searchable, :facetable])
+    t.contributor_name(:ref=>[:contributor, :name], :index_as => [:searchable, :displayable, :facetable])
     t.contributor_role(:ref=>[:contributor, :role], :index_as => [:searchable, :displayable])
 
     # Publisher names and roles
@@ -142,7 +142,7 @@ class Document < ActiveFedora::OmDatastream
       t.name_(:path=>"publisher")
       t.role_(:path=>"publisherRole", :attributes=>{ :source=>"PBCore publisherRole" })
     end
-    t.publisher_name(:ref=>[:publisher, :name], :index_as => [:searchable, :facetable])
+    t.publisher_name(:ref=>[:publisher, :name], :index_as => [:searchable, :displayable, :facetable])
     t.publisher_role(:ref=>[:publisher, :role], :index_as => [:searchable, :displayable])
 
     t.note(:path=>"pbcoreAnnotation", :atttributes=>{ :annotationType=>"Notes" }, :index_as => [:searchable, :displayable])

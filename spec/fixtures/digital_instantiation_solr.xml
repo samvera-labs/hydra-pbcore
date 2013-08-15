@@ -21,12 +21,18 @@
   <pbcoreInstantiation-instantiationDigital-teim type="array">
     <pbcoreInstantiation-instantiationDigital-teim>file_format</pbcoreInstantiation-instantiationDigital-teim>
   </pbcoreInstantiation-instantiationDigital-teim>
+  <pbcoreInstantiation-instantiationDigital-ssm type="array">
+    <pbcoreInstantiation-instantiationDigital-ssm>file_format</pbcoreInstantiation-instantiationDigital-ssm>
+  </pbcoreInstantiation-instantiationDigital-ssm>
   <pbcoreInstantiation-instantiationDigital-sim type="array">
     <pbcoreInstantiation-instantiationDigital-sim>file_format</pbcoreInstantiation-instantiationDigital-sim>
   </pbcoreInstantiation-instantiationDigital-sim>
   <pbcoreInstantiation-0-instantiationDigital-teim type="array">
     <pbcoreInstantiation-0-instantiationDigital-teim>file_format</pbcoreInstantiation-0-instantiationDigital-teim>
   </pbcoreInstantiation-0-instantiationDigital-teim>
+  <pbcoreInstantiation-0-instantiationDigital-ssm type="array">
+    <pbcoreInstantiation-0-instantiationDigital-ssm>file_format</pbcoreInstantiation-0-instantiationDigital-ssm>
+  </pbcoreInstantiation-0-instantiationDigital-ssm>
   <pbcoreInstantiation-0-instantiationDigital-sim type="array">
     <pbcoreInstantiation-0-instantiationDigital-sim>file_format</pbcoreInstantiation-0-instantiationDigital-sim>
   </pbcoreInstantiation-0-instantiationDigital-sim>
@@ -60,9 +66,15 @@
   <pbcoreInstantiation-0-instantiationColors-ssm type="array">
     <pbcoreInstantiation-0-instantiationColors-ssm>colors</pbcoreInstantiation-0-instantiationColors-ssm>
   </pbcoreInstantiation-0-instantiationColors-ssm>
+  <pbcoreInstantiation-instantiationMediaType-ssm type="array">
+    <pbcoreInstantiation-instantiationMediaType-ssm>media_type</pbcoreInstantiation-instantiationMediaType-ssm>
+  </pbcoreInstantiation-instantiationMediaType-ssm>
   <pbcoreInstantiation-instantiationMediaType-sim type="array">
     <pbcoreInstantiation-instantiationMediaType-sim>media_type</pbcoreInstantiation-instantiationMediaType-sim>
   </pbcoreInstantiation-instantiationMediaType-sim>
+  <pbcoreInstantiation-0-instantiationMediaType-ssm type="array">
+    <pbcoreInstantiation-0-instantiationMediaType-ssm>media_type</pbcoreInstantiation-0-instantiationMediaType-ssm>
+  </pbcoreInstantiation-0-instantiationMediaType-ssm>
   <pbcoreInstantiation-0-instantiationMediaType-sim type="array">
     <pbcoreInstantiation-0-instantiationMediaType-sim>media_type</pbcoreInstantiation-0-instantiationMediaType-sim>
   </pbcoreInstantiation-0-instantiationMediaType-sim>
@@ -386,21 +398,33 @@
   <pbcoreInstantiation-0-generation-ssm type="array">
     <pbcoreInstantiation-0-generation-ssm>generation</pbcoreInstantiation-0-generation-ssm>
   </pbcoreInstantiation-0-generation-ssm>
+  <pbcoreInstantiation-media-type-ssm type="array">
+    <pbcoreInstantiation-media-type-ssm>media_type</pbcoreInstantiation-media-type-ssm>
+  </pbcoreInstantiation-media-type-ssm>
   <pbcoreInstantiation-media-type-sim type="array">
     <pbcoreInstantiation-media-type-sim>media_type</pbcoreInstantiation-media-type-sim>
   </pbcoreInstantiation-media-type-sim>
+  <pbcoreInstantiation-0-media-type-ssm type="array">
+    <pbcoreInstantiation-0-media-type-ssm>media_type</pbcoreInstantiation-0-media-type-ssm>
+  </pbcoreInstantiation-0-media-type-ssm>
   <pbcoreInstantiation-0-media-type-sim type="array">
     <pbcoreInstantiation-0-media-type-sim>media_type</pbcoreInstantiation-0-media-type-sim>
   </pbcoreInstantiation-0-media-type-sim>
   <pbcoreInstantiation-file-format-teim type="array">
     <pbcoreInstantiation-file-format-teim>file_format</pbcoreInstantiation-file-format-teim>
   </pbcoreInstantiation-file-format-teim>
+  <pbcoreInstantiation-file-format-ssm type="array">
+    <pbcoreInstantiation-file-format-ssm>file_format</pbcoreInstantiation-file-format-ssm>
+  </pbcoreInstantiation-file-format-ssm>
   <pbcoreInstantiation-file-format-sim type="array">
     <pbcoreInstantiation-file-format-sim>file_format</pbcoreInstantiation-file-format-sim>
   </pbcoreInstantiation-file-format-sim>
   <pbcoreInstantiation-0-file-format-teim type="array">
     <pbcoreInstantiation-0-file-format-teim>file_format</pbcoreInstantiation-0-file-format-teim>
   </pbcoreInstantiation-0-file-format-teim>
+  <pbcoreInstantiation-0-file-format-ssm type="array">
+    <pbcoreInstantiation-0-file-format-ssm>file_format</pbcoreInstantiation-0-file-format-ssm>
+  </pbcoreInstantiation-0-file-format-ssm>
   <pbcoreInstantiation-0-file-format-sim type="array">
     <pbcoreInstantiation-0-file-format-sim>file_format</pbcoreInstantiation-0-file-format-sim>
   </pbcoreInstantiation-0-file-format-sim>
@@ -620,6 +644,9 @@
   <instantiationDigital-teim type="array">
     <instantiationDigital-teim>file_format</instantiationDigital-teim>
   </instantiationDigital-teim>
+  <instantiationDigital-ssm type="array">
+    <instantiationDigital-ssm>file_format</instantiationDigital-ssm>
+  </instantiationDigital-ssm>
   <instantiationDigital-sim type="array">
     <instantiationDigital-sim>file_format</instantiationDigital-sim>
   </instantiationDigital-sim>
@@ -641,6 +668,9 @@
   <instantiationColors-ssm type="array">
     <instantiationColors-ssm>colors</instantiationColors-ssm>
   </instantiationColors-ssm>
+  <instantiationMediaType-ssm type="array">
+    <instantiationMediaType-ssm>media_type</instantiationMediaType-ssm>
+  </instantiationMediaType-ssm>
   <instantiationMediaType-sim type="array">
     <instantiationMediaType-sim>media_type</instantiationMediaType-sim>
   </instantiationMediaType-sim>
@@ -898,12 +928,18 @@
   <generation-ssm type="array">
     <generation-ssm>generation</generation-ssm>
   </generation-ssm>
+  <media-type-ssm type="array">
+    <media-type-ssm>media_type</media-type-ssm>
+  </media-type-ssm>
   <media-type-sim type="array">
     <media-type-sim>media_type</media-type-sim>
   </media-type-sim>
   <file-format-teim type="array">
     <file-format-teim>file_format</file-format-teim>
   </file-format-teim>
+  <file-format-ssm type="array">
+    <file-format-ssm>file_format</file-format-ssm>
+  </file-format-ssm>
   <file-format-sim type="array">
     <file-format-sim>file_format</file-format-sim>
   </file-format-sim>

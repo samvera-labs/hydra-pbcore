@@ -110,11 +110,21 @@
   <pbcoreDescriptionDocument-0-translation-ssm type="array">
     <pbcoreDescriptionDocument-0-translation-ssm>inserted</pbcoreDescriptionDocument-0-translation-ssm>
   </pbcoreDescriptionDocument-0-translation-ssm>
+  <pbcoreDescriptionDocument-subject-ssm type="array">
+    <pbcoreDescriptionDocument-subject-ssm>inserted</pbcoreDescriptionDocument-subject-ssm>
+    <pbcoreDescriptionDocument-subject-ssm>inserted</pbcoreDescriptionDocument-subject-ssm>
+    <pbcoreDescriptionDocument-subject-ssm>inserted</pbcoreDescriptionDocument-subject-ssm>
+  </pbcoreDescriptionDocument-subject-ssm>
   <pbcoreDescriptionDocument-subject-sim type="array">
     <pbcoreDescriptionDocument-subject-sim>inserted</pbcoreDescriptionDocument-subject-sim>
     <pbcoreDescriptionDocument-subject-sim>inserted</pbcoreDescriptionDocument-subject-sim>
     <pbcoreDescriptionDocument-subject-sim>inserted</pbcoreDescriptionDocument-subject-sim>
   </pbcoreDescriptionDocument-subject-sim>
+  <pbcoreDescriptionDocument-0-subject-ssm type="array">
+    <pbcoreDescriptionDocument-0-subject-ssm>inserted</pbcoreDescriptionDocument-0-subject-ssm>
+    <pbcoreDescriptionDocument-0-subject-ssm>inserted</pbcoreDescriptionDocument-0-subject-ssm>
+    <pbcoreDescriptionDocument-0-subject-ssm>inserted</pbcoreDescriptionDocument-0-subject-ssm>
+  </pbcoreDescriptionDocument-0-subject-ssm>
   <pbcoreDescriptionDocument-0-subject-sim type="array">
     <pbcoreDescriptionDocument-0-subject-sim>inserted</pbcoreDescriptionDocument-0-subject-sim>
     <pbcoreDescriptionDocument-0-subject-sim>inserted</pbcoreDescriptionDocument-0-subject-sim>
@@ -162,11 +172,21 @@
   <pbcoreDescriptionDocument-0-contents-ssm type="array">
     <pbcoreDescriptionDocument-0-contents-ssm>inserted</pbcoreDescriptionDocument-0-contents-ssm>
   </pbcoreDescriptionDocument-0-contents-ssm>
+  <pbcoreDescriptionDocument-genre-ssm type="array">
+    <pbcoreDescriptionDocument-genre-ssm>inserted</pbcoreDescriptionDocument-genre-ssm>
+    <pbcoreDescriptionDocument-genre-ssm>inserted</pbcoreDescriptionDocument-genre-ssm>
+    <pbcoreDescriptionDocument-genre-ssm>inserted</pbcoreDescriptionDocument-genre-ssm>
+  </pbcoreDescriptionDocument-genre-ssm>
   <pbcoreDescriptionDocument-genre-sim type="array">
     <pbcoreDescriptionDocument-genre-sim>inserted</pbcoreDescriptionDocument-genre-sim>
     <pbcoreDescriptionDocument-genre-sim>inserted</pbcoreDescriptionDocument-genre-sim>
     <pbcoreDescriptionDocument-genre-sim>inserted</pbcoreDescriptionDocument-genre-sim>
   </pbcoreDescriptionDocument-genre-sim>
+  <pbcoreDescriptionDocument-0-genre-ssm type="array">
+    <pbcoreDescriptionDocument-0-genre-ssm>inserted</pbcoreDescriptionDocument-0-genre-ssm>
+    <pbcoreDescriptionDocument-0-genre-ssm>inserted</pbcoreDescriptionDocument-0-genre-ssm>
+    <pbcoreDescriptionDocument-0-genre-ssm>inserted</pbcoreDescriptionDocument-0-genre-ssm>
+  </pbcoreDescriptionDocument-0-genre-ssm>
   <pbcoreDescriptionDocument-0-genre-sim type="array">
     <pbcoreDescriptionDocument-0-genre-sim>inserted</pbcoreDescriptionDocument-0-genre-sim>
     <pbcoreDescriptionDocument-0-genre-sim>inserted</pbcoreDescriptionDocument-0-genre-sim>
@@ -175,12 +195,18 @@
   <pbcoreDescriptionDocument-asset-type-teim type="array">
     <pbcoreDescriptionDocument-asset-type-teim>Scene</pbcoreDescriptionDocument-asset-type-teim>
   </pbcoreDescriptionDocument-asset-type-teim>
+  <pbcoreDescriptionDocument-asset-type-ssm type="array">
+    <pbcoreDescriptionDocument-asset-type-ssm>Scene</pbcoreDescriptionDocument-asset-type-ssm>
+  </pbcoreDescriptionDocument-asset-type-ssm>
   <pbcoreDescriptionDocument-asset-type-sim type="array">
     <pbcoreDescriptionDocument-asset-type-sim>Scene</pbcoreDescriptionDocument-asset-type-sim>
   </pbcoreDescriptionDocument-asset-type-sim>
   <pbcoreDescriptionDocument-0-asset-type-teim type="array">
     <pbcoreDescriptionDocument-0-asset-type-teim>Scene</pbcoreDescriptionDocument-0-asset-type-teim>
   </pbcoreDescriptionDocument-0-asset-type-teim>
+  <pbcoreDescriptionDocument-0-asset-type-ssm type="array">
+    <pbcoreDescriptionDocument-0-asset-type-ssm>Scene</pbcoreDescriptionDocument-0-asset-type-ssm>
+  </pbcoreDescriptionDocument-0-asset-type-ssm>
   <pbcoreDescriptionDocument-0-asset-type-sim type="array">
     <pbcoreDescriptionDocument-0-asset-type-sim>Scene</pbcoreDescriptionDocument-0-asset-type-sim>
   </pbcoreDescriptionDocument-0-asset-type-sim>
@@ -297,6 +323,11 @@
   <translation-ssm type="array">
     <translation-ssm>inserted</translation-ssm>
   </translation-ssm>
+  <subject-ssm type="array">
+    <subject-ssm>inserted</subject-ssm>
+    <subject-ssm>inserted</subject-ssm>
+    <subject-ssm>inserted</subject-ssm>
+  </subject-ssm>
   <subject-sim type="array">
     <subject-sim>inserted</subject-sim>
     <subject-sim>inserted</subject-sim>
@@ -323,6 +354,11 @@
   <contents-ssm type="array">
     <contents-ssm>inserted</contents-ssm>
   </contents-ssm>
+  <genre-ssm type="array">
+    <genre-ssm>inserted</genre-ssm>
+    <genre-ssm>inserted</genre-ssm>
+    <genre-ssm>inserted</genre-ssm>
+  </genre-ssm>
   <genre-sim type="array">
     <genre-sim>inserted</genre-sim>
     <genre-sim>inserted</genre-sim>
@@ -331,6 +367,9 @@
   <asset-type-teim type="array">
     <asset-type-teim>Scene</asset-type-teim>
   </asset-type-teim>
+  <asset-type-ssm type="array">
+    <asset-type-ssm>Scene</asset-type-ssm>
+  </asset-type-ssm>
   <asset-type-sim type="array">
     <asset-type-sim>Scene</asset-type-sim>
   </asset-type-sim>
@@ -398,6 +437,11 @@
     <contributor-name-teim>inserted</contributor-name-teim>
     <contributor-name-teim></contributor-name-teim>
   </contributor-name-teim>
+  <contributor-name-ssm type="array">
+    <contributor-name-ssm>inserted</contributor-name-ssm>
+    <contributor-name-ssm>inserted</contributor-name-ssm>
+    <contributor-name-ssm></contributor-name-ssm>
+  </contributor-name-ssm>
   <contributor-name-sim type="array">
     <contributor-name-sim>inserted</contributor-name-sim>
     <contributor-name-sim>inserted</contributor-name-sim>
@@ -417,6 +461,10 @@
     <publisher-name-teim>inserted</publisher-name-teim>
     <publisher-name-teim>inserted</publisher-name-teim>
   </publisher-name-teim>
+  <publisher-name-ssm type="array">
+    <publisher-name-ssm>inserted</publisher-name-ssm>
+    <publisher-name-ssm>inserted</publisher-name-ssm>
+  </publisher-name-ssm>
   <publisher-name-sim type="array">
     <publisher-name-sim>inserted</publisher-name-sim>
     <publisher-name-sim>inserted</publisher-name-sim>
