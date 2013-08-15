@@ -52,9 +52,9 @@ module HydraPbcore::Templates
         }
       end
 
-      define_template :event_date do |xml, date|
+      define_template :event_date do |xml, date, type="Event Date"|
         xml.pbcoreCoverage {
-          xml.coverage(date, :annotation=>"Event Date")
+          xml.coverage(date, :annotation=>type)
           xml.coverageType {
             xml.text "Temporal"
           }
@@ -91,12 +91,18 @@ module HydraPbcore::Templates
     add_child_node(find_by_terms(:pbcoreInstantiation).first, :previous, file)
   end
 
-  def insert_place(location)
-    add_child_node(ng_xml.root, :event_place, location)
+  # Create a pbcoreCoverage node with related subnodes for a place.
+  # @param location the location to insert into the coverage node
+  # @param type (optional) the annotation for the coverage node
+  def insert_place(location, *type)
+    add_child_node(ng_xml.root, :event_place, location, *type)
   end
 
-  def insert_date(date)
-    add_child_node(ng_xml.root, :event_date, date)
+  # Create a pbcoreCoverage node with related subnodes for a date.
+  # @param date the date to insert into the coverage node
+  # @param type (optional) the annotation for the coverage node
+  def insert_date(date, *type)
+    add_child_node(ng_xml.root, :event_date, date, *type)
   end
 
   def insert_relation(value, annotation)
