@@ -114,7 +114,7 @@ module HydraPbcore::Templates
     add_child_node(ng_xml.root, :relation, value, annotation)
   end
 
-  def insert_identifier(identifier, source=HydraPbcore.config["institution"], annotation=nil)
+  def insert_identifier(identifier, annotation=nil, source=HydraPbcore.config["institution"])
     add_child_node(ng_xml.root, :identifier, identifier, source, annotation)
   end
 
