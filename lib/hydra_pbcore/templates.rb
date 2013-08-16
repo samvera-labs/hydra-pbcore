@@ -68,6 +68,11 @@ module HydraPbcore::Templates
         }
       end
 
+      define_template :identifier do |xml, identifier, source, annotation|
+        attributes = {source: source}
+        attributes[:annotation] = annotation if annotation
+        xml.pbcoreIdentifier(identifier, attributes)
+      end
     end
   end
 
@@ -107,6 +112,10 @@ module HydraPbcore::Templates
 
   def insert_relation(value, annotation)
     add_child_node(ng_xml.root, :relation, value, annotation)
+  end
+
+  def insert_identifier(identifier, source=HydraPbcore.config["institution"], annotation=nil)
+    add_child_node(ng_xml.root, :identifier, identifier, source, annotation)
   end
 
   def digital_instantiation
