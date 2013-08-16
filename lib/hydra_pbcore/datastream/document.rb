@@ -7,9 +7,7 @@ class Document < ActiveFedora::OmDatastream
   set_terminology do |t|
     t.root(:path=>"pbcoreDescriptionDocument")
 
-    t.pbc_id(:path=>"pbcoreIdentifier", 
-      :attributes=>{ :source=>HydraPbcore.config["institution"], :annotation=>"PID" }
-    )
+    t.pbc_id(:path=>"pbcoreIdentifier", :attributes=>{ :source=>HydraPbcore.config["institution"] })
 
     t.title(:path=>"pbcoreTitle", :attributes=>{ :titleType=>"Main" }, :index_as => [:searchable, :displayable, :sortable])
     t.alternative_title(:path=>"pbcoreTitle", :attributes=>{ :titleType=>"Alternative" },
@@ -160,7 +158,6 @@ class Document < ActiveFedora::OmDatastream
       xml.pbcoreDescriptionDocument("xmlns:xsi"=>"http://www.w3.org/2001/XMLSchema-instance",
         "xsi:schemaLocation"=>"http://www.pbcore.org/PBCore/PBCoreNamespace.html") {
 
-        xml.pbcoreIdentifier(:source=>HydraPbcore.config["institution"], :annotation=>"PID")
         xml.pbcoreTitle(:titleType=>"Main")
         xml.pbcoreDescription(:descriptionType=>"Description",
           :descriptionTypeSource=>"pbcoreDescription/descriptionType",

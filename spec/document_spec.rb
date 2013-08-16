@@ -122,6 +122,7 @@ describe HydraPbcore::Datastream::Document do
 
     before(:each) do
       # insert additional nodes
+      @object_ds.insert_identifier("inserted", "PID")
       @object_ds.insert_publisher("inserted", "inserted")
       @object_ds.insert_contributor("inserted", "inserted")
       @object_ds.insert_publisher("inserted")
@@ -137,7 +138,6 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.insert_relation("inserted", 'Accession Number')
       @object_ds.insert_relation("inserted", 'Collection Number')
 
-      @object_ds.pbc_id               = "inserted"
       @object_ds.title                = "inserted"
       @object_ds.alternative_title    = "inserted"
       @object_ds.chapter              = "inserted"
