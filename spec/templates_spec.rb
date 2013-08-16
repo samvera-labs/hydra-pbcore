@@ -103,11 +103,11 @@ describe HydraPbcore::Templates do
     end
     it "should take a two arg constructor" do
       subject.insert_identifier('foo', 'bar')
-      xml.xpath('//pbcoreIdentifier[@source="bar"]').text.should == "foo"
+      xml.xpath('//pbcoreIdentifier[@source="Rock and Roll Hall of Fame and Museum"][@annotation="bar"]').text.should == "foo"
     end
     it "should take a three arg constructor" do
       subject.insert_identifier('foo', 'bar', 'baz')
-      xml.xpath('//pbcoreIdentifier[@source="bar"][@annotation="baz"]').text.should == "foo"
+      xml.xpath('//pbcoreIdentifier[@source="baz"][@annotation="bar"]').text.should == "foo"
     end
   end
 
