@@ -72,6 +72,23 @@ according to the PBCore XML v.2 schema:
     > pbcore.valid_pbcore?
     => true
 
+## New Changes
+
+### version 3.1
+
+As of 3.1, the pbcoreIdentifier is not included in the xml template.  This is so users may add their own identifier,
+or multiple identifiers, with an optional annotation.  Documents will require at least one pbcoreIdentifier in order to
+be valid.  You may specify this either by simply setting the value:
+
+    doc.pbc_id = "1234"
+
+Or by inserting a new one via the template:
+
+    doc.insert_identifier("5678")
+
+All identifiers will include the source attribute, which is required by the PBCore schema, and is given in the config.yml file.
+An annotation may be added as a second argument to the identifier template.
+
 ## Testing
 
 To run all the rspec tests, use:
