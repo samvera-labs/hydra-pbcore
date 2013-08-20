@@ -1,5 +1,4 @@
 <pbcoreDescriptionDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html">
-  <pbcoreIdentifier source="Rock and Roll Hall of Fame and Museum" annotation="PID"/>
   <pbcoreTitle titleType="Main"/>
   <pbcoreDescription descriptionType="Description" descriptionTypeSource="pbcoreDescription/descriptionType" descriptionTypeRef="http://pbcore.org/vocabularies/pbcoreDescription/descriptionType#description" annotation="Summary"/>
   <pbcoreDescription descriptionType="Table of Contents" descriptionTypeSource="pbcoreDescription/descriptionType" descriptionTypeRef="http://pbcore.org/vocabularies/pbcoreDescription/descriptionType#table-of-contents" annotation="Parts List"/>
