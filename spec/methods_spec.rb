@@ -19,7 +19,7 @@ describe HydraPbcore::Methods do
       @object.is_part_of("foo", {:annotation => "Archival Collection"})
       @object.collection.first.should == "foo"
       @object.remove_node :collection, 0, {:include_parent? => TRUE} 
-      @object.find_by_terms(:pbcoreRelation).should be_empty
+      @object.find_by_terms(:relation).should be_empty
     end
 
   end
