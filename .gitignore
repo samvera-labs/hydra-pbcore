@@ -21,3 +21,4 @@ tmp/*
 !tmp/.gitkeep
 *.sw[opn]
 config/*
+Gemfile.lock
