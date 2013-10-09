@@ -1,6 +1,7 @@
 # HydraPbcore
 
 [![Build Status](https://travis-ci.org/awead/hydra-pbcore.png)](https://travis-ci.org/awead/hydra-pbcore)
+[![Gem Version](https://badge.fury.io/rb/hydra-pbcore.png)](http://badge.fury.io/rb/hydra-pbcore)
 
 A Hydra gem that offers PBCore datastream definitions using OM, as well as some other convenience
 methods such as inserting xml templates into existing documents and reordering your PBCore xml 
@@ -74,7 +75,9 @@ according to the PBCore XML v.2 schema:
 
 ## New Changes
 
-### version 3.1
+In 3.2, the `is_part_of` method should be used for inserting pcbcoreRelation nodes instead of `insert_relation`.
+There is also now a `HydraPbcore::Datastream::GenericFile` datastream with will allow you to create PBCore
+xml OM datastreams with Sufia.
 
 As of 3.1, the pbcoreIdentifier is not included in the xml template.  This is so users may add their own identifier,
 or multiple identifiers, with an optional annotation.  Documents will require at least one pbcoreIdentifier in order to
