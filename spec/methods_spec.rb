@@ -16,7 +16,7 @@ describe HydraPbcore::Methods do
     end
 
     it "should delete nodes all with their parents" do
-      @object.insert_relation("foo", "Archival Collection")
+      @object.is_part_of("foo", {:annotation => "Archival Collection"})
       @object.collection.first.should == "foo"
       @object.remove_node :collection, 0, {:include_parent? => TRUE} 
       @object.find_by_terms(:pbcoreRelation).should be_empty

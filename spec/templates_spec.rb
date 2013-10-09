@@ -43,6 +43,21 @@ describe HydraPbcore::Templates do
     end
   end
 
+  describe "#is_part_of" do
+    it "should default with only a value" do
+      subject.add_child_node(subject.ng_xml.root, :is_part_of, 'foo')
+      xml.xpath('//pbcoreRelation/pbcoreRelationIdentifier').text.should == "foo"
+      xml.xpath('//pbcoreRelation/pbcoreRelationIdentifier/@annotation').text.should be_empty
+    end
+    it "should take a hash of options" do
+      subject.add_child_node(subject.ng_xml.root, :is_part_of, 'foo', {:annotation => "bar", :source => "source", :ref => "reference"})
+      xml.xpath('//pbcoreRelation/pbcoreRelationIdentifier').text.should == "foo"
+      xml.xpath('//pbcoreRelation/pbcoreRelationIdentifier[@annotation="bar"]').text.should == "foo"
+      xml.xpath('//pbcoreRelation/pbcoreRelationIdentifier/@source').text.should == "source"
+      xml.xpath('//pbcoreRelation/pbcoreRelationIdentifier/@ref').text.should == "reference"
+    end
+  end
+
   describe "#event_place" do
     it "should take a one arg constructor" do
       subject.add_child_node(subject.ng_xml.root, :event_place, 'foo')
