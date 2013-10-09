@@ -59,6 +59,10 @@
     <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
     <pbcoreRelationIdentifier annotation="Collection Number">inserted</pbcoreRelationIdentifier>
   </pbcoreRelation>
+  <pbcoreRelation>
+    <pbcoreRelationType source="PBCore relationType" ref="http://pbcore.org/vocabularies/relationType#is-part-of">Is Part Of</pbcoreRelationType>
+    <pbcoreRelationIdentifier annotation="Additional Collection">inserted</pbcoreRelationIdentifier>
+  </pbcoreRelation>
   <pbcoreTitle titleType="Alternative">inserted</pbcoreTitle>
   <pbcoreTitle titleType="Chapter">inserted</pbcoreTitle>
   <pbcoreTitle titleType="Episode">inserted</pbcoreTitle>

@@ -47,6 +47,7 @@ describe HydraPbcore::Datastream::Document do
         [:asset_type],
         [:rights_summary],
         [:collection],
+        [:additional_collection],
         [:archival_series],
         [:collection_number],
         [:accession_number],
@@ -78,19 +79,26 @@ describe HydraPbcore::Datastream::Document do
     end
 
     describe "#is_part_of" do
-      it "should insert relation nodes using the isPartOf relationship" do
+      it "includes archival colletions" do
         @object_ds = HydraPbcore::Datastream::Document.new(nil, nil)
         @object_ds.is_part_of("My Collection", {:annotation => 'Archival Collection'})
         @object_ds.collection.should == ['My Collection']
-
+      end
+      it "includes event series" do
         @object_ds.is_part_of("My event", {:annotation => 'Event Series'})
         @object_ds.series.should == ['My event']
-
+      end
+      it "includes archival series" do
         @object_ds.is_part_of("My series", {:annotation => 'Archival Series'})
         @object_ds.archival_series.should == ['My series']
-
+      end
+      it "includes accession numbers" do
         @object_ds.is_part_of("My Acces Num", {:annotation => 'Accession Number'})
         @object_ds.accession_number.should == ['My Acces Num']
+      end
+      it "includes additional colletions" do
+        @object_ds.is_part_of("Some other collection", {:annotation => 'Additional Collection'})
+        @object_ds.additional_collection.should == ['Some other collection']
       end
     end
 
@@ -139,6 +147,7 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.is_part_of("inserted", {:annotation => 'Archival Series'})
       @object_ds.is_part_of("inserted", {:annotation => 'Accession Number'})
       @object_ds.is_part_of("inserted", {:annotation => 'Collection Number'})
+      @object_ds.is_part_of("inserted", {:annotation => 'Additional Collection'})
 
       @object_ds.title                = "inserted"
       @object_ds.alternative_title    = "inserted"

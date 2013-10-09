@@ -100,9 +100,11 @@ class Document < ActiveFedora::OmDatastream
       t.arch_ser(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Archival Series" })
       t.coll_num(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Collection Number" })
       t.acc_num(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Accession Number" })
+      t.addl_coll(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Additional Collection" })
     end
     t.series(:ref=>[:pbcoreRelation, :event_series], :index_as => [:searchable, :displayable, :facetable])
     t.collection(:ref=>[:pbcoreRelation, :arch_coll], :index_as => [:searchable, :displayable, :facetable])
+    t.additional_collection(:ref=>[:pbcoreRelation, :addl_coll], :index_as => [:searchable, :displayable, :facetable])
     t.archival_series(:ref=>[:pbcoreRelation, :arch_ser], :index_as => [:searchable, :displayable])
     t.collection_number(:ref=>[:pbcoreRelation, :coll_num], :index_as => [:searchable, :displayable])
     t.accession_number(:ref=>[:pbcoreRelation, :acc_num], :index_as => [:searchable, :displayable])
