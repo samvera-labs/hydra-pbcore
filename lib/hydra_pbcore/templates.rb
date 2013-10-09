@@ -68,6 +68,13 @@ module HydraPbcore::Templates
         }
       end
 
+      define_template :is_part_of do |xml, value, opts={}|
+        xml.pbcoreRelation {
+          xml.pbcoreRelationType("Is Part Of", :source=>"PBCore relationType", :ref=>"http://pbcore.org/vocabularies/relationType#is-part-of")
+          xml.pbcoreRelationIdentifier(value, opts)
+        }
+      end
+
       define_template :identifier do |xml, identifier, source, annotation|
         attributes = {source: source}
         attributes[:annotation] = annotation if annotation
@@ -110,8 +117,14 @@ module HydraPbcore::Templates
     add_child_node(ng_xml.root, :event_date, date, *type)
   end
 
+  # deprecated
   def insert_relation(value, annotation)
+    puts "insert_relation is deprecated. Use is_part_of instead."
     add_child_node(ng_xml.root, :relation, value, annotation)
+  end
+
+  def is_part_of(value, opts={})
+    add_child_node(ng_xml.root, :is_part_of, value, opts)
   end
 
   def insert_identifier(identifier, annotation=nil, source=HydraPbcore.config["institution"])

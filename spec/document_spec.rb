@@ -77,19 +77,21 @@ describe HydraPbcore::Datastream::Document do
       end
     end
 
-    it "should have insert_relation" do
-      @object_ds = HydraPbcore::Datastream::Document.new(nil, nil)
-      @object_ds.insert_relation("My Collection", 'Archival Collection')
-      @object_ds.collection.should == ['My Collection']
+    describe "#is_part_of" do
+      it "should insert relation nodes using the isPartOf relationship" do
+        @object_ds = HydraPbcore::Datastream::Document.new(nil, nil)
+        @object_ds.is_part_of("My Collection", {:annotation => 'Archival Collection'})
+        @object_ds.collection.should == ['My Collection']
 
-      @object_ds.insert_relation("My event", 'Event Series')
-      @object_ds.series.should == ['My event']
+        @object_ds.is_part_of("My event", {:annotation => 'Event Series'})
+        @object_ds.series.should == ['My event']
 
-      @object_ds.insert_relation("My series", 'Archival Series')
-      @object_ds.archival_series.should == ['My series']
+        @object_ds.is_part_of("My series", {:annotation => 'Archival Series'})
+        @object_ds.archival_series.should == ['My series']
 
-      @object_ds.insert_relation("My Acces Num", 'Accession Number')
-      @object_ds.accession_number.should == ['My Acces Num']
+        @object_ds.is_part_of("My Acces Num", {:annotation => 'Accession Number'})
+        @object_ds.accession_number.should == ['My Acces Num']
+      end
     end
 
 
@@ -132,11 +134,11 @@ describe HydraPbcore::Datastream::Document do
       @object_ds.insert_date("2012-11-11")
       @object_ds.insert_date("2012-11-12")
 
-      @object_ds.insert_relation("inserted", 'Archival Collection')
-      @object_ds.insert_relation("inserted", 'Event Series')
-      @object_ds.insert_relation("inserted", 'Archival Series')
-      @object_ds.insert_relation("inserted", 'Accession Number')
-      @object_ds.insert_relation("inserted", 'Collection Number')
+      @object_ds.is_part_of("inserted", {:annotation => 'Archival Collection'})
+      @object_ds.is_part_of("inserted", {:annotation => 'Event Series'})
+      @object_ds.is_part_of("inserted", {:annotation => 'Archival Series'})
+      @object_ds.is_part_of("inserted", {:annotation => 'Accession Number'})
+      @object_ds.is_part_of("inserted", {:annotation => 'Collection Number'})
 
       @object_ds.title                = "inserted"
       @object_ds.alternative_title    = "inserted"
