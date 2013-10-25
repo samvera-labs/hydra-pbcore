@@ -94,20 +94,30 @@ class Document < ActiveFedora::OmDatastream
     )
 
     # PBCore relation fields
-    t.pbcoreRelation do
+    t.relation(:path => "pbcoreRelation") do
       t.event_series(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Event Series" })
-      t.arch_coll(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Archival Collection" })
-      t.arch_ser(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Archival Series" })
+      t.collection(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Archival Collection" }) do
+        t.uri(:path => {:attribute => "ref"})
+        t.authority(:path => {:attribute => "source"})
+      end
+      t.series(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Archival Series" }) do
+        t.uri(:path => {:attribute => "ref"})
+        t.authority(:path => {:attribute => "source"})
+      end
       t.coll_num(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Collection Number" })
       t.acc_num(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Accession Number" })
       t.addl_coll(:path=>"pbcoreRelationIdentifier", :attributes=>{ :annotation=>"Additional Collection" })
     end
-    t.series(:ref=>[:pbcoreRelation, :event_series], :index_as => [:searchable, :displayable, :facetable])
-    t.collection(:ref=>[:pbcoreRelation, :arch_coll], :index_as => [:searchable, :displayable, :facetable])
-    t.additional_collection(:ref=>[:pbcoreRelation, :addl_coll], :index_as => [:searchable, :displayable, :facetable])
-    t.archival_series(:ref=>[:pbcoreRelation, :arch_ser], :index_as => [:searchable, :displayable])
-    t.collection_number(:ref=>[:pbcoreRelation, :coll_num], :index_as => [:searchable, :displayable])
-    t.accession_number(:ref=>[:pbcoreRelation, :acc_num], :index_as => [:searchable, :displayable])
+    t.series(:ref=>[:relation, :event_series], :index_as => [:searchable, :displayable, :facetable])
+    t.collection(:ref=>[:relation, :collection], :index_as => [:searchable, :displayable, :facetable])
+    t.collection_uri(:proxy=>[:relation, :collection, :uri], :index_as => [:displayable])
+    t.collection_authority(:proxy=>[:relation, :collection, :authority], :index_as => [:displayable])
+    t.archival_series(:ref=>[:relation, :series], :index_as => [:searchable, :displayable, :facetable])
+    t.archival_series_uri(:proxy=>[:relation, :series, :uri], :index_as => [:displayable])
+    t.archival_series_authority(:proxy=>[:relation, :series, :authority], :index_as => [:displayable])
+    t.additional_collection(:ref=>[:relation, :addl_coll], :index_as => [:searchable, :displayable, :facetable])
+    t.collection_number(:ref=>[:relation, :coll_num], :index_as => [:searchable, :displayable])
+    t.accession_number(:ref=>[:relation, :acc_num], :index_as => [:searchable, :displayable])
 
     t.pbcoreCoverage
     # Terms for time and place

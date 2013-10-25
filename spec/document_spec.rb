@@ -263,6 +263,66 @@ describe HydraPbcore::Datastream::Document do
 
     end
 
-  end  
+  end
+
+  describe "#collection_uri" do
+    it "should return the uri of the collection" do
+      @object_ds.is_part_of("Collection", {:annotation => "Archival Collection", :ref => "http://foo"})
+      @object_ds.collection.should == ["Collection"]
+      @object_ds.collection_uri.should == ["http://foo"]
+    end
+    it "should update the uri of a collection" do
+      @object_ds.is_part_of("Collection", {:annotation => "Archival Collection"})
+      @object_ds.collection_uri.should be_empty
+      @object_ds.relation.collection.uri = "http://foo"
+      @object_ds.collection_uri.should == ["http://foo"]
+      @object_ds.valid?.should be_true
+    end
+  end
+
+  describe "#collection_authority" do
+    it "should return the authority of the collection" do
+      @object_ds.is_part_of("Collection", {:annotation => "Archival Collection", :source => "Foo"})
+      @object_ds.collection.should == ["Collection"]
+      @object_ds.collection_authority.should == ["Foo"]
+    end
+    it "should update the authority of a collection" do
+      @object_ds.is_part_of("Collection", {:annotation => "Archival Collection"})
+      @object_ds.collection_authority.should be_empty
+      @object_ds.relation.collection.authority = "Foo!"
+      @object_ds.collection_authority.should == ["Foo!"]
+      @object_ds.valid?.should be_true
+    end
+  end
+
+  describe "#archival_series_uri" do
+    it "should return the uri of the archival_series" do
+      @object_ds.is_part_of("Series", {:annotation => "Archival Series", :ref => "http://foo"})
+      @object_ds.archival_series.should == ["Series"]
+      @object_ds.archival_series_uri.should == ["http://foo"]
+    end
+    it "should update the uri of a archival_series" do
+      @object_ds.is_part_of("Series", {:annotation => "Archival Series"})
+      @object_ds.archival_series_uri.should be_empty
+      @object_ds.relation.series.uri = "http://foo"
+      @object_ds.archival_series_uri.should == ["http://foo"]
+      @object_ds.valid?.should be_true
+    end
+  end
+
+  describe "#archival_series_authority" do
+    it "should return the authority of the archival_series" do
+      @object_ds.is_part_of("Series", {:annotation => "Archival Series", :source => "Foo"})
+      @object_ds.archival_series.should == ["Series"]
+      @object_ds.archival_series_authority.should == ["Foo"]
+    end
+    it "should update the authority of a archival_series" do
+      @object_ds.is_part_of("Series", {:annotation => "Archival Series"})
+      @object_ds.archival_series_authority.should be_empty
+      @object_ds.relation.series.authority = "Foo!"
+      @object_ds.archival_series_authority.should == ["Foo!"]
+      @object_ds.valid?.should be_true
+    end
+  end
 
 end

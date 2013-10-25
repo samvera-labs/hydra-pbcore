@@ -400,6 +400,15 @@
   <collection-sim type="array">
     <collection-sim>inserted</collection-sim>
   </collection-sim>
+  <archival-series-teim type="array">
+    <archival-series-teim>inserted</archival-series-teim>
+  </archival-series-teim>
+  <archival-series-ssm type="array">
+    <archival-series-ssm>inserted</archival-series-ssm>
+  </archival-series-ssm>
+  <archival-series-sim type="array">
+    <archival-series-sim>inserted</archival-series-sim>
+  </archival-series-sim>
   <additional-collection-teim type="array">
     <additional-collection-teim>inserted</additional-collection-teim>
   </additional-collection-teim>
@@ -409,12 +418,6 @@
   <additional-collection-sim type="array">
     <additional-collection-sim>inserted</additional-collection-sim>
   </additional-collection-sim>
-  <archival-series-teim type="array">
-    <archival-series-teim>inserted</archival-series-teim>
-  </archival-series-teim>
-  <archival-series-ssm type="array">
-    <archival-series-ssm>inserted</archival-series-ssm>
-  </archival-series-ssm>
   <collection-number-teim type="array">
     <collection-number-teim>inserted</collection-number-teim>
   </collection-number-teim>
