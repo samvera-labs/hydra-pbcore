@@ -90,7 +90,7 @@ module HydraPbcore
   # Argument must be a Nokogiri::XML::Document.
   def self.is_valid? xml
     xsd = Nokogiri::XML::Schema(open("http://pbcore.org/xsd/pbcore-2.0.xsd"))
-    xsd.validate(xml)
+    xsd.valid?(xml)
   end
 
   autoload :Methods
