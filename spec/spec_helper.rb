@@ -1,4 +1,5 @@
 # :nodoc
+require 'rspec/matchers'
 require "hydra-pbcore"
 require "equivalent-xml"
 require "pry"
