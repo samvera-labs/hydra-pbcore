@@ -1,7 +1,8 @@
 # :nodoc
 require "hydra-pbcore"
+require 'rspec/matchers'
 require "equivalent-xml"
-require "pry"
+require "pry" unless ENV['TRAVIS']
 
 RSpec.configure do |config|
   config.color = true
@@ -38,7 +39,7 @@ end
 def tmp_file_should_match_exemplar(file)
   f = Nokogiri::XML(fixture(file))
   s = Nokogiri::XML(sample(file))
-  f.should be_equivalent_to s
+  expect(f).to be_equivalent_to s
 end
 
 def random_string

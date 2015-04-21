@@ -212,7 +212,7 @@ describe HydraPbcore::Datastream::Document do
 
       it "should validate against the PBCore schema" do
         save_template @object_ds.to_pbcore_xml([@digital, @physical]), "document_with_instantiations_valid.xml"
-        HydraPbcore.is_valid?(Nokogiri::XML(sample("document_with_instantiations_valid.xml"))).should be_true
+        expect(HydraPbcore.is_valid?(Nokogiri::XML(sample("document_with_instantiations_valid.xml")))).to eq true
       end
 
     end
@@ -273,55 +273,55 @@ describe HydraPbcore::Datastream::Document do
     end
     it "should update the uri of a collection" do
       @object_ds.is_part_of("Collection", {:annotation => "Archival Collection"})
-      @object_ds.collection_uri.should be_empty
+      expect(@object_ds.collection_uri).to be_empty
       @object_ds.relation.collection.uri = "http://foo"
-      @object_ds.collection_uri.should == ["http://foo"]
-      @object_ds.valid?.should be_true
+      expect(@object_ds.collection_uri).to eq ["http://foo"]
+      expect(@object_ds).to be_valid
     end
   end
 
   describe "#collection_authority" do
     it "should return the authority of the collection" do
       @object_ds.is_part_of("Collection", {:annotation => "Archival Collection", :source => "Foo"})
-      @object_ds.collection.should == ["Collection"]
-      @object_ds.collection_authority.should == ["Foo"]
+      expect(@object_ds.collection).to eq ["Collection"]
+      expect(@object_ds.collection_authority).to eq ["Foo"]
     end
     it "should update the authority of a collection" do
       @object_ds.is_part_of("Collection", {:annotation => "Archival Collection"})
-      @object_ds.collection_authority.should be_empty
+      expect(@object_ds.collection_authority).to be_empty
       @object_ds.relation.collection.authority = "Foo!"
-      @object_ds.collection_authority.should == ["Foo!"]
-      @object_ds.valid?.should be_true
+      expect(@object_ds.collection_authority).to eq ["Foo!"]
+      expect(@object_ds).to be_valid
     end
   end
 
   describe "#archival_series_uri" do
     it "should return the uri of the archival_series" do
       @object_ds.is_part_of("Series", {:annotation => "Archival Series", :ref => "http://foo"})
-      @object_ds.archival_series.should == ["Series"]
-      @object_ds.archival_series_uri.should == ["http://foo"]
+      expect(@object_ds.archival_series).to eq ["Series"]
+      expect(@object_ds.archival_series_uri).to eq ["http://foo"]
     end
     it "should update the uri of a archival_series" do
       @object_ds.is_part_of("Series", {:annotation => "Archival Series"})
-      @object_ds.archival_series_uri.should be_empty
+      expect(@object_ds.archival_series_uri).to be_empty
       @object_ds.relation.series.uri = "http://foo"
-      @object_ds.archival_series_uri.should == ["http://foo"]
-      @object_ds.valid?.should be_true
+      expect(@object_ds.archival_series_uri).to eq ["http://foo"]
+      expect(@object_ds).to be_valid
     end
   end
 
   describe "#archival_series_authority" do
     it "should return the authority of the archival_series" do
       @object_ds.is_part_of("Series", {:annotation => "Archival Series", :source => "Foo"})
-      @object_ds.archival_series.should == ["Series"]
-      @object_ds.archival_series_authority.should == ["Foo"]
+      expect(@object_ds.archival_series).to eq ["Series"]
+      expect(@object_ds.archival_series_authority).to eq ["Foo"]
     end
     it "should update the authority of a archival_series" do
       @object_ds.is_part_of("Series", {:annotation => "Archival Series"})
-      @object_ds.archival_series_authority.should be_empty
+      expect(@object_ds.archival_series_authority).to be_empty
       @object_ds.relation.series.authority = "Foo!"
-      @object_ds.archival_series_authority.should == ["Foo!"]
-      @object_ds.valid?.should be_true
+      expect(@object_ds.archival_series_authority).to eq ["Foo!"]
+      expect(@object_ds).to be_valid
     end
   end
 
