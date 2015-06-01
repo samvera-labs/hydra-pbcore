@@ -1,6 +1,6 @@
 # HydraPbcore
 
-[![Build Status](https://travis-ci.org/awead/hydra-pbcore.png)](https://travis-ci.org/awead/hydra-pbcore)
+[![Build Status](https://travis-ci.org/projecthydra-labs/hydra-pbcore.png)](https://travis-ci.org/projecthydra-labs/hydra-pbcore)
 [![Gem Version](https://badge.fury.io/rb/hydra-pbcore.png)](http://badge.fury.io/rb/hydra-pbcore)
 
 A Hydra gem that offers PBCore datastream definitions using OM, as well as some other convenience
