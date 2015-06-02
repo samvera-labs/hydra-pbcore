@@ -4,7 +4,8 @@ require "pry"
 describe HydraPbcore::Datastream::Document do
 
   before(:each) do
-    @object_ds = HydraPbcore::Datastream::Document.new(nil, nil)
+    @object_ds = HydraPbcore::Datastream::Document.new(nil, 'test1')
+    @object_ds.pbc_id = 'test-datastream'
   end
 
   describe "::xml_template" do
@@ -54,8 +55,8 @@ describe HydraPbcore::Datastream::Document do
       ].each do |pointer|
         test_val = random_string
         @object_ds.update_values( {pointer=>{"0"=>test_val}} )
-        @object_ds.get_values(pointer).first.should == test_val
-        @object_ds.get_values(pointer).length.should == 1
+        expect(@object_ds.get_values(pointer).first).to eq test_val
+        expect(@object_ds.get_values(pointer).length).to eq 1
       end
     end
 
@@ -73,8 +74,8 @@ describe HydraPbcore::Datastream::Document do
       ].each do |pointer|
         test_val = "#{pointer.last.to_s} value"
         @object_ds.update_indexed_attributes( {pointer=>{"0"=>test_val}} )
-        @object_ds.get_values(pointer).first.should == test_val
-        @object_ds.get_values(pointer).length.should == 1
+        expect(@object_ds.get_values(pointer).first).to eq test_val
+        expect(@object_ds.get_values(pointer).length).to eq 1
       end
     end
 
@@ -82,23 +83,23 @@ describe HydraPbcore::Datastream::Document do
       it "includes archival colletions" do
         @object_ds = HydraPbcore::Datastream::Document.new(nil, nil)
         @object_ds.is_part_of("My Collection", {:annotation => 'Archival Collection'})
-        @object_ds.collection.should == ['My Collection']
+        expect(@object_ds.collection).to eq ['My Collection']
       end
       it "includes event series" do
         @object_ds.is_part_of("My event", {:annotation => 'Event Series'})
-        @object_ds.series.should == ['My event']
+        expect(@object_ds.series).to eq ['My event']
       end
       it "includes archival series" do
         @object_ds.is_part_of("My series", {:annotation => 'Archival Series'})
-        @object_ds.archival_series.should == ['My series']
+        expect(@object_ds.archival_series).to eq ['My series']
       end
       it "includes accession numbers" do
         @object_ds.is_part_of("My Acces Num", {:annotation => 'Accession Number'})
-        @object_ds.accession_number.should == ['My Acces Num']
+        expect(@object_ds.accession_number).to eq ['My Acces Num']
       end
       it "includes additional colletions" do
         @object_ds.is_part_of("Some other collection", {:annotation => 'Additional Collection'})
-        @object_ds.additional_collection.should == ['Some other collection']
+        expect(@object_ds.additional_collection).to eq ['Some other collection']
       end
     end
 
@@ -106,11 +107,11 @@ describe HydraPbcore::Datastream::Document do
     it "should differentiate between multiple added nodes" do
       @object_ds.insert_contributor("first contributor", "first contributor role")
       @object_ds.insert_contributor("second contributor", "second contributor role")
-      @object_ds.get_values(:contributor).length.should == 2
-      @object_ds.get_values(:contributor_name)[0].should == "first contributor"
-      @object_ds.get_values(:contributor_name)[1].should == "second contributor"
-      @object_ds.get_values(:contributor_role)[0].should == "first contributor role"
-      @object_ds.get_values(:contributor_role)[1].should == "second contributor role"
+      expect(@object_ds.get_values(:contributor).length).to eq 2
+      expect(@object_ds.get_values(:contributor_name)[0]).to eq "first contributor"
+      expect(@object_ds.get_values(:contributor_name)[1]).to eq "second contributor"
+      expect(@object_ds.get_values(:contributor_role)[0]).to eq "first contributor role"
+      expect(@object_ds.get_values(:contributor_role)[1]).to eq "second contributor role"
     end
   end
 
@@ -119,11 +120,11 @@ describe HydraPbcore::Datastream::Document do
       ["publisher", "contributor"].each do |type|
         @object_ds.send("insert_"+type)
         @object_ds.send("insert_"+type)
-        @object_ds.find_by_terms(type.to_sym).count.should == 2
+        expect(@object_ds.find_by_terms(type.to_sym).count).to eq 2
         @object_ds.remove_node(type.to_sym, "1")
-        @object_ds.find_by_terms(type.to_sym).count.should == 1
+        expect(@object_ds.find_by_terms(type.to_sym).count).to eq 1
         @object_ds.remove_node(type.to_sym, "0")
-        @object_ds.find_by_terms(type.to_sym).count.should == 0
+        expect(@object_ds.find_by_terms(type.to_sym).count).to eq 0
       end
     end
   end
@@ -179,15 +180,15 @@ describe HydraPbcore::Datastream::Document do
 
     describe "solr dates" do
       it "should be indexed for display" do
-        @object_ds.to_solr["event_date_ssm"].should == ["2012-11-11", "2012-11-12"]
+        expect(@object_ds.to_solr["test1__event_date_ssm"]).to eq ["2012-11-11", "2012-11-12"]
       end
 
       it "should be converted to ISO 8601" do
-        @object_ds.to_solr["event_date_dtsim"].should == ["2012-11-11T00:00:00Z", "2012-11-12T00:00:00Z"]
+        expect(@object_ds.to_solr["test1__event_date_dtsim"]).to eq ["2012-11-11T00:00:00Z", "2012-11-12T00:00:00Z"]
       end
 
       it "should not be searchable as strings" do
-        @object_ds.to_solr["event_date_t"].should be_nil
+        expect(@object_ds.to_solr["test1__event_date_t"]).to be_nil
       end
     end
 
@@ -198,7 +199,7 @@ describe HydraPbcore::Datastream::Document do
 
     it "xml document should validate against the PBCore schema" do
       save_template @object_ds.to_pbcore_xml, "document_valid.xml"
-      @object_ds.valid?.should == []
+      expect(@object_ds.valid?).to eq []
     end
 
     describe "xml document with instantiations" do
@@ -212,7 +213,7 @@ describe HydraPbcore::Datastream::Document do
 
       it "should validate against the PBCore schema" do
         save_template @object_ds.to_pbcore_xml([@digital, @physical]), "document_with_instantiations_valid.xml"
-        expect(HydraPbcore.is_valid?(Nokogiri::XML(sample("document_with_instantiations_valid.xml")))).to eq true
+        expect(HydraPbcore.is_valid?(Nokogiri::XML(sample("document_with_instantiations_valid.xml")))).to eq []
       end
 
     end
@@ -222,43 +223,43 @@ describe HydraPbcore::Datastream::Document do
   describe "solrization" do
 
     before :each do
-      @ds = HydraPbcore::Datastream::Document.new(nil, nil)
+      @ds = HydraPbcore::Datastream::Document.new(nil, 'test1')
     end
 
     it "should not create duplicate terms for contributor fields" do
       @ds.insert_contributor("foo", "bar")
-      @ds.to_solr["contributor_name_sim"].should == ["foo"]
+      expect(@ds.to_solr["test1__contributor_name_sim"]).to eq ["foo"]
     end
 
     it "should not create duplicate terms for creator fields" do
       @ds.insert_creator("foo", "bar")
-      @ds.to_solr["creator_name_sim"].should == ["foo"]
+      expect(@ds.to_solr["test1__creator_name_sim"]).to eq ["foo"]
     end
 
     describe "of dates" do
 
       it "creates dateable and displayable fields for complete dates" do
         @ds.insert_date("1898-11-12")
-        @ds.to_solr["event_date_dtsim"].should == ["1898-11-12T00:00:00Z"]
-        @ds.to_solr["event_date_ssm"].should == ["1898-11-12"]
+        expect(@ds.to_solr["test1__event_date_dtsim"]).to eq ["1898-11-12T00:00:00Z"]
+        expect(@ds.to_solr["test1__event_date_ssm"]).to eq ["1898-11-12"]
       end
 
       it "creates only displayable fields for dates without day" do
         @ds.insert_date("1911-07")
-        @ds.to_solr["event_date_dtsim"].should be_empty
-        @ds.to_solr["event_date_ssm"].should == ["1911-07"]
+        expect(@ds.to_solr["test1__event_date_dtsim"]).to eq []
+        expect(@ds.to_solr["test1__event_date_ssm"]).to eq ["1911-07"]
       end
 
       it "creates only displayable fields for dates without day and month" do
         @ds.insert_date("1945")
-        @ds.to_solr["event_date_dtsim"].should be_empty
-        @ds.to_solr["event_date_ssm"].should == ["1945"]
+        expect(@ds.to_solr["test1__event_date_dtsim"]).to eq []
+        expect(@ds.to_solr["test1__event_date_ssm"]).to eq ["1945"]
       end
 
       it "creates only displayable for non-parseable dates" do
         @ds.insert_date("crap")
-        @ds.to_solr["event_date_dtsim"].should be_empty
-        @ds.to_solr["event_date_ssm"].should == ["crap"]
+        expect(@ds.to_solr["test1__event_date_dtsim"]).to eq []
+        expect(@ds.to_solr["test1__event_date_ssm"]).to eq ["crap"]
       end
 
     end
@@ -268,15 +269,15 @@ describe HydraPbcore::Datastream::Document do
   describe "#collection_uri" do
     it "should return the uri of the collection" do
       @object_ds.is_part_of("Collection", {:annotation => "Archival Collection", :ref => "http://foo"})
-      @object_ds.collection.should == ["Collection"]
-      @object_ds.collection_uri.should == ["http://foo"]
+      expect(@object_ds.collection).to eq ["Collection"]
+      expect(@object_ds.collection_uri).to eq ["http://foo"]
     end
     it "should update the uri of a collection" do
       @object_ds.is_part_of("Collection", {:annotation => "Archival Collection"})
-      expect(@object_ds.collection_uri).to be_empty
+      expect(@object_ds.collection_uri).to eq []
       @object_ds.relation.collection.uri = "http://foo"
       expect(@object_ds.collection_uri).to eq ["http://foo"]
-      expect(@object_ds).to be_valid
+      expect(@object_ds.valid?).to eq []
     end
   end
 
@@ -291,7 +292,7 @@ describe HydraPbcore::Datastream::Document do
       expect(@object_ds.collection_authority).to be_empty
       @object_ds.relation.collection.authority = "Foo!"
       expect(@object_ds.collection_authority).to eq ["Foo!"]
-      expect(@object_ds).to be_valid
+      expect(@object_ds.valid?).to eq []
     end
   end
 
@@ -303,25 +304,27 @@ describe HydraPbcore::Datastream::Document do
     end
     it "should update the uri of a archival_series" do
       @object_ds.is_part_of("Series", {:annotation => "Archival Series"})
-      expect(@object_ds.archival_series_uri).to be_empty
+      expect(@object_ds.archival_series_uri).to eq []
       @object_ds.relation.series.uri = "http://foo"
       expect(@object_ds.archival_series_uri).to eq ["http://foo"]
-      expect(@object_ds).to be_valid
+      expect(@object_ds.valid?).to eq []
     end
   end
 
   describe "#archival_series_authority" do
+    
     it "should return the authority of the archival_series" do
       @object_ds.is_part_of("Series", {:annotation => "Archival Series", :source => "Foo"})
       expect(@object_ds.archival_series).to eq ["Series"]
       expect(@object_ds.archival_series_authority).to eq ["Foo"]
     end
+
     it "should update the authority of a archival_series" do
       @object_ds.is_part_of("Series", {:annotation => "Archival Series"})
       expect(@object_ds.archival_series_authority).to be_empty
       @object_ds.relation.series.authority = "Foo!"
       expect(@object_ds.archival_series_authority).to eq ["Foo!"]
-      expect(@object_ds).to be_valid
+      expect(@object_ds.valid?).to eq []
     end
   end
 

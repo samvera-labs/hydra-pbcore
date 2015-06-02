@@ -2,6 +2,7 @@
 require "hydra-pbcore"
 require 'rspec/matchers'
 require "equivalent-xml"
+require 'equivalent-xml/rspec_matchers'
 require "pry" unless ENV['TRAVIS']
 
 RSpec.configure do |config|

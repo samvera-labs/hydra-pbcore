@@ -3,15 +3,15 @@ require "spec_helper"
 describe HydraPbcore::Datastream::Instantiation do
 
   before(:each) do
-    @digital  = HydraPbcore::Datastream::Instantiation.new(nil, nil)
+    @digital  = HydraPbcore::Datastream::Instantiation.new(nil, 'test1')
     @digital.define :digital
-    @physical = HydraPbcore::Datastream::Instantiation.new(nil, nil)
+    @physical = HydraPbcore::Datastream::Instantiation.new(nil, 'test2')
     @physical.define :physical
   end
 
   describe "::xml_template" do
     it "should have a blank default xml template" do
-      HydraPbcore::Datastream::Instantiation.xml_template.text.should be_empty
+      expect(HydraPbcore::Datastream::Instantiation.xml_template.text).to eq ''
     end
   end
 
@@ -61,19 +61,19 @@ describe HydraPbcore::Datastream::Instantiation do
       ].each do |pointer|
         test_val = random_string
         @digital.update_indexed_attributes( {pointer=>{"0"=>test_val}} )
-        @digital.get_values(pointer).first.should == test_val
-        @digital.get_values(pointer).length.should == 1
+        expect(@digital.get_values(pointer).first).to eq test_val
+        expect(@digital.get_values(pointer).length).to eq 1
       end
     end
 
     it "should have default values for fields" do
-      @digital.media_type.first.should == "Moving image"
-      @digital.colors.first.should == "Color"
+      expect(@digital.media_type.first).to eq "Moving image"
+      expect(@digital.colors.first).to eq "Color"
     end
 
     it "should have a file format and no format" do
-      @digital.file_format.should == [""]
-      @digital.format.should      == []
+      expect(@digital.file_format).to eq [""]
+      expect(@digital.format).to eq []
     end
 
     it "should match an exemplar with all fields shown" do
@@ -163,15 +163,16 @@ describe HydraPbcore::Datastream::Instantiation do
       end
 
       it "should display dates as they were entered" do
-        @digital.to_solr["date_ssm"].should == ["2012-11-01"]
+        expect(@digital.to_solr["test1__date_ssm"]).to eq ["2012-11-01"]
       end
 
       it "should have dates converted to ISO 8601" do
-        @digital.to_solr["date_dtsim"].should == ["2012-11-01T00:00:00Z"]
+        expect(@digital.to_solr["test1__date_dtsim"]).to eq ["2012-11-01T00:00:00Z"]
       end
 
+      # TODO: Weak test. Any non-existent key would pass.
       it "should not index dates as text" do
-        @digital.to_solr["date_t"].should be_nil
+        expect(@digital.to_solr["test1__date_t"]).to eq nil
       end
     end
   
@@ -195,19 +196,19 @@ describe HydraPbcore::Datastream::Instantiation do
       ].each do |pointer|
         test_val = random_string
         @physical.update_indexed_attributes( {pointer=>{"0"=>test_val}} )
-        @physical.get_values(pointer).first.should == test_val
-        @physical.get_values(pointer).length.should == 1
+        expect(@physical.get_values(pointer).first).to eq test_val
+        expect(@physical.get_values(pointer).length).to eq 1
       end
     end
 
     it "should have default values for fields" do
-      @physical.media_type.first.should == "Moving image"
-      @physical.colors.first.should == "Color"
+      expect(@physical.media_type.first).to eq "Moving image"
+      expect(@physical.colors.first).to eq "Color"
     end
 
     it "should have a format and no file format" do
-      @physical.file_format.should == []
-      @physical.format.should      == [""]
+      expect(@physical.file_format).to eq []
+      expect(@physical.format).to eq [""]
     end
 
     it "should match an exmplar with all fields shown" do
@@ -245,15 +246,16 @@ describe HydraPbcore::Datastream::Instantiation do
       end
 
       it "should display dates as they were entered" do
-        @physical.to_solr["date_ssm"].should == ["2012-11-01"]
+        expect(@physical.to_solr["test2__date_ssm"]).to eq ["2012-11-01"]
       end
 
       it "should have dates converted to ISO 8601" do
-        @physical.to_solr["date_dtsim"].should == ["2012-11-01T00:00:00Z"]
+        expect(@physical.to_solr["test2__date_dtsim"]).to eq ["2012-11-01T00:00:00Z"]
       end
 
+      # TODO: Weak test. Any non-existent key would pass.
       it "should not index dates as text" do
-        @physical.to_solr["date_t"].should be_nil
+        expect(@physical.to_solr["test2__date_t"]).to eq nil
       end
     end
 
@@ -262,31 +264,31 @@ describe HydraPbcore::Datastream::Instantiation do
     describe "solrization of dates" do
 
     before :each do
-      @ds = HydraPbcore::Datastream::Instantiation.new(nil, nil)
+      @ds = HydraPbcore::Datastream::Instantiation.new(nil, 'test1')
     end
 
     it "creates dateable and displayable fields for complete dates" do
       @ds.date = "1898-11-12"
-      @ds.to_solr["date_dtsim"].should == ["1898-11-12T00:00:00Z"]
-      @ds.to_solr["date_ssm"].should == ["1898-11-12"]
+      expect(@ds.to_solr["test1__date_dtsim"]).to eq ["1898-11-12T00:00:00Z"]
+      expect(@ds.to_solr["test1__date_ssm"]).to eq ["1898-11-12"]
     end
 
     it "creates only displayable fields for dates without day" do
       @ds.date = "1911-07"
-      @ds.to_solr["date_dtsim"].should be_empty
-      @ds.to_solr["date_ssm"].should == ["1911-07"]
+      expect(@ds.to_solr["test1__date_dtsim"]).to eq []
+      expect(@ds.to_solr["test1__date_ssm"]).to eq ["1911-07"]
     end
 
     it "creates only displayable fields for dates without day and month" do
       @ds.date = "1945"
-      @ds.to_solr["date_dtsim"].should be_empty
-      @ds.to_solr["date_ssm"].should == ["1945"]
+      expect(@ds.to_solr["test1__date_dtsim"]).to eq []
+      expect(@ds.to_solr["test1__date_ssm"]).to eq ["1945"]
     end
 
     it "creates only displayable for non-parseable dates" do
       @ds.date = "crap"
-      @ds.to_solr["date_dtsim"].should be_empty
-      @ds.to_solr["date_ssm"].should == ["crap"]
+      expect(@ds.to_solr["test1__date_dtsim"]).to eq []
+      expect(@ds.to_solr["test1__date_ssm"]).to eq ["crap"]
     end
 
   end 
