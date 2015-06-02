@@ -4,9 +4,12 @@ require "solrizer"
 require "om"
 require "active-fedora"
 require "yaml"
+require 'logger'
 
 module HydraPbcore
   extend ActiveSupport::Autoload
+
+  attr_accessor :logger
 
   DocumentNodes = [
     "pbcoreAssetType",
@@ -91,6 +94,10 @@ module HydraPbcore
   def self.is_valid? xml
     xsd = Nokogiri::XML::Schema(open("http://pbcore.org/xsd/pbcore-2.0.xsd"))
     xsd.validate(xml)
+  end
+
+  def self.logger
+    @logger ||= Logger.new(STDOUT)
   end
 
   autoload :Methods

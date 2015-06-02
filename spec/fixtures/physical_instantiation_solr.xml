@@ -1,114 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hash>
-  <barcode-teim type="array">
-    <barcode-teim>barcode</barcode-teim>
-  </barcode-teim>
-  <barcode-ssm type="array">
-    <barcode-ssm>barcode</barcode-ssm>
-  </barcode-ssm>
-  <instantiationDate-dtsim type="array">
-    <instantiationDate-dtsim>2012-11-01T00:00:00Z</instantiationDate-dtsim>
-  </instantiationDate-dtsim>
-  <instantiationDate-ssm type="array">
-    <instantiationDate-ssm>2012-11-01</instantiationDate-ssm>
-  </instantiationDate-ssm>
-  <instantiationPhysical-teim type="array">
-    <instantiationPhysical-teim>format</instantiationPhysical-teim>
-  </instantiationPhysical-teim>
-  <instantiationPhysical-ssm type="array">
-    <instantiationPhysical-ssm>format</instantiationPhysical-ssm>
-  </instantiationPhysical-ssm>
-  <instantiationPhysical-sim type="array">
-    <instantiationPhysical-sim>format</instantiationPhysical-sim>
-  </instantiationPhysical-sim>
-  <instantiationStandard-ssm type="array">
-    <instantiationStandard-ssm>standard</instantiationStandard-ssm>
-  </instantiationStandard-ssm>
-  <instantiationLocation-ssm type="array">
-    <instantiationLocation-ssm>location</instantiationLocation-ssm>
-  </instantiationLocation-ssm>
-  <instantiationGenerations-ssm type="array">
-    <instantiationGenerations-ssm>generation</instantiationGenerations-ssm>
-  </instantiationGenerations-ssm>
-  <instantiationColors-ssm type="array">
-    <instantiationColors-ssm>colors</instantiationColors-ssm>
-  </instantiationColors-ssm>
-  <instantiationMediaType-ssm type="array">
-    <instantiationMediaType-ssm>media_type</instantiationMediaType-ssm>
-  </instantiationMediaType-ssm>
-  <instantiationMediaType-sim type="array">
-    <instantiationMediaType-sim>media_type</instantiationMediaType-sim>
-  </instantiationMediaType-sim>
-  <instantiationLanguage-teim type="array">
-    <instantiationLanguage-teim>language</instantiationLanguage-teim>
-  </instantiationLanguage-teim>
-  <instantiationRights-rightsSummary-ssm type="array">
-    <instantiationRights-rightsSummary-ssm>rights_summary</instantiationRights-rightsSummary-ssm>
-  </instantiationRights-rightsSummary-ssm>
-  <instantiationRights-0-rightsSummary-ssm type="array">
-    <instantiationRights-0-rightsSummary-ssm>rights_summary</instantiationRights-0-rightsSummary-ssm>
-  </instantiationRights-0-rightsSummary-ssm>
-  <inst-cond-note-ssm type="array">
-    <inst-cond-note-ssm>condition_note</inst-cond-note-ssm>
-  </inst-cond-note-ssm>
-  <inst-clean-note-ssm type="array">
-    <inst-clean-note-ssm>cleaning_note</inst-clean-note-ssm>
-  </inst-clean-note-ssm>
-  <condition-note-teim type="array">
-    <condition-note-teim>condition_note</condition-note-teim>
-  </condition-note-teim>
-  <condition-note-ssm type="array">
-    <condition-note-ssm>condition_note</condition-note-ssm>
-  </condition-note-ssm>
-  <cleaning-note-teim type="array">
-    <cleaning-note-teim>cleaning_note</cleaning-note-teim>
-  </cleaning-note-teim>
-  <cleaning-note-ssm type="array">
-    <cleaning-note-ssm>cleaning_note</cleaning-note-ssm>
-  </cleaning-note-ssm>
-  <location-ssm type="array">
-    <location-ssm>location</location-ssm>
-  </location-ssm>
-  <date-dtsim type="array">
-    <date-dtsim>2012-11-01T00:00:00Z</date-dtsim>
-  </date-dtsim>
-  <date-ssm type="array">
-    <date-ssm>2012-11-01</date-ssm>
-  </date-ssm>
-  <generation-ssm type="array">
-    <generation-ssm>generation</generation-ssm>
-  </generation-ssm>
-  <media-type-ssm type="array">
-    <media-type-ssm>media_type</media-type-ssm>
-  </media-type-ssm>
-  <media-type-sim type="array">
-    <media-type-sim>media_type</media-type-sim>
-  </media-type-sim>
-  <format-teim type="array">
-    <format-teim>format</format-teim>
-  </format-teim>
-  <format-ssm type="array">
-    <format-ssm>format</format-ssm>
-  </format-ssm>
-  <format-sim type="array">
-    <format-sim>format</format-sim>
-  </format-sim>
-  <colors-ssm type="array">
-    <colors-ssm>colors</colors-ssm>
-  </colors-ssm>
-  <rights-summary-ssm type="array">
-    <rights-summary-ssm>rights_summary</rights-summary-ssm>
-  </rights-summary-ssm>
-  <condition-ssm type="array">
-    <condition-ssm>condition_note</condition-ssm>
-  </condition-ssm>
-  <cleaning-ssm type="array">
-    <cleaning-ssm>cleaning_note</cleaning-ssm>
-  </cleaning-ssm>
-  <standard-ssm type="array">
-    <standard-ssm>standard</standard-ssm>
-  </standard-ssm>
-  <language-teim type="array">
-    <language-teim>language</language-teim>
-  </language-teim>
-</hash>
+ <test2--barcode-teim type="array">
+   <test2--barcode-teim>barcode</test2--barcode-teim>
+ </test2--barcode-teim>
+ <test2--barcode-ssm type="array">
+   <test2--barcode-ssm>barcode</test2--barcode-ssm>
+ </test2--barcode-ssm>
+ <test2--instantiationDate-dtsim type="array">
+   <test2--instantiationDate-dtsim>2012-11-01T00:00:00Z</test2--instantiationDate-dtsim>
+ </test2--instantiationDate-dtsim>
+ <test2--instantiationDate-ssm type="array">
+   <test2--instantiationDate-ssm>2012-11-01</test2--instantiationDate-ssm>
+ </test2--instantiationDate-ssm>
+ <test2--instantiationPhysical-teim type="array">
+   <test2--instantiationPhysical-teim>format</test2--instantiationPhysical-teim>
+ </test2--instantiationPhysical-teim>
+ <test2--instantiationPhysical-ssm type="array">
+   <test2--instantiationPhysical-ssm>format</test2--instantiationPhysical-ssm>
+ </test2--instantiationPhysical-ssm>
+ <test2--instantiationPhysical-sim type="array">
+   <test2--instantiationPhysical-sim>format</test2--instantiationPhysical-sim>
+ </test2--instantiationPhysical-sim>
+ <test2--instantiationStandard-ssm type="array">
+   <test2--instantiationStandard-ssm>standard</test2--instantiationStandard-ssm>
+ </test2--instantiationStandard-ssm>
+ <test2--instantiationLocation-ssm type="array">
+   <test2--instantiationLocation-ssm>location</test2--instantiationLocation-ssm>
+ </test2--instantiationLocation-ssm>
+ <test2--instantiationGenerations-ssm type="array">
+   <test2--instantiationGenerations-ssm>generation</test2--instantiationGenerations-ssm>
+ </test2--instantiationGenerations-ssm>
+ <test2--instantiationColors-ssm type="array">
+   <test2--instantiationColors-ssm>colors</test2--instantiationColors-ssm>
+ </test2--instantiationColors-ssm>
+ <test2--instantiationMediaType-ssm type="array">
+   <test2--instantiationMediaType-ssm>media_type</test2--instantiationMediaType-ssm>
+ </test2--instantiationMediaType-ssm>
+ <test2--instantiationMediaType-sim type="array">
+   <test2--instantiationMediaType-sim>media_type</test2--instantiationMediaType-sim>
+ </test2--instantiationMediaType-sim>
+ <test2--instantiationLanguage-teim type="array">
+   <test2--instantiationLanguage-teim>language</test2--instantiationLanguage-teim>
+ </test2--instantiationLanguage-teim>
+ <test2--instantiationRights-rightsSummary-ssm type="array">
+   <test2--instantiationRights-rightsSummary-ssm>rights_summary</test2--instantiationRights-rightsSummary-ssm>
+ </test2--instantiationRights-rightsSummary-ssm>
+ <test2--instantiationRights-0-rightsSummary-ssm type="array">
+   <test2--instantiationRights-0-rightsSummary-ssm>rights_summary</test2--instantiationRights-0-rightsSummary-ssm>
+ </test2--instantiationRights-0-rightsSummary-ssm>
+ <test2--inst-cond-note-ssm type="array">
+   <test2--inst-cond-note-ssm>condition_note</test2--inst-cond-note-ssm>
+ </test2--inst-cond-note-ssm>
+ <test2--inst-clean-note-ssm type="array">
+   <test2--inst-clean-note-ssm>cleaning_note</test2--inst-clean-note-ssm>
+ </test2--inst-clean-note-ssm>
+ <test2--condition-note-teim type="array">
+   <test2--condition-note-teim>condition_note</test2--condition-note-teim>
+ </test2--condition-note-teim>
+ <test2--condition-note-ssm type="array">
+   <test2--condition-note-ssm>condition_note</test2--condition-note-ssm>
+ </test2--condition-note-ssm>
+ <test2--cleaning-note-teim type="array">
+   <test2--cleaning-note-teim>cleaning_note</test2--cleaning-note-teim>
+ </test2--cleaning-note-teim>
+ <test2--cleaning-note-ssm type="array">
+   <test2--cleaning-note-ssm>cleaning_note</test2--cleaning-note-ssm>
+ </test2--cleaning-note-ssm>
+ <test2--location-ssm type="array">
+   <test2--location-ssm>location</test2--location-ssm>
+ </test2--location-ssm>
+ <test2--date-dtsim type="array">
+   <test2--date-dtsim>2012-11-01T00:00:00Z</test2--date-dtsim>
+ </test2--date-dtsim>
+ <test2--date-ssm type="array">
+   <test2--date-ssm>2012-11-01</test2--date-ssm>
+ </test2--date-ssm>
+ <test2--generation-ssm type="array">
+   <test2--generation-ssm>generation</test2--generation-ssm>
+ </test2--generation-ssm>
+ <test2--media-type-ssm type="array">
+   <test2--media-type-ssm>media_type</test2--media-type-ssm>
+ </test2--media-type-ssm>
+ <test2--media-type-sim type="array">
+   <test2--media-type-sim>media_type</test2--media-type-sim>
+ </test2--media-type-sim>
+ <test2--format-teim type="array">
+   <test2--format-teim>format</test2--format-teim>
+ </test2--format-teim>
+ <test2--format-ssm type="array">
+   <test2--format-ssm>format</test2--format-ssm>
+ </test2--format-ssm>
+ <test2--format-sim type="array">
+   <test2--format-sim>format</test2--format-sim>
+ </test2--format-sim>
+ <test2--colors-ssm type="array">
+   <test2--colors-ssm>colors</test2--colors-ssm>
+ </test2--colors-ssm>
+ <test2--rights-summary-ssm type="array">
+   <test2--rights-summary-ssm>rights_summary</test2--rights-summary-ssm>
+ </test2--rights-summary-ssm>
+ <test2--condition-ssm type="array">
+   <test2--condition-ssm>condition_note</test2--condition-ssm>
+ </test2--condition-ssm>
+ <test2--cleaning-ssm type="array">
+   <test2--cleaning-ssm>cleaning_note</test2--cleaning-ssm>
+ </test2--cleaning-ssm>
+ <test2--standard-ssm type="array">
+   <test2--standard-ssm>standard</test2--standard-ssm>
+ </test2--standard-ssm>
+ <test2--language-teim type="array">
+   <test2--language-teim>language</test2--language-teim>
+ </test2--language-teim>

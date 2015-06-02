@@ -1,236 +1,236 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hash>
-  <title-teim type="array">
-    <title-teim>inserted</title-teim>
-  </title-teim>
-  <title-ssm type="array">
-    <title-ssm>inserted</title-ssm>
-  </title-ssm>
-  <title-si>inserted</title-si>
-  <alternative-title-teim type="array">
-    <alternative-title-teim>inserted</alternative-title-teim>
-  </alternative-title-teim>
-  <alternative-title-ssm type="array">
-    <alternative-title-ssm>inserted</alternative-title-ssm>
-  </alternative-title-ssm>
-  <chapter-teim type="array">
-    <chapter-teim>inserted</chapter-teim>
-  </chapter-teim>
-  <chapter-ssm type="array">
-    <chapter-ssm>inserted</chapter-ssm>
-  </chapter-ssm>
-  <episode-teim type="array">
-    <episode-teim>inserted</episode-teim>
-  </episode-teim>
-  <episode-ssm type="array">
-    <episode-ssm>inserted</episode-ssm>
-  </episode-ssm>
-  <label-teim type="array">
-    <label-teim>inserted</label-teim>
-  </label-teim>
-  <label-ssm type="array">
-    <label-ssm>inserted</label-ssm>
-  </label-ssm>
-  <segment-teim type="array">
-    <segment-teim>inserted</segment-teim>
-  </segment-teim>
-  <segment-ssm type="array">
-    <segment-ssm>inserted</segment-ssm>
-  </segment-ssm>
-  <subtitle-teim type="array">
-    <subtitle-teim>inserted</subtitle-teim>
-  </subtitle-teim>
-  <subtitle-ssm type="array">
-    <subtitle-ssm>inserted</subtitle-ssm>
-  </subtitle-ssm>
-  <track-teim type="array">
-    <track-teim>inserted</track-teim>
-  </track-teim>
-  <track-ssm type="array">
-    <track-ssm>inserted</track-ssm>
-  </track-ssm>
-  <translation-teim type="array">
-    <translation-teim>inserted</translation-teim>
-  </translation-teim>
-  <translation-ssm type="array">
-    <translation-ssm>inserted</translation-ssm>
-  </translation-ssm>
-  <subject-ssm type="array">
-    <subject-ssm>inserted</subject-ssm>
-    <subject-ssm>inserted</subject-ssm>
-    <subject-ssm>inserted</subject-ssm>
-  </subject-ssm>
-  <subject-sim type="array">
-    <subject-sim>inserted</subject-sim>
-    <subject-sim>inserted</subject-sim>
-    <subject-sim>inserted</subject-sim>
-  </subject-sim>
-  <lc-subject-ssm type="array">
-    <lc-subject-ssm>inserted</lc-subject-ssm>
-  </lc-subject-ssm>
-  <lc-name-ssm type="array">
-    <lc-name-ssm>inserted</lc-name-ssm>
-  </lc-name-ssm>
-  <rh-subject-ssm type="array">
-    <rh-subject-ssm>inserted</rh-subject-ssm>
-  </rh-subject-ssm>
-  <summary-teim type="array">
-    <summary-teim>inserted</summary-teim>
-  </summary-teim>
-  <summary-ssm type="array">
-    <summary-ssm>inserted</summary-ssm>
-  </summary-ssm>
-  <contents-teim type="array">
-    <contents-teim>inserted</contents-teim>
-  </contents-teim>
-  <contents-ssm type="array">
-    <contents-ssm>inserted</contents-ssm>
-  </contents-ssm>
-  <genre-ssm type="array">
-    <genre-ssm>inserted</genre-ssm>
-    <genre-ssm>inserted</genre-ssm>
-    <genre-ssm>inserted</genre-ssm>
-  </genre-ssm>
-  <genre-sim type="array">
-    <genre-sim>inserted</genre-sim>
-    <genre-sim>inserted</genre-sim>
-    <genre-sim>inserted</genre-sim>
-  </genre-sim>
-  <asset-type-teim type="array">
-    <asset-type-teim>Scene</asset-type-teim>
-  </asset-type-teim>
-  <asset-type-ssm type="array">
-    <asset-type-ssm>Scene</asset-type-ssm>
-  </asset-type-ssm>
-  <asset-type-sim type="array">
-    <asset-type-sim>Scene</asset-type-sim>
-  </asset-type-sim>
-  <getty-genre-ssm type="array">
-    <getty-genre-ssm>inserted</getty-genre-ssm>
-  </getty-genre-ssm>
-  <lc-genre-ssm type="array">
-    <lc-genre-ssm>inserted</lc-genre-ssm>
-  </lc-genre-ssm>
-  <lc-subject-genre-ssm type="array">
-    <lc-subject-genre-ssm>inserted</lc-subject-genre-ssm>
-  </lc-subject-genre-ssm>
-  <series-teim type="array">
-    <series-teim>inserted</series-teim>
-  </series-teim>
-  <series-ssm type="array">
-    <series-ssm>inserted</series-ssm>
-  </series-ssm>
-  <series-sim type="array">
-    <series-sim>inserted</series-sim>
-  </series-sim>
-  <collection-teim type="array">
-    <collection-teim>inserted</collection-teim>
-  </collection-teim>
-  <collection-ssm type="array">
-    <collection-ssm>inserted</collection-ssm>
-  </collection-ssm>
-  <collection-sim type="array">
-    <collection-sim>inserted</collection-sim>
-  </collection-sim>
-  <archival-series-teim type="array">
-    <archival-series-teim>inserted</archival-series-teim>
-  </archival-series-teim>
-  <archival-series-ssm type="array">
-    <archival-series-ssm>inserted</archival-series-ssm>
-  </archival-series-ssm>
-  <archival-series-sim type="array">
-    <archival-series-sim>inserted</archival-series-sim>
-  </archival-series-sim>
-  <additional-collection-teim type="array">
-    <additional-collection-teim>inserted</additional-collection-teim>
-  </additional-collection-teim>
-  <additional-collection-ssm type="array">
-    <additional-collection-ssm>inserted</additional-collection-ssm>
-  </additional-collection-ssm>
-  <additional-collection-sim type="array">
-    <additional-collection-sim>inserted</additional-collection-sim>
-  </additional-collection-sim>
-  <collection-number-teim type="array">
-    <collection-number-teim>inserted</collection-number-teim>
-  </collection-number-teim>
-  <collection-number-ssm type="array">
-    <collection-number-ssm>inserted</collection-number-ssm>
-  </collection-number-ssm>
-  <accession-number-teim type="array">
-    <accession-number-teim>inserted</accession-number-teim>
-  </accession-number-teim>
-  <accession-number-ssm type="array">
-    <accession-number-ssm>inserted</accession-number-ssm>
-  </accession-number-ssm>
-  <event-place-teim type="array">
-    <event-place-teim>inserted</event-place-teim>
-  </event-place-teim>
-  <event-place-ssm type="array">
-    <event-place-ssm>inserted</event-place-ssm>
-  </event-place-ssm>
-  <event-date-dtsim type="array">
-    <event-date-dtsim>2012-11-11T00:00:00Z</event-date-dtsim>
-    <event-date-dtsim>2012-11-12T00:00:00Z</event-date-dtsim>
-  </event-date-dtsim>
-  <event-date-ssm type="array">
-    <event-date-ssm>2012-11-11</event-date-ssm>
-    <event-date-ssm>2012-11-12</event-date-ssm>
-  </event-date-ssm>
-  <contributor-name-teim type="array">
-    <contributor-name-teim>inserted</contributor-name-teim>
-    <contributor-name-teim>inserted</contributor-name-teim>
-    <contributor-name-teim></contributor-name-teim>
-  </contributor-name-teim>
-  <contributor-name-ssm type="array">
-    <contributor-name-ssm>inserted</contributor-name-ssm>
-    <contributor-name-ssm>inserted</contributor-name-ssm>
-    <contributor-name-ssm></contributor-name-ssm>
-  </contributor-name-ssm>
-  <contributor-name-sim type="array">
-    <contributor-name-sim>inserted</contributor-name-sim>
-    <contributor-name-sim>inserted</contributor-name-sim>
-    <contributor-name-sim></contributor-name-sim>
-  </contributor-name-sim>
-  <contributor-role-teim type="array">
-    <contributor-role-teim>inserted</contributor-role-teim>
-    <contributor-role-teim></contributor-role-teim>
-    <contributor-role-teim></contributor-role-teim>
-  </contributor-role-teim>
-  <contributor-role-ssm type="array">
-    <contributor-role-ssm>inserted</contributor-role-ssm>
-    <contributor-role-ssm></contributor-role-ssm>
-    <contributor-role-ssm></contributor-role-ssm>
-  </contributor-role-ssm>
-  <publisher-name-teim type="array">
-    <publisher-name-teim>inserted</publisher-name-teim>
-    <publisher-name-teim>inserted</publisher-name-teim>
-  </publisher-name-teim>
-  <publisher-name-ssm type="array">
-    <publisher-name-ssm>inserted</publisher-name-ssm>
-    <publisher-name-ssm>inserted</publisher-name-ssm>
-  </publisher-name-ssm>
-  <publisher-name-sim type="array">
-    <publisher-name-sim>inserted</publisher-name-sim>
-    <publisher-name-sim>inserted</publisher-name-sim>
-  </publisher-name-sim>
-  <publisher-role-teim type="array">
-    <publisher-role-teim>inserted</publisher-role-teim>
-    <publisher-role-teim></publisher-role-teim>
-  </publisher-role-teim>
-  <publisher-role-ssm type="array">
-    <publisher-role-ssm>inserted</publisher-role-ssm>
-    <publisher-role-ssm></publisher-role-ssm>
-  </publisher-role-ssm>
-  <note-teim type="array">
-    <note-teim>inserted</note-teim>
-  </note-teim>
-  <note-ssm type="array">
-    <note-ssm>inserted</note-ssm>
-  </note-ssm>
-  <rights-summary-teim type="array">
-    <rights-summary-teim>inserted</rights-summary-teim>
-  </rights-summary-teim>
-  <rights-summary-ssm type="array">
-    <rights-summary-ssm>inserted</rights-summary-ssm>
-  </rights-summary-ssm>
+ <test1--title-teim type="array">
+   <test1--title-teim>inserted</test1--title-teim>
+ </test1--title-teim>
+ <test1--title-ssm type="array">
+   <test1--title-ssm>inserted</test1--title-ssm>
+ </test1--title-ssm>
+ <test1--title-si>inserted</test1--title-si>
+ <test1--alternative-title-teim type="array">
+   <test1--alternative-title-teim>inserted</test1--alternative-title-teim>
+ </test1--alternative-title-teim>
+ <test1--alternative-title-ssm type="array">
+   <test1--alternative-title-ssm>inserted</test1--alternative-title-ssm>
+ </test1--alternative-title-ssm>
+ <test1--chapter-teim type="array">
+   <test1--chapter-teim>inserted</test1--chapter-teim>
+ </test1--chapter-teim>
+ <test1--chapter-ssm type="array">
+   <test1--chapter-ssm>inserted</test1--chapter-ssm>
+ </test1--chapter-ssm>
+ <test1--episode-teim type="array">
+   <test1--episode-teim>inserted</test1--episode-teim>
+ </test1--episode-teim>
+ <test1--episode-ssm type="array">
+   <test1--episode-ssm>inserted</test1--episode-ssm>
+ </test1--episode-ssm>
+ <test1--label-teim type="array">
+   <test1--label-teim>inserted</test1--label-teim>
+ </test1--label-teim>
+ <test1--label-ssm type="array">
+   <test1--label-ssm>inserted</test1--label-ssm>
+ </test1--label-ssm>
+ <test1--segment-teim type="array">
+   <test1--segment-teim>inserted</test1--segment-teim>
+ </test1--segment-teim>
+ <test1--segment-ssm type="array">
+   <test1--segment-ssm>inserted</test1--segment-ssm>
+ </test1--segment-ssm>
+ <test1--subtitle-teim type="array">
+   <test1--subtitle-teim>inserted</test1--subtitle-teim>
+ </test1--subtitle-teim>
+ <test1--subtitle-ssm type="array">
+   <test1--subtitle-ssm>inserted</test1--subtitle-ssm>
+ </test1--subtitle-ssm>
+ <test1--track-teim type="array">
+   <test1--track-teim>inserted</test1--track-teim>
+ </test1--track-teim>
+ <test1--track-ssm type="array">
+   <test1--track-ssm>inserted</test1--track-ssm>
+ </test1--track-ssm>
+ <test1--translation-teim type="array">
+   <test1--translation-teim>inserted</test1--translation-teim>
+ </test1--translation-teim>
+ <test1--translation-ssm type="array">
+   <test1--translation-ssm>inserted</test1--translation-ssm>
+ </test1--translation-ssm>
+ <test1--subject-ssm type="array">
+   <test1--subject-ssm>inserted</test1--subject-ssm>
+   <test1--subject-ssm>inserted</test1--subject-ssm>
+   <test1--subject-ssm>inserted</test1--subject-ssm>
+ </test1--subject-ssm>
+ <test1--subject-sim type="array">
+   <test1--subject-sim>inserted</test1--subject-sim>
+   <test1--subject-sim>inserted</test1--subject-sim>
+   <test1--subject-sim>inserted</test1--subject-sim>
+ </test1--subject-sim>
+ <test1--lc-subject-ssm type="array">
+   <test1--lc-subject-ssm>inserted</test1--lc-subject-ssm>
+ </test1--lc-subject-ssm>
+ <test1--lc-name-ssm type="array">
+   <test1--lc-name-ssm>inserted</test1--lc-name-ssm>
+ </test1--lc-name-ssm>
+ <test1--rh-subject-ssm type="array">
+   <test1--rh-subject-ssm>inserted</test1--rh-subject-ssm>
+ </test1--rh-subject-ssm>
+ <test1--summary-teim type="array">
+   <test1--summary-teim>inserted</test1--summary-teim>
+ </test1--summary-teim>
+ <test1--summary-ssm type="array">
+   <test1--summary-ssm>inserted</test1--summary-ssm>
+ </test1--summary-ssm>
+ <test1--contents-teim type="array">
+   <test1--contents-teim>inserted</test1--contents-teim>
+ </test1--contents-teim>
+ <test1--contents-ssm type="array">
+   <test1--contents-ssm>inserted</test1--contents-ssm>
+ </test1--contents-ssm>
+ <test1--genre-ssm type="array">
+   <test1--genre-ssm>inserted</test1--genre-ssm>
+   <test1--genre-ssm>inserted</test1--genre-ssm>
+   <test1--genre-ssm>inserted</test1--genre-ssm>
+ </test1--genre-ssm>
+ <test1--genre-sim type="array">
+   <test1--genre-sim>inserted</test1--genre-sim>
+   <test1--genre-sim>inserted</test1--genre-sim>
+   <test1--genre-sim>inserted</test1--genre-sim>
+ </test1--genre-sim>
+ <test1--asset-type-teim type="array">
+   <test1--asset-type-teim>Scene</test1--asset-type-teim>
+ </test1--asset-type-teim>
+ <test1--asset-type-ssm type="array">
+   <test1--asset-type-ssm>Scene</test1--asset-type-ssm>
+ </test1--asset-type-ssm>
+ <test1--asset-type-sim type="array">
+   <test1--asset-type-sim>Scene</test1--asset-type-sim>
+ </test1--asset-type-sim>
+ <test1--getty-genre-ssm type="array">
+   <test1--getty-genre-ssm>inserted</test1--getty-genre-ssm>
+ </test1--getty-genre-ssm>
+ <test1--lc-genre-ssm type="array">
+   <test1--lc-genre-ssm>inserted</test1--lc-genre-ssm>
+ </test1--lc-genre-ssm>
+ <test1--lc-subject-genre-ssm type="array">
+   <test1--lc-subject-genre-ssm>inserted</test1--lc-subject-genre-ssm>
+ </test1--lc-subject-genre-ssm>
+ <test1--series-teim type="array">
+   <test1--series-teim>inserted</test1--series-teim>
+ </test1--series-teim>
+ <test1--series-ssm type="array">
+   <test1--series-ssm>inserted</test1--series-ssm>
+ </test1--series-ssm>
+ <test1--series-sim type="array">
+   <test1--series-sim>inserted</test1--series-sim>
+ </test1--series-sim>
+ <test1--collection-teim type="array">
+   <test1--collection-teim>inserted</test1--collection-teim>
+ </test1--collection-teim>
+ <test1--collection-ssm type="array">
+   <test1--collection-ssm>inserted</test1--collection-ssm>
+ </test1--collection-ssm>
+ <test1--collection-sim type="array">
+   <test1--collection-sim>inserted</test1--collection-sim>
+ </test1--collection-sim>
+ <test1--archival-series-teim type="array">
+   <test1--archival-series-teim>inserted</test1--archival-series-teim>
+ </test1--archival-series-teim>
+ <test1--archival-series-ssm type="array">
+   <test1--archival-series-ssm>inserted</test1--archival-series-ssm>
+ </test1--archival-series-ssm>
+ <test1--archival-series-sim type="array">
+   <test1--archival-series-sim>inserted</test1--archival-series-sim>
+ </test1--archival-series-sim>
+ <test1--additional-collection-teim type="array">
+   <test1--additional-collection-teim>inserted</test1--additional-collection-teim>
+ </test1--additional-collection-teim>
+ <test1--additional-collection-ssm type="array">
+   <test1--additional-collection-ssm>inserted</test1--additional-collection-ssm>
+ </test1--additional-collection-ssm>
+ <test1--additional-collection-sim type="array">
+   <test1--additional-collection-sim>inserted</test1--additional-collection-sim>
+ </test1--additional-collection-sim>
+ <test1--collection-number-teim type="array">
+   <test1--collection-number-teim>inserted</test1--collection-number-teim>
+ </test1--collection-number-teim>
+ <test1--collection-number-ssm type="array">
+   <test1--collection-number-ssm>inserted</test1--collection-number-ssm>
+ </test1--collection-number-ssm>
+ <test1--accession-number-teim type="array">
+   <test1--accession-number-teim>inserted</test1--accession-number-teim>
+ </test1--accession-number-teim>
+ <test1--accession-number-ssm type="array">
+   <test1--accession-number-ssm>inserted</test1--accession-number-ssm>
+ </test1--accession-number-ssm>
+ <test1--event-place-teim type="array">
+   <test1--event-place-teim>inserted</test1--event-place-teim>
+ </test1--event-place-teim>
+ <test1--event-place-ssm type="array">
+   <test1--event-place-ssm>inserted</test1--event-place-ssm>
+ </test1--event-place-ssm>
+ <test1--event-date-dtsim type="array">
+   <test1--event-date-dtsim>2012-11-11T00:00:00Z</test1--event-date-dtsim>
+   <test1--event-date-dtsim>2012-11-12T00:00:00Z</test1--event-date-dtsim>
+ </test1--event-date-dtsim>
+ <test1--event-date-ssm type="array">
+   <test1--event-date-ssm>2012-11-11</test1--event-date-ssm>
+   <test1--event-date-ssm>2012-11-12</test1--event-date-ssm>
+ </test1--event-date-ssm>
+ <test1--contributor-name-teim type="array">
+   <test1--contributor-name-teim>inserted</test1--contributor-name-teim>
+   <test1--contributor-name-teim>inserted</test1--contributor-name-teim>
+   <test1--contributor-name-teim/>
+ </test1--contributor-name-teim>
+ <test1--contributor-name-ssm type="array">
+   <test1--contributor-name-ssm>inserted</test1--contributor-name-ssm>
+   <test1--contributor-name-ssm>inserted</test1--contributor-name-ssm>
+   <test1--contributor-name-ssm/>
+ </test1--contributor-name-ssm>
+ <test1--contributor-name-sim type="array">
+   <test1--contributor-name-sim>inserted</test1--contributor-name-sim>
+   <test1--contributor-name-sim>inserted</test1--contributor-name-sim>
+   <test1--contributor-name-sim/>
+ </test1--contributor-name-sim>
+ <test1--contributor-role-teim type="array">
+   <test1--contributor-role-teim>inserted</test1--contributor-role-teim>
+   <test1--contributor-role-teim/>
+   <test1--contributor-role-teim/>
+ </test1--contributor-role-teim>
+ <test1--contributor-role-ssm type="array">
+   <test1--contributor-role-ssm>inserted</test1--contributor-role-ssm>
+   <test1--contributor-role-ssm/>
+   <test1--contributor-role-ssm/>
+ </test1--contributor-role-ssm>
+ <test1--publisher-name-teim type="array">
+   <test1--publisher-name-teim>inserted</test1--publisher-name-teim>
+   <test1--publisher-name-teim>inserted</test1--publisher-name-teim>
+ </test1--publisher-name-teim>
+ <test1--publisher-name-ssm type="array">
+   <test1--publisher-name-ssm>inserted</test1--publisher-name-ssm>
+   <test1--publisher-name-ssm>inserted</test1--publisher-name-ssm>
+ </test1--publisher-name-ssm>
+ <test1--publisher-name-sim type="array">
+   <test1--publisher-name-sim>inserted</test1--publisher-name-sim>
+   <test1--publisher-name-sim>inserted</test1--publisher-name-sim>
+ </test1--publisher-name-sim>
+ <test1--publisher-role-teim type="array">
+   <test1--publisher-role-teim>inserted</test1--publisher-role-teim>
+   <test1--publisher-role-teim/>
+ </test1--publisher-role-teim>
+ <test1--publisher-role-ssm type="array">
+   <test1--publisher-role-ssm>inserted</test1--publisher-role-ssm>
+   <test1--publisher-role-ssm/>
+ </test1--publisher-role-ssm>
+ <test1--note-teim type="array">
+   <test1--note-teim>inserted</test1--note-teim>
+ </test1--note-teim>
+ <test1--note-ssm type="array">
+   <test1--note-ssm>inserted</test1--note-ssm>
+ </test1--note-ssm>
+ <test1--rights-summary-teim type="array">
+   <test1--rights-summary-teim>inserted</test1--rights-summary-teim>
+ </test1--rights-summary-teim>
+ <test1--rights-summary-ssm type="array">
+   <test1--rights-summary-ssm>inserted</test1--rights-summary-ssm>
+ </test1--rights-summary-ssm>
 </hash>
